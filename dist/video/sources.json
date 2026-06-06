@@ -288,28 +288,10 @@
     "searchStatus": "命中"
   },
   {
-    "key": "lovedan.net",
-    "name": "艾旦影视",
-    "api": "https://lovedan.net/api.php/provide/vod",
-    "detail": "https://lovedan.net",
-    "comment": "",
-    "adult": false,
-    "searchStatus": "命中"
-  },
-  {
     "key": "iqiyizyapi.com",
     "name": "爱奇艺",
     "api": "https://iqiyizyapi.com/api.php/provide/vod",
     "detail": "https://iqiyizyapi.com",
-    "comment": "",
-    "adult": false,
-    "searchStatus": "命中"
-  },
-  {
-    "key": "bdzy1.com",
-    "name": "百度云zy",
-    "api": "https://api.apibdzy.com/api.php/provide/vod",
-    "detail": "https://bdzy1.com",
     "comment": "",
     "adult": false,
     "searchStatus": "命中"
@@ -418,6 +400,15 @@
     "name": "猫眼资源",
     "api": "https://api.maoyanapi.top/api.php/provide/vod",
     "detail": "https://www.maoyanzy.com",
+    "comment": "",
+    "adult": false,
+    "searchStatus": "命中"
+  },
+  {
+    "key": "mtzy.me",
+    "name": "茅台资源",
+    "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
+    "detail": "https://mtzy.me",
     "comment": "",
     "adult": false,
     "searchStatus": "命中"
