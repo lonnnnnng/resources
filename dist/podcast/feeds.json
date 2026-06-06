@@ -4,36 +4,12 @@
     "url": "https://feeds.fireside.fm/shengdongjixi/rss"
   },
   {
-    "title": "声动早咖啡",
-    "url": "https://feeds.fireside.fm/sheng-espresso/rss"
-  },
-  {
     "title": "What's Next｜科技早知道",
     "url": "https://feeds.fireside.fm/guiguzaozhidao/rss"
   },
   {
-    "title": "一天世界",
-    "url": "https://yitianshijie.net/episodes/feed.xml"
-  },
-  {
-    "title": "内核恐慌",
-    "url": "https://pan.icu/feed"
-  },
-  {
-    "title": "比特新声",
-    "url": "https://bitvoice.banlan.show/feed.xml"
-  },
-  {
     "title": "博物志",
     "url": "https://bowuzhi.fm/feed/audio.xml"
-  },
-  {
-    "title": "太医来了",
-    "url": "https://taiyilaile.com/episodes/feed.xml"
-  },
-  {
-    "title": "UX Coffee 设计咖",
-    "url": "https://uxcoffee.typlog.io/episodes/feed.xml"
   },
   {
     "title": "疯投圈",
@@ -44,10 +20,6 @@
     "url": "https://podcast.weareones.com/feed/audio.xml"
   },
   {
-    "title": "正经不良人",
-    "url": "https://media.rss.com/zjblrfm/feed.xml"
-  },
-  {
     "title": "忽左忽右中国版",
     "url": "https://www.ximalaya.com/album/12817863.xml"
   },
@@ -56,24 +28,8 @@
     "url": "https://www.ximalaya.com/album/20119986.xml"
   },
   {
-    "title": "醉英超",
-    "url": "https://rss.lizhi.fm/rss/385752.xml"
-  },
-  {
     "title": "大内密谈",
     "url": "https://rss.lizhi.fm/rss/14275.xml"
-  },
-  {
-    "title": "所建所闻",
-    "url": "https://feeds.fireside.fm/architalk/rss"
-  },
-  {
-    "title": "《瞎说设计》第一季",
-    "url": "https://feeds.soundon.fm/podcasts/0aa385de-e5e8-4125-bcc4-64130c11d5a2.xml"
-  },
-  {
-    "title": "設計遊牧 Design Nomads",
-    "url": "https://open.firstory.me/rss/user/cke01v251c1r00803qbohw954"
   },
   {
     "title": "半拿铁 | 商业沉浮录",
@@ -120,24 +76,16 @@
     "url": "https://feeds.jjldbk.com/all.xml"
   },
   {
-    "title": "Teahour",
-    "url": "https://feeds.fireside.fm/teahour/rss"
-  },
-  {
-    "title": "捕蛇者说",
-    "url": "https://pythonhunter.org/episodes/feed.xml"
+    "title": "枫言枫语",
+    "url": "https://justinyan.me/feed/podcast"
   },
   {
     "title": "talich 闲侃",
     "url": "https://talich.fm/episodes/feed.xml"
   },
   {
-    "title": "未命名播客",
-    "url": "https://feeds.fireside.fm/untitledpodcast/rss"
-  },
-  {
-    "title": "硬影像",
-    "url": "http://hardimage.pro/episodes/feed.xml"
+    "title": "№194: 赛博冲浪太快，我想回 MacRabbit 的兔子洞里坐一会",
+    "url": "https://anyway.fm/rss.xml"
   },
   {
     "title": "牛油果烤面包",
@@ -150,14 +98,6 @@
   {
     "title": "新气集ThinkAge",
     "url": "https://feeds.fireside.fm/thinkagepodcast/rss"
-  },
-  {
-    "title": "二分电台",
-    "url": "https://binary.2bab.me/episodes/feed.xml"
-  },
-  {
-    "title": "主唱死了",
-    "url": "https://zhuchangsile.xyz/episodes/feed.xml"
   },
   {
     "title": "五湖四海    5lake4sea",
@@ -332,14 +272,6 @@
     "url": "http://www.ximalaya.com/album/15702148.xml"
   },
   {
-    "title": "问题不大NoBigDeal",
-    "url": "https://www.ximalaya.com/album/49570973.xml"
-  },
-  {
-    "title": "无人知晓",
-    "url": "https://feed.xyzfm.space/ypn9dydpbxpc"
-  },
-  {
     "title": "饭饭之交",
     "url": "https://feeds.acast.com/public/shows/63a20fba6ac81a0010a9553c"
   },
@@ -364,14 +296,6 @@
     "url": "https://www.ximalaya.com/album/51554220.xml"
   },
   {
-    "title": "范特西码后炮｜橄榄球范特西中文指南",
-    "url": "https://anchor.fm/s/6ade80f4/podcast/rss"
-  },
-  {
-    "title": "这刺聊点啥",
-    "url": "https://www.ximalaya.com/album/29601116.xml"
-  },
-  {
     "title": "黑水公园",
     "url": "http://www.ximalaya.com/album/3558668.xml"
   },
@@ -390,37 +314,5 @@
   {
     "title": "端聞 | 端傳媒新聞播客",
     "url": "https://feeds.acast.com/public/shows/66b07190af99592b5329f43a"
-  },
-  {
-    "title": "聊养院",
-    "url": "https://s1.proxy.wavpub.com/qualite.xml"
-  },
-  {
-    "title": "嘻谈录",
-    "url": "https://www.ximalaya.com/album/43044571.xml"
-  },
-  {
-    "title": "奇妙店台",
-    "url": "http://www.ximalaya.com/album/8224043.xml"
-  },
-  {
-    "title": "RustTalk",
-    "url": "https://rusttalk.github.io/podcast/index.xml"
-  },
-  {
-    "title": "Kotlin 炉边漫谈",
-    "url": "https://www.ximalaya.com/album/68370676.xml"
-  },
-  {
-    "title": "夸夸歧谈",
-    "url": "https://anchor.fm/s/9422c4e8/podcast/rss"
-  },
-  {
-    "title": "酒嗝播客",
-    "url": "http://rss.lizhi.fm/rss/171448272.xml"
-  },
-  {
-    "title": "南方聲活",
-    "url": "https://feeds.soundon.fm/podcasts/dce49dcf-aadf-43d6-8b24-4e7ed3e37da6.xml"
   }
 ]

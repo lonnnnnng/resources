@@ -17,6 +17,7 @@ const settings = {
 
 const now = new Date();
 const generatedAt = now.toISOString();
+const podcastFreshAfter = subtractMonths(now, 1);
 
 await ensureDirs();
 
@@ -686,6 +687,11 @@ async function checkPodcastFeed(feed) {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     if (!/<(rss|feed)\b/i.test(text)) throw new Error("not RSS/Atom XML");
     if (!hasAudioItem(text)) throw new Error("no audio item");
+    const latestAudioUpdate = extractLatestAudioUpdate(text);
+    if (!latestAudioUpdate) throw new Error("no audio item update date");
+    if (latestAudioUpdate < podcastFreshAfter) {
+      throw new Error(`not updated in last month, latest audio update ${latestAudioUpdate.toISOString()}`);
+    }
     const title = extractXmlTitle(text) || feed.title;
     const itemCount = (text.match(/<item\b|<entry\b/gi) || []).length;
     return {
@@ -694,7 +700,8 @@ async function checkPodcastFeed(feed) {
       ok: true,
       status: response.status,
       elapsedMs: Date.now() - started,
-      itemCount
+      itemCount,
+      latestAudioUpdate: latestAudioUpdate.toISOString()
     };
   } catch (error) {
     return {
@@ -712,6 +719,31 @@ function hasAudioItem(xml) {
     /<link\b[^>]+type=["']audio\//i.test(xml);
 }
 
+function extractLatestAudioUpdate(xml) {
+  const items = Array.from(xml.matchAll(/<(item|entry)\b[\s\S]*?<\/\1>/gi), (match) => match[0]);
+  const audioItems = items.filter(hasAudioItem);
+  const dates = audioItems
+    .flatMap(extractItemDates)
+    .filter((date) => date && !Number.isNaN(date.getTime()));
+  if (!dates.length) return null;
+  return new Date(Math.max(...dates.map((date) => date.getTime())));
+}
+
+function extractItemDates(itemXml) {
+  return [
+    ...extractTagValues(itemXml, "pubDate"),
+    ...extractTagValues(itemXml, "updated"),
+    ...extractTagValues(itemXml, "published"),
+    ...extractTagValues(itemXml, "dc:date")
+  ].map((value) => new Date(decodeXml(value).trim()));
+}
+
+function extractTagValues(xml, tagName) {
+  const escapedTagName = tagName.replaceAll(":", "\\:");
+  const pattern = new RegExp(`<${escapedTagName}\\b[^>]*>([\\s\\S]*?)<\\/${escapedTagName}>`, "gi");
+  return Array.from(xml.matchAll(pattern), (match) => match[1].replace(/^<!\[CDATA\[|\]\]>$/g, ""));
+}
+
 function extractXmlTitle(xml) {
   return decodeXml(
     xml.match(/<title><!\[CDATA\[([^\]]+)/i)?.[1] ||
@@ -727,6 +759,12 @@ function decodeXml(value) {
     .replaceAll("&gt;", ">")
     .replaceAll("&quot;", '"')
     .replaceAll("&#39;", "'");
+}
+
+function subtractMonths(date, months) {
+  const result = new Date(date);
+  result.setMonth(result.getMonth() - months);
+  return result;
 }
 
 function dedupeBy(items, keyFn) {
@@ -749,6 +787,7 @@ function stripCheckFields(item) {
     error,
     count,
     itemCount,
+    latestAudioUpdate,
     rawExtinf,
     upstream,
     source,
@@ -761,15 +800,18 @@ async function writeReports(results) {
   await writeText("dist/reports/video.md", renderVideoReport(results.videoResult));
   await writeText("dist/reports/live.md", renderReport("电视直播源", results.liveResult));
   await writeText("dist/reports/radio.md", renderReport("电台源", results.radioResult));
-  await writeText("dist/reports/podcast.md", renderReport("播客源", results.podcastResult));
+  await writeText("dist/reports/podcast.md", renderReport("播客源", results.podcastResult, [
+    "活跃规则: 仅保留最近 1 个月内有音频条目更新的 RSS/Atom 源。"
+  ]));
 }
 
-function renderReport(title, result) {
+function renderReport(title, result, notes = []) {
   const lines = [
     `# ${title}检测报告`,
     "",
     `生成时间: ${generatedAt}`,
     "",
+    ...notes.flatMap((note) => [note, ""]),
     `总数: ${result.total}`,
     `可用: ${result.ok.length}`,
     `失败: ${result.failed.length}`,
@@ -926,7 +968,7 @@ async function writeReadme(results) {
    \`\`\`text
    ${base}/podcast/feeds.txt
    \`\`\`
-   说明: 每行一个通过检测的 RSS/Atom 订阅地址。
+   说明: 每行一个通过检测且最近 1 个月内有音频条目更新的 RSS/Atom 订阅地址。
 
 ## 检测结果
 

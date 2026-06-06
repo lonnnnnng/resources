@@ -1,16 +1,39 @@
 # 片库视频源检测报告
 
-生成时间: 2026-06-05T20:56:31.633Z
+生成时间: 2026-06-06T18:10:50.404Z
 
 总数: 72
-可用: 58
-失败: 14
-普通源: 27
+可用: 60
+失败: 12
+普通源: 29
 成人源: 31
 
 ## 失败项
 
-1. 卧龙资源
+1. 茅台资源
+   地址:
+   ```text
+   https://caiji.maotaizy.cc/api.php/provide/vod
+   ```
+   错误: HTTP 429 Too Many Requests
+   阶段: 列表检测
+   HTTP: 429 Too Many Requests
+   检测地址:
+   ```text
+   https://caiji.maotaizy.cc/api.php/provide/vod?ac=videolist&pg=1
+   ```
+   响应片段:
+   ```text
+   <html>
+   <head><title>429 Too Many Requests</title></head>
+   <body>
+   <center><h1>429 Too Many Requests</h1></center>
+   <hr><center>nginx</center>
+   </body>
+   </html>
+   ```
+
+2. 卧龙资源
    地址:
    ```text
    https://wolongzyw.com/api.php/provide/vod
@@ -25,23 +48,6 @@
    响应片段:
    ```text
    <!DOCTYPE html><html><head><script>window.onload=function(){window.location.href="/lander?ac=videolist&pg=1"}</script></head></html>
-   ```
-
-2. 新浪资源
-   地址:
-   ```text
-   https://api.xinlangapi.com/xinlangapi.php/provide/vod
-   ```
-   错误: JSON 解析失败: SyntaxError: Unexpected token '搜', "搜索关闭" is not valid JSON
-   阶段: 搜索检测
-   HTTP: 200 OK
-   检测地址:
-   ```text
-   https://api.xinlangapi.com/xinlangapi.php/provide/vod?ac=videolist&pg=1&wd=%E5%A4%A7%E5%8F%94%E5%86%8D%E5%87%BA%E6%8B%9B
-   ```
-   响应片段:
-   ```text
-   搜索关闭
    ```
 
 3. 旺旺资源
@@ -92,44 +98,10 @@
    ```
    响应片段:
    ```text
-   <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="content-security-policy" content="default-src &#39;none&#39;; script-src &#39;nonce-4hkcvyCJccGts4ShX3Fzdc&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare....
+   <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="content-security-policy" content="default-src &#39;none&#39;; script-src &#39;nonce-GEWwlFW9aVQDPj1i8oD3PC&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare....
    ```
 
-5. 百度云zy
-   地址:
-   ```text
-   https://api.apibdzy.com/api.php/provide/vod
-   ```
-   错误: HTTP 403 Forbidden
-   阶段: 列表检测
-   HTTP: 403 Forbidden
-   检测地址:
-   ```text
-   https://api.apibdzy.com/api.php/provide/vod?ac=videolist&pg=1
-   ```
-   响应片段:
-   ```text
-   <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="content-security-policy" content="default-src &#39;none&#39;; script-src &#39;nonce-rNe8wNZ69X3g28qVt9JyUY&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare....
-   ```
-
-6. 艾旦影视
-   地址:
-   ```text
-   https://lovedan.net/api.php/provide/vod
-   ```
-   错误: HTTP 403 Forbidden
-   阶段: 列表检测
-   HTTP: 403 Forbidden
-   检测地址:
-   ```text
-   https://lovedan.net/api.php/provide/vod?ac=videolist&pg=1
-   ```
-   响应片段:
-   ```text
-   <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="content-security-policy" content="default-src &#39;none&#39;; script-src &#39;nonce-949kFW1GFKjh12XiOG4BuO&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare....
-   ```
-
-7. 旺旺短剧
+5. 旺旺短剧
    地址:
    ```text
    https://wwzy.tv/api.php/provide/vod
@@ -163,7 +135,7 @@
    ...
    ```
 
-8. 鸭鸭资源
+6. 鸭鸭资源
    地址:
    ```text
    https://cj.yayazy.net/api.php/provide/vod
@@ -173,14 +145,14 @@
    HTTP: 200 OK
    检测地址:
    ```text
-   https://cj.yayazy.net/api.php/provide/vod?ac=videolist&pg=1&wd=%E9%93%81%E6%8B%B3%E6%95%99%E8%82%B2
+   https://cj.yayazy.net/api.php/provide/vod?ac=videolist&pg=1&wd=%E5%88%AB%E6%83%B9%E5%A5%B3%E9%98%8E%E7%BD%97%EF%BC%8C%E5%A5%B9%E6%98%AF%E6%88%98%E5%8A%9B%E5%A4%A9%E8%8A%B1%E6%9D%BF
    ```
    响应片段:
    ```text
    暂不支持搜索
    ```
 
-9. 索尼资源
+7. 索尼资源
    地址:
    ```text
    https://suoniapi.com/api.php/provide/vod
@@ -190,14 +162,14 @@
    HTTP: 200 OK
    检测地址:
    ```text
-   https://suoniapi.com/api.php/provide/vod?ac=videolist&pg=1&wd=%E8%B0%9C%E5%8D%B0%E5%A5%B3%E5%AD%90
+   https://suoniapi.com/api.php/provide/vod?ac=videolist&pg=1&wd=%E9%BB%84%E6%B3%89%E7%9A%84%E4%BD%BF%E8%80%85
    ```
    响应片段:
    ```text
    暂不支持搜索
    ```
 
-10. 快车资源
+8. 快车资源
    地址:
    ```text
    https://caiji.kuaichezy.org/api.php/provide/vod
@@ -207,14 +179,14 @@
    HTTP: 200 OK
    检测地址:
    ```text
-   https://caiji.kuaichezy.org/api.php/provide/vod?ac=videolist&pg=1&wd=%E9%93%81%E6%8B%B3%E6%95%99%E8%82%B2
+   https://caiji.kuaichezy.org/api.php/provide/vod?ac=videolist&pg=1&wd=%E5%88%AB%E6%83%B9%E5%A5%B3%E9%98%8E%E7%BD%97%EF%BC%8C%E5%A5%B9%E6%98%AF%E6%88%98%E5%8A%9B%E5%A4%A9%E8%8A%B1%E6%9D%BF
    ```
    响应片段:
    ```text
    暂不支持搜索
    ```
 
-11. 闪电资源
+9. 闪电资源
    地址:
    ```text
    https://xsd.sdzyapi.com/api.php/provide/vod
@@ -224,14 +196,14 @@
    HTTP: 200 OK
    检测地址:
    ```text
-   https://xsd.sdzyapi.com/api.php/provide/vod?ac=videolist&pg=1&wd=%E9%9F%B3%E4%BD%A0%E8%80%8C%E6%9D%A53
+   https://xsd.sdzyapi.com/api.php/provide/vod?ac=videolist&pg=1&wd=%E5%88%AB%E6%83%B9%E5%A5%B3%E9%98%8E%E7%BD%97%EF%BC%8C%E5%A5%B9%E6%98%AF%E6%88%98%E5%8A%9B%E5%A4%A9%E8%8A%B1%E6%9D%BF
    ```
    响应片段:
    ```text
    暂不支持搜索
    ```
 
-12. 🔞优优资源
+10. 🔞优优资源
    地址:
    ```text
    https://www.yytv4.cc/api.php/provide/vod
@@ -242,9 +214,9 @@
    ```text
    https://www.yytv4.cc/api.php/provide/vod?ac=videolist&pg=1
    ```
-   原因: ENOTFOUND | Error | getaddrinfo ENOTFOUND www.yytv4.cc
+   原因: ECONNRESET | Error | Client network socket disconnected before secure TLS connection was established
 
-13. 🔞-奥斯卡-
+11. 🔞-奥斯卡-
    地址:
    ```text
    https://aosikazy.com/api.php/provide/vod
@@ -254,14 +226,14 @@
    HTTP: 200 OK
    检测地址:
    ```text
-   https://aosikazy.com/api.php/provide/vod?ac=videolist&pg=1&wd=ITSR-150%20%E3%82%AE%E3%83%A3%E3%83%AB%E3%82%92%E3%82%B3%E3%82%AB%E3%81%99%E3%81%AE%E3%81%AA%E3%82%93%E3%81%96%E8%B6%85%E7%B0%A1%E5%8D%98%EF%BC%81%E5%8F%A3%E8%AA%AC%E3%81%8D%E3%82%82%E3%81%8A%E9%87%91%E3%82%82%E4%B8%8D%E8%A6%81%EF%BC%9F%E3%83%81%E2%97%8F%E3%83%9D%E4%B8%80%E6%9C%AC%E3%81%A7%E5%A0%95%E3%81%A1%E3%82%8B%E3%82%AE%E3%83%A3%E3%83%AB%2015%E4%BA%BA4%E6%99%82%E9%96%93
+   https://aosikazy.com/api.php/provide/vod?ac=videolist&pg=1&wd=%E6%B0%B4%E8%8F%9C%E9%BA%97--MDB-602%20%E9%A8%8E%E4%B9%97%E4%BD%8D%E5%A4%A7%E5%A5%BD%E3%81%8D%EF%BC%81%20%E3%82%A8%E3%83%83%E3%83%81%E3%81%AA%E5%88%B6%E6%9C%8D%E3%81%8A%E5%A7%89%E3%81%95%E3%82%93%2050%E4%BA%BA8%E6%99%82%E9%96%93%20BEST
    ```
    响应片段:
    ```text
    err not serarch
    ```
 
-14. 🔞丝袜资源
+12. 🔞丝袜资源
    地址:
    ```text
    https://siwazyw.tv/api.php/provide/vod
