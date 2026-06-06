@@ -1,0 +1,110 @@
+{
+  "sources": [
+    {
+      "name": "Radio Browser - 中国电台",
+      "url": "https://de1.api.radio-browser.info/json/stations/bycountrycodeexact/CN?limit=120&hidebroken=true",
+      "format": "json"
+    },
+    {
+      "name": "Radio Browser - 香港电台",
+      "url": "https://de1.api.radio-browser.info/json/stations/bycountrycodeexact/HK?limit=120&hidebroken=true",
+      "format": "json"
+    },
+    {
+      "name": "Radio Browser - 台湾电台",
+      "url": "https://de1.api.radio-browser.info/json/stations/bycountrycodeexact/TW?limit=120&hidebroken=true",
+      "format": "json"
+    },
+    {
+      "name": "Radio Browser - 普通话电台",
+      "url": "https://de1.api.radio-browser.info/json/stations/search?language=mandarin&limit=120&hidebroken=true",
+      "format": "json"
+    },
+    {
+      "name": "Radio Browser - 中文标签电台",
+      "url": "https://de1.api.radio-browser.info/json/stations/search?tag=chinese&limit=120&hidebroken=true",
+      "format": "json"
+    },
+    {
+      "name": "IPRD - 中国大陆电台",
+      "url": "https://iprd-org.github.io/iprd/site_data/by_country/cn.m3u",
+      "format": "m3u"
+    },
+    {
+      "name": "IPRD - 香港电台",
+      "url": "https://iprd-org.github.io/iprd/site_data/by_country/hk.m3u",
+      "format": "m3u"
+    },
+    {
+      "name": "IPRD - 台湾电台",
+      "url": "https://iprd-org.github.io/iprd/site_data/by_country/tw.m3u",
+      "format": "m3u"
+    },
+    {
+      "name": "Radio Browser - CNR 央广",
+      "url": "https://de1.api.radio-browser.info/json/stations/search?name=CNR&countrycode=CN&limit=120&hidebroken=true",
+      "format": "json"
+    },
+    {
+      "name": "Radio Browser - RTHK 香港电台",
+      "url": "https://de1.api.radio-browser.info/json/stations/search?name=RTHK&limit=120&hidebroken=true",
+      "format": "json"
+    }
+  ],
+  "direct": [
+    {
+      "name": "CNR-1 中国之声",
+      "url": "https://lhttp.qtfm.cn/live/15318317/64k.mp3",
+      "tags": "新闻",
+      "country": "CN",
+      "codec": "MP3"
+    },
+    {
+      "name": "RTHK Putonghua Channel",
+      "url": "http://stm.rthk.hk/radiopth",
+      "tags": "普通话",
+      "country": "HK"
+    },
+    {
+      "name": "RTHK Radio 1",
+      "url": "http://stm1.rthk.hk/radio1",
+      "tags": "新闻",
+      "country": "HK"
+    },
+    {
+      "name": "RTHK Radio 2",
+      "url": "http://stm2.rthk.hk/radio2",
+      "tags": "综合",
+      "country": "HK"
+    },
+    {
+      "name": "CRI News Plus AM846",
+      "url": "http://sk.cri.cn/am846.m3u8",
+      "tags": "新闻",
+      "country": "CN",
+      "codec": "HLS"
+    },
+    {
+      "name": "CRI 中文环球广播",
+      "url": "http://sk.cri.cn/hyhq.m3u8",
+      "tags": "中文",
+      "country": "CN",
+      "codec": "HLS"
+    },
+    {
+      "name": "CRI 南海之声",
+      "url": "http://sk.cri.cn/nhzs.m3u8",
+      "tags": "中文",
+      "country": "CN",
+      "codec": "HLS"
+    },
+    {
+      "name": "Chinese Classical Music",
+      "url": "https://radio.chinesemusicworld.com/chinesemusic.mp3",
+      "tags": "音乐",
+      "country": "CN",
+      "codec": "MP3"
+    }
+  ]
+}
+

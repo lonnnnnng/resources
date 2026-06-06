@@ -1,0 +1,11 @@
+{
+  "name": "resources",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "update": "node scripts/update-resources.js",
+    "verify": "node --check scripts/update-resources.js && node --check scripts/verify-resources.js && node scripts/verify-resources.js",
+    "check": "node scripts/update-resources.js --check-only && npm run verify"
+  }
+}

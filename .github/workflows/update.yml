@@ -1,0 +1,33 @@
+name: Update resources
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "20 19 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: "22"
+
+      - name: Generate checked resources
+        run: npm run update
+
+      - name: Verify generated resources
+        run: npm run verify
+
+      - name: Commit generated files
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "chore: update checked resources"
+          file_pattern: "dist README.md"
