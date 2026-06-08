@@ -171,15 +171,6 @@
     "searchStatus": "命中"
   },
   {
-    "key": "Naixxzy.com",
-    "name": "🔞奶香资源",
-    "api": "https://Naixxzy.com/api.php/provide/vod",
-    "detail": "https://Naixxzy.com",
-    "comment": "",
-    "adult": true,
-    "searchStatus": "命中"
-  },
-  {
     "key": "semaozy1.com",
     "name": "🔞色猫资源",
     "api": "https://caiji.semaozy.net/inc/apijson_vod.php/provide/vod",
@@ -240,7 +231,7 @@
     "detail": "https://xiaojizy.live",
     "comment": "",
     "adult": true,
-    "searchStatus": "无结果"
+    "searchStatus": "命中"
   },
   {
     "key": "xingba111.com",
@@ -384,7 +375,7 @@
     "detail": "https://lzizy.net",
     "comment": "备用",
     "adult": false,
-    "searchStatus": "命中"
+    "searchStatus": "无结果"
   },
   {
     "key": "cj.lzcaiji.com",
@@ -393,7 +384,7 @@
     "detail": "https://cj.lzcaiji.com",
     "comment": "",
     "adult": false,
-    "searchStatus": "命中"
+    "searchStatus": "无结果"
   },
   {
     "key": "www.maoyanzy.com",
@@ -517,15 +508,6 @@
     "name": "iKun资源",
     "api": "https://ikunzyapi.com/api.php/provide/vod",
     "detail": "https://ikunzy.com",
-    "comment": "",
-    "adult": false,
-    "searchStatus": "命中"
-  },
-  {
-    "key": "api.ukuapi88.com",
-    "name": "U酷影视",
-    "api": "https://api.ukuapi88.com/api.php/provide/vod",
-    "detail": "https://www.ukuzy.com",
     "comment": "",
     "adult": false,
     "searchStatus": "命中"
