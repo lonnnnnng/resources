@@ -51,7 +51,7 @@
     "detail": "https://www.msnii.com",
     "comment": "无法搜索",
     "adult": true,
-    "searchStatus": "命中"
+    "searchStatus": "无结果"
   },
   {
     "key": "155zy2.com",
@@ -121,15 +121,6 @@
     "name": "🔞黑料资源",
     "api": "https://www.heiliaozyapi.com/api.php/provide/vod",
     "detail": "https://heiliaozy.cc",
-    "comment": "",
-    "adult": true,
-    "searchStatus": "命中"
-  },
-  {
-    "key": "hsckzy.xyz",
-    "name": "🔞黄色仓库",
-    "api": "https://hsckzy.xyz/api.php/provide/vod",
-    "detail": "https://hsckzy.xyz",
     "comment": "",
     "adult": true,
     "searchStatus": "命中"
@@ -400,15 +391,6 @@
     "name": "猫眼资源",
     "api": "https://api.maoyanapi.top/api.php/provide/vod",
     "detail": "https://www.maoyanzy.com",
-    "comment": "",
-    "adult": false,
-    "searchStatus": "命中"
-  },
-  {
-    "key": "mtzy.me",
-    "name": "茅台资源",
-    "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
-    "detail": "https://mtzy.me",
     "comment": "",
     "adult": false,
     "searchStatus": "命中"

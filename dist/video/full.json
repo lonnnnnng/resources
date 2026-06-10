@@ -69,11 +69,6 @@
     "api": "https://api.maoyanapi.top/api.php/provide/vod",
     "detail": "https://www.maoyanzy.com"
   },
-  "mtzy.me": {
-    "name": "茅台资源",
-    "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
-    "detail": "https://mtzy.me"
-  },
   "caiji.moduapi.cc": {
     "name": "魔都动漫",
     "api": "https://caiji.moduapi.cc/api.php/provide/vod",
@@ -208,11 +203,6 @@
     "name": "🔞黑料资源",
     "api": "https://www.heiliaozyapi.com/api.php/provide/vod",
     "detail": "https://heiliaozy.cc"
-  },
-  "hsckzy.xyz": {
-    "name": "🔞黄色仓库",
-    "api": "https://hsckzy.xyz/api.php/provide/vod",
-    "detail": "https://hsckzy.xyz"
   },
   "www.jingpinx.com": {
     "name": "🔞精品资源",

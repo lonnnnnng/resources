@@ -17,7 +17,6 @@ https://feeds.fireside.fm/leftovertalk/rss
 https://feeds.podshow.cn/smatter.xml
 https://feeds.jjldbk.com/all.xml
 https://talich.fm/episodes/feed.xml
-https://anyway.fm/rss.xml
 https://avocadotoast.typlog.io/feed/audio.xml
 https://bujuyigenm.typlog.io/feed/audio.xml
 https://feeds.fireside.fm/thinkagepodcast/rss
