@@ -69,6 +69,11 @@
     "api": "https://api.maoyanapi.top/api.php/provide/vod",
     "detail": "https://www.maoyanzy.com"
   },
+  "mtzy.me": {
+    "name": "茅台资源",
+    "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
+    "detail": "https://mtzy.me"
+  },
   "caiji.moduapi.cc": {
     "name": "魔都动漫",
     "api": "https://caiji.moduapi.cc/api.php/provide/vod",
@@ -173,11 +178,6 @@
     "name": "🔞白嫖资源",
     "api": "https://www.kxgav.com/api/json.php",
     "detail": "https://www.kxgav.com"
-  },
-  "api.bwzym3u8.com": {
-    "name": "🔞百万资源",
-    "api": "https://api.bwzyz.com/api.php/provide/vod",
-    "detail": "https://api.bwzym3u8.com"
   },
   "dadizy11.com": {
     "name": "🔞大地资源",

@@ -17,6 +17,7 @@ https://feeds.fireside.fm/leftovertalk/rss
 https://feeds.podshow.cn/smatter.xml
 https://feeds.jjldbk.com/all.xml
 https://talich.fm/episodes/feed.xml
+https://anyway.fm/rss.xml
 https://avocadotoast.typlog.io/feed/audio.xml
 https://bujuyigenm.typlog.io/feed/audio.xml
 https://feeds.fireside.fm/thinkagepodcast/rss
@@ -33,7 +34,6 @@ https://ltsoj.com/podcast.xml
 https://anchor.fm/s/d0493934/podcast/rss
 https://www.omnycontent.com/d/playlist/d9486183-3dd4-4ad6-aebe-a4c1008455d5/d14a562d-2c6f-465d-80d2-ae44009af53e/77c8885e-9b24-4fb4-a01c-ae44009bc0f1/podcast.rss
 https://proxy.wavpub.com/xiaofangjian.xml
-http://rss.lizhi.fm/rss/1063597.xml
 https://rss.buzzsprout.com/1985418.rss
 https://www.ximalaya.com/album/46250458.xml
 https://feed.xyzfm.space/ywn9gqpujqex
@@ -44,6 +44,7 @@ https://www.ximalaya.com/album/55884537.xml
 https://www.ximalaya.com/album/36470328.xml
 https://www.ximalaya.com/album/41317943.xml
 https://www.ximalaya.com/album/43127335.xml
+http://www.ximalaya.com/album/47008946.xml
 https://anchor.fm/s/fcb6c04/podcast/rss
 https://anchor.fm/s/3bd8896c/podcast/rss
 https://anchor.fm/s/5d9c1a28/podcast/rss
