@@ -1,6 +1,6 @@
 # 播客源检测报告
 
-生成时间: 2026-06-11T21:30:23.890Z
+生成时间: 2026-06-12T21:05:49.743Z
 
 活跃规则: 仅保留最近 1 个月内有音频条目更新的 RSS/Atom 源。
 
@@ -129,33 +129,33 @@
    ```
    错误: not updated in last month, latest audio update 2026-04-22T23:39:41.000Z
 
-18. 二分电台
+18. Anyway.FM
+   地址:
+   ```text
+   https://anyway.fm/rss.xml
+   ```
+   错误: not RSS/Atom XML
+
+19. 二分电台
    地址:
    ```text
    https://binary.2bab.me/episodes/feed.xml
    ```
    错误: not updated in last month, latest audio update 2026-05-06T01:30:24.000Z
 
-19. 主唱死了
+20. 主唱死了
    地址:
    ```text
    https://zhuchangsile.xyz/episodes/feed.xml
    ```
    错误: not updated in last month, latest audio update 2026-05-06T05:10:00.000Z
 
-20. 尴尬院长·粤语播客
+21. 尴尬院长·粤语播客
    地址:
    ```text
    http://rss.lizhi.fm/rss/1063597.xml
    ```
    错误: not updated in last month, latest audio update 2026-05-11T04:28:21.000Z
-
-21. 中年少女坦白局
-   地址:
-   ```text
-   http://www.ximalaya.com/album/49894767.xml
-   ```
-   错误: not updated in last month, latest audio update 2026-05-08T00:00:00.000Z
 
 22. 问题不大 NoBigDeal
    地址:
