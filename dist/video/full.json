@@ -69,11 +69,6 @@
     "api": "https://api.maoyanapi.top/api.php/provide/vod",
     "detail": "https://www.maoyanzy.com"
   },
-  "mtzy.me": {
-    "name": "茅台资源",
-    "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
-    "detail": "https://mtzy.me"
-  },
   "caiji.moduapi.cc": {
     "name": "魔都动漫",
     "api": "https://caiji.moduapi.cc/api.php/provide/vod",
@@ -228,11 +223,6 @@
     "name": "🔞麻豆视频",
     "api": "https://91md.me/api.php/provide/vod",
     "detail": "https://91md.me"
-  },
-  "Naixxzy.com": {
-    "name": "🔞奶香资源",
-    "api": "https://Naixxzy.com/api.php/provide/vod",
-    "detail": "https://Naixxzy.com"
   },
   "semaozy1.com": {
     "name": "🔞色猫资源",

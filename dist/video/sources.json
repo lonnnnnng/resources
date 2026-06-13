@@ -162,15 +162,6 @@
     "searchStatus": "命中"
   },
   {
-    "key": "Naixxzy.com",
-    "name": "🔞奶香资源",
-    "api": "https://Naixxzy.com/api.php/provide/vod",
-    "detail": "https://Naixxzy.com",
-    "comment": "",
-    "adult": true,
-    "searchStatus": "命中"
-  },
-  {
     "key": "semaozy1.com",
     "name": "🔞色猫资源",
     "api": "https://caiji.semaozy.net/inc/apijson_vod.php/provide/vod",
@@ -186,7 +177,7 @@
     "detail": "https://slapibf.com",
     "comment": "",
     "adult": true,
-    "searchStatus": "命中"
+    "searchStatus": "HTTP 500 Internal Server Error"
   },
   {
     "key": "shayuapi.com",
@@ -391,15 +382,6 @@
     "name": "猫眼资源",
     "api": "https://api.maoyanapi.top/api.php/provide/vod",
     "detail": "https://www.maoyanzy.com",
-    "comment": "",
-    "adult": false,
-    "searchStatus": "命中"
-  },
-  {
-    "key": "mtzy.me",
-    "name": "茅台资源",
-    "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
-    "detail": "https://mtzy.me",
     "comment": "",
     "adult": false,
     "searchStatus": "命中"
