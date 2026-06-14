@@ -224,15 +224,15 @@
     "api": "https://91md.me/api.php/provide/vod",
     "detail": "https://91md.me"
   },
+  "Naixxzy.com": {
+    "name": "🔞奶香资源",
+    "api": "https://Naixxzy.com/api.php/provide/vod",
+    "detail": "https://Naixxzy.com"
+  },
   "semaozy1.com": {
     "name": "🔞色猫资源",
     "api": "https://caiji.semaozy.net/inc/apijson_vod.php/provide/vod",
     "detail": "https://semaozy1.com"
-  },
-  "slapibf.com": {
-    "name": "🔞森林资源",
-    "api": "https://beiyong.slapibf.com/api.php/provide/vod",
-    "detail": "https://slapibf.com"
   },
   "shayuapi.com": {
     "name": "🔞鲨鱼资源",
