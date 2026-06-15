@@ -28,6 +28,10 @@
     "url": "https://rss.lizhi.fm/rss/14275.xml"
   },
   {
+    "title": "所建所闻",
+    "url": "https://feeds.fireside.fm/architalk/rss"
+  },
+  {
     "title": "半拿铁 | 商业沉浮录",
     "url": "https://proxy.wavpub.com/caffebreve.xml"
   },
@@ -70,6 +74,10 @@
   {
     "title": "津津乐道",
     "url": "https://feeds.jjldbk.com/all.xml"
+  },
+  {
+    "title": "捕蛇者说",
+    "url": "https://pythonhunter.org/episodes/feed.xml"
   },
   {
     "title": "talich 闲侃",
