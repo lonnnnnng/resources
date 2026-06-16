@@ -1,6 +1,6 @@
 # 播客源检测报告
 
-生成时间: 2026-06-15T21:49:30.529Z
+生成时间: 2026-06-16T21:48:55.585Z
 
 活跃规则: 仅保留最近 1 个月内有音频条目更新的 RSS/Atom 源。
 
@@ -115,12 +115,12 @@
    ```
    错误: not updated in last month, latest audio update 2026-04-22T23:39:41.000Z
 
-16. 二分电台
+16. Anyway.FM
    地址:
    ```text
-   https://binary.2bab.me/episodes/feed.xml
+   https://anyway.fm/rss.xml
    ```
-   错误: not updated in last month, latest audio update 2026-05-06T01:30:24.000Z
+   错误: not RSS/Atom XML
 
 17. 主唱死了
    地址:

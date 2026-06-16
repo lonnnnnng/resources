@@ -387,6 +387,15 @@
     "searchStatus": "命中"
   },
   {
+    "key": "mtzy.me",
+    "name": "茅台资源",
+    "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
+    "detail": "https://mtzy.me",
+    "comment": "",
+    "adult": false,
+    "searchStatus": "命中"
+  },
+  {
     "key": "caiji.moduapi.cc",
     "name": "魔都动漫",
     "api": "https://caiji.moduapi.cc/api.php/provide/vod",
@@ -490,15 +499,6 @@
     "name": "iKun资源",
     "api": "https://ikunzyapi.com/api.php/provide/vod",
     "detail": "https://ikunzy.com",
-    "comment": "",
-    "adult": false,
-    "searchStatus": "命中"
-  },
-  {
-    "key": "api.ukuapi88.com",
-    "name": "U酷影视",
-    "api": "https://api.ukuapi88.com/api.php/provide/vod",
-    "detail": "https://www.ukuzy.com",
     "comment": "",
     "adult": false,
     "searchStatus": "命中"
