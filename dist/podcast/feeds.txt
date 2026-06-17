@@ -65,6 +65,7 @@ https://open.firstory.me/rss/user/cjyqpmw8l2qci07437m3pfqe6
 https://www.ximalaya.com/album/33643029.xml
 https://www.ximalaya.com/album/69138237.xml
 http://www.ximalaya.com/album/15702148.xml
+https://www.ximalaya.com/album/49570973.xml
 https://feeds.acast.com/public/shows/63a20fba6ac81a0010a9553c
 https://www.ximalaya.com/album/26765985.xml
 https://s1.proxy.wavpub.com/podcasterunion/supergameculture.xml
