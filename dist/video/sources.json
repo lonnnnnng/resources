@@ -222,7 +222,7 @@
     "detail": "https://xiaojizy.live",
     "comment": "",
     "adult": true,
-    "searchStatus": "无结果"
+    "searchStatus": "命中"
   },
   {
     "key": "xingba111.com",
@@ -293,6 +293,15 @@
     "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
     "detail": "http://caiji.dyttzyapi.com",
     "comment": "",
+    "adult": false,
+    "searchStatus": "命中"
+  },
+  {
+    "key": "dbzy.tv",
+    "name": "豆瓣资源",
+    "api": "https://caiji.dbzy5.com/api.php/provide/vod",
+    "detail": "https://dbzy.tv",
+    "comment": "有伦理片",
     "adult": false,
     "searchStatus": "命中"
   },
@@ -373,6 +382,15 @@
     "name": "猫眼资源",
     "api": "https://api.maoyanapi.top/api.php/provide/vod",
     "detail": "https://www.maoyanzy.com",
+    "comment": "",
+    "adult": false,
+    "searchStatus": "命中"
+  },
+  {
+    "key": "mtzy.me",
+    "name": "茅台资源",
+    "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
+    "detail": "https://mtzy.me",
     "comment": "",
     "adult": false,
     "searchStatus": "命中"
@@ -481,6 +499,15 @@
     "name": "iKun资源",
     "api": "https://ikunzyapi.com/api.php/provide/vod",
     "detail": "https://ikunzy.com",
+    "comment": "",
+    "adult": false,
+    "searchStatus": "命中"
+  },
+  {
+    "key": "api.ukuapi88.com",
+    "name": "U酷影视",
+    "api": "https://api.ukuapi88.com/api.php/provide/vod",
+    "detail": "https://www.ukuzy.com",
     "comment": "",
     "adult": false,
     "searchStatus": "命中"

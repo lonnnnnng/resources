@@ -18,10 +18,8 @@ https://feeds.fireside.fm/leftovertalk/rss
 https://feeds.podshow.cn/smatter.xml
 https://feeds.jjldbk.com/all.xml
 https://pythonhunter.org/episodes/feed.xml
-https://talich.fm/episodes/feed.xml
 https://avocadotoast.typlog.io/feed/audio.xml
 https://bujuyigenm.typlog.io/feed/audio.xml
-https://feeds.fireside.fm/thinkagepodcast/rss
 https://binary.2bab.me/episodes/feed.xml
 https://5l4s.de/feed/audio.xml
 https://feed.xyzfm.space/cf4yqd4g79lv
