@@ -80,6 +80,10 @@
     "url": "https://pythonhunter.org/episodes/feed.xml"
   },
   {
+    "title": "№194: 赛博冲浪太快，我想回 MacRabbit 的兔子洞里坐一会",
+    "url": "https://anyway.fm/rss.xml"
+  },
+  {
     "title": "牛油果烤面包",
     "url": "https://avocadotoast.typlog.io/feed/audio.xml"
   },
@@ -98,6 +102,10 @@
   {
     "title": "出海进行时",
     "url": "https://feed.xyzfm.space/cf4yqd4g79lv"
+  },
+  {
+    "title": "下楼散步",
+    "url": "https://feed.xyzfm.space/wxvp6yquudvy"
   },
   {
     "title": "《The Real Story》By 報導者",
@@ -298,5 +306,9 @@
   {
     "title": "端聞 | 端傳媒新聞播客",
     "url": "https://feeds.acast.com/public/shows/66b07190af99592b5329f43a"
+  },
+  {
+    "title": "聊养院",
+    "url": "https://s1.proxy.wavpub.com/qualite.xml"
   }
 ]
