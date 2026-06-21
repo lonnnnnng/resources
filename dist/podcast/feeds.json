@@ -8,6 +8,10 @@
     "url": "https://feeds.fireside.fm/guiguzaozhidao/rss"
   },
   {
+    "title": "博物志",
+    "url": "https://bowuzhi.fm/feed/audio.xml"
+  },
+  {
     "title": "疯投圈",
     "url": "https://crazy.capital/feed"
   },
@@ -90,6 +94,10 @@
   {
     "title": "不拘一格NeverMind",
     "url": "https://bujuyigenm.typlog.io/feed/audio.xml"
+  },
+  {
+    "title": "新气集ThinkAge",
+    "url": "https://feeds.fireside.fm/thinkagepodcast/rss"
   },
   {
     "title": "二分电台",
