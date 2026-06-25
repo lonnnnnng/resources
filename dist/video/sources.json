@@ -135,6 +135,15 @@
     "searchStatus": "命中"
   },
   {
+    "key": "apilj.com",
+    "name": "🔞辣椒资源",
+    "api": "https://apilj.com/api.php/provide/vod",
+    "detail": "https://apilj.com",
+    "comment": "",
+    "adult": true,
+    "searchStatus": "命中"
+  },
+  {
     "key": "lbapi9.com",
     "name": "🔞乐播资源",
     "api": "https://lbapi9.com/api.php/provide/vod",
