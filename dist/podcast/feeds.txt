@@ -2,7 +2,6 @@ https://feeds.fireside.fm/shengdongjixi/rss
 https://feeds.fireside.fm/guiguzaozhidao/rss
 https://bowuzhi.fm/feed/audio.xml
 https://crazy.capital/feed
-https://podcast.weareones.com/feed/audio.xml
 https://www.ximalaya.com/album/12817863.xml
 https://www.ximalaya.com/album/20119986.xml
 https://rss.lizhi.fm/rss/14275.xml
@@ -19,13 +18,11 @@ https://feeds.fireside.fm/leftovertalk/rss
 https://feeds.podshow.cn/smatter.xml
 https://feeds.jjldbk.com/all.xml
 https://pythonhunter.org/episodes/feed.xml
-https://anyway.fm/rss.xml
 https://avocadotoast.typlog.io/feed/audio.xml
 https://bujuyigenm.typlog.io/feed/audio.xml
 https://feeds.fireside.fm/thinkagepodcast/rss
 https://binary.2bab.me/episodes/feed.xml
 https://zhuchangsile.xyz/episodes/feed.xml
-https://5l4s.de/feed/audio.xml
 https://feed.xyzfm.space/cf4yqd4g79lv
 https://feed.xyzfm.space/wxvp6yquudvy
 https://feeds.soundon.fm/podcasts/c1f1f3c9-8d28-42ad-9f1c-908018b8d9fc.xml
