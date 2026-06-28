@@ -54,7 +54,6 @@ https://www.ximalaya.com/album/20341384.xml
 https://www.ximalaya.com/album/8767520.xml
 https://www.ximalaya.com/album/64689453.xml
 https://anchor.fm/s/e60787d0/podcast/rss
-https://anchor.fm/s/3f94b8a0/podcast/rss
 https://oneatatime.typlog.io/feed/audio.xml
 https://www.ximalaya.com/album/77112790.xml
 https://feeds.fireside.fm/tianyu2/rss
