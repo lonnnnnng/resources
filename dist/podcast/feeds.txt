@@ -18,6 +18,7 @@ https://feeds.fireside.fm/leftovertalk/rss
 https://feeds.podshow.cn/smatter.xml
 https://feeds.jjldbk.com/all.xml
 https://pythonhunter.org/episodes/feed.xml
+https://anyway.fm/rss.xml
 https://avocadotoast.typlog.io/feed/audio.xml
 https://bujuyigenm.typlog.io/feed/audio.xml
 https://feeds.fireside.fm/thinkagepodcast/rss
@@ -31,7 +32,6 @@ https://open.firstory.me/rss/user/cl11qxv0101fe0h1jgg2zc2n2
 https://feeds.soundon.fm/podcasts/6731d283-54f0-49ec-a040-e5a641c3125f.xml
 https://open.firstory.me/rss/user/ckudnw7fn4tqg0870axzgirva
 https://open.firstory.me/rss/user/cklhiwwmzkaov0854ll997gy6
-https://ltsoj.com/podcast.xml
 https://anchor.fm/s/d0493934/podcast/rss
 https://www.omnycontent.com/d/playlist/d9486183-3dd4-4ad6-aebe-a4c1008455d5/d14a562d-2c6f-465d-80d2-ae44009af53e/77c8885e-9b24-4fb4-a01c-ae44009bc0f1/podcast.rss
 https://proxy.wavpub.com/xiaofangjian.xml
@@ -53,7 +53,6 @@ https://anchor.fm/s/5d9c1a28/podcast/rss
 https://www.ximalaya.com/album/20341384.xml
 https://www.ximalaya.com/album/8767520.xml
 https://www.ximalaya.com/album/64689453.xml
-https://anchor.fm/s/e60787d0/podcast/rss
 https://oneatatime.typlog.io/feed/audio.xml
 https://www.ximalaya.com/album/77112790.xml
 https://feeds.fireside.fm/tianyu2/rss
@@ -69,6 +68,7 @@ https://s1.proxy.wavpub.com/podcasterunion/supergameculture.xml
 https://s2.proxy.wavpub.com/vibration.xml
 https://www.ximalaya.com/album/39304323.xml
 https://www.ximalaya.com/album/51554220.xml
+https://anchor.fm/s/6ade80f4/podcast/rss
 http://www.ximalaya.com/album/3558668.xml
 https://www.ximalaya.com/album/41563226.xml
 https://www.ximalaya.com/album/14302859.xml

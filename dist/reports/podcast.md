@@ -1,6 +1,6 @@
 # 播客源检测报告
 
-生成时间: 2026-06-29T20:56:30.815Z
+生成时间: 2026-06-30T21:04:42.100Z
 
 活跃规则: 仅保留最近 1 个月内有音频条目更新的 RSS/Atom 源。
 
@@ -122,19 +122,19 @@
    ```
    错误: not updated in last month, latest audio update 2026-04-22T23:39:41.000Z
 
-17. Anyway.FM
-   地址:
-   ```text
-   https://anyway.fm/rss.xml
-   ```
-   错误: not RSS/Atom XML
-
-18. 五湖四海 5lake4sea
+17. 五湖四海 5lake4sea
    地址:
    ```text
    https://5l4s.de/feed/audio.xml
    ```
    错误: not updated in last month, latest audio update 2026-05-26T13:22:36.000Z
+
+18. 旅行熱炒店
+   地址:
+   ```text
+   https://ltsoj.com/podcast.xml
+   ```
+   错误: not updated in last month, latest audio update 2026-05-30T14:00:00.000Z
 
 19. 尴尬院长·粤语播客
    地址:
@@ -143,33 +143,33 @@
    ```
    错误: not updated in last month, latest audio update 2026-05-11T04:28:21.000Z
 
-20. 好青年荼毒室
+20. 漂浮绿洲 Floating Oasis
+   地址:
+   ```text
+   https://anchor.fm/s/e60787d0/podcast/rss
+   ```
+   错误: not updated in last month, latest audio update 2026-05-30T01:51:59.000Z
+
+21. 好青年荼毒室
    地址:
    ```text
    https://anchor.fm/s/3f94b8a0/podcast/rss
    ```
    错误: not updated in last month, latest audio update 2026-05-28T08:46:53.000Z
 
-21. 姬羊同笼（新）
+22. 姬羊同笼（新）
    地址:
    ```text
    https://sheepchick.typlog.io/feed/audio.xml
    ```
    错误: not updated in last month, latest audio update 2026-05-24T23:55:00.000Z
 
-22. 无人知晓
+23. 无人知晓
    地址:
    ```text
    https://feed.xyzfm.space/ypn9dydpbxpc
    ```
    错误: not updated in last month, latest audio update 2026-03-03T12:00:00.000Z
-
-23. 范特西码后炮
-   地址:
-   ```text
-   https://anchor.fm/s/6ade80f4/podcast/rss
-   ```
-   错误: not updated in last month, latest audio update 2026-01-11T09:53:09.000Z
 
 24. 这刺聊点啥
    地址:
