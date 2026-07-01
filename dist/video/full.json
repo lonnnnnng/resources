@@ -134,6 +134,11 @@
     "api": "https://ikunzyapi.com/api.php/provide/vod",
     "detail": "https://ikunzy.com"
   },
+  "api.ukuapi88.com": {
+    "name": "U酷影视",
+    "api": "https://api.ukuapi88.com/api.php/provide/vod",
+    "detail": "https://www.ukuzy.com"
+  },
   "ckzy.me": {
     "name": "🔞 CK-资源",
     "api": "https://ckzy.me/api.php/provide/vod",
