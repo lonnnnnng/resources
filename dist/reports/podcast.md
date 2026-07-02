@@ -1,6 +1,6 @@
 # 播客源检测报告
 
-生成时间: 2026-07-01T20:54:06.305Z
+生成时间: 2026-07-02T20:37:33.232Z
 
 活跃规则: 仅保留最近 1 个月内有音频条目更新的 RSS/Atom 源。
 
@@ -122,54 +122,54 @@
    ```
    错误: not updated in last month, latest audio update 2026-04-22T23:39:41.000Z
 
-17. 五湖四海 5lake4sea
+17. Anyway.FM
+   地址:
+   ```text
+   https://anyway.fm/rss.xml
+   ```
+   错误: not RSS/Atom XML
+
+18. 五湖四海 5lake4sea
    地址:
    ```text
    https://5l4s.de/feed/audio.xml
    ```
    错误: not updated in last month, latest audio update 2026-05-26T13:22:36.000Z
 
-18. 旅行熱炒店
+19. 旅行熱炒店
    地址:
    ```text
    https://ltsoj.com/podcast.xml
    ```
    错误: not updated in last month, latest audio update 2026-05-30T14:00:00.000Z
 
-19. 尴尬院长·粤语播客
+20. 尴尬院长·粤语播客
    地址:
    ```text
    http://rss.lizhi.fm/rss/1063597.xml
    ```
    错误: not updated in last month, latest audio update 2026-05-11T04:28:21.000Z
 
-20. 即兴Solo｜粤语播客
+21. 即兴Solo｜粤语播客
    地址:
    ```text
    https://www.ximalaya.com/album/46250458.xml
    ```
    错误: not updated in last month, latest audio update 2026-05-31T01:47:01.000Z
 
-21. 普通读者
+22. 普通读者
    地址:
    ```text
    https://anchor.fm/s/3bd8896c/podcast/rss
    ```
    错误: not updated in last month, latest audio update 2026-05-31T02:21:37.000Z
 
-22. 漂浮绿洲 Floating Oasis
+23. 漂浮绿洲 Floating Oasis
    地址:
    ```text
    https://anchor.fm/s/e60787d0/podcast/rss
    ```
    错误: not updated in last month, latest audio update 2026-05-30T01:51:59.000Z
-
-23. 好青年荼毒室
-   地址:
-   ```text
-   https://anchor.fm/s/3f94b8a0/podcast/rss
-   ```
-   错误: not updated in last month, latest audio update 2026-05-28T08:46:53.000Z
 
 24. 姬羊同笼（新）
    地址:

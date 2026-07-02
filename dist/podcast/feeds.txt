@@ -18,7 +18,6 @@ https://feeds.fireside.fm/leftovertalk/rss
 https://feeds.podshow.cn/smatter.xml
 https://feeds.jjldbk.com/all.xml
 https://pythonhunter.org/episodes/feed.xml
-https://anyway.fm/rss.xml
 https://avocadotoast.typlog.io/feed/audio.xml
 https://bujuyigenm.typlog.io/feed/audio.xml
 https://feeds.fireside.fm/thinkagepodcast/rss
@@ -51,6 +50,7 @@ https://anchor.fm/s/5d9c1a28/podcast/rss
 https://www.ximalaya.com/album/20341384.xml
 https://www.ximalaya.com/album/8767520.xml
 https://www.ximalaya.com/album/64689453.xml
+https://anchor.fm/s/3f94b8a0/podcast/rss
 https://oneatatime.typlog.io/feed/audio.xml
 https://www.ximalaya.com/album/77112790.xml
 https://feeds.fireside.fm/tianyu2/rss
