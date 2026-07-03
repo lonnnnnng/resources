@@ -60,10 +60,6 @@
     "url": "https://feeds.fireside.fm/sv101/rss"
   },
   {
-    "title": "随机波动StochasticVolatility",
-    "url": "https://feeds.fireside.fm/stovol/rss"
-  },
-  {
     "title": "边角聊",
     "url": "https://feeds.fireside.fm/leftovertalk/rss"
   },
@@ -190,10 +186,6 @@
   {
     "title": "读报teleread",
     "url": "https://anchor.fm/s/fcb6c04/podcast/rss"
-  },
-  {
-    "title": "例外状态 State of Exception",
-    "url": "https://anchor.fm/s/5d9c1a28/podcast/rss"
   },
   {
     "title": "花花局外人",
