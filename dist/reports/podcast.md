@@ -1,12 +1,12 @@
 # 播客源检测报告
 
-生成时间: 2026-07-03T20:33:11.372Z
+生成时间: 2026-07-04T20:16:10.866Z
 
 活跃规则: 仅保留最近 1 个月内有音频条目更新的 RSS/Atom 源。
 
 总数: 109
-可用: 73
-失败: 36
+可用: 72
+失败: 37
 
 ## 失败项
 
@@ -134,7 +134,7 @@
    ```text
    https://anyway.fm/rss.xml
    ```
-   错误: not updated in last month, latest audio update 2026-06-03T16:48:00.000Z
+   错误: not RSS/Atom XML
 
 19. 五湖四海 5lake4sea
    地址:
@@ -164,98 +164,105 @@
    ```
    错误: not updated in last month, latest audio update 2026-05-31T01:47:01.000Z
 
-23. 普通读者
+23. 剧谈社
+   地址:
+   ```text
+   https://www.ximalaya.com/album/43127335.xml
+   ```
+   错误: not updated in last month, latest audio update 2026-06-04T16:00:00.000Z
+
+24. 普通读者
    地址:
    ```text
    https://anchor.fm/s/3bd8896c/podcast/rss
    ```
    错误: not updated in last month, latest audio update 2026-05-31T02:21:37.000Z
 
-24. 例外状态 State of Exception
+25. 例外状态 State of Exception
    地址:
    ```text
    https://anchor.fm/s/5d9c1a28/podcast/rss
    ```
    错误: not updated in last month, latest audio update 2026-06-03T05:42:14.000Z
 
-25. 漂浮绿洲 Floating Oasis
+26. 漂浮绿洲 Floating Oasis
    地址:
    ```text
    https://anchor.fm/s/e60787d0/podcast/rss
    ```
    错误: not updated in last month, latest audio update 2026-05-30T01:51:59.000Z
 
-26. 姬羊同笼（新）
+27. 姬羊同笼（新）
    地址:
    ```text
    https://sheepchick.typlog.io/feed/audio.xml
    ```
    错误: not updated in last month, latest audio update 2026-05-24T23:55:00.000Z
 
-27. 无人知晓
+28. 无人知晓
    地址:
    ```text
    https://feed.xyzfm.space/ypn9dydpbxpc
    ```
    错误: not updated in last month, latest audio update 2026-03-03T12:00:00.000Z
 
-28. 这刺聊点啥
+29. 这刺聊点啥
    地址:
    ```text
    https://www.ximalaya.com/album/29601116.xml
    ```
    错误: not updated in last month, latest audio update 2026-01-06T21:57:56.000Z
 
-29. 嘻谈录
+30. 嘻谈录
    地址:
    ```text
    https://www.ximalaya.com/album/43044571.xml
    ```
    错误: not updated in last month, latest audio update 2025-07-26T15:30:00.000Z
 
-30. 奇妙店台
+31. 奇妙店台
    地址:
    ```text
    http://www.ximalaya.com/album/8224043.xml
    ```
    错误: not updated in last month, latest audio update 2025-06-16T01:07:36.000Z
 
-31. RustTalk
+32. RustTalk
    地址:
    ```text
    https://rusttalk.github.io/podcast/index.xml
    ```
    错误: not updated in last month, latest audio update 2025-06-07T04:53:01.000Z
 
-32. Kotlin 炉边漫谈
+33. Kotlin 炉边漫谈
    地址:
    ```text
    https://www.ximalaya.com/album/68370676.xml
    ```
    错误: not updated in last month, latest audio update 2025-04-07T08:17:21.000Z
 
-33. 夸夸歧谈
+34. 夸夸歧谈
    地址:
    ```text
    https://anchor.fm/s/9422c4e8/podcast/rss
    ```
    错误: not updated in last month, latest audio update 2025-06-02T23:25:58.000Z
 
-34. 酒嗝播客
+35. 酒嗝播客
    地址:
    ```text
    http://rss.lizhi.fm/rss/171448272.xml
    ```
    错误: not updated in last month, latest audio update 2025-01-27T03:53:37.000Z
 
-35. 史播客
+36. 史播客
    地址:
    ```text
    https://feeds.soundon.fm/podcasts/e9ce0c40-9b4a-41e2-a19e-db9e5aeca3f7.xml
    ```
    错误: not updated in last month, latest audio update 2025-01-09T12:41:05.000Z
 
-36. 南方聲活
+37. 南方聲活
    地址:
    ```text
    https://feeds.soundon.fm/podcasts/dce49dcf-aadf-43d6-8b24-4e7ed3e37da6.xml
