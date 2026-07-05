@@ -459,6 +459,15 @@
     "searchStatus": "HTTP 403 Forbidden"
   },
   {
+    "key": "1080zyk4.com",
+    "name": "优质资源",
+    "api": "https://api.yzzy-api.com/inc/apijson.php",
+    "detail": "https://1080zyk4.com",
+    "comment": "无法搜索",
+    "adult": false,
+    "searchStatus": "命中"
+  },
+  {
     "key": "zuidazy.co",
     "name": "最大点播",
     "api": "https://zuidazy.me/api.php/provide/vod",
