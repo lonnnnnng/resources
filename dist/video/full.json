@@ -139,11 +139,6 @@
     "api": "https://ckzy.me/api.php/provide/vod",
     "detail": "https://ckzy.me"
   },
-  "lbapiby.com": {
-    "name": "🔞--AIvin-",
-    "api": "http://lbapiby.com/api.php/provide/vod",
-    "detail": "http://lbapiby.com"
-  },
   "apidanaizi.com": {
     "name": "🔞-大奶子-",
     "api": "https://apidanaizi.com/api.php/provide/vod",
@@ -214,11 +209,6 @@
     "api": "https://apilj.com/api.php/provide/vod",
     "detail": "https://apilj.com"
   },
-  "lbapi9.com": {
-    "name": "🔞乐播资源",
-    "api": "https://lbapi9.com/api.php/provide/vod",
-    "detail": "https://lbapi9.com"
-  },
   "91md.me": {
     "name": "🔞麻豆视频",
     "api": "https://91md.me/api.php/provide/vod",
@@ -233,11 +223,6 @@
     "name": "🔞色猫资源",
     "api": "https://caiji.semaozy.net/inc/apijson_vod.php/provide/vod",
     "detail": "https://semaozy1.com"
-  },
-  "shayuapi.com": {
-    "name": "🔞鲨鱼资源",
-    "api": "https://shayuapi.com/api.php/provide/vod",
-    "detail": "https://shayuapi.com"
   },
   "thzy8.me": {
     "name": "🔞桃花资源",
