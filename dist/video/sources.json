@@ -9,6 +9,15 @@
     "searchStatus": "命中"
   },
   {
+    "key": "lbapiby.com",
+    "name": "🔞--AIvin-",
+    "api": "http://lbapiby.com/api.php/provide/vod",
+    "detail": "http://lbapiby.com",
+    "comment": "",
+    "adult": true,
+    "searchStatus": "命中"
+  },
+  {
     "key": "apidanaizi.com",
     "name": "🔞-大奶子-",
     "api": "https://apidanaizi.com/api.php/provide/vod",
@@ -135,6 +144,15 @@
     "searchStatus": "命中"
   },
   {
+    "key": "lbapi9.com",
+    "name": "🔞乐播资源",
+    "api": "https://lbapi9.com/api.php/provide/vod",
+    "detail": "https://lbapi9.com",
+    "comment": "",
+    "adult": true,
+    "searchStatus": "命中"
+  },
+  {
     "key": "91md.me",
     "name": "🔞麻豆视频",
     "api": "https://91md.me/api.php/provide/vod",
@@ -160,6 +178,15 @@
     "comment": "无法搜索",
     "adult": true,
     "searchStatus": "无结果"
+  },
+  {
+    "key": "shayuapi.com",
+    "name": "🔞鲨鱼资源",
+    "api": "https://shayuapi.com/api.php/provide/vod",
+    "detail": "https://shayuapi.com",
+    "comment": "",
+    "adult": true,
+    "searchStatus": "命中"
   },
   {
     "key": "thzy8.me",
@@ -322,6 +349,15 @@
     "comment": "污染搜索结果",
     "adult": false,
     "searchStatus": "命中"
+  },
+  {
+    "key": "jszyapi.com",
+    "name": "极速资源",
+    "api": "https://jszyapi.com/api.php/provide/vod",
+    "detail": "https://jszyapi.com",
+    "comment": "",
+    "adult": false,
+    "searchStatus": "无结果"
   },
   {
     "key": "lzizy.net",
