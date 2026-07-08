@@ -13,6 +13,7 @@ https://feed.xyzfm.space/yxuruh3f9mc4
 https://feed.xyzfm.space/68acw4ke4frl
 https://feeds.fireside.fm/latetalk/rss
 https://feeds.fireside.fm/sv101/rss
+https://feeds.fireside.fm/stovol/rss
 https://feeds.fireside.fm/leftovertalk/rss
 https://feeds.podshow.cn/smatter.xml
 https://feeds.jjldbk.com/all.xml
@@ -36,6 +37,7 @@ https://anchor.fm/s/d0493934/podcast/rss
 https://www.omnycontent.com/d/playlist/d9486183-3dd4-4ad6-aebe-a4c1008455d5/d14a562d-2c6f-465d-80d2-ae44009af53e/77c8885e-9b24-4fb4-a01c-ae44009bc0f1/podcast.rss
 https://proxy.wavpub.com/xiaofangjian.xml
 https://rss.buzzsprout.com/1985418.rss
+https://www.ximalaya.com/album/46250458.xml
 https://feed.xyzfm.space/ywn9gqpujqex
 https://www.ximalaya.com/album/12435719.xml
 https://www.ximalaya.com/album/76473718.xml
