@@ -84,11 +84,6 @@
     "api": "https://www.mdzyapi.com/api.php/provide/vod",
     "detail": "https://www.moduzy.net"
   },
-  "p2100.net": {
-    "name": "飘零资源",
-    "api": "https://p2100.net/api.php/provide/vod",
-    "detail": "https://p2100.net"
-  },
   "www.ryzyw.com": {
     "name": "如意资源",
     "api": "https://cj.rycjapi.com/api.php/provide/vod",
@@ -133,11 +128,6 @@
     "name": "iKun资源",
     "api": "https://ikunzyapi.com/api.php/provide/vod",
     "detail": "https://ikunzy.com"
-  },
-  "api.ukuapi88.com": {
-    "name": "U酷影视",
-    "api": "https://api.ukuapi88.com/api.php/provide/vod",
-    "detail": "https://www.ukuzy.com"
   },
   "ckzy.me": {
     "name": "🔞 CK-资源",

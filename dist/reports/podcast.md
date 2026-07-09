@@ -1,6 +1,6 @@
 # 播客源检测报告
 
-生成时间: 2026-07-08T20:37:13.124Z
+生成时间: 2026-07-09T20:56:08.663Z
 
 活跃规则: 仅保留最近 1 个月内有音频条目更新的 RSS/Atom 源。
 
@@ -129,26 +129,26 @@
    ```
    错误: not updated in last month, latest audio update 2026-05-26T13:22:36.000Z
 
-18. 尴尬院长·粤语播客
+18. 下楼散步
+   地址:
+   ```text
+   https://feed.xyzfm.space/wxvp6yquudvy
+   ```
+   错误: not updated in last month, latest audio update 2026-06-09T14:11:53.000Z
+
+19. 尴尬院长·粤语播客
    地址:
    ```text
    http://rss.lizhi.fm/rss/1063597.xml
    ```
    错误: not updated in last month, latest audio update 2026-05-11T04:28:21.000Z
 
-19. 剧谈社
+20. 剧谈社
    地址:
    ```text
    https://www.ximalaya.com/album/43127335.xml
    ```
    错误: not updated in last month, latest audio update 2026-06-04T16:00:00.000Z
-
-20. 普通读者
-   地址:
-   ```text
-   https://anchor.fm/s/3bd8896c/podcast/rss
-   ```
-   错误: not updated in last month, latest audio update 2026-05-31T02:21:37.000Z
 
 21. 例外状态 State of Exception
    地址:

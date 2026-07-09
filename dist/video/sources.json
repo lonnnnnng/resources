@@ -357,7 +357,7 @@
     "detail": "https://jszyapi.com",
     "comment": "",
     "adult": false,
-    "searchStatus": "命中"
+    "searchStatus": "无结果"
   },
   {
     "key": "lzizy.net",
@@ -409,15 +409,6 @@
     "name": "魔都资源",
     "api": "https://www.mdzyapi.com/api.php/provide/vod",
     "detail": "https://www.moduzy.net",
-    "comment": "",
-    "adult": false,
-    "searchStatus": "命中"
-  },
-  {
-    "key": "p2100.net",
-    "name": "飘零资源",
-    "api": "https://p2100.net/api.php/provide/vod",
-    "detail": "https://p2100.net",
     "comment": "",
     "adult": false,
     "searchStatus": "命中"
@@ -499,15 +490,6 @@
     "name": "iKun资源",
     "api": "https://ikunzyapi.com/api.php/provide/vod",
     "detail": "https://ikunzy.com",
-    "comment": "",
-    "adult": false,
-    "searchStatus": "命中"
-  },
-  {
-    "key": "api.ukuapi88.com",
-    "name": "U酷影视",
-    "api": "https://api.ukuapi88.com/api.php/provide/vod",
-    "detail": "https://www.ukuzy.com",
     "comment": "",
     "adult": false,
     "searchStatus": "命中"

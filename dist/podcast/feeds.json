@@ -108,10 +108,6 @@
     "url": "https://feed.xyzfm.space/cf4yqd4g79lv"
   },
   {
-    "title": "下楼散步",
-    "url": "https://feed.xyzfm.space/wxvp6yquudvy"
-  },
-  {
     "title": "《The Real Story》By 報導者",
     "url": "https://feeds.soundon.fm/podcasts/c1f1f3c9-8d28-42ad-9f1c-908018b8d9fc.xml"
   },
@@ -198,6 +194,10 @@
   {
     "title": "读报teleread",
     "url": "https://anchor.fm/s/fcb6c04/podcast/rss"
+  },
+  {
+    "title": "普通读者",
+    "url": "https://anchor.fm/s/3bd8896c/podcast/rss"
   },
   {
     "title": "花花局外人",
