@@ -128,5 +128,10 @@
     "name": "iKun资源",
     "api": "https://ikunzyapi.com/api.php/provide/vod",
     "detail": "https://ikunzy.com"
+  },
+  "api.ukuapi88.com": {
+    "name": "U酷影视",
+    "api": "https://api.ukuapi88.com/api.php/provide/vod",
+    "detail": "https://www.ukuzy.com"
   }
 }

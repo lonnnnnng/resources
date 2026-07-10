@@ -321,7 +321,7 @@
     "detail": "https://api.guangsuapi.com",
     "comment": "",
     "adult": false,
-    "searchStatus": "命中"
+    "searchStatus": "无结果"
   },
   {
     "key": "www.haohuazy.com",
@@ -348,7 +348,7 @@
     "detail": "https://www.huyaapi.com",
     "comment": "污染搜索结果",
     "adult": false,
-    "searchStatus": "命中"
+    "searchStatus": "无结果"
   },
   {
     "key": "jszyapi.com",
@@ -357,7 +357,7 @@
     "detail": "https://jszyapi.com",
     "comment": "",
     "adult": false,
-    "searchStatus": "无结果"
+    "searchStatus": "命中"
   },
   {
     "key": "lzizy.net",
@@ -490,6 +490,15 @@
     "name": "iKun资源",
     "api": "https://ikunzyapi.com/api.php/provide/vod",
     "detail": "https://ikunzy.com",
+    "comment": "",
+    "adult": false,
+    "searchStatus": "命中"
+  },
+  {
+    "key": "api.ukuapi88.com",
+    "name": "U酷影视",
+    "api": "https://api.ukuapi88.com/api.php/provide/vod",
+    "detail": "https://www.ukuzy.com",
     "comment": "",
     "adult": false,
     "searchStatus": "命中"
