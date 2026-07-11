@@ -321,7 +321,7 @@
     "detail": "https://api.guangsuapi.com",
     "comment": "",
     "adult": false,
-    "searchStatus": "无结果"
+    "searchStatus": "命中"
   },
   {
     "key": "www.haohuazy.com",
@@ -348,7 +348,7 @@
     "detail": "https://www.huyaapi.com",
     "comment": "污染搜索结果",
     "adult": false,
-    "searchStatus": "无结果"
+    "searchStatus": "命中"
   },
   {
     "key": "jszyapi.com",
