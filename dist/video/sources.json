@@ -222,7 +222,7 @@
     "detail": "https://xiaojizy.live",
     "comment": "",
     "adult": true,
-    "searchStatus": "命中"
+    "searchStatus": "无结果"
   },
   {
     "key": "xingba111.com",
@@ -418,15 +418,6 @@
     "name": "如意资源",
     "api": "https://cj.rycjapi.com/api.php/provide/vod",
     "detail": "https://www.ryzyw.com",
-    "comment": "",
-    "adult": false,
-    "searchStatus": "命中"
-  },
-  {
-    "key": "www.subozy.com",
-    "name": "速播资源",
-    "api": "https://subocaiji.com/api.php/provide/vod",
-    "detail": "https://www.subozy.com",
     "comment": "",
     "adult": false,
     "searchStatus": "命中"

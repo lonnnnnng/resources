@@ -89,11 +89,6 @@
     "api": "https://cj.rycjapi.com/api.php/provide/vod",
     "detail": "https://www.ryzyw.com"
   },
-  "www.subozy.com": {
-    "name": "速播资源",
-    "api": "https://subocaiji.com/api.php/provide/vod",
-    "detail": "https://www.subozy.com"
-  },
   "wujinzy.me": {
     "name": "无尽资源",
     "api": "https://api.wujinapi.me/api.php/provide/vod",
