@@ -1,6 +1,6 @@
 # 播客源检测报告
 
-生成时间: 2026-07-13T20:34:10.763Z
+生成时间: 2026-07-14T20:32:03.912Z
 
 活跃规则: 仅保留最近 1 个月内有音频条目更新的 RSS/Atom 源。
 
@@ -120,7 +120,7 @@
    ```text
    https://anyway.fm/rss.xml
    ```
-   错误: not updated in last month, latest audio update 2026-06-03T16:48:00.000Z
+   错误: not RSS/Atom XML
 
 17. 五湖四海 5lake4sea
    地址:
