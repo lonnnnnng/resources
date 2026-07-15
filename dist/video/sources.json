@@ -378,6 +378,15 @@
     "searchStatus": "命中"
   },
   {
+    "key": "www.maoyanzy.com",
+    "name": "猫眼资源",
+    "api": "https://api.maoyanapi.top/api.php/provide/vod",
+    "detail": "https://www.maoyanzy.com",
+    "comment": "",
+    "adult": false,
+    "searchStatus": "命中"
+  },
+  {
     "key": "mtzy.me",
     "name": "茅台资源",
     "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
