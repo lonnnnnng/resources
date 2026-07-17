@@ -81,15 +81,6 @@
     "searchStatus": "命中"
   },
   {
-    "key": "didizy.com",
-    "name": "🔞滴滴资源",
-    "api": "https://api.ddapi.cc/api.php/provide/vod",
-    "detail": "https://didizy.com",
-    "comment": "",
-    "adult": true,
-    "searchStatus": "命中"
-  },
-  {
     "key": "doudouzy.com",
     "name": "🔞豆豆资源",
     "api": "https://api.douapi.cc/api.php/provide/vod",
@@ -373,6 +364,15 @@
     "name": "量子资源",
     "api": "https://cj.lzcaiji.com/api.php/provide/vod",
     "detail": "https://cj.lzcaiji.com",
+    "comment": "",
+    "adult": false,
+    "searchStatus": "命中"
+  },
+  {
+    "key": "www.maoyanzy.com",
+    "name": "猫眼资源",
+    "api": "https://api.maoyanapi.top/api.php/provide/vod",
+    "detail": "https://www.maoyanzy.com",
     "comment": "",
     "adult": false,
     "searchStatus": "命中"
