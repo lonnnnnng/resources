@@ -179,6 +179,11 @@
     "api": "https://dadiapi.com/feifei",
     "detail": "https://dadizy11.com"
   },
+  "didizy.com": {
+    "name": "🔞滴滴资源",
+    "api": "https://api.ddapi.cc/api.php/provide/vod",
+    "detail": "https://didizy.com"
+  },
   "doudouzy.com": {
     "name": "🔞豆豆资源",
     "api": "https://api.douapi.cc/api.php/provide/vod",

@@ -81,6 +81,15 @@
     "searchStatus": "命中"
   },
   {
+    "key": "didizy.com",
+    "name": "🔞滴滴资源",
+    "api": "https://api.ddapi.cc/api.php/provide/vod",
+    "detail": "https://didizy.com",
+    "comment": "",
+    "adult": true,
+    "searchStatus": "命中"
+  },
+  {
     "key": "doudouzy.com",
     "name": "🔞豆豆资源",
     "api": "https://api.douapi.cc/api.php/provide/vod",
