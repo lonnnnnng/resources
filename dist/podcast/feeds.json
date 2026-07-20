@@ -76,6 +76,10 @@
     "url": "https://feeds.jjldbk.com/all.xml"
   },
   {
+    "title": "未命名播客",
+    "url": "https://feeds.fireside.fm/untitledpodcast/rss"
+  },
+  {
     "title": "硬影像",
     "url": "http://hardimage.pro/episodes/feed.xml"
   },
