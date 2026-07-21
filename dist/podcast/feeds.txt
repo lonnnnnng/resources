@@ -1,6 +1,5 @@
 https://feeds.fireside.fm/shengdongjixi/rss
 https://feeds.fireside.fm/guiguzaozhidao/rss
-https://bowuzhi.fm/feed/audio.xml
 https://crazy.capital/feed
 https://www.ximalaya.com/album/12817863.xml
 https://www.ximalaya.com/album/20119986.xml
@@ -21,7 +20,6 @@ https://feeds.fireside.fm/untitledpodcast/rss
 http://hardimage.pro/episodes/feed.xml
 https://avocadotoast.typlog.io/feed/audio.xml
 https://bujuyigenm.typlog.io/feed/audio.xml
-https://feeds.fireside.fm/thinkagepodcast/rss
 https://binary.2bab.me/episodes/feed.xml
 https://zhuchangsile.xyz/episodes/feed.xml
 https://feed.xyzfm.space/cf4yqd4g79lv
@@ -55,7 +53,6 @@ https://anchor.fm/s/3f94b8a0/podcast/rss
 https://oneatatime.typlog.io/feed/audio.xml
 https://www.ximalaya.com/album/77112790.xml
 https://feeds.fireside.fm/tianyu2/rss
-https://open.firstory.me/rss/user/ckiobtbtwcoqv08505mkge1kg
 https://open.firstory.me/rss/user/cjyqpmw8l2qci07437m3pfqe6
 https://www.ximalaya.com/album/33643029.xml
 https://www.ximalaya.com/album/69138237.xml
