@@ -441,6 +441,15 @@
     "searchStatus": "命中"
   },
   {
+    "key": "xinlangapi.com",
+    "name": "新浪资源",
+    "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
+    "detail": "https://xinlangapi.com",
+    "comment": "",
+    "adult": false,
+    "searchStatus": "命中"
+  },
+  {
     "key": "yhzy.cc",
     "name": "樱花资源",
     "api": "https://m3u8.apiyhzy.com/api.php/provide/vod",

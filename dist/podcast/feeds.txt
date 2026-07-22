@@ -21,7 +21,6 @@ http://hardimage.pro/episodes/feed.xml
 https://avocadotoast.typlog.io/feed/audio.xml
 https://bujuyigenm.typlog.io/feed/audio.xml
 https://binary.2bab.me/episodes/feed.xml
-https://zhuchangsile.xyz/episodes/feed.xml
 https://feed.xyzfm.space/cf4yqd4g79lv
 https://feeds.soundon.fm/podcasts/c1f1f3c9-8d28-42ad-9f1c-908018b8d9fc.xml
 https://feeds.soundon.fm/podcasts/b9b3e526-f20d-417e-9af8-e90c45c924d6.xml
@@ -40,7 +39,6 @@ https://www.ximalaya.com/album/12435719.xml
 https://www.ximalaya.com/album/76473718.xml
 https://www.ximalaya.com/album/41421414.xml
 https://www.ximalaya.com/album/55884537.xml
-https://www.ximalaya.com/album/41317943.xml
 https://www.ximalaya.com/album/43127335.xml
 http://www.ximalaya.com/album/49894767.xml
 http://www.ximalaya.com/album/47008946.xml
