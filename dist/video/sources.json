@@ -117,6 +117,15 @@
     "searchStatus": "命中"
   },
   {
+    "key": "hsckzy.xyz",
+    "name": "🔞黄色仓库",
+    "api": "https://hsckzy.xyz/api.php/provide/vod",
+    "detail": "https://hsckzy.xyz",
+    "comment": "",
+    "adult": true,
+    "searchStatus": "命中"
+  },
+  {
     "key": "www.jingpinx.com",
     "name": "🔞精品资源",
     "api": "https://www.jingpinx.com/api.php/provide/vod",
@@ -276,7 +285,7 @@
     "detail": "https://bfzy.tv",
     "comment": "",
     "adult": false,
-    "searchStatus": "命中"
+    "searchStatus": "无结果"
   },
   {
     "key": "dyttzyapi.com",
@@ -329,15 +338,6 @@
     "api": "https://www.hongniuzy2.com/api.php/provide/vod",
     "detail": "https://www.hongniuzy.com",
     "comment": "",
-    "adult": false,
-    "searchStatus": "命中"
-  },
-  {
-    "key": "www.huyaapi.com",
-    "name": "虎牙资源",
-    "api": "https://www.huyaapi.com/api.php/provide/vod",
-    "detail": "https://www.huyaapi.com",
-    "comment": "污染搜索结果",
     "adult": false,
     "searchStatus": "命中"
   },
