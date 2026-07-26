@@ -1,6 +1,6 @@
 # 播客源检测报告
 
-生成时间: 2026-07-25T20:15:20.031Z
+生成时间: 2026-07-26T20:17:10.597Z
 
 活跃规则: 仅保留最近 1 个月内有音频条目更新的 RSS/Atom 源。
 
@@ -192,19 +192,19 @@
    ```
    错误: not updated in last month, latest audio update 2026-05-30T01:51:59.000Z
 
-27. 姬羊同笼（新）
+27. 互不联网
+   地址:
+   ```text
+   https://www.ximalaya.com/album/77112790.xml
+   ```
+   错误: not updated in last month, latest audio update 2026-06-26T07:56:30.000Z
+
+28. 姬羊同笼（新）
    地址:
    ```text
    https://sheepchick.typlog.io/feed/audio.xml
    ```
    错误: not updated in last month, latest audio update 2026-05-24T23:55:00.000Z
-
-28. 蘑菇食堂
-   地址:
-   ```text
-   https://open.firstory.me/rss/user/ckiobtbtwcoqv08505mkge1kg
-   ```
-   错误: not updated in last month, latest audio update 2026-06-21T12:02:20.000Z
 
 29. 无人知晓
    地址:
