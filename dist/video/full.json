@@ -44,6 +44,11 @@
     "api": "https://www.hongniuzy2.com/api.php/provide/vod",
     "detail": "https://www.hongniuzy.com"
   },
+  "www.huyaapi.com": {
+    "name": "虎牙资源",
+    "api": "https://www.huyaapi.com/api.php/provide/vod",
+    "detail": "https://www.huyaapi.com"
+  },
   "jszyapi.com": {
     "name": "极速资源",
     "api": "https://jszyapi.com/api.php/provide/vod",
