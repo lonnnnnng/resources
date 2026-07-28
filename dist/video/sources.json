@@ -366,7 +366,7 @@
     "detail": "https://lzizy.net",
     "comment": "备用",
     "adult": false,
-    "searchStatus": "无结果"
+    "searchStatus": "命中"
   },
   {
     "key": "cj.lzcaiji.com",
@@ -375,7 +375,7 @@
     "detail": "https://cj.lzcaiji.com",
     "comment": "",
     "adult": false,
-    "searchStatus": "无结果"
+    "searchStatus": "命中"
   },
   {
     "key": "www.maoyanzy.com",

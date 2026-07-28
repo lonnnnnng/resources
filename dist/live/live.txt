@@ -1,6 +1,7 @@
+东方卫视,http://bp-resource-dfl.bestv.cn/148/3/video.m3u8
 湖南卫视,http://8.138.7.223/tv/api.php?id=hnws4k
 江苏卫视,http://8.138.7.223/tv/jsws4k.php
-河北卫视,http://event.pull.hebtv.com/jishi/weishi_tingyun.m3u8
+东方卫视,http://bp-resource-dfl.bestv.cn/155/3/video.m3u8
 河北卫视,http://120.76.248.139/live/bfgd/4200000108.m3u8
 内蒙古卫视,http://120.76.248.139/live/bfgd/4200000110.m3u8
 海南卫视,http://120.76.248.139/live/bfgd/4200000473.m3u8
@@ -55,7 +56,6 @@ CCTV-2,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv2hd
 CCTV-3,http://112.123.243.37:50085/tsfile/live/0003_1.m3u8?key=txiptv&playlive=0&authid=0
 CCTV-3,http://74.91.26.218:82/live/cctv3hd.m3u8
 CCTV-3,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv3hd
-CCTV-4,https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1785222900-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-34d2a2e023fa5858be1b0e38a71cd165&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 CCTV-5,http://198.204.228.26/live/cctv5hd.m3u8
 CCTV-5+,http://124.228.160.210:9901/tsfile/live/0016_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV-6,http://69.30.245.50/live/cctv6.m3u8
