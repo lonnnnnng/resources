@@ -3,7 +3,6 @@ https://feeds.fireside.fm/guiguzaozhidao/rss
 https://crazy.capital/feed
 https://www.ximalaya.com/album/12817863.xml
 https://www.ximalaya.com/album/20119986.xml
-https://rss.lizhi.fm/rss/14275.xml
 https://feeds.fireside.fm/architalk/rss
 https://proxy.wavpub.com/caffebreve.xml
 https://feeds.fireside.fm/thatisbiz/rss
@@ -50,7 +49,6 @@ https://www.ximalaya.com/album/20341384.xml
 https://www.ximalaya.com/album/8767520.xml
 https://www.ximalaya.com/album/64689453.xml
 https://anchor.fm/s/3f94b8a0/podcast/rss
-https://oneatatime.typlog.io/feed/audio.xml
 https://feeds.fireside.fm/tianyu2/rss
 https://open.firstory.me/rss/user/ckiobtbtwcoqv08505mkge1kg
 https://open.firstory.me/rss/user/cjyqpmw8l2qci07437m3pfqe6
