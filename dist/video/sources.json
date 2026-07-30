@@ -180,6 +180,15 @@
     "searchStatus": "无结果"
   },
   {
+    "key": "shayuapi.com",
+    "name": "🔞鲨鱼资源",
+    "api": "https://shayuapi.com/api.php/provide/vod",
+    "detail": "https://shayuapi.com",
+    "comment": "",
+    "adult": true,
+    "searchStatus": "命中"
+  },
+  {
     "key": "thzy8.me",
     "name": "🔞桃花资源",
     "api": "https://thzy1.me/api.php/provide/vod",
