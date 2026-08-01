@@ -1,12 +1,12 @@
 # 播客源检测报告
 
-生成时间: 2026-07-31T20:36:34.248Z
+生成时间: 2026-08-01T20:15:00.438Z
 
 活跃规则: 仅保留最近 1 个月内有音频条目更新的 RSS/Atom 源。
 
 总数: 109
-可用: 71
-失败: 38
+可用: 72
+失败: 37
 
 ## 失败项
 
@@ -199,77 +199,70 @@
    ```
    错误: not updated in last month, latest audio update 2026-03-03T12:00:00.000Z
 
-28. 饭饭之交
-   地址:
-   ```text
-   https://feeds.acast.com/public/shows/63a20fba6ac81a0010a9553c
-   ```
-   错误: not updated in last month, latest audio update 2026-07-01T04:00:00.000Z
-
-29. 范特西码后炮
+28. 范特西码后炮
    地址:
    ```text
    https://anchor.fm/s/6ade80f4/podcast/rss
    ```
    错误: not updated in last month, latest audio update 2026-06-29T22:45:04.000Z
 
-30. 这刺聊点啥
+29. 这刺聊点啥
    地址:
    ```text
    https://www.ximalaya.com/album/29601116.xml
    ```
    错误: not updated in last month, latest audio update 2026-01-06T21:57:56.000Z
 
-31. 嘻谈录
+30. 嘻谈录
    地址:
    ```text
    https://www.ximalaya.com/album/43044571.xml
    ```
    错误: not updated in last month, latest audio update 2025-07-26T15:30:00.000Z
 
-32. 奇妙店台
+31. 奇妙店台
    地址:
    ```text
    http://www.ximalaya.com/album/8224043.xml
    ```
    错误: not updated in last month, latest audio update 2025-06-16T01:07:36.000Z
 
-33. RustTalk
+32. RustTalk
    地址:
    ```text
    https://rusttalk.github.io/podcast/index.xml
    ```
    错误: not updated in last month, latest audio update 2025-06-07T04:53:01.000Z
 
-34. Kotlin 炉边漫谈
+33. Kotlin 炉边漫谈
    地址:
    ```text
    https://www.ximalaya.com/album/68370676.xml
    ```
    错误: not updated in last month, latest audio update 2025-04-07T08:17:21.000Z
 
-35. 夸夸歧谈
+34. 夸夸歧谈
    地址:
    ```text
    https://anchor.fm/s/9422c4e8/podcast/rss
    ```
    错误: not updated in last month, latest audio update 2025-06-02T23:25:58.000Z
 
-36. 酒嗝播客
+35. 酒嗝播客
    地址:
    ```text
    http://rss.lizhi.fm/rss/171448272.xml
    ```
    错误: not updated in last month, latest audio update 2025-01-27T03:53:37.000Z
 
-37. 史播客
+36. 史播客
    地址:
    ```text
    https://feeds.soundon.fm/podcasts/e9ce0c40-9b4a-41e2-a19e-db9e5aeca3f7.xml
    ```
    错误: not updated in last month, latest audio update 2025-01-09T12:41:05.000Z
 
-38. 南方聲活
+37. 南方聲活
    地址:
    ```text
    https://feeds.soundon.fm/podcasts/dce49dcf-aadf-43d6-8b24-4e7ed3e37da6.xml
