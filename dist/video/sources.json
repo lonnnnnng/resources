@@ -60,7 +60,7 @@
     "detail": "https://155zy2.com",
     "comment": "",
     "adult": true,
-    "searchStatus": "命中"
+    "searchStatus": "无结果"
   },
   {
     "key": "www.kxgav.com",
@@ -285,7 +285,7 @@
     "detail": "https://bfzy.tv",
     "comment": "",
     "adult": false,
-    "searchStatus": "无结果"
+    "searchStatus": "命中"
   },
   {
     "key": "dyttzyapi.com",
@@ -366,7 +366,7 @@
     "detail": "https://lzizy.net",
     "comment": "备用",
     "adult": false,
-    "searchStatus": "命中"
+    "searchStatus": "无结果"
   },
   {
     "key": "cj.lzcaiji.com",
@@ -375,16 +375,7 @@
     "detail": "https://cj.lzcaiji.com",
     "comment": "",
     "adult": false,
-    "searchStatus": "命中"
-  },
-  {
-    "key": "www.maoyanzy.com",
-    "name": "猫眼资源",
-    "api": "https://api.maoyanapi.top/api.php/provide/vod",
-    "detail": "https://www.maoyanzy.com",
-    "comment": "",
-    "adult": false,
-    "searchStatus": "命中"
+    "searchStatus": "无结果"
   },
   {
     "key": "mtzy.me",
