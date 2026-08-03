@@ -1,6 +1,6 @@
 # 播客源检测报告
 
-生成时间: 2026-08-02T20:16:29.538Z
+生成时间: 2026-08-03T20:39:14.219Z
 
 活跃规则: 仅保留最近 1 个月内有音频条目更新的 RSS/Atom 源。
 
@@ -134,7 +134,7 @@
    ```text
    https://anyway.fm/rss.xml
    ```
-   错误: not RSS/Atom XML
+   错误: not updated in last month, latest audio update 2026-06-03T16:48:00.000Z
 
 19. 主唱死了
    地址:
