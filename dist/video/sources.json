@@ -60,7 +60,7 @@
     "detail": "https://155zy2.com",
     "comment": "",
     "adult": true,
-    "searchStatus": "无结果"
+    "searchStatus": "命中"
   },
   {
     "key": "www.kxgav.com",
@@ -117,15 +117,6 @@
     "searchStatus": "命中"
   },
   {
-    "key": "hsckzy.xyz",
-    "name": "🔞黄色仓库",
-    "api": "https://hsckzy.xyz/api.php/provide/vod",
-    "detail": "https://hsckzy.xyz",
-    "comment": "",
-    "adult": true,
-    "searchStatus": "命中"
-  },
-  {
     "key": "www.jingpinx.com",
     "name": "🔞精品资源",
     "api": "https://www.jingpinx.com/api.php/provide/vod",
@@ -157,6 +148,15 @@
     "name": "🔞麻豆视频",
     "api": "https://91md.me/api.php/provide/vod",
     "detail": "https://91md.me",
+    "comment": "",
+    "adult": true,
+    "searchStatus": "命中"
+  },
+  {
+    "key": "Naixxzy.com",
+    "name": "🔞奶香资源",
+    "api": "https://Naixxzy.com/api.php/provide/vod",
+    "detail": "https://Naixxzy.com",
     "comment": "",
     "adult": true,
     "searchStatus": "命中"
@@ -213,7 +213,7 @@
     "detail": "https://xiaojizy.live",
     "comment": "",
     "adult": true,
-    "searchStatus": "命中"
+    "searchStatus": "无结果"
   },
   {
     "key": "xingba111.com",
@@ -357,7 +357,7 @@
     "detail": "https://lzizy.net",
     "comment": "备用",
     "adult": false,
-    "searchStatus": "无结果"
+    "searchStatus": "命中"
   },
   {
     "key": "cj.lzcaiji.com",
@@ -366,7 +366,7 @@
     "detail": "https://cj.lzcaiji.com",
     "comment": "",
     "adult": false,
-    "searchStatus": "无结果"
+    "searchStatus": "命中"
   },
   {
     "key": "www.maoyanzy.com",
