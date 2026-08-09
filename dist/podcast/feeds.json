@@ -92,10 +92,6 @@
     "url": "https://zhuchangsile.xyz/episodes/feed.xml"
   },
   {
-    "title": "出海进行时",
-    "url": "https://feed.xyzfm.space/cf4yqd4g79lv"
-  },
-  {
     "title": "《The Real Story》By 報導者",
     "url": "https://feeds.soundon.fm/podcasts/c1f1f3c9-8d28-42ad-9f1c-908018b8d9fc.xml"
   },
@@ -172,16 +168,8 @@
     "url": "http://www.ximalaya.com/album/49894767.xml"
   },
   {
-    "title": "螺丝在拧紧",
-    "url": "http://www.ximalaya.com/album/47008946.xml"
-  },
-  {
     "title": "读报teleread",
     "url": "https://anchor.fm/s/fcb6c04/podcast/rss"
-  },
-  {
-    "title": "普通读者",
-    "url": "https://anchor.fm/s/3bd8896c/podcast/rss"
   },
   {
     "title": "花花局外人",
@@ -278,5 +266,9 @@
   {
     "title": "聊养院",
     "url": "https://s1.proxy.wavpub.com/qualite.xml"
+  },
+  {
+    "title": "RustTalk",
+    "url": "https://rusttalk.github.io/podcast/index.xml"
   }
 ]
