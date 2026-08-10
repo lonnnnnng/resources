@@ -54,6 +54,11 @@
     "api": "https://jszyapi.com/api.php/provide/vod",
     "detail": "https://jszyapi.com"
   },
+  "jinyingzy.com": {
+    "name": "金鹰点播",
+    "api": "https://jinyingzy.com/api.php/provide/vod",
+    "detail": "https://jinyingzy.com"
+  },
   "lzizy.net": {
     "name": "量子影视",
     "api": "https://cj.lziapi.com/api.php/provide/vod",
@@ -199,6 +204,11 @@
     "api": "https://www.heiliaozyapi.com/api.php/provide/vod",
     "detail": "https://heiliaozy.cc"
   },
+  "hsckzy.xyz": {
+    "name": "🔞黄色仓库",
+    "api": "https://hsckzy.xyz/api.php/provide/vod",
+    "detail": "https://hsckzy.xyz"
+  },
   "www.jingpinx.com": {
     "name": "🔞精品资源",
     "api": "https://www.jingpinx.com/api.php/provide/vod",
@@ -228,11 +238,6 @@
     "name": "🔞色猫资源",
     "api": "https://caiji.semaozy.net/inc/apijson_vod.php/provide/vod",
     "detail": "https://semaozy1.com"
-  },
-  "shayuapi.com": {
-    "name": "🔞鲨鱼资源",
-    "api": "https://shayuapi.com/api.php/provide/vod",
-    "detail": "https://shayuapi.com"
   },
   "thzy8.me": {
     "name": "🔞桃花资源",

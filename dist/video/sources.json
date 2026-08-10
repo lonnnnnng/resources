@@ -117,6 +117,15 @@
     "searchStatus": "命中"
   },
   {
+    "key": "hsckzy.xyz",
+    "name": "🔞黄色仓库",
+    "api": "https://hsckzy.xyz/api.php/provide/vod",
+    "detail": "https://hsckzy.xyz",
+    "comment": "",
+    "adult": true,
+    "searchStatus": "命中"
+  },
+  {
     "key": "www.jingpinx.com",
     "name": "🔞精品资源",
     "api": "https://www.jingpinx.com/api.php/provide/vod",
@@ -169,15 +178,6 @@
     "comment": "无法搜索",
     "adult": true,
     "searchStatus": "无结果"
-  },
-  {
-    "key": "shayuapi.com",
-    "name": "🔞鲨鱼资源",
-    "api": "https://shayuapi.com/api.php/provide/vod",
-    "detail": "https://shayuapi.com",
-    "comment": "",
-    "adult": true,
-    "searchStatus": "命中"
   },
   {
     "key": "thzy8.me",
@@ -346,6 +346,15 @@
     "name": "极速资源",
     "api": "https://jszyapi.com/api.php/provide/vod",
     "detail": "https://jszyapi.com",
+    "comment": "",
+    "adult": false,
+    "searchStatus": "命中"
+  },
+  {
+    "key": "jinyingzy.com",
+    "name": "金鹰点播",
+    "api": "https://jinyingzy.com/api.php/provide/vod",
+    "detail": "https://jinyingzy.com",
     "comment": "",
     "adult": false,
     "searchStatus": "命中"

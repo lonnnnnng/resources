@@ -1,6 +1,6 @@
 # 播客源检测报告
 
-生成时间: 2026-08-09T19:48:05.467Z
+生成时间: 2026-08-10T20:01:37.556Z
 
 活跃规则: 仅保留最近 1 个月内有音频条目更新的 RSS/Atom 源。
 
@@ -220,12 +220,12 @@
    ```
    错误: not updated in last month, latest audio update 2026-07-01T23:00:00.000Z
 
-31. 姬羊同笼（新）
+31. 问题不大 NoBigDeal
    地址:
    ```text
-   https://sheepchick.typlog.io/feed/audio.xml
+   https://www.ximalaya.com/album/49570973.xml
    ```
-   错误: not updated in last month, latest audio update 2026-05-24T23:55:00.000Z
+   错误: not updated in last month, latest audio update 2026-07-09T23:00:00.000Z
 
 32. 无人知晓
    地址:

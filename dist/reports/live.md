@@ -1,11 +1,11 @@
 # 电视直播源检测报告
 
-生成时间: 2026-08-09T19:48:05.467Z
+生成时间: 2026-08-10T20:01:37.556Z
 
-总数: 644
+总数: 620
 可用: 229
-失败: 208
-跳过: 207
+失败: 224
+跳过: 167
 
 ## 失败项
 
@@ -16,40 +16,40 @@
    ```
    错误: HTTP 403
 
-2. 浙江卫视
+2. 东方卫视
+   地址:
+   ```text
+   http://bp-resource-dfl.bestv.cn/148/3/video.m3u8
+   ```
+   错误: This operation was aborted
+
+3. 浙江卫视
    地址:
    ```text
    http://101.35.240.114:88/live.php?id=浙江卫视4K
    ```
    错误: HTTP 404
 
-3. 广东卫视
+4. 广东卫视
    地址:
    ```text
    http://101.35.240.114:88/live.php?id=广东卫视4K
    ```
    错误: HTTP 404
 
-4. 山东卫视
+5. 山东卫视
    地址:
    ```text
    http://101.35.240.114:88/live.php?id=山东卫视4K
    ```
    错误: HTTP 404
 
-5. 四川卫视
+6. 四川卫视
    地址:
    ```text
    http://101.35.240.114:88/live.php?id=四川卫视4K
    ```
    错误: HTTP 404
-
-6. 河北卫视
-   地址:
-   ```text
-   http://event.pull.hebtv.com/jishi/weishi_tingyun.m3u8
-   ```
-   错误: fetch failed
 
 7. 浙江卫视
    地址:
@@ -593,345 +593,345 @@
 84. CCTV-4
    地址:
    ```text
-   http://t.061899.xyz/tl/tl.php?id=cctv4
+   http://t.061899.xyz/tl/tl.php?id=cctv4m
    ```
    错误: HTTP 403
 
 85. CCTV-4
    地址:
    ```text
-   http://t.061899.xyz/tl/tl.php?id=cctv4m
-   ```
-   错误: HTTP 403
-
-86. CCTV-4
-   地址:
-   ```text
    http://t.061899.xyz/tl/tl.php?id=cctv4o
    ```
    错误: HTTP 403
 
-87. CCTV-5
+86. CCTV-5
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv5
    ```
-   错误: HTTP 403
+   错误: HTTP 429
 
-88. CCTV-5+
+87. CCTV-5+
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv5p
    ```
-   错误: HTTP 403
+   错误: HTTP 429
 
-89. CCTV-6
+88. CCTV-6
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv6
    ```
-   错误: HTTP 403
+   错误: HTTP 429
 
-90. CCTV-7
+89. CCTV-7
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv7
    ```
    错误: HTTP 429
 
-91. CCTV-8
+90. CCTV-8
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv8
    ```
    错误: HTTP 429
 
-92. CCTV-9
+91. CCTV-9
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv9
    ```
    错误: HTTP 429
 
-93. CCTV-10
+92. CCTV-10
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv10
    ```
    错误: HTTP 429
 
-94. CCTV-11
+93. CCTV-11
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv11
    ```
    错误: HTTP 429
 
-95. CCTV-12
+94. CCTV-12
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv12
    ```
    错误: HTTP 429
 
-96. CCTV-13
+95. CCTV-13
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv13
    ```
    错误: HTTP 429
 
-97. CCTV-14
+96. CCTV-14
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv14
    ```
    错误: HTTP 429
 
-98. CCTV-15
+97. CCTV-15
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv15
    ```
    错误: HTTP 429
 
-99. CCTV-16
+98. CCTV-16
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv16
    ```
    错误: HTTP 429
 
-100. CCTV-17
+99. CCTV-17
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv17
    ```
    错误: HTTP 429
 
-101. 东方卫视
+100. 东方卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=dfws
    ```
    错误: HTTP 429
 
-102. 重庆卫视
+101. 重庆卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cqws
    ```
    错误: HTTP 429
 
-103. 吉林卫视
+102. 吉林卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=jlws
    ```
    错误: HTTP 429
 
-104. 辽宁卫视
+103. 辽宁卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=lnws
    ```
    错误: HTTP 429
 
-105. 内蒙古卫视
+104. 内蒙古卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=nmws
    ```
    错误: HTTP 429
 
-106. 宁夏卫视
+105. 宁夏卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=nxws
    ```
    错误: HTTP 429
 
-107. 甘肃卫视
+106. 甘肃卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=gsws
    ```
    错误: HTTP 429
 
-108. 青海卫视
+107. 青海卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=qhws
    ```
    错误: HTTP 429
 
-109. 陕西卫视
+108. 陕西卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=sxws
    ```
    错误: HTTP 429
 
-110. 山东卫视
+109. 山东卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=sdws
    ```
    错误: HTTP 429
 
-111. 河南卫视
+110. 河南卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=hnws
    ```
    错误: HTTP 429
 
-112. 湖北卫视
+111. 湖北卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=hubws
    ```
    错误: HTTP 429
 
-113. 湖南卫视
+112. 湖南卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=hunws
    ```
    错误: HTTP 429
 
-114. 江西卫视
+113. 江西卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=jxws
    ```
    错误: HTTP 429
 
-115. 江苏卫视
+114. 江苏卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=jsws
    ```
    错误: HTTP 429
 
-116. 东南卫视
+115. 东南卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=dnws
    ```
    错误: HTTP 429
 
-117. 广东卫视
+116. 广东卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=gdws
    ```
    错误: HTTP 429
 
-118. 广西卫视
+117. 广西卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=gxws
    ```
    错误: HTTP 429
 
-119. 云南卫视
+118. 云南卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=ynws
    ```
    错误: HTTP 429
 
-120. 贵州卫视
+119. 贵州卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=gzws
    ```
    错误: HTTP 429
 
-121. 新疆卫视
+120. 新疆卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=xjws
    ```
    错误: HTTP 429
 
-122. 西藏卫视
+121. 西藏卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=xzws
    ```
    错误: HTTP 429
 
-123. 海南卫视
+122. 海南卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=hinws
    ```
    错误: HTTP 429
 
-124. 湖南卫视
+123. 湖南卫视
    地址:
    ```text
    http://101.35.240.114:88/live.php?id=湖南卫视
    ```
    错误: HTTP 404
 
-125. 北京卫视
+124. 北京卫视
    地址:
    ```text
    http://101.35.240.114:88/live.php?id=北京卫视
    ```
    错误: HTTP 404
 
-126. 浙江卫视
+125. 浙江卫视
    地址:
    ```text
    http://101.35.240.114:88/live.php?id=浙江卫视
    ```
    错误: HTTP 404
 
-127. 江苏卫视
+126. 江苏卫视
    地址:
    ```text
    http://101.35.240.114:88/live.php?id=江苏卫视
    ```
    错误: HTTP 404
 
-128. 陕西卫视
+127. 陕西卫视
    地址:
    ```text
    http://101.35.240.114:88/live.php?id=陕西卫视
    ```
    错误: HTTP 404
 
-129. 湖北卫视
+128. 湖北卫视
    地址:
    ```text
    http://101.35.240.114:88/live.php?id=湖北卫视
    ```
    错误: HTTP 404
 
-130. 内蒙古卫视
+129. 内蒙古卫视
    地址:
    ```text
    http://101.35.240.114:88/live.php?id=内蒙古卫视
    ```
    错误: HTTP 404
 
-131. 江西卫视
+130. 江西卫视
    地址:
    ```text
    http://101.35.240.114:88/live.php?id=江西卫视
    ```
    错误: HTTP 404
 
-132. 广东卫视
+131. 广东卫视
    地址:
    ```text
    http://101.35.240.114:88/live.php?id=广东卫视
    ```
    错误: HTTP 404
+
+132. 东方卫视
+   地址:
+   ```text
+   http://bp-resource-dfl.bestv.cn/155/3/video.m3u8
+   ```
+   错误: This operation was aborted
 
 133. 西藏卫视
    地址:
@@ -1393,7 +1393,7 @@
    ```text
    http://tv.pull.hebtv.com/jishi/weishipindao.m3u8?t=2510710360&k=3d44740039027301acf8341d7361ab59
    ```
-   错误: fetch failed
+   错误: HTTP 403
 
 199. 东南卫视
    地址:
@@ -1402,66 +1402,178 @@
    ```
    错误: fetch failed
 
-200. CCTV-1
+200. CCTV-2
    地址:
    ```text
-   http://123.118.55.165:45237/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
+   http://101.66.199.65:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=0&authid=0
    ```
    错误: This operation was aborted
 
-201. CCTV-4
+201. CCTV-2
    地址:
    ```text
-   https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1786258800-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-2a049a72d4009b124300540fc0c7120f&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
+   http://101.66.199.253:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=0&authid=0
+   ```
+   错误: This operation was aborted
+
+202. CCTV-4
+   地址:
+   ```text
+   https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1786345200-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-f7ba6678f3cc938a8baa572bdc135097&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
    ```
    错误: HTTP 403
 
-202. CCTV-13
+203. CCTV-6
    地址:
    ```text
-   https://event.pull.hebtv.com/jishi/cp1.m3u8
-   ```
-   错误: fetch failed
-
-203. CCTV-14
-   地址:
-   ```text
-   https://event.pull.hebtv.com/jishi/cp2.m3u8
-   ```
-   错误: fetch failed
-
-204. CCTV-15
-   地址:
-   ```text
-   http://123.118.55.165:45237/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0
+   http://223.78.65.165:9901/tsfile/live/0007_1.m3u8?key=txiptv&playlive=1&authid=0
    ```
    错误: This operation was aborted
 
-205. 湖南卫视
+204. CCTV-7
    地址:
    ```text
-   http://antvlive.ab5c6921.cdnviet.com/antv/playlist.m3u8
+   http://101.66.199.65:9901/tsfile/live/0007_1.m3u8?key=txiptv&playlive=0&authid=0
    ```
    错误: This operation was aborted
 
-206. 东南卫视
+205. CCTV-8
    地址:
    ```text
-   http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
+   http://223.78.65.165:9901/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0
    ```
    错误: This operation was aborted
 
-207. 云南卫视
+206. CCTV-9
+   地址:
+   ```text
+   http://223.78.65.165:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
+   ```
+   错误: This operation was aborted
+
+207. CCTV-11
+   地址:
+   ```text
+   http://223.78.65.165:9901/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
+   ```
+   错误: This operation was aborted
+
+208. 山西卫视
+   地址:
+   ```text
+   http://101.66.199.65:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
+   ```
+   错误: This operation was aborted
+
+209. 贵州卫视
+   地址:
+   ```text
+   http://101.66.198.174:9901/tsfile/live/0120_1.m3u8?key=txiptv&playlive=0&authid=0
+   ```
+   错误: This operation was aborted
+
+210. 贵州卫视
+   地址:
+   ```text
+   http://101.66.199.253:9901/tsfile/live/0120_1.m3u8?key=txiptv&playlive=0&authid=0
+   ```
+   错误: This operation was aborted
+
+211. 黑龙江卫视
+   地址:
+   ```text
+   http://101.66.199.65:9901/tsfile/live/0143_1.m3u8?key=txiptv&playlive=0&authid=0
+   ```
+   错误: This operation was aborted
+
+212. 黑龙江卫视
+   地址:
+   ```text
+   http://101.66.195.138:9901/tsfile/live/0143_1.m3u8?key=txiptv&playlive=0&authid=0
+   ```
+   错误: This operation was aborted
+
+213. 陕西卫视
+   地址:
+   ```text
+   http://101.66.199.65:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0
+   ```
+   错误: This operation was aborted
+
+214. 陕西卫视
+   地址:
+   ```text
+   http://101.66.199.253:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0
+   ```
+   错误: This operation was aborted
+
+215. 陕西卫视
+   地址:
+   ```text
+   http://101.66.194.201:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0
+   ```
+   错误: This operation was aborted
+
+216. 吉林卫视
+   地址:
+   ```text
+   http://101.66.194.210:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
+   ```
+   错误: This operation was aborted
+
+217. 吉林卫视
+   地址:
+   ```text
+   http://101.66.199.253:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
+   ```
+   错误: This operation was aborted
+
+218. 吉林卫视
+   地址:
+   ```text
+   http://101.66.199.65:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
+   ```
+   错误: This operation was aborted
+
+219. 吉林卫视
+   地址:
+   ```text
+   http://101.66.198.174:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
+   ```
+   错误: This operation was aborted
+
+220. 吉林卫视
+   地址:
+   ```text
+   http://101.66.194.201:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
+   ```
+   错误: This operation was aborted
+
+221. 云南卫视
    地址:
    ```text
    https://hwapi.yntv.net/ew265l/z1z6s5.m3u8
    ```
    错误: fetch failed
 
-208. 西藏卫视
+222. 云南卫视
    地址:
    ```text
-   http://123.118.55.165:45237/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0
+   http://101.66.199.65:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0
+   ```
+   错误: This operation was aborted
+
+223. 云南卫视
+   地址:
+   ```text
+   http://101.66.199.253:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0
+   ```
+   错误: This operation was aborted
+
+224. 云南卫视
+   地址:
+   ```text
+   http://101.66.198.174:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0
    ```
    错误: This operation was aborted
 
@@ -1470,1448 +1582,1168 @@
 1. CCTV-1
    地址:
    ```text
-   http://111.8.224.6:9999/tsfile/live/1063_1.m3u8?key=txiptv&playlive=1&authid=0
+   http://120.40.39.246:352/newlive/live/hls/1/live.m3u8
    ```
    原因: 超过每频道 5 条上限
 
 2. CCTV-1
    地址:
    ```text
-   http://74.91.26.218:82/live/cctv1hd.m3u8
+   http://61.178.227.57:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
    ```
    原因: 超过每频道 5 条上限
 
 3. CCTV-1
    地址:
    ```text
-   http://38.75.136.137:98/gslb/dsdqbv/cctv1hd.m3u8?auth=test20251009
+   http://113.90.154.189:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
    ```
    原因: 超过每频道 5 条上限
 
 4. CCTV-1
    地址:
    ```text
-   http://173.208.212.130:8181/720p/cctv1.m3u8
+   http://74.91.26.218:82/live/cctv1hd.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-5. CCTV-1
-   地址:
-   ```text
-   http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv1hd
-   ```
-   原因: 超过每频道 5 条上限
-
-6. CCTV-1
-   地址:
-   ```text
-   http://bztv.tvbus.cc:8081/cdnlive/cctv1.m3u8
-   ```
-   原因: 超过每频道 5 条上限
-
-7. CCTV-1
-   地址:
-   ```text
-   http://120.198.95.220:9901/tsfile/live/1015_1.m3u8?key=txiptv&playlive=1&down=1
-   ```
-   原因: 超过每频道 5 条上限
-
-8. CCTV-1
-   地址:
-   ```text
-   http://153.0.171.163:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
-   ```
-   原因: 超过每频道 5 条上限
-
-9. CCTV-2
-   地址:
-   ```text
-   http://bztv.tvbus.cc:8081/cdnlive/cctv2.m3u8
-   ```
-   原因: 超过每频道 5 条上限
-
-10. CCTV-2
-   地址:
-   ```text
-   http://69.30.245.50/live/cctv2.m3u8
-   ```
-   原因: 超过每频道 5 条上限
-
-11. CCTV-2
-   地址:
-   ```text
-   http://204.12.221.218:8181/3m1080p/cctv2.m3u8
-   ```
-   原因: 超过每频道 5 条上限
-
-12. CCTV-2
-   地址:
-   ```text
-   http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv2hd
-   ```
-   原因: 超过每频道 5 条上限
-
-13. CCTV-2
-   地址:
-   ```text
-   http://104.152.209.49:8181/720p/cctv2.m3u8
-   ```
-   原因: 超过每频道 5 条上限
-
-14. CCTV-2
-   地址:
-   ```text
-   http://38.75.136.137:98/gslb/dsdqbv/cctv2hd.m3u8?auth=test20251009
-   ```
-   原因: 超过每频道 5 条上限
-
-15. CCTV-2
-   地址:
-   ```text
-   http://107.150.60.122/live/cctv2hd.m3u8
-   ```
-   原因: 超过每频道 5 条上限
-
-16. CCTV-2
+5. CCTV-2
    地址:
    ```text
    http://192.151.150.154/live/cctv2hd.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-17. CCTV-2
+6. CCTV-2
    地址:
    ```text
    http://173.208.212.130:8181/720p/cctv2.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-18. CCTV-2
+7. CCTV-2
    地址:
    ```text
-   http://153.0.171.163:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
+   http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv2hd
    ```
    原因: 超过每频道 5 条上限
 
-19. CCTV-3
+8. CCTV-2
    地址:
    ```text
-   http://1.24.39.180:9003/hls/3/index.m3u8
+   http://107.150.60.122/live/cctv2hd.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-20. CCTV-3
+9. CCTV-2
    地址:
    ```text
-   http://111.8.224.6:9999/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
+   http://116.128.243.121:85/tsfile/live/0002_1.m3u8?key=txiptv&playlive=0&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-21. CCTV-3
+10. CCTV-2
    地址:
    ```text
-   http://113.57.140.161:10081/newlive/live/hls/3/live.m3u8
+   http://111.8.224.6:9999/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-22. CCTV-3
+11. CCTV-2
+   地址:
+   ```text
+   http://74.91.26.218:82/live/cctv2hd.m3u8
+   ```
+   原因: 超过每频道 5 条上限
+
+12. CCTV-2
+   地址:
+   ```text
+   http://104.152.209.49:8181/720p/cctv2.m3u8
+   ```
+   原因: 超过每频道 5 条上限
+
+13. CCTV-2
+   地址:
+   ```text
+   http://38.75.136.137:98/gslb/dsdqbv/cctv2hd.m3u8?auth=test20251009
+   ```
+   原因: 超过每频道 5 条上限
+
+14. CCTV-3
    地址:
    ```text
    http://112.27.5.218:9901/tsfile/live/faacts/0003_1.m3u8?key=txiptv&playlive=1&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-23. CCTV-3
+15. CCTV-3
    地址:
    ```text
-   http://204.12.221.218:8181/3m1080p/cctv3.m3u8
+   http://221.7.175.154:8445/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-24. CCTV-3
+16. CCTV-3
    地址:
    ```text
-   http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv3hd
+   http://111.8.224.6:9999/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-25. CCTV-3
+17. CCTV-3
    地址:
    ```text
-   http://198.204.228.26/live/cctv3hd.m3u8
+   http://69.30.245.50/live/cctv3.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-26. CCTV-3
+18. CCTV-3
    地址:
    ```text
-   http://38.75.136.137:98/gslb/dsdqbv/cctv3hd.m3u8?auth=test20251009
+   http://74.91.26.218:82/live/cctv3hd.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-27. CCTV-4
-   地址:
-   ```text
-   http://113.57.140.161:10081/newlive/live/hls/4/live.m3u8
-   ```
-   原因: 超过每频道 5 条上限
-
-28. CCTV-4
+19. CCTV-4
    地址:
    ```text
    http://1.24.39.180:9003/hls/4/index.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-29. CCTV-4
+20. CCTV-4
    地址:
    ```text
-   http://69.30.245.50/live/cctv4.m3u8
+   http://111.8.224.6:9999/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-30. CCTV-4
+21. CCTV-4
    地址:
    ```text
-   http://74.91.26.218:82/live/cctv4hd.m3u8
+   http://221.7.175.154:8445/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-31. CCTV-4
+22. CCTV-4
+   地址:
+   ```text
+   http://113.57.140.161:10081/newlive/live/hls/4/live.m3u8
+   ```
+   原因: 超过每频道 5 条上限
+
+23. CCTV-4
+   地址:
+   ```text
+   http://bztv.tvbus.cc:8081/cdnlive/cctv4.m3u8
+   ```
+   原因: 超过每频道 5 条上限
+
+24. CCTV-4
+   地址:
+   ```text
+   http://173.208.212.130:8181/1080p/cctv4.m3u8
+   ```
+   原因: 超过每频道 5 条上限
+
+25. CCTV-4
    地址:
    ```text
    http://38.75.136.137:98/gslb/dsdqpub/cctv4k.m3u8?auth=testpub
    ```
    原因: 超过每频道 5 条上限
 
-32. CCTV-4
+26. CCTV-4
    地址:
    ```text
    http://192.151.150.154/live/cctv4k.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-33. CCTV-4
+27. CCTV-4
    地址:
    ```text
    http://207.56.13.146:81/cdnlive/cctv4.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-34. CCTV-4
+28. CCTV-4
    地址:
    ```text
    http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv4k
    ```
    原因: 超过每频道 5 条上限
 
-35. CCTV-4
-   地址:
-   ```text
-   http://107.150.60.122/live/cctv4hd.m3u8
-   ```
-   原因: 超过每频道 5 条上限
-
-36. CCTV-4
-   地址:
-   ```text
-   https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8
-   ```
-   原因: 超过每频道 5 条上限
-
-37. CCTV-4
-   地址:
-   ```text
-   http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv4hd
-   ```
-   原因: 超过每频道 5 条上限
-
-38. CCTV-4
+29. CCTV-4
    地址:
    ```text
    http://104.152.209.49:8181/720p/cctv4.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-39. CCTV-4
+30. CCTV-4
    地址:
    ```text
    http://38.75.136.137:98/gslb/dsdqbv/cctv4hd.m3u8?auth=test20251009
    ```
    原因: 超过每频道 5 条上限
 
-40. CCTV-4
+31. CCTV-4
+   地址:
+   ```text
+   https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8
+   ```
+   原因: 超过每频道 5 条上限
+
+32. CCTV-4
    地址:
    ```text
    http://112.30.73.119:9901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=0&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-41. CCTV-4
-   地址:
-   ```text
-   http://153.0.171.163:9901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
-   ```
-   原因: 超过每频道 5 条上限
-
-42. CCTV-5
-   地址:
-   ```text
-   http://139.227.21.22:9901/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&authid=0
-   ```
-   原因: 超过每频道 5 条上限
-
-43. CCTV-5
+33. CCTV-5
    地址:
    ```text
    http://173.208.212.130:8181/720p/cctv5p.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-44. CCTV-5
+34. CCTV-5
    地址:
    ```text
    http://bztv.tvbus.cc:8081/cdnlive/cctv5p.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-45. CCTV-5
-   地址:
-   ```text
-   http://38.75.136.137:98/gslb/dsdqpub/cctv5p.m3u8?auth=testpub
-   ```
-   原因: 超过每频道 5 条上限
-
-46. CCTV-5
+35. CCTV-5
    地址:
    ```text
    http://38.75.136.137:98/gslb/dsdqpub/cctv5hd.m3u8?auth=testpub
    ```
    原因: 超过每频道 5 条上限
 
-47. CCTV-5
+36. CCTV-5
    地址:
    ```text
-   http://104.152.209.49:8181/720p/cctv5.m3u8
+   http://38.75.136.137:98/gslb/dsdqpub/cctv5p.m3u8?auth=testpub
    ```
    原因: 超过每频道 5 条上限
 
-48. CCTV-5
+37. CCTV-5
+   地址:
+   ```text
+   http://207.56.13.146:81/cdnlive/cctv5.m3u8
+   ```
+   原因: 超过每频道 5 条上限
+
+38. CCTV-5
    地址:
    ```text
    http://38.75.136.137:98/gslb/dsdqbv/cctv5hd.m3u8?auth=test20251009
    ```
    原因: 超过每频道 5 条上限
 
-49. CCTV-5
+39. CCTV-5
    地址:
    ```text
    http://104.152.209.49:8181/720p/cctv5p.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-50. CCTV-5
+40. CCTV-5
+   地址:
+   ```text
+   http://104.152.209.49:8181/720p/cctv5.m3u8
+   ```
+   原因: 超过每频道 5 条上限
+
+41. CCTV-5
+   地址:
+   ```text
+   http://120.238.94.82:9901/tsfile/live/1030_1.m3u8
+   ```
+   原因: 超过每频道 5 条上限
+
+42. CCTV-5
    地址:
    ```text
    http://111.8.224.6:9999/tsfile/live/1052_1.m3u8?key=txiptv&playlive=1&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-51. CCTV-5
+43. CCTV-5
    地址:
    ```text
    http://223.112.114.228:50080/newlive/live/hls/180/live.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-52. CCTV-6
+44. CCTV-5
    地址:
    ```text
-   http://153.0.171.163:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0
+   http://38.75.136.137:98/gslb/dsdqbv/cctv5p.m3u8?auth=test20251009
    ```
    原因: 超过每频道 5 条上限
 
-53. CCTV-6
+45. CCTV-6
    地址:
    ```text
-   http://69.30.245.50/live/cctv6.m3u8
+   http://74.91.26.218:82/live/cctv6hd.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-54. CCTV-6
+46. CCTV-6
    地址:
    ```text
-   http://173.208.212.130:8181/1080p/cctv6.m3u8
+   http://198.204.240.250:82/live/cctv6.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-55. CCTV-6
-   地址:
-   ```text
-   http://207.56.13.146:81/cdnlive/cctv6.m3u8
-   ```
-   原因: 超过每频道 5 条上限
-
-56. CCTV-6
-   地址:
-   ```text
-   http://204.12.221.218:8181/3m1080p/cctv6.m3u8
-   ```
-   原因: 超过每频道 5 条上限
-
-57. CCTV-6
-   地址:
-   ```text
-   http://173.208.212.130:8181/720p/cctv6.m3u8
-   ```
-   原因: 超过每频道 5 条上限
-
-58. CCTV-6
+47. CCTV-6
    地址:
    ```text
    http://198.204.228.26/live/cctv6hd.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-59. CCTV-6
+48. CCTV-6
+   地址:
+   ```text
+   http://207.56.13.146:81/cdnlive/cctv6.m3u8
+   ```
+   原因: 超过每频道 5 条上限
+
+49. CCTV-6
    地址:
    ```text
    http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv6hd
    ```
    原因: 超过每频道 5 条上限
 
-60. CCTV-6
-   地址:
-   ```text
-   http://38.75.136.137:98/gslb/dsdqbv/cctv6hd.m3u8?auth=test20251009
-   ```
-   原因: 超过每频道 5 条上限
-
-61. CCTV-6
-   地址:
-   ```text
-   http://192.151.150.154/live/cctv6hd.m3u8
-   ```
-   原因: 超过每频道 5 条上限
-
-62. CCTV-6
+50. CCTV-6
    地址:
    ```text
    http://107.150.60.122/live/cctv6hd.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-63. CCTV-7
+51. CCTV-6
    地址:
    ```text
-   http://69.30.245.50/live/cctv7.m3u8
+   http://38.75.136.137:98/gslb/dsdqbv/cctv6hd.m3u8?auth=test20251009
    ```
    原因: 超过每频道 5 条上限
 
-64. CCTV-7
+52. CCTV-6
    地址:
    ```text
-   http://bztv.tvbus.cc:8081/cdnlive/cctv7.m3u8
+   http://192.151.150.154/live/cctv6hd.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-65. CCTV-7
+53. CCTV-7
+   地址:
+   ```text
+   http://198.204.228.26/live/cctv7hd.m3u8
+   ```
+   原因: 超过每频道 5 条上限
+
+54. CCTV-7
    地址:
    ```text
    http://74.91.26.218:82/live/cctv7hd.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-66. CCTV-7
+55. CCTV-7
    地址:
    ```text
    http://38.75.136.137:98/gslb/dsdqbv/cctv7hd.m3u8?auth=test20251009
    ```
    原因: 超过每频道 5 条上限
 
-67. CCTV-7
-   地址:
-   ```text
-   http://207.56.13.146:81/cdnlive/cctv7.m3u8
-   ```
-   原因: 超过每频道 5 条上限
-
-68. CCTV-7
-   地址:
-   ```text
-   http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv7hd
-   ```
-   原因: 超过每频道 5 条上限
-
-69. CCTV-7
-   地址:
-   ```text
-   http://192.151.150.154/live/cctv7hd.m3u8
-   ```
-   原因: 超过每频道 5 条上限
-
-70. CCTV-7
+56. CCTV-7
    地址:
    ```text
    http://38.75.136.137:98/gslb/dsdqpub/cctv7hd.m3u8?auth=testpub
    ```
    原因: 超过每频道 5 条上限
 
-71. CCTV-7
+57. CCTV-8
    地址:
    ```text
-   http://104.152.209.49:8181/720p/cctv7.m3u8
+   http://192.151.150.154/live/cctv8k.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-72. CCTV-8
-   地址:
-   ```text
-   http://113.57.140.161:10081/newlive/live/hls/9/live.m3u8
-   ```
-   原因: 超过每频道 5 条上限
-
-73. CCTV-8
+58. CCTV-8
    地址:
    ```text
    http://bztv.tvbus.cc:8081/cdnlive/cctv8.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-74. CCTV-8
-   地址:
-   ```text
-   http://204.12.221.218:8181/3m1080p/cctv8.m3u8
-   ```
-   原因: 超过每频道 5 条上限
-
-75. CCTV-8
+59. CCTV-8
    地址:
    ```text
    http://173.208.212.130:8181/720p/cctv8.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-76. CCTV-8
+60. CCTV-8
+   地址:
+   ```text
+   http://204.12.221.218:8181/3m1080p/cctv8.m3u8
+   ```
+   原因: 超过每频道 5 条上限
+
+61. CCTV-8
+   地址:
+   ```text
+   http://207.56.13.146:81/cdnlive/cctv8.m3u8
+   ```
+   原因: 超过每频道 5 条上限
+
+62. CCTV-8
+   地址:
+   ```text
+   http://38.75.136.137:98/gslb/dsdqpub/cctv8k.m3u8?auth=testpub
+   ```
+   原因: 超过每频道 5 条上限
+
+63. CCTV-8
    地址:
    ```text
    http://69.30.245.50/live/cctv8.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-77. CCTV-8
+64. CCTV-8
    地址:
    ```text
-   http://198.204.228.26/live/cctv8hd.m3u8
+   http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv8k
    ```
    原因: 超过每频道 5 条上限
 
-78. CCTV-9
+65. CCTV-8
    地址:
    ```text
-   http://107.150.60.122/live/cctv9hd.m3u8
+   http://104.152.209.49:8181/720p/cctv8.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-79. CCTV-9
+66. CCTV-8
    地址:
    ```text
-   http://192.151.150.154/live/cctv9hd.m3u8
+   http://38.75.136.137:98/gslb/dsdqpub/cctv8hd.m3u8?auth=testpub
    ```
    原因: 超过每频道 5 条上限
 
-80. CCTV-9
+67. CCTV-9
    地址:
    ```text
-   http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv9hd
+   http://38.75.136.137:98/gslb/dsdqpub/cctv9hd.m3u8?auth=testpub
    ```
    原因: 超过每频道 5 条上限
 
-81. CCTV-9
-   地址:
-   ```text
-   http://74.91.26.218:82/live/cctv9hd.m3u8
-   ```
-   原因: 超过每频道 5 条上限
-
-82. CCTV-9
+68. CCTV-9
    地址:
    ```text
    http://104.152.209.49:8181/720p/cctv9.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-83. CCTV-9
-   地址:
-   ```text
-   https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=498a9719f635cf09cbd4112ec600c9d5
-   ```
-   原因: 超过每频道 5 条上限
-
-84. CCTV-9
+69. CCTV-9
    地址:
    ```text
    https://xykt-fix.github.io/Y77.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-85. CCTV-9
+70. CCTV-9
    地址:
    ```text
    http://153.0.171.163:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-86. CCTV-9
+71. CCTV-10
    地址:
    ```text
-   http://play.kankanlive.com/live/1698423397390920.m3u8
+   http://111.8.224.6:9999/tsfile/live/1039_1.m3u8?key=txiptv&playlive=1&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-87. CCTV-10
-   地址:
-   ```text
-   http://74.91.26.218:82/live/cctv10hd.m3u8
-   ```
-   原因: 超过每频道 5 条上限
-
-88. CCTV-10
-   地址:
-   ```text
-   http://204.12.221.218:8181/3m1080p/cctv10.m3u8
-   ```
-   原因: 超过每频道 5 条上限
-
-89. CCTV-10
-   地址:
-   ```text
-   http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv10hd
-   ```
-   原因: 超过每频道 5 条上限
-
-90. CCTV-10
+72. CCTV-10
    地址:
    ```text
    http://107.150.60.122/live/cctv10hd.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-91. CCTV-11
+73. CCTV-10
    地址:
    ```text
-   http://bztv.tvbus.cc:8081/cdnlive/cctv11.m3u8
+   http://173.208.212.130:8181/720p/cctv10.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-92. CCTV-11
+74. CCTV-10
    地址:
    ```text
-   http://192.151.150.154/live/cctv11hd.m3u8
+   http://173.208.212.130:8181/1080p/cctv10.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-93. CCTV-11
+75. CCTV-10
    地址:
    ```text
-   http://173.208.212.130:8181/720p/cctv11.m3u8
+   http://74.91.26.218:82/live/cctv10hd.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-94. CCTV-11
+76. CCTV-10
+   地址:
+   ```text
+   http://113.25.252.226:9901/tsfile/live/1014_1.m3u8?key=txiptv&playlive=1&authid=0
+   ```
+   原因: 超过每频道 5 条上限
+
+77. CCTV-11
    地址:
    ```text
    http://74.91.26.218:82/live/cctv11hd.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-95. CCTV-11
-   地址:
-   ```text
-   http://38.75.136.137:98/gslb/dsdqpub/cctv11hd.m3u8?auth=testpub
-   ```
-   原因: 超过每频道 5 条上限
-
-96. CCTV-11
-   地址:
-   ```text
-   http://38.75.136.137:98/gslb/dsdqbv/cctv11hd.m3u8?auth=test20251009
-   ```
-   原因: 超过每频道 5 条上限
-
-97. CCTV-11
-   地址:
-   ```text
-   http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv11hd
-   ```
-   原因: 超过每频道 5 条上限
-
-98. CCTV-11
-   地址:
-   ```text
-   http://204.12.221.218:8181/3m1080p/cctv11.m3u8
-   ```
-   原因: 超过每频道 5 条上限
-
-99. CCTV-11
+78. CCTV-11
    地址:
    ```text
    http://104.152.209.49:8181/720p/cctv11.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-100. CCTV-11
+79. CCTV-11
    地址:
    ```text
    http://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/chunklist_w744036192_b1000000.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-101. CCTV-11
+80. CCTV-11
    地址:
    ```text
-   http://113.25.252.226:9901/tsfile/live/1015_1.m3u8?key=txiptv&playlive=1&authid=0
+   http://101.66.199.65:9901/tsfile/live/0011_1.m3u8?key=txiptv&playlive=0&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-102. CCTV-11
+81. CCTV-11
+   地址:
+   ```text
+   http://101.66.198.174:9901/tsfile/live/0011_1.m3u8?key=txiptv&playlive=0&authid=0
+   ```
+   原因: 超过每频道 5 条上限
+
+82. CCTV-11
    地址:
    ```text
    http://61.178.227.57:9901/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-103. CCTV-12
+83. CCTV-11
    地址:
    ```text
-   http://198.204.228.26/live/cctv12hd.m3u8
+   http://153.0.171.163:9901/tsfile/live/1010_1.m3u8?key=txiptv&playlive=1&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-104. CCTV-12
+84. CCTV-12
    地址:
    ```text
    http://74.91.26.218:82/live/cctv12hd.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-105. CCTV-12
+85. CCTV-12
    地址:
    ```text
-   http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv12hd
+   http://38.75.136.137:98/gslb/dsdqpub/cctv12hd.m3u8?auth=testpub
    ```
    原因: 超过每频道 5 条上限
 
-106. CCTV-12
+86. CCTV-12
+   地址:
+   ```text
+   http://38.75.136.137:98/gslb/dsdqbv/cctv12hd.m3u8?auth=test20251009
+   ```
+   原因: 超过每频道 5 条上限
+
+87. CCTV-12
    地址:
    ```text
    http://104.152.209.49:8181/720p/cctv12.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-107. CCTV-12
+88. CCTV-12
    地址:
    ```text
    http://107.150.60.122/live/cctv12hd.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-108. CCTV-12
+89. CCTV-13
    地址:
    ```text
-   http://204.12.221.218:8181/3m1080p/cctv12.m3u8
+   http://107.150.60.122/live/cctv13hd.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-109. CCTV-12
+90. CCTV-13
    地址:
    ```text
-   http://153.0.171.163:9901/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&authid=0
+   http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv13hd
    ```
    原因: 超过每频道 5 条上限
 
-110. CCTV-13
+91. CCTV-13
    地址:
    ```text
-   http://153.0.171.163:9901/tsfile/live/1012_1.m3u8?key=txiptv&playlive=1&authid=0
+   https://epg.pw/stream/5d3d047c64e44d0a24dc33e5700e579457201d2960036b43819bd930a0bb76a7.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-111. CCTV-14
+92. CCTV-13
    地址:
    ```text
-   http://1.24.39.180:9003/hls/14/index.m3u8
+   http://204.12.221.218:8181/3m1080p/cctv13.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-112. CCTV-14
+93. CCTV-14
    地址:
    ```text
    http://74.91.26.218:82/live/cctv14hd.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-113. CCTV-14
+94. CCTV-14
    地址:
    ```text
-   http://38.75.136.137:98/gslb/dsdqbv/cctv14hd.m3u8?auth=test20251009
+   http://204.12.221.218:8181/3m1080p/cctv14.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-114. CCTV-14
-   地址:
-   ```text
-   http://bztv.tvbus.cc:8081/cdnlive/cctv14.m3u8
-   ```
-   原因: 超过每频道 5 条上限
-
-115. CCTV-14
+95. CCTV-14
    地址:
    ```text
    http://38.75.136.137:98/gslb/dsdqpub/cctv14hd.m3u8?auth=testpub
    ```
    原因: 超过每频道 5 条上限
 
-116. CCTV-14
+96. CCTV-14
    地址:
    ```text
-   http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv14hd
+   http://38.75.136.137:98/gslb/dsdqbv/cctv14hd.m3u8?auth=test20251009
    ```
    原因: 超过每频道 5 条上限
 
-117. CCTV-14
+97. CCTV-14
+   地址:
+   ```text
+   http://bztv.tvbus.cc:8081/cdnlive/cctv14.m3u8
+   ```
+   原因: 超过每频道 5 条上限
+
+98. CCTV-14
    地址:
    ```text
    http://173.208.212.130:8181/1080p/cctv14.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-118. CCTV-15
+99. CCTV-14
    地址:
    ```text
-   http://38.75.136.137:98/gslb/dsdqpub/cctv15hd.m3u8?auth=testpub
+   http://104.152.209.49:8181/720p/cctv14.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-119. CCTV-15
+100. CCTV-14
+   地址:
+   ```text
+   http://113.25.252.226:9901/tsfile/live/1018_1.m3u8?key=txiptv&playlive=1&authid=0
+   ```
+   原因: 超过每频道 5 条上限
+
+101. CCTV-15
+   地址:
+   ```text
+   http://123.118.55.165:45237/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0
+   ```
+   原因: 超过每频道 5 条上限
+
+102. CCTV-15
    地址:
    ```text
    http://204.12.221.218:8181/3m1080p/cctv15.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-120. CCTV-15
+103. CCTV-15
    地址:
    ```text
    http://bztv.tvbus.cc:8081/cdnlive/cctv15.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-121. CCTV-15
+104. CCTV-15
    地址:
    ```text
-   http://38.75.136.137:98/gslb/dsdqbv/cctv15hd.m3u8?auth=test20251009
+   http://38.75.136.137:98/gslb/dsdqpub/cctv15hd.m3u8?auth=testpub
    ```
    原因: 超过每频道 5 条上限
 
-122. CCTV-15
-   地址:
-   ```text
-   http://198.204.228.26/live/cctv15hd.m3u8
-   ```
-   原因: 超过每频道 5 条上限
-
-123. CCTV-15
-   地址:
-   ```text
-   http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv15hd
-   ```
-   原因: 超过每频道 5 条上限
-
-124. CCTV-15
+105. CCTV-15
    地址:
    ```text
    http://173.208.212.130:8181/1080p/cctv15.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-125. CCTV-15
+106. CCTV-15
    地址:
    ```text
-   http://104.152.209.49:8181/720p/cctv15.m3u8
+   http://101.66.199.253:9901/tsfile/live/0015_1.m3u8?key=txiptv&playlive=0&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-126. CCTV-15
+107. CCTV-15
    地址:
    ```text
-   http://74.91.26.218:82/live/cctv15hd.m3u8
+   http://153.0.171.163:9901/tsfile/live/1014_1.m3u8?key=txiptv&playlive=1&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-127. CCTV-16
+108. CCTV-16
+   地址:
+   ```text
+   http://112.27.5.218:9901/tsfile/live/faacts/1001_1.m3u8?key=txiptv&playlive=1&authid=0
+   ```
+   原因: 超过每频道 5 条上限
+
+109. CCTV-16
    地址:
    ```text
    http://104.152.209.49:8181/720p/cctv16.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-128. CCTV-16
+110. CCTV-16
    地址:
    ```text
-   http://38.75.136.137:98/gslb/dsdqbv/cctv16hd.m3u8?auth=test20251009
+   http://38.75.136.137:98/gslb/dsdqpub/cctv16hd.m3u8?auth=testpub
    ```
    原因: 超过每频道 5 条上限
 
-129. CCTV-17
+111. CCTV-16
+   地址:
+   ```text
+   https://epg.pw/stream/c1beb2abcba5aef09c2f58efc3ca84b76de2c7b9cf60762b0d79772d9e70d454.m3u8
+   ```
+   原因: 超过每频道 5 条上限
+
+112. CCTV-17
+   地址:
+   ```text
+   http://113.90.154.189:9901/tsfile/live/0017_1.m3u8?key=txiptv&playlive=1&authid=0
+   ```
+   原因: 超过每频道 5 条上限
+
+113. CCTV-17
+   地址:
+   ```text
+   http://192.151.150.154/live/cctv17hd.m3u8
+   ```
+   原因: 超过每频道 5 条上限
+
+114. CCTV-17
+   地址:
+   ```text
+   http://38.75.136.137:98/gslb/dsdqpub/cctv17hd.m3u8?auth=testpub
+   ```
+   原因: 超过每频道 5 条上限
+
+115. CCTV-17
    地址:
    ```text
    http://104.152.209.49:8181/720p/cctv17.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-130. 北京卫视
+116. CCTV-4
    地址:
    ```text
-   http://153.0.171.163:9901/tsfile/live/0122_1.m3u8?key=txiptv&playlive=1&authid=0
+   http://104.152.209.49:8181/720p/cctv4k.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-131. 湖南卫视
-   地址:
-   ```text
-   http://107.150.60.122/live/hnwshd.m3u8
-   ```
-   原因: 超过每频道 5 条上限
-
-132. 湖南卫视
-   地址:
-   ```text
-   http://173.208.212.130:8181/720p/hnws.m3u8
-   ```
-   原因: 超过每频道 5 条上限
-
-133. 湖南卫视
-   地址:
-   ```text
-   http://204.12.221.218:8181/3m1080p/hnws.m3u8
-   ```
-   原因: 超过每频道 5 条上限
-
-134. 湖南卫视
+117. 湖南卫视
    地址:
    ```text
    http://198.204.228.26/live/hnwshd.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-135. 湖南卫视
+118. 湖南卫视
+   地址:
+   ```text
+   http://38.75.136.137:98/gslb/dsdqpub/hnwshd.m3u8?auth=testpub
+   ```
+   原因: 超过每频道 5 条上限
+
+119. 湖南卫视
+   地址:
+   ```text
+   http://107.150.60.122/live/hnwshd.m3u8
+   ```
+   原因: 超过每频道 5 条上限
+
+120. 湖南卫视
+   地址:
+   ```text
+   http://192.151.150.154/live/hnwshd.m3u8
+   ```
+   原因: 超过每频道 5 条上限
+
+121. 湖南卫视
    地址:
    ```text
    http://74.91.26.218:82/live/hnwshd.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-136. 湖南卫视
+122. 湖南卫视
    地址:
    ```text
    http://63.141.230.178:82/gslb/zbdq5.m3u8?id=hnwshd
    ```
    原因: 超过每频道 5 条上限
 
-137. 湖南卫视
+123. 东方卫视
    地址:
    ```text
-   http://104.152.209.49:8181/720p/hnws.m3u8
+   http://124.228.160.210:9901/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-138. 东方卫视
+124. 东方卫视
    地址:
    ```text
-   http://192.151.150.154/live/dfwshd.m3u8
+   http://153.0.171.163:9901/tsfile/live/0107_1.m3u8?key=txiptv&playlive=1&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-139. 东方卫视
-   地址:
-   ```text
-   http://173.208.212.130:8181/720p/dfws.m3u8
-   ```
-   原因: 超过每频道 5 条上限
-
-140. 东方卫视
-   地址:
-   ```text
-   http://63.141.230.178:82/gslb/zbdq5.m3u8?id=dfwshd
-   ```
-   原因: 超过每频道 5 条上限
-
-141. 东方卫视
-   地址:
-   ```text
-   https://txmov2.a.kwimgs.com/bs3/video-hls/5219953535631090825_hlsb.m3u8
-   ```
-   原因: 超过每频道 5 条上限
-
-142. 四川卫视
-   地址:
-   ```text
-   http://204.12.221.218:8181/3m1080p/scws.m3u8
-   ```
-   原因: 超过每频道 5 条上限
-
-143. 四川卫视
-   地址:
-   ```text
-   http://112.123.243.37:50085/tsfile/live/0139_1.m3u8?key=txiptv&playlive=0&authid=0
-   ```
-   原因: 超过每频道 5 条上限
-
-144. 天津卫视
-   地址:
-   ```text
-   http://198.204.228.26/live/tjwshd.m3u8
-   ```
-   原因: 超过每频道 5 条上限
-
-145. 天津卫视
-   地址:
-   ```text
-   http://63.141.230.178:82/gslb/zbdq5.m3u8?id=tjwshd
-   ```
-   原因: 超过每频道 5 条上限
-
-146. 天津卫视
-   地址:
-   ```text
-   http://204.12.221.218:8181/3m1080p/tjws.m3u8
-   ```
-   原因: 超过每频道 5 条上限
-
-147. 天津卫视
-   地址:
-   ```text
-   http://120.198.95.220:9901/tsfile/live/1067_1.m3u8?key=txiptv&playlive=1&down=1
-   ```
-   原因: 超过每频道 5 条上限
-
-148. 天津卫视
+125. 天津卫视
    地址:
    ```text
    http://36.136.38.87:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-149. 安徽卫视
+126. 山东卫视
    地址:
    ```text
-   http://153.0.171.163:9901/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0
+   http://207.56.13.146:81/cdnlive/sdws.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-150. 广东卫视
+127. 山东卫视
    地址:
    ```text
-   http://207.56.13.146:81/cdnlive/gdws.m3u8
+   http://153.0.171.163:9901/tsfile/live/0131_1.m3u8?key=txiptv&playlive=1&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-151. 广东卫视
+128. 广东卫视
+   地址:
+   ```text
+   http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gdwshd
+   ```
+   原因: 超过每频道 5 条上限
+
+129. 广东卫视
    地址:
    ```text
    http://104.152.209.49:8181/720p/gdws.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-152. 广东卫视
+130. 广东卫视
    地址:
    ```text
-   http://204.12.221.218:8181/3m1080p/gdws.m3u8
+   http://207.56.13.146:81/cdnlive/gdws.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-153. 广西卫视
+131. 广东卫视
    地址:
    ```text
-   http://112.123.243.37:50085/tsfile/live/0137_1.m3u8?key=txiptv&playlive=0&authid=0
+   http://38.75.136.137:98/gslb/dsdqpub/gdwshd.m3u8?auth=testpub
    ```
    原因: 超过每频道 5 条上限
 
-154. 广西卫视
+132. 江苏卫视
    地址:
    ```text
-   http://101.66.199.252:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0
+   http://207.56.13.146:81/cdnlive/jsws.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-155. 广西卫视
+133. 江苏卫视
    地址:
    ```text
-   http://101.66.195.138:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0
+   http://63.141.230.178:82/gslb/zbdq5.m3u8?id=jswshd
    ```
    原因: 超过每频道 5 条上限
 
-156. 江苏卫视
-   地址:
-   ```text
-   http://107.150.60.122/live/jswshd.m3u8
-   ```
-   原因: 超过每频道 5 条上限
-
-157. 江苏卫视
+134. 江苏卫视
    地址:
    ```text
    http://104.152.209.49:8181/720p/jsws.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-158. 江苏卫视
+135. 江苏卫视
    地址:
    ```text
    http://124.228.160.210:9901/tsfile/live/0127_1.m3u8?key=txiptv&playlive=1&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-159. 河北卫视
+136. 江西卫视
    地址:
    ```text
-   http://38.75.136.137:98/gslb/dsdqpub/hewshd.m3u8?auth=testpub
+   http://63.141.230.178:82/gslb/zbdq5.m3u8?id=jxwshd
    ```
    原因: 超过每频道 5 条上限
 
-160. 河北卫视
-   地址:
-   ```text
-   http://173.208.212.130:8181/720p/hews.m3u8
-   ```
-   原因: 超过每频道 5 条上限
-
-161. 河北卫视
+137. 河北卫视
    地址:
    ```text
    http://63.141.230.178:82/gslb/zbdq5.m3u8?id=hewshd
    ```
    原因: 超过每频道 5 条上限
 
-162. 河北卫视
+138. 河北卫视
    地址:
    ```text
-   http://204.12.221.218:8181/3m1080p/hews.m3u8
+   http://192.151.150.154/live/hewshd.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-163. 河南卫视
+139. 河北卫视
    地址:
    ```text
-   http://204.12.221.218:8181/3m1080p/haws.m3u8
+   http://38.75.136.137:98/gslb/dsdqpub/hewshd.m3u8?auth=testpub
    ```
    原因: 超过每频道 5 条上限
 
-164. 河南卫视
+140. 河南卫视
    地址:
    ```text
-   http://104.152.209.49:8181/720p/haws.m3u8
+   http://198.204.228.26/live/hawshd.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-165. 河南卫视
+141. 河南卫视
    地址:
    ```text
-   http://113.25.252.226:9901/tsfile/live/1032_1.m3u8?key=txiptv&playlive=1&authid=0
+   http://63.141.230.178:82/gslb/zbdq5.m3u8?id=hawshd
    ```
    原因: 超过每频道 5 条上限
 
-166. 河南卫视
+142. 河南卫视
    地址:
    ```text
-   http://112.123.243.37:50085/tsfile/live/0121_1.m3u8?key=txiptv&playlive=0&authid=0
+   http://173.208.212.130:8181/720p/haws.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-167. 湖北卫视
+143. 浙江卫视
    地址:
    ```text
-   http://153.0.171.163:85/tsfile/live/0132_1.m3u8?key=txiptv&playlive=1&authid=0
+   http://ali-xwl.cztv.com/live/channel01720Plxw.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-168. 山西卫视
+144. 浙江卫视
    地址:
    ```text
-   http://101.66.199.65:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
+   http://124.228.160.210:9901/tsfile/live/0124_1.m3u8?key=txiptv&playlive=1&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-169. 山西卫视
+145. 湖北卫视
    地址:
    ```text
-   http://101.66.195.138:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
+   http://63.141.230.178:82/gslb/zbdq5.m3u8?id=hbwshd
    ```
    原因: 超过每频道 5 条上限
 
-170. 山西卫视
+146. 山西卫视
    地址:
    ```text
-   http://101.66.199.252:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
+   http://101.66.194.201:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-171. 山西卫视
+147. 东南卫视
    地址:
    ```text
-   http://58.56.162.102:4466/newlive/live/hls/32/live.m3u8
+   http://107.150.60.122/live/dnwshd.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-172. 东南卫视
+148. 东南卫视
+   地址:
+   ```text
+   http://198.204.228.26/live/dnwshd.m3u8
+   ```
+   原因: 超过每频道 5 条上限
+
+149. 东南卫视
+   地址:
+   ```text
+   http://192.151.150.154/live/dnwshd.m3u8
+   ```
+   原因: 超过每频道 5 条上限
+
+150. 东南卫视
+   地址:
+   ```text
+   http://207.56.13.146:81/cdnlive/dnws.m3u8
+   ```
+   原因: 超过每频道 5 条上限
+
+151. 东南卫视
    地址:
    ```text
    http://63.141.230.178:82/gslb/zbdq5.m3u8?id=dnwshd
    ```
    原因: 超过每频道 5 条上限
 
-173. 东南卫视
-   地址:
-   ```text
-   http://204.12.221.218:8181/3m1080p/dnws.m3u8
-   ```
-   原因: 超过每频道 5 条上限
-
-174. 东南卫视
+152. 东南卫视
    地址:
    ```text
    http://112.123.243.37:50085/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-175. 贵州卫视
+153. 辽宁卫视
    地址:
    ```text
-   http://38.75.136.137:98/gslb/dsdqpub/gzwshd.m3u8?auth=testpub
+   http://198.204.228.26/live/lnwshd.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-176. 贵州卫视
+154. 辽宁卫视
    地址:
    ```text
-   http://192.151.150.154/live/gzwshd.m3u8
+   http://63.141.230.178:82/gslb/zbdq5.m3u8?id=lnwshd
    ```
    原因: 超过每频道 5 条上限
 
-177. 贵州卫视
+155. 重庆卫视
    地址:
    ```text
-   http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gzwshd
+   http://112.123.243.37:50085/tsfile/live/0131_1.m3u8?key=txiptv&playlive=0&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-178. 贵州卫视
+156. 黑龙江卫视
    地址:
    ```text
-   http://204.12.221.218:8181/3m1080p/gzws.m3u8
+   http://118.193.115.2:9901/tsfile/live/0143_1.m3u8?key=txiptv
    ```
    原因: 超过每频道 5 条上限
 
-179. 贵州卫视
+157. 宁夏卫视
    地址:
    ```text
-   http://153.0.171.163:9901/tsfile/live/0120_1.m3u8?key=txiptv&playlive=1&authid=0
+   http://113.25.252.226:9901/tsfile/live/1046_1.m3u8?key=txiptv&playlive=1&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-180. 黑龙江卫视
+158. 宁夏卫视
    地址:
    ```text
-   http://63.141.230.178:82/gslb/zbdq5.m3u8?id=hljwshd
+   http://58.56.162.102:4466/newlive/live/hls/43/live.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-181. 黑龙江卫视
+159. 陕西卫视
    地址:
    ```text
-   http://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8
+   http://192.151.150.154/live/snwshd.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-182. 黑龙江卫视
+160. 陕西卫视
    地址:
    ```text
-   http://153.0.171.163:9901/tsfile/live/0143_1.m3u8?key=txiptv&playlive=1&authid=0
+   http://63.141.230.178:82/gslb/zbdq5.m3u8?id=snwshd
    ```
    原因: 超过每频道 5 条上限
 
-183. 内蒙古卫视
-   地址:
-   ```text
-   http://63.141.230.178:82/gslb/zbdq5.m3u8?id=nmgws
-   ```
-   原因: 超过每频道 5 条上限
-
-184. 内蒙古卫视
-   地址:
-   ```text
-   http://112.123.243.37:50085/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
-   ```
-   原因: 超过每频道 5 条上限
-
-185. 内蒙古卫视
-   地址:
-   ```text
-   http://58.56.162.102:4466/newlive/live/hls/40/live.m3u8
-   ```
-   原因: 超过每频道 5 条上限
-
-186. 陕西卫视
-   地址:
-   ```text
-   http://204.12.221.218:8181/3m1080p/snws.m3u8
-   ```
-   原因: 超过每频道 5 条上限
-
-187. 陕西卫视
+161. 陕西卫视
    地址:
    ```text
    http://112.123.243.37:50085/tsfile/live/0109_1.m3u8?key=txiptv&playlive=0&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-188. 陕西卫视
-   地址:
-   ```text
-   http://101.66.199.65:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0
-   ```
-   原因: 超过每频道 5 条上限
-
-189. 陕西卫视
-   地址:
-   ```text
-   http://101.66.195.138:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0
-   ```
-   原因: 超过每频道 5 条上限
-
-190. 陕西卫视
+162. 陕西卫视
    地址:
    ```text
    http://120.198.95.220:9901/tsfile/live/1068_1.m3u8?key=txiptv&playlive=1&down=1
    ```
    原因: 超过每频道 5 条上限
 
-191. 陕西卫视
+163. 吉林卫视
    地址:
    ```text
-   http://153.0.171.163:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=1&authid=0
+   http://63.141.230.178:82/gslb/zbdq5.m3u8?id=jlwshd
    ```
    原因: 超过每频道 5 条上限
 
-192. 吉林卫视
+164. 吉林卫视
    地址:
    ```text
-   http://204.12.221.218:8181/3m1080p/jlws.m3u8
+   http://111.8.224.6:9999/tsfile/live/1032_1.m3u8?key=txiptv&playlive=1&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-193. 吉林卫视
+165. 云南卫视
    地址:
    ```text
-   http://112.123.243.37:50085/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
+   http://38.75.136.137:98/gslb/dsdqpub/ynwshd.m3u8?auth=testpub
    ```
    原因: 超过每频道 5 条上限
 
-194. 吉林卫视
-   地址:
-   ```text
-   http://101.66.199.252:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
-   ```
-   原因: 超过每频道 5 条上限
-
-195. 吉林卫视
-   地址:
-   ```text
-   http://101.66.195.138:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
-   ```
-   原因: 超过每频道 5 条上限
-
-196. 吉林卫视
-   地址:
-   ```text
-   http://101.66.199.253:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
-   ```
-   原因: 超过每频道 5 条上限
-
-197. 吉林卫视
-   地址:
-   ```text
-   http://153.0.171.163:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=1&authid=0
-   ```
-   原因: 超过每频道 5 条上限
-
-198. 云南卫视
+166. 云南卫视
    地址:
    ```text
    http://107.150.60.122/live/ynwshd.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-199. 云南卫视
+167. 云南卫视
    地址:
    ```text
-   http://198.204.228.26/live/ynwshd.m3u8
-   ```
-   原因: 超过每频道 5 条上限
-
-200. 云南卫视
-   地址:
-   ```text
-   http://120.198.95.220:9901/tsfile/live/1007_1.m3u8?key=txiptv
-   ```
-   原因: 超过每频道 5 条上限
-
-201. 云南卫视
-   地址:
-   ```text
-   http://204.12.221.218:8181/3m1080p/ynws.m3u8
-   ```
-   原因: 超过每频道 5 条上限
-
-202. 云南卫视
-   地址:
-   ```text
-   http://192.151.150.154/live/ynwshd.m3u8
-   ```
-   原因: 超过每频道 5 条上限
-
-203. 云南卫视
-   地址:
-   ```text
-   http://112.123.243.37:50085/tsfile/live/0117_1.m3u8?key=txiptv&playlive=0&authid=0
-   ```
-   原因: 超过每频道 5 条上限
-
-204. 云南卫视
-   地址:
-   ```text
-   http://101.66.195.138:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0
-   ```
-   原因: 超过每频道 5 条上限
-
-205. 云南卫视
-   地址:
-   ```text
-   http://101.66.199.252:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0
-   ```
-   原因: 超过每频道 5 条上限
-
-206. 云南卫视
-   地址:
-   ```text
-   http://101.66.199.65:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0
-   ```
-   原因: 超过每频道 5 条上限
-
-207. 新疆卫视
-   地址:
-   ```text
-   http://58.56.162.102:4466/newlive/live/hls/44/live.m3u8
+   http://63.141.230.178:82/gslb/zbdq5.m3u8?id=ynwshd
    ```
    原因: 超过每频道 5 条上限
