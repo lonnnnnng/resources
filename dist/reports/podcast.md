@@ -1,12 +1,12 @@
 # 播客源检测报告
 
-生成时间: 2026-08-11T20:04:18.821Z
+生成时间: 2026-08-12T20:04:24.357Z
 
 活跃规则: 仅保留最近 1 个月内有音频条目更新的 RSS/Atom 源。
 
 总数: 109
-可用: 67
-失败: 42
+可用: 66
+失败: 43
 
 ## 失败项
 
@@ -141,7 +141,7 @@
    ```text
    https://anyway.fm/rss.xml
    ```
-   错误: fetch failed
+   错误: This operation was aborted
 
 20. 五湖四海 5lake4sea
    地址:
@@ -169,7 +169,7 @@
    ```text
    http://rss.lizhi.fm/rss/1063597.xml
    ```
-   错误: This operation was aborted
+   错误: not updated in last month, latest audio update 2026-05-11T04:28:21.000Z
 
 24. 过刊
    地址:
@@ -178,126 +178,133 @@
    ```
    错误: not updated in last month, latest audio update 2026-06-13T11:39:40.000Z
 
-25. 螺丝在拧紧
+25. 剧谈社
+   地址:
+   ```text
+   https://www.ximalaya.com/album/43127335.xml
+   ```
+   错误: not updated in last month, latest audio update 2026-07-12T16:00:00.000Z
+
+26. 螺丝在拧紧
    地址:
    ```text
    http://www.ximalaya.com/album/47008946.xml
    ```
    错误: not updated in last month, latest audio update 2026-07-08T23:30:00.000Z
 
-26. 普通读者
+27. 普通读者
    地址:
    ```text
    https://anchor.fm/s/3bd8896c/podcast/rss
    ```
    错误: not updated in last month, latest audio update 2026-07-09T18:15:05.000Z
 
-27. 例外状态 State of Exception
+28. 例外状态 State of Exception
    地址:
    ```text
    https://anchor.fm/s/5d9c1a28/podcast/rss
    ```
    错误: not updated in last month, latest audio update 2026-06-03T05:42:14.000Z
 
-28. 蜜獾吃书
+29. 蜜獾吃书
    地址:
    ```text
    https://www.ximalaya.com/album/64689453.xml
    ```
    错误: not updated in last month, latest audio update 2026-07-11T11:59:09.000Z
 
-29. 漂浮绿洲 Floating Oasis
+30. 漂浮绿洲 Floating Oasis
    地址:
    ```text
    https://anchor.fm/s/e60787d0/podcast/rss
    ```
    错误: not updated in last month, latest audio update 2026-05-30T01:51:59.000Z
 
-30. 好青年荼毒室
+31. 好青年荼毒室
    地址:
    ```text
    https://anchor.fm/s/3f94b8a0/podcast/rss
    ```
    错误: not updated in last month, latest audio update 2026-07-01T23:00:00.000Z
 
-31. 问题不大 NoBigDeal
+32. 问题不大 NoBigDeal
    地址:
    ```text
    https://www.ximalaya.com/album/49570973.xml
    ```
    错误: not updated in last month, latest audio update 2026-07-09T23:00:00.000Z
 
-32. 无人知晓
+33. 无人知晓
    地址:
    ```text
    https://feed.xyzfm.space/ypn9dydpbxpc
    ```
    错误: not updated in last month, latest audio update 2026-03-03T12:00:00.000Z
 
-33. 范特西码后炮
+34. 范特西码后炮
    地址:
    ```text
    https://anchor.fm/s/6ade80f4/podcast/rss
    ```
    错误: not updated in last month, latest audio update 2026-06-29T22:45:04.000Z
 
-34. 这刺聊点啥
+35. 这刺聊点啥
    地址:
    ```text
    https://www.ximalaya.com/album/29601116.xml
    ```
    错误: not updated in last month, latest audio update 2026-01-06T21:57:56.000Z
 
-35. FView Friday
+36. FView Friday
    地址:
    ```text
    https://www.ximalaya.com/album/41563226.xml
    ```
    错误: not updated in last month, latest audio update 2026-07-11T07:20:06.000Z
 
-36. 嘻谈录
+37. 嘻谈录
    地址:
    ```text
    https://www.ximalaya.com/album/43044571.xml
    ```
    错误: not updated in last month, latest audio update 2025-07-26T15:30:00.000Z
 
-37. 奇妙店台
+38. 奇妙店台
    地址:
    ```text
    http://www.ximalaya.com/album/8224043.xml
    ```
    错误: not updated in last month, latest audio update 2025-06-16T01:07:36.000Z
 
-38. Kotlin 炉边漫谈
+39. Kotlin 炉边漫谈
    地址:
    ```text
    https://www.ximalaya.com/album/68370676.xml
    ```
    错误: not updated in last month, latest audio update 2025-04-07T08:17:21.000Z
 
-39. 夸夸歧谈
+40. 夸夸歧谈
    地址:
    ```text
    https://anchor.fm/s/9422c4e8/podcast/rss
    ```
    错误: not updated in last month, latest audio update 2025-06-02T23:25:58.000Z
 
-40. 酒嗝播客
+41. 酒嗝播客
    地址:
    ```text
    http://rss.lizhi.fm/rss/171448272.xml
    ```
    错误: not updated in last month, latest audio update 2025-01-27T03:53:37.000Z
 
-41. 史播客
+42. 史播客
    地址:
    ```text
    https://feeds.soundon.fm/podcasts/e9ce0c40-9b4a-41e2-a19e-db9e5aeca3f7.xml
    ```
    错误: not updated in last month, latest audio update 2025-01-09T12:41:05.000Z
 
-42. 南方聲活
+43. 南方聲活
    地址:
    ```text
    https://feeds.soundon.fm/podcasts/dce49dcf-aadf-43d6-8b24-4e7ed3e37da6.xml
