@@ -14,25 +14,10 @@
     "api": "https://caiji.dbzy5.com/api.php/provide/vod",
     "detail": "https://dbzy.tv"
   },
-  "api.guangsuapi.com": {
-    "name": "光速资源",
-    "api": "https://api.guangsuapi.com/api.php/provide/vod",
-    "detail": "https://api.guangsuapi.com"
-  },
   "www.haohuazy.com": {
     "name": "豪华资源",
     "api": "https://hhzyapi.com/api.php/provide/vod",
     "detail": "https://www.haohuazy.com"
-  },
-  "www.hongniuzy.com": {
-    "name": "红牛资源",
-    "api": "https://www.hongniuzy2.com/api.php/provide/vod",
-    "detail": "https://www.hongniuzy.com"
-  },
-  "www.huyaapi.com": {
-    "name": "虎牙资源",
-    "api": "https://www.huyaapi.com/api.php/provide/vod",
-    "detail": "https://www.huyaapi.com"
   },
   "jszyapi.com": {
     "name": "极速资源",
@@ -59,20 +44,10 @@
     "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
     "detail": "https://mtzy.me"
   },
-  "caiji.moduapi.cc": {
-    "name": "魔都动漫",
-    "api": "https://caiji.moduapi.cc/api.php/provide/vod",
-    "detail": "https://caiji.moduapi.cc"
-  },
   "www.moduzy.net": {
     "name": "魔都资源",
     "api": "https://www.mdzyapi.com/api.php/provide/vod",
     "detail": "https://www.moduzy.net"
-  },
-  "yhzy.cc": {
-    "name": "樱花资源",
-    "api": "https://m3u8.apiyhzy.com/api.php/provide/vod",
-    "detail": "https://yhzy.cc"
   },
   "zuidazy.co": {
     "name": "最大点播",

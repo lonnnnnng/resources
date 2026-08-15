@@ -1,53 +1,5 @@
 [
   {
-    "title": "所建所闻",
-    "url": "https://feeds.fireside.fm/architalk/rss"
-  },
-  {
-    "title": "半拿铁 | 商业沉浮录",
-    "url": "https://proxy.wavpub.com/caffebreve.xml"
-  },
-  {
-    "title": "商业就是这样",
-    "url": "https://feeds.fireside.fm/thatisbiz/rss"
-  },
-  {
-    "title": "起朱楼宴宾客",
-    "url": "https://feed.xyzfm.space/ahng8d9qlywl"
-  },
-  {
-    "title": "乱翻书",
-    "url": "https://feed.xyzfm.space/yxuruh3f9mc4"
-  },
-  {
-    "title": "井户端会议",
-    "url": "https://feed.xyzfm.space/68acw4ke4frl"
-  },
-  {
-    "title": "晚点聊 LateTalk",
-    "url": "https://feeds.fireside.fm/latetalk/rss"
-  },
-  {
-    "title": "硅谷101",
-    "url": "https://feeds.fireside.fm/sv101/rss"
-  },
-  {
-    "title": "随机波动StochasticVolatility",
-    "url": "https://feeds.fireside.fm/stovol/rss"
-  },
-  {
-    "title": "边角聊",
-    "url": "https://feeds.fireside.fm/leftovertalk/rss"
-  },
-  {
-    "title": "一知半解",
-    "url": "https://feeds.podshow.cn/smatter.xml"
-  },
-  {
-    "title": "津津乐道",
-    "url": "https://feeds.jjldbk.com/all.xml"
-  },
-  {
     "title": "未命名播客",
     "url": "https://feeds.fireside.fm/untitledpodcast/rss"
   },
@@ -154,6 +106,10 @@
   {
     "title": "读报teleread",
     "url": "https://anchor.fm/s/fcb6c04/podcast/rss"
+  },
+  {
+    "title": "普通读者",
+    "url": "https://anchor.fm/s/3bd8896c/podcast/rss"
   },
   {
     "title": "例外状态 State of Exception",
