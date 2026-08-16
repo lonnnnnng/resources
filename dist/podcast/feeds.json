@@ -1,5 +1,53 @@
 [
   {
+    "title": "声东击西",
+    "url": "https://feeds.fireside.fm/shengdongjixi/rss"
+  },
+  {
+    "title": "What's Next｜科技早知道",
+    "url": "https://feeds.fireside.fm/guiguzaozhidao/rss"
+  },
+  {
+    "title": "疯投圈",
+    "url": "https://crazy.capital/feed"
+  },
+  {
+    "title": "迟早更新",
+    "url": "https://podcast.weareones.com/feed/audio.xml"
+  },
+  {
+    "title": "忽左忽右中国版",
+    "url": "https://www.ximalaya.com/album/12817863.xml"
+  },
+  {
+    "title": "创业内幕 Startup Insider",
+    "url": "https://www.ximalaya.com/album/20119986.xml"
+  },
+  {
+    "title": "所建所闻",
+    "url": "https://feeds.fireside.fm/architalk/rss"
+  },
+  {
+    "title": "商业就是这样",
+    "url": "https://feeds.fireside.fm/thatisbiz/rss"
+  },
+  {
+    "title": "晚点聊 LateTalk",
+    "url": "https://feeds.fireside.fm/latetalk/rss"
+  },
+  {
+    "title": "硅谷101",
+    "url": "https://feeds.fireside.fm/sv101/rss"
+  },
+  {
+    "title": "随机波动StochasticVolatility",
+    "url": "https://feeds.fireside.fm/stovol/rss"
+  },
+  {
+    "title": "边角聊",
+    "url": "https://feeds.fireside.fm/leftovertalk/rss"
+  },
+  {
     "title": "未命名播客",
     "url": "https://feeds.fireside.fm/untitledpodcast/rss"
   },
