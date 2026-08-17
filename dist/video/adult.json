@@ -84,6 +84,11 @@
     "api": "https://lbapi9.com/api.php/provide/vod",
     "detail": "https://lbapi9.com"
   },
+  "91md.me": {
+    "name": "🔞麻豆视频",
+    "api": "https://91md.me/api.php/provide/vod",
+    "detail": "https://91md.me"
+  },
   "Naixxzy.com": {
     "name": "🔞奶香资源",
     "api": "https://Naixxzy.com/api.php/provide/vod",

@@ -60,7 +60,7 @@
     "detail": "https://155zy2.com",
     "comment": "",
     "adult": true,
-    "searchStatus": "命中"
+    "searchStatus": "无结果"
   },
   {
     "key": "www.kxgav.com",
@@ -148,6 +148,15 @@
     "name": "🔞乐播资源",
     "api": "https://lbapi9.com/api.php/provide/vod",
     "detail": "https://lbapi9.com",
+    "comment": "",
+    "adult": true,
+    "searchStatus": "命中"
+  },
+  {
+    "key": "91md.me",
+    "name": "🔞麻豆视频",
+    "api": "https://91md.me/api.php/provide/vod",
+    "detail": "https://91md.me",
     "comment": "",
     "adult": true,
     "searchStatus": "命中"
@@ -297,10 +306,28 @@
     "searchStatus": "无结果"
   },
   {
+    "key": "ffzyapi.com",
+    "name": "非凡资源",
+    "api": "https://api.ffzyapi.com/api.php/provide/vod",
+    "detail": "https://cj.ffzyapi.com",
+    "comment": "",
+    "adult": false,
+    "searchStatus": "命中"
+  },
+  {
     "key": "api.guangsuapi.com",
     "name": "光速资源",
     "api": "https://api.guangsuapi.com/api.php/provide/vod",
     "detail": "https://api.guangsuapi.com",
+    "comment": "",
+    "adult": false,
+    "searchStatus": "命中"
+  },
+  {
+    "key": "www.haohuazy.com",
+    "name": "豪华资源",
+    "api": "https://hhzyapi.com/api.php/provide/vod",
+    "detail": "https://www.haohuazy.com",
     "comment": "",
     "adult": false,
     "searchStatus": "命中"
@@ -311,6 +338,15 @@
     "api": "https://www.hongniuzy2.com/api.php/provide/vod",
     "detail": "https://www.hongniuzy.com",
     "comment": "",
+    "adult": false,
+    "searchStatus": "命中"
+  },
+  {
+    "key": "www.huyaapi.com",
+    "name": "虎牙资源",
+    "api": "https://www.huyaapi.com/api.php/provide/vod",
+    "detail": "https://www.huyaapi.com",
+    "comment": "污染搜索结果",
     "adult": false,
     "searchStatus": "命中"
   },
@@ -329,6 +365,15 @@
     "api": "https://jinyingzy.com/api.php/provide/vod",
     "detail": "https://jinyingzy.com",
     "comment": "",
+    "adult": false,
+    "searchStatus": "命中"
+  },
+  {
+    "key": "lzizy.net",
+    "name": "量子影视",
+    "api": "https://cj.lziapi.com/api.php/provide/vod",
+    "detail": "https://lzizy.net",
+    "comment": "备用",
     "adult": false,
     "searchStatus": "命中"
   },
@@ -378,6 +423,15 @@
     "searchStatus": "命中"
   },
   {
+    "key": "www.ryzyw.com",
+    "name": "如意资源",
+    "api": "https://cj.rycjapi.com/api.php/provide/vod",
+    "detail": "https://www.ryzyw.com",
+    "comment": "",
+    "adult": false,
+    "searchStatus": "命中"
+  },
+  {
     "key": "www.subozy.com",
     "name": "速播资源",
     "api": "https://subocaiji.com/api.php/provide/vod",
@@ -412,6 +466,24 @@
     "comment": " 403 Forbidden ",
     "adult": false,
     "searchStatus": "HTTP 403 Forbidden"
+  },
+  {
+    "key": "1080zyk4.com",
+    "name": "优质资源",
+    "api": "https://api.yzzy-api.com/inc/apijson.php",
+    "detail": "https://1080zyk4.com",
+    "comment": "无法搜索",
+    "adult": false,
+    "searchStatus": "命中"
+  },
+  {
+    "key": "zuidazy.co",
+    "name": "最大点播",
+    "api": "https://zuidazy.me/api.php/provide/vod",
+    "detail": "https://zuidazy.co",
+    "comment": "备用",
+    "adult": false,
+    "searchStatus": "命中"
   },
   {
     "key": "zuida.xyz",

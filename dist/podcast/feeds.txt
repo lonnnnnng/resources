@@ -5,11 +5,17 @@ https://podcast.weareones.com/feed/audio.xml
 https://www.ximalaya.com/album/12817863.xml
 https://www.ximalaya.com/album/20119986.xml
 https://feeds.fireside.fm/architalk/rss
+https://proxy.wavpub.com/caffebreve.xml
 https://feeds.fireside.fm/thatisbiz/rss
+https://feed.xyzfm.space/ahng8d9qlywl
+https://feed.xyzfm.space/yxuruh3f9mc4
+https://feed.xyzfm.space/68acw4ke4frl
 https://feeds.fireside.fm/latetalk/rss
 https://feeds.fireside.fm/sv101/rss
 https://feeds.fireside.fm/stovol/rss
 https://feeds.fireside.fm/leftovertalk/rss
+https://feeds.podshow.cn/smatter.xml
+https://feeds.jjldbk.com/all.xml
 https://feeds.fireside.fm/untitledpodcast/rss
 https://avocadotoast.typlog.io/feed/audio.xml
 https://bujuyigenm.typlog.io/feed/audio.xml
@@ -33,6 +39,7 @@ https://www.ximalaya.com/album/12435719.xml
 https://www.ximalaya.com/album/76473718.xml
 https://www.ximalaya.com/album/41421414.xml
 https://www.ximalaya.com/album/55884537.xml
+https://www.ximalaya.com/album/36470328.xml
 https://www.ximalaya.com/album/41317943.xml
 http://www.ximalaya.com/album/49894767.xml
 http://www.ximalaya.com/album/47008946.xml
