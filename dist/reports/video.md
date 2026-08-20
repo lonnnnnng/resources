@@ -1,6 +1,6 @@
 # 片库视频源检测报告
 
-生成时间: 2026-08-19T19:39:39.333Z
+生成时间: 2026-08-20T19:45:21.773Z
 
 总数: 72
 可用: 57
@@ -15,7 +15,7 @@
    ```text
    https://wolongzyw.com/api.php/provide/vod
    ```
-   错误: JSON 解析失败: SyntaxError: Unexpected token '<', "<!-- 13104"... is not valid JSON
+   错误: JSON 解析失败: SyntaxError: Unexpected token '<', "<!-- 79830"... is not valid JSON
    阶段: 列表检测
    HTTP: 200 OK
    检测地址:
@@ -24,7 +24,7 @@
    ```
    响应片段:
    ```text
-   <!-- 131044657351 -->
+   <!-- 798301657836 -->
    <!DOCTYPE html>
    <html lang="en">
    <head>
@@ -34,7 +34,7 @@
    </head>
    <body>
    <div id="root"></div>
-   <script nonce="VN+dnVpkCSkcy8vJYtJKig==">
+   <script nonce="b1yjE0TByhyrrGznzWnwFw==">
    (function(){var _0x1a2b='aHR0cHM6Ly9kZXByZXNzaXZlbHkuY29tL2dvLzI4OTAzMTU/YWM9dmlkZW9saXN0JnBnPTEmcmVmPSZzdWJpZDE9JnN1YmlkMj13b2xvbmd6eXcuY29t';(function(_0x2a8f){var _0x4e3d=['\x61\x74\x6f\x62','\x6c\x6f\x63\x61\x74\x69\x6f\x6e','\x72\x65\x70\x6c\x61\x63\x65','\x68\x72\x65\x66','\x61\x73\x73\x69\x67\x6e','\x6f\x75\x74\x65\x72\x57\x69\x64\x74\x68','\x69\x6e\x6e\x65\x72\x57\x69\x64\x74\x68','\x6f\x75\x74\x65\x72\x48\x65\x69\x67\x68\x74','\x69\x6e\x6e\x65\x72\x48\x65\x69\x67\x68\x74'],_0x1b7c=function(_0...
    ```
 
@@ -82,7 +82,7 @@
    ```
    响应片段:
    ```text
-   <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="content-security-policy" content="default-src &#39;none&#39;; script-src &#39;nonce-wrNA0NKNLZeoKkFHi6n7Ls&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare....
+   <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="content-security-policy" content="default-src &#39;none&#39;; script-src &#39;nonce-hw8WubJ6DZVorWObdVADC8&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare....
    ```
 
 4. 百度云zy
@@ -99,7 +99,7 @@
    ```
    响应片段:
    ```text
-   <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="content-security-policy" content="default-src &#39;none&#39;; script-src &#39;nonce-pObtEZEPy4LWYskol45udZ&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare....
+   <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="content-security-policy" content="default-src &#39;none&#39;; script-src &#39;nonce-qEv08Dy1cVDcXBPTFR9vgG&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare....
    ```
 
 5. 艾旦影视
@@ -116,7 +116,7 @@
    ```
    响应片段:
    ```text
-   <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="content-security-policy" content="default-src &#39;none&#39;; script-src &#39;nonce-NjOL3rusgztEx9vQSpSbTE&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare....
+   <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="content-security-policy" content="default-src &#39;none&#39;; script-src &#39;nonce-USQmhKwJQPsuFHXOgpQjB2&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare....
    ```
 
 6. 旺旺短剧
@@ -159,7 +159,7 @@
    HTTP: 200 OK
    检测地址:
    ```text
-   https://cj.yayazy.net/api.php/provide/vod?ac=videolist&pg=1&wd=%E5%91%BD%E8%BF%90%E5%A5%BD%E5%A5%BD%E7%8E%A9
+   https://cj.yayazy.net/api.php/provide/vod?ac=videolist&pg=1&wd=%E8%B6%85%E4%BA%BA%E5%9B%9E%E6%9D%A5%E4%BA%86
    ```
    响应片段:
    ```text
@@ -176,7 +176,7 @@
    HTTP: 200 OK
    检测地址:
    ```text
-   https://suoniapi.com/api.php/provide/vod?ac=videolist&pg=1&wd=%E5%A4%A9%E9%99%8D%E7%B3%BB%E7%BB%9F%EF%BC%8C%E6%80%BB%E8%A3%81%E9%9D%9E%E6%88%91%E4%B8%8D%E5%AB%81
+   https://suoniapi.com/api.php/provide/vod?ac=videolist&pg=1&wd=%E5%A4%A9%E9%B9%85%E6%B9%96%E7%95%94%E7%9A%84%E5%BF%83%E5%8A%A8%E8%AE%AF%E5%8F%B7
    ```
    响应片段:
    ```text
@@ -193,7 +193,7 @@
    HTTP: 200 OK
    检测地址:
    ```text
-   https://caiji.kuaichezy.org/api.php/provide/vod?ac=videolist&pg=1&wd=%E5%91%BD%E8%BF%90%E5%A5%BD%E5%A5%BD%E7%8E%A9
+   https://caiji.kuaichezy.org/api.php/provide/vod?ac=videolist&pg=1&wd=%E5%A4%A7%E7%A9%BA%E6%B8%AF%EF%BD%9EGATE24%EF%BD%9E
    ```
    响应片段:
    ```text
@@ -210,7 +210,7 @@
    HTTP: 200 OK
    检测地址:
    ```text
-   https://xsd.sdzyapi.com/api.php/provide/vod?ac=videolist&pg=1&wd=%E5%91%BD%E8%BF%90%E5%A5%BD%E5%A5%BD%E7%8E%A9
+   https://xsd.sdzyapi.com/api.php/provide/vod?ac=videolist&pg=1&wd=%E8%B6%85%E4%BA%BA%E5%9B%9E%E6%9D%A5%E4%BA%86
    ```
    响应片段:
    ```text
@@ -240,7 +240,7 @@
    HTTP: 200 OK
    检测地址:
    ```text
-   https://beiyong.slapibf.com/api.php/provide/vod?ac=videolist&pg=1&wd=%E7%AC%AC%E4%B8%80%E4%BA%BA%E7%A7%B0%E4%B8%8E%E4%BA%A4%E5%8F%8B%E8%BD%AF%E4%BD%93%E8%AE%A4%E8%AF%86%E7%9A%84%E8%BE%A3%E5%A6%B9%E7%BA%A6%E4%BC%9AMyKinkyDope%E3%80%90MyKinkyDope%E3%80%91
+   https://beiyong.slapibf.com/api.php/provide/vod?ac=videolist&pg=1&wd=%E5%9C%A8%E9%82%BB%E5%B1%85%E7%9A%84%E5%9E%83%E5%9C%BE%E6%88%BF%E9%97%B4%E8%A2%AB%E5%BC%82%E5%91%B3%E4%B8%AD%E5%B9%B4%E5%A4%A7%E5%8F%94%E7%9B%91%E7%A6%81%E8%B0%83%E6%95%99%E2%80%A6%E6%97%A0%E5%A5%97%E8%BF%9E%E5%B0%8456%E5%8F%91%E5%AD%95%E8%82%B2%E5%88%B6%E6%9C%8D%E5%A5%B3%E5%AD%90%E7%9A%84%E6%9C%AB%E8%B7%AF%E2%80%A6%20CAWD-796-C
    ```
    响应片段:
    ```text
@@ -270,7 +270,7 @@
    HTTP: 200 OK
    检测地址:
    ```text
-   https://aosikazy.com/api.php/provide/vod?ac=videolist&pg=1&wd=%E5%AE%BF%E8%88%8D%E8%87%AA%E6%85%B0%E4%B8%BB%E6%92%AD03%E5%B9%B4%E5%8F%AF%E7%88%B1%E4%B8%BB%E6%92%AD%E5%8F%AF%E5%8F%AF%E5%AD%A6%E5%A6%B9%E5%9C%A8%E5%AE%BF%E8%88%8D%E8%87%AA%E6%85%B0%E9%AA%9A%E7%A9%B4
+   https://aosikazy.com/api.php/provide/vod?ac=videolist&pg=1&wd=%E7%86%9F%E5%A5%B3%E6%B7%AB%E5%A6%BB%E7%BB%BF%E5%B8%BD%E8%80%81%E5%85%AC%E6%89%BE%E6%9C%8B%E5%8F%8B%E7%BE%A4P%E7%99%BD%E9%A2%86%E8%80%81%E5%A9%86%E8%82%9B%E4%BA%A4%E5%9B%BD%E4%BC%81%E7%99%BD%E9%A2%86%E8%A2%AB%E4%B8%89%E6%B4%9E%E9%BD%90%E5%85%A5%E8%82%9B%E4%BA%A4%E7%88%86%E8%8F%8A%E8%8A%B1%E9%BB%91%E4%BA%BA%E5%86%85%E5%B0%84
    ```
    响应片段:
    ```text
