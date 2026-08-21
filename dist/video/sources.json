@@ -405,24 +405,6 @@
     "searchStatus": "无结果"
   },
   {
-    "key": "caiji.moduapi.cc",
-    "name": "魔都动漫",
-    "api": "https://caiji.moduapi.cc/api.php/provide/vod",
-    "detail": "https://caiji.moduapi.cc",
-    "comment": "",
-    "adult": false,
-    "searchStatus": "命中"
-  },
-  {
-    "key": "www.moduzy.net",
-    "name": "魔都资源",
-    "api": "https://www.mdzyapi.com/api.php/provide/vod",
-    "detail": "https://www.moduzy.net",
-    "comment": "",
-    "adult": false,
-    "searchStatus": "命中"
-  },
-  {
     "key": "www.ryzyw.com",
     "name": "如意资源",
     "api": "https://cj.rycjapi.com/api.php/provide/vod",
@@ -465,7 +447,7 @@
     "detail": "https://yhzy.cc",
     "comment": " 403 Forbidden ",
     "adult": false,
-    "searchStatus": "HTTP 403 Forbidden"
+    "searchStatus": "命中"
   },
   {
     "key": "1080zyk4.com",
