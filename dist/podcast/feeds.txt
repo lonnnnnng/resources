@@ -19,7 +19,6 @@ https://feeds.podshow.cn/smatter.xml
 https://feeds.jjldbk.com/all.xml
 https://feeds.fireside.fm/untitledpodcast/rss
 http://hardimage.pro/episodes/feed.xml
-https://avocadotoast.typlog.io/feed/audio.xml
 https://bujuyigenm.typlog.io/feed/audio.xml
 https://feeds.fireside.fm/thinkagepodcast/rss
 https://binary.2bab.me/episodes/feed.xml
@@ -68,6 +67,7 @@ https://s2.proxy.wavpub.com/vibration.xml
 https://www.ximalaya.com/album/39304323.xml
 https://www.ximalaya.com/album/51554220.xml
 http://www.ximalaya.com/album/3558668.xml
+https://www.ximalaya.com/album/41563226.xml
 https://www.ximalaya.com/album/14302859.xml
 http://www.ximalaya.com/album/5088879.xml
 https://feeds.acast.com/public/shows/66b07190af99592b5329f43a

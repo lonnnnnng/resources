@@ -1,6 +1,6 @@
 # 播客源检测报告
 
-生成时间: 2026-08-21T19:37:12.540Z
+生成时间: 2026-08-22T19:34:44.964Z
 
 活跃规则: 仅保留最近 1 个月内有音频条目更新的 RSS/Atom 源。
 
@@ -122,82 +122,82 @@
    ```
    错误: not updated in last month, latest audio update 2026-06-03T16:48:00.000Z
 
-17. 五湖四海 5lake4sea
+17. 牛油果烤面包
+   地址:
+   ```text
+   https://avocadotoast.typlog.io/feed/audio.xml
+   ```
+   错误: not updated in last month, latest audio update 2026-07-22T06:58:54.000Z
+
+18. 五湖四海 5lake4sea
    地址:
    ```text
    https://5l4s.de/feed/audio.xml
    ```
    错误: not updated in last month, latest audio update 2026-05-26T13:22:36.000Z
 
-18. 出海进行时
+19. 出海进行时
    地址:
    ```text
    https://feed.xyzfm.space/cf4yqd4g79lv
    ```
    错误: not updated in last month, latest audio update 2026-07-08T23:30:00.000Z
 
-19. 下楼散步
+20. 下楼散步
    地址:
    ```text
    https://feed.xyzfm.space/wxvp6yquudvy
    ```
    错误: not updated in last month, latest audio update 2026-06-09T14:11:53.000Z
 
-20. 尴尬院长·粤语播客
+21. 尴尬院长·粤语播客
    地址:
    ```text
    http://rss.lizhi.fm/rss/1063597.xml
    ```
    错误: not updated in last month, latest audio update 2026-05-11T04:28:21.000Z
 
-21. 蜜獾吃书
+22. 蜜獾吃书
    地址:
    ```text
    https://www.ximalaya.com/album/64689453.xml
    ```
    错误: not updated in last month, latest audio update 2026-07-11T11:59:09.000Z
 
-22. 漂浮绿洲 Floating Oasis
+23. 漂浮绿洲 Floating Oasis
    地址:
    ```text
    https://anchor.fm/s/e60787d0/podcast/rss
    ```
    错误: not updated in last month, latest audio update 2026-05-30T01:51:59.000Z
 
-23. 好青年荼毒室
+24. 好青年荼毒室
    地址:
    ```text
    https://anchor.fm/s/3f94b8a0/podcast/rss
    ```
    错误: not updated in last month, latest audio update 2026-07-01T23:00:00.000Z
 
-24. 无人知晓
+25. 无人知晓
    地址:
    ```text
    https://feed.xyzfm.space/ypn9dydpbxpc
    ```
    错误: not updated in last month, latest audio update 2026-03-03T12:00:00.000Z
 
-25. 范特西码后炮
+26. 范特西码后炮
    地址:
    ```text
    https://anchor.fm/s/6ade80f4/podcast/rss
    ```
    错误: not updated in last month, latest audio update 2026-06-29T22:45:04.000Z
 
-26. 这刺聊点啥
+27. 这刺聊点啥
    地址:
    ```text
    https://www.ximalaya.com/album/29601116.xml
    ```
    错误: not updated in last month, latest audio update 2026-01-06T21:57:56.000Z
-
-27. FView Friday
-   地址:
-   ```text
-   https://www.ximalaya.com/album/41563226.xml
-   ```
-   错误: not updated in last month, latest audio update 2026-07-11T07:20:06.000Z
 
 28. 嘻谈录
    地址:
