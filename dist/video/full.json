@@ -79,6 +79,11 @@
     "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
     "detail": "https://mtzy.me"
   },
+  "www.moduzy.net": {
+    "name": "魔都资源",
+    "api": "https://www.mdzyapi.com/api.php/provide/vod",
+    "detail": "https://www.moduzy.net"
+  },
   "www.ryzyw.com": {
     "name": "如意资源",
     "api": "https://cj.rycjapi.com/api.php/provide/vod",

@@ -294,7 +294,7 @@
     "detail": "https://bfzy.tv",
     "comment": "",
     "adult": false,
-    "searchStatus": "无结果"
+    "searchStatus": "命中"
   },
   {
     "key": "dyttzyapi.com",
@@ -412,6 +412,15 @@
     "comment": "",
     "adult": false,
     "searchStatus": "无结果"
+  },
+  {
+    "key": "www.moduzy.net",
+    "name": "魔都资源",
+    "api": "https://www.mdzyapi.com/api.php/provide/vod",
+    "detail": "https://www.moduzy.net",
+    "comment": "",
+    "adult": false,
+    "searchStatus": "命中"
   },
   {
     "key": "www.ryzyw.com",

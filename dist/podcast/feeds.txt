@@ -66,6 +66,7 @@ https://s1.proxy.wavpub.com/podcasterunion/supergameculture.xml
 https://s2.proxy.wavpub.com/vibration.xml
 https://www.ximalaya.com/album/39304323.xml
 https://www.ximalaya.com/album/51554220.xml
+https://anchor.fm/s/6ade80f4/podcast/rss
 http://www.ximalaya.com/album/3558668.xml
 https://www.ximalaya.com/album/41563226.xml
 https://www.ximalaya.com/album/14302859.xml
