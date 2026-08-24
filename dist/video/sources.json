@@ -117,15 +117,6 @@
     "searchStatus": "命中"
   },
   {
-    "key": "hsckzy.xyz",
-    "name": "🔞黄色仓库",
-    "api": "https://hsckzy.xyz/api.php/provide/vod",
-    "detail": "https://hsckzy.xyz",
-    "comment": "",
-    "adult": true,
-    "searchStatus": "命中"
-  },
-  {
     "key": "www.jingpinx.com",
     "name": "🔞精品资源",
     "api": "https://www.jingpinx.com/api.php/provide/vod",
@@ -252,15 +243,6 @@
     "searchStatus": "命中"
   },
   {
-    "key": "jkunzyapi.com",
-    "name": "🔞jkun资源",
-    "api": "https://jkunzyapi.com/api.php/provide/vod",
-    "detail": "https://jkunzyapi.com",
-    "comment": "",
-    "adult": true,
-    "searchStatus": "命中"
-  },
-  {
     "key": "souavzyw.com",
     "name": "🔞souavZY",
     "api": "https://api.souavzyw.net/api.php/provide/vod",
@@ -274,15 +256,6 @@
     "name": "360资源",
     "api": "https://360zyzz.com/api.php/provide/vod",
     "detail": "https://360zy.com",
-    "comment": "",
-    "adult": false,
-    "searchStatus": "命中"
-  },
-  {
-    "key": "iqiyizyapi.com",
-    "name": "爱奇艺",
-    "api": "https://iqiyizyapi.com/api.php/provide/vod",
-    "detail": "https://iqiyizyapi.com",
     "comment": "",
     "adult": false,
     "searchStatus": "命中"
@@ -414,6 +387,15 @@
     "searchStatus": "无结果"
   },
   {
+    "key": "caiji.moduapi.cc",
+    "name": "魔都动漫",
+    "api": "https://caiji.moduapi.cc/api.php/provide/vod",
+    "detail": "https://caiji.moduapi.cc",
+    "comment": "",
+    "adult": false,
+    "searchStatus": "命中"
+  },
+  {
     "key": "www.moduzy.net",
     "name": "魔都资源",
     "api": "https://www.mdzyapi.com/api.php/provide/vod",
@@ -490,15 +472,6 @@
     "name": "最大资源",
     "api": "https://api.zuidapi.com/api.php/provide/vod",
     "detail": "https://zuida.xyz",
-    "comment": "",
-    "adult": false,
-    "searchStatus": "命中"
-  },
-  {
-    "key": "ikunzy.com",
-    "name": "iKun资源",
-    "api": "https://ikunzyapi.com/api.php/provide/vod",
-    "detail": "https://ikunzy.com",
     "comment": "",
     "adult": false,
     "searchStatus": "命中"
