@@ -4,6 +4,11 @@
     "api": "https://360zyzz.com/api.php/provide/vod",
     "detail": "https://360zy.com"
   },
+  "iqiyizyapi.com": {
+    "name": "爱奇艺",
+    "api": "https://iqiyizyapi.com/api.php/provide/vod",
+    "detail": "https://iqiyizyapi.com"
+  },
   "bfzy.tv": {
     "name": "暴风资源",
     "api": "https://bfzyapi.com/api.php/provide/vod",
@@ -123,6 +128,11 @@
     "name": "最大资源",
     "api": "https://api.zuidapi.com/api.php/provide/vod",
     "detail": "https://zuida.xyz"
+  },
+  "ikunzy.com": {
+    "name": "iKun资源",
+    "api": "https://ikunzyapi.com/api.php/provide/vod",
+    "detail": "https://ikunzy.com"
   },
   "api.ukuapi88.com": {
     "name": "U酷影视",
@@ -263,6 +273,11 @@
     "name": "🔞玉兔资源",
     "api": "https://apiyutu.com/api.php/provide/vod",
     "detail": "https://apiyutu.com"
+  },
+  "jkunzyapi.com": {
+    "name": "🔞jkun资源",
+    "api": "https://jkunzyapi.com/api.php/provide/vod",
+    "detail": "https://jkunzyapi.com"
   },
   "souavzyw.com": {
     "name": "🔞souavZY",

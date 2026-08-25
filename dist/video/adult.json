@@ -134,6 +134,11 @@
     "api": "https://apiyutu.com/api.php/provide/vod",
     "detail": "https://apiyutu.com"
   },
+  "jkunzyapi.com": {
+    "name": "🔞jkun资源",
+    "api": "https://jkunzyapi.com/api.php/provide/vod",
+    "detail": "https://jkunzyapi.com"
+  },
   "souavzyw.com": {
     "name": "🔞souavZY",
     "api": "https://api.souavzyw.net/api.php/provide/vod",

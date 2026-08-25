@@ -243,6 +243,15 @@
     "searchStatus": "命中"
   },
   {
+    "key": "jkunzyapi.com",
+    "name": "🔞jkun资源",
+    "api": "https://jkunzyapi.com/api.php/provide/vod",
+    "detail": "https://jkunzyapi.com",
+    "comment": "",
+    "adult": true,
+    "searchStatus": "命中"
+  },
+  {
     "key": "souavzyw.com",
     "name": "🔞souavZY",
     "api": "https://api.souavzyw.net/api.php/provide/vod",
@@ -256,6 +265,15 @@
     "name": "360资源",
     "api": "https://360zyzz.com/api.php/provide/vod",
     "detail": "https://360zy.com",
+    "comment": "",
+    "adult": false,
+    "searchStatus": "命中"
+  },
+  {
+    "key": "iqiyizyapi.com",
+    "name": "爱奇艺",
+    "api": "https://iqiyizyapi.com/api.php/provide/vod",
+    "detail": "https://iqiyizyapi.com",
     "comment": "",
     "adult": false,
     "searchStatus": "命中"
@@ -472,6 +490,15 @@
     "name": "最大资源",
     "api": "https://api.zuidapi.com/api.php/provide/vod",
     "detail": "https://zuida.xyz",
+    "comment": "",
+    "adult": false,
+    "searchStatus": "命中"
+  },
+  {
+    "key": "ikunzy.com",
+    "name": "iKun资源",
+    "api": "https://ikunzyapi.com/api.php/provide/vod",
+    "detail": "https://ikunzy.com",
     "comment": "",
     "adult": false,
     "searchStatus": "命中"

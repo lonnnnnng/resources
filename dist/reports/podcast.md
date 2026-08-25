@@ -1,12 +1,12 @@
 # 播客源检测报告
 
-生成时间: 2026-08-24T19:44:40.501Z
+生成时间: 2026-08-25T19:45:35.729Z
 
 活跃规则: 仅保留最近 1 个月内有音频条目更新的 RSS/Atom 源。
 
 总数: 109
-可用: 77
-失败: 32
+可用: 78
+失败: 31
 
 ## 失败项
 
@@ -171,63 +171,56 @@
    ```
    错误: not updated in last month, latest audio update 2026-07-01T23:00:00.000Z
 
-24. 无人知晓
-   地址:
-   ```text
-   https://feed.xyzfm.space/ypn9dydpbxpc
-   ```
-   错误: not updated in last month, latest audio update 2026-03-03T12:00:00.000Z
-
-25. 这刺聊点啥
+24. 这刺聊点啥
    地址:
    ```text
    https://www.ximalaya.com/album/29601116.xml
    ```
    错误: not updated in last month, latest audio update 2026-01-06T21:57:56.000Z
 
-26. 嘻谈录
+25. 嘻谈录
    地址:
    ```text
    https://www.ximalaya.com/album/43044571.xml
    ```
    错误: not updated in last month, latest audio update 2025-07-26T15:30:00.000Z
 
-27. 奇妙店台
+26. 奇妙店台
    地址:
    ```text
    http://www.ximalaya.com/album/8224043.xml
    ```
    错误: not updated in last month, latest audio update 2025-06-16T01:07:36.000Z
 
-28. Kotlin 炉边漫谈
+27. Kotlin 炉边漫谈
    地址:
    ```text
    https://www.ximalaya.com/album/68370676.xml
    ```
    错误: not updated in last month, latest audio update 2025-04-07T08:17:21.000Z
 
-29. 夸夸歧谈
+28. 夸夸歧谈
    地址:
    ```text
    https://anchor.fm/s/9422c4e8/podcast/rss
    ```
    错误: not updated in last month, latest audio update 2025-06-02T23:25:58.000Z
 
-30. 酒嗝播客
+29. 酒嗝播客
    地址:
    ```text
    http://rss.lizhi.fm/rss/171448272.xml
    ```
    错误: not updated in last month, latest audio update 2025-01-27T03:53:37.000Z
 
-31. 史播客
+30. 史播客
    地址:
    ```text
    https://feeds.soundon.fm/podcasts/e9ce0c40-9b4a-41e2-a19e-db9e5aeca3f7.xml
    ```
    错误: not updated in last month, latest audio update 2025-01-09T12:41:05.000Z
 
-32. 南方聲活
+31. 南方聲活
    地址:
    ```text
    https://feeds.soundon.fm/podcasts/dce49dcf-aadf-43d6-8b24-4e7ed3e37da6.xml
