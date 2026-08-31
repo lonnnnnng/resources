@@ -20,9 +20,9 @@ https://feeds.podshow.cn/smatter.xml
 https://feeds.jjldbk.com/all.xml
 https://feeds.fireside.fm/untitledpodcast/rss
 http://hardimage.pro/episodes/feed.xml
+https://anyway.fm/rss.xml
 https://bujuyigenm.typlog.io/feed/audio.xml
 https://feeds.fireside.fm/thinkagepodcast/rss
-https://binary.2bab.me/episodes/feed.xml
 https://zhuchangsile.xyz/episodes/feed.xml
 https://feeds.soundon.fm/podcasts/c1f1f3c9-8d28-42ad-9f1c-908018b8d9fc.xml
 https://feeds.soundon.fm/podcasts/b9b3e526-f20d-417e-9af8-e90c45c924d6.xml

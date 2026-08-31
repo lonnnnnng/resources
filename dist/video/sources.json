@@ -108,6 +108,15 @@
     "searchStatus": "命中"
   },
   {
+    "key": "hsckzy.xyz",
+    "name": "🔞黄色仓库",
+    "api": "https://hsckzy.xyz/api.php/provide/vod",
+    "detail": "https://hsckzy.xyz",
+    "comment": "",
+    "adult": true,
+    "searchStatus": "命中"
+  },
+  {
     "key": "www.jingpinx.com",
     "name": "🔞精品资源",
     "api": "https://www.jingpinx.com/api.php/provide/vod",
@@ -276,7 +285,7 @@
     "detail": "https://bfzy.tv",
     "comment": "",
     "adult": false,
-    "searchStatus": "无结果"
+    "searchStatus": "命中"
   },
   {
     "key": "dyttzyapi.com",
@@ -366,7 +375,7 @@
     "detail": "https://lzizy.net",
     "comment": "备用",
     "adult": false,
-    "searchStatus": "命中"
+    "searchStatus": "无结果"
   },
   {
     "key": "cj.lzcaiji.com",
@@ -375,7 +384,7 @@
     "detail": "https://cj.lzcaiji.com",
     "comment": "",
     "adult": false,
-    "searchStatus": "命中"
+    "searchStatus": "无结果"
   },
   {
     "key": "www.maoyanzy.com",
@@ -456,7 +465,7 @@
     "detail": "https://yhzy.cc",
     "comment": " 403 Forbidden ",
     "adult": false,
-    "searchStatus": "HTTP 403 Forbidden"
+    "searchStatus": "命中"
   },
   {
     "key": "1080zyk4.com",

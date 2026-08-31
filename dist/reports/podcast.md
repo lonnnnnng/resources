@@ -1,6 +1,6 @@
 # 播客源检测报告
 
-生成时间: 2026-08-30T21:54:06.944Z
+生成时间: 2026-08-31T23:12:15.854Z
 
 活跃规则: 仅保留最近 1 个月内有音频条目更新的 RSS/Atom 源。
 
@@ -108,19 +108,19 @@
    ```
    错误: not updated in last month, latest audio update 2026-05-18T05:13:03.000Z
 
-15. Anyway.FM
-   地址:
-   ```text
-   https://anyway.fm/rss.xml
-   ```
-   错误: not RSS/Atom XML
-
-16. 牛油果烤面包
+15. 牛油果烤面包
    地址:
    ```text
    https://avocadotoast.typlog.io/feed/audio.xml
    ```
    错误: not updated in last month, latest audio update 2026-07-22T06:58:54.000Z
+
+16. 二分电台
+   地址:
+   ```text
+   https://binary.2bab.me/episodes/feed.xml
+   ```
+   错误: not updated in last month, latest audio update 2026-07-31T05:17:16.000Z
 
 17. 五湖四海 5lake4sea
    地址:
