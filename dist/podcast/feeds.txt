@@ -18,8 +18,8 @@ https://feeds.fireside.fm/stovol/rss
 https://feeds.fireside.fm/leftovertalk/rss
 https://feeds.podshow.cn/smatter.xml
 https://feeds.jjldbk.com/all.xml
-https://feeds.fireside.fm/untitledpodcast/rss
 http://hardimage.pro/episodes/feed.xml
+https://anyway.fm/rss.xml
 https://bujuyigenm.typlog.io/feed/audio.xml
 https://feeds.fireside.fm/thinkagepodcast/rss
 https://zhuchangsile.xyz/episodes/feed.xml
