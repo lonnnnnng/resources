@@ -171,15 +171,6 @@
     "searchStatus": "无结果"
   },
   {
-    "key": "slapibf.com",
-    "name": "🔞森林资源",
-    "api": "https://beiyong.slapibf.com/api.php/provide/vod",
-    "detail": "https://slapibf.com",
-    "comment": "",
-    "adult": true,
-    "searchStatus": "命中"
-  },
-  {
     "key": "shayuapi.com",
     "name": "🔞鲨鱼资源",
     "api": "https://shayuapi.com/api.php/provide/vod",
@@ -194,24 +185,6 @@
     "api": "https://thzy1.me/api.php/provide/vod",
     "detail": "https://thzy8.me",
     "comment": "",
-    "adult": true,
-    "searchStatus": "命中"
-  },
-  {
-    "key": "www.xxibaozyw.com",
-    "name": "🔞细胞资源",
-    "api": "https://www.xxibaozyw.com/api.php/provide/vod",
-    "detail": "https://www.xxibaozyw.com",
-    "comment": "无搜索结果",
-    "adult": true,
-    "searchStatus": "命中"
-  },
-  {
-    "key": "xiangjiaozyw.com",
-    "name": "🔞香蕉资源",
-    "api": "https://www.xiangjiaozyw.com/api.php/provide/vod",
-    "detail": "https://www.xiangjiaozyw.com",
-    "comment": "无搜索结果",
     "adult": true,
     "searchStatus": "命中"
   },
@@ -465,7 +438,7 @@
     "detail": "https://yhzy.cc",
     "comment": " 403 Forbidden ",
     "adult": false,
-    "searchStatus": "命中"
+    "searchStatus": "HTTP 403 Forbidden"
   },
   {
     "key": "1080zyk4.com",

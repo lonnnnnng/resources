@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-09-03T21:42:36.608Z",
+  "generatedAt": "2026-09-04T21:29:06.779Z",
   "video": {
     "total": 72,
-    "ok": 57,
-    "failed": 15
+    "ok": 54,
+    "failed": 18
   },
   "live": {
-    "total": 432,
-    "ok": 163,
-    "failed": 241,
-    "skipped": 28
+    "total": 438,
+    "ok": 141,
+    "failed": 279,
+    "skipped": 18
   },
   "radio": {
-    "total": 2177,
-    "ok": 1482,
-    "failed": 695
+    "total": 2179,
+    "ok": 1508,
+    "failed": 671
   },
   "podcast": {
     "total": 109,
-    "ok": 77,
-    "failed": 32
+    "ok": 76,
+    "failed": 33
   }
 }

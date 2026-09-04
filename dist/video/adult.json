@@ -94,11 +94,6 @@
     "api": "https://caiji.semaozy.net/inc/apijson_vod.php/provide/vod",
     "detail": "https://semaozy1.com"
   },
-  "slapibf.com": {
-    "name": "🔞森林资源",
-    "api": "https://beiyong.slapibf.com/api.php/provide/vod",
-    "detail": "https://slapibf.com"
-  },
   "shayuapi.com": {
     "name": "🔞鲨鱼资源",
     "api": "https://shayuapi.com/api.php/provide/vod",
@@ -108,16 +103,6 @@
     "name": "🔞桃花资源",
     "api": "https://thzy1.me/api.php/provide/vod",
     "detail": "https://thzy8.me"
-  },
-  "www.xxibaozyw.com": {
-    "name": "🔞细胞资源",
-    "api": "https://www.xxibaozyw.com/api.php/provide/vod",
-    "detail": "https://www.xxibaozyw.com"
-  },
-  "xiangjiaozyw.com": {
-    "name": "🔞香蕉资源",
-    "api": "https://www.xiangjiaozyw.com/api.php/provide/vod",
-    "detail": "https://www.xiangjiaozyw.com"
   },
   "xiaojizy.live": {
     "name": "🔞小鸡资源",
