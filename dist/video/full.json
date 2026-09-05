@@ -234,6 +234,11 @@
     "api": "https://caiji.semaozy.net/inc/apijson_vod.php/provide/vod",
     "detail": "https://semaozy1.com"
   },
+  "slapibf.com": {
+    "name": "🔞森林资源",
+    "api": "https://beiyong.slapibf.com/api.php/provide/vod",
+    "detail": "https://slapibf.com"
+  },
   "shayuapi.com": {
     "name": "🔞鲨鱼资源",
     "api": "https://shayuapi.com/api.php/provide/vod",

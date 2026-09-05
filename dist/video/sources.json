@@ -171,6 +171,15 @@
     "searchStatus": "无结果"
   },
   {
+    "key": "slapibf.com",
+    "name": "🔞森林资源",
+    "api": "https://beiyong.slapibf.com/api.php/provide/vod",
+    "detail": "https://slapibf.com",
+    "comment": "",
+    "adult": true,
+    "searchStatus": "命中"
+  },
+  {
     "key": "shayuapi.com",
     "name": "🔞鲨鱼资源",
     "api": "https://shayuapi.com/api.php/provide/vod",
@@ -258,7 +267,7 @@
     "detail": "https://bfzy.tv",
     "comment": "",
     "adult": false,
-    "searchStatus": "命中"
+    "searchStatus": "无结果"
   },
   {
     "key": "dyttzyapi.com",
