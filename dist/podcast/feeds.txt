@@ -19,6 +19,7 @@ https://feeds.fireside.fm/leftovertalk/rss
 https://feeds.podshow.cn/smatter.xml
 https://feeds.jjldbk.com/all.xml
 http://hardimage.pro/episodes/feed.xml
+https://anyway.fm/rss.xml
 https://bujuyigenm.typlog.io/feed/audio.xml
 https://feeds.fireside.fm/thinkagepodcast/rss
 https://zhuchangsile.xyz/episodes/feed.xml
@@ -73,4 +74,3 @@ https://www.ximalaya.com/album/14302859.xml
 http://www.ximalaya.com/album/5088879.xml
 https://feeds.acast.com/public/shows/66b07190af99592b5329f43a
 https://s1.proxy.wavpub.com/qualite.xml
-https://rusttalk.github.io/podcast/index.xml
