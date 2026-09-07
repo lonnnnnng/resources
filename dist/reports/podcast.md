@@ -1,6 +1,6 @@
 # 播客源检测报告
 
-生成时间: 2026-09-06T21:21:06.886Z
+生成时间: 2026-09-07T22:00:59.897Z
 
 活跃规则: 仅保留最近 1 个月内有音频条目更新的 RSS/Atom 源。
 
@@ -115,61 +115,61 @@
    ```
    错误: not updated in last month, latest audio update 2026-08-03T14:30:00.000Z
 
-16. 牛油果烤面包
+16. Anyway.FM
+   地址:
+   ```text
+   https://anyway.fm/rss.xml
+   ```
+   错误: not RSS/Atom XML
+
+17. 牛油果烤面包
    地址:
    ```text
    https://avocadotoast.typlog.io/feed/audio.xml
    ```
    错误: not updated in last month, latest audio update 2026-07-22T06:58:54.000Z
 
-17. 二分电台
+18. 二分电台
    地址:
    ```text
    https://binary.2bab.me/episodes/feed.xml
    ```
    错误: not updated in last month, latest audio update 2026-07-31T05:17:16.000Z
 
-18. 五湖四海 5lake4sea
+19. 五湖四海 5lake4sea
    地址:
    ```text
    https://5l4s.de/feed/audio.xml
    ```
    错误: not updated in last month, latest audio update 2026-05-26T13:22:36.000Z
 
-19. 出海进行时
+20. 出海进行时
    地址:
    ```text
    https://feed.xyzfm.space/cf4yqd4g79lv
    ```
    错误: not updated in last month, latest audio update 2026-07-08T23:30:00.000Z
 
-20. 下楼散步
+21. 下楼散步
    地址:
    ```text
    https://feed.xyzfm.space/wxvp6yquudvy
    ```
    错误: not updated in last month, latest audio update 2026-06-09T14:11:53.000Z
 
-21. 尴尬院长·粤语播客
+22. 尴尬院长·粤语播客
    地址:
    ```text
    http://rss.lizhi.fm/rss/1063597.xml
    ```
    错误: not updated in last month, latest audio update 2026-05-11T04:28:21.000Z
 
-22. 蜜獾吃书
+23. 蜜獾吃书
    地址:
    ```text
    https://www.ximalaya.com/album/64689453.xml
    ```
    错误: not updated in last month, latest audio update 2026-07-11T11:59:09.000Z
-
-23. 漂浮绿洲 Floating Oasis
-   地址:
-   ```text
-   https://anchor.fm/s/e60787d0/podcast/rss
-   ```
-   错误: not updated in last month, latest audio update 2026-05-30T01:51:59.000Z
 
 24. 当户织-木兰的播客
    地址:
