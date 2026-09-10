@@ -18,7 +18,6 @@ https://feeds.fireside.fm/leftovertalk/rss
 https://feeds.podshow.cn/smatter.xml
 https://feeds.jjldbk.com/all.xml
 http://hardimage.pro/episodes/feed.xml
-https://anyway.fm/rss.xml
 https://bujuyigenm.typlog.io/feed/audio.xml
 https://feeds.fireside.fm/thinkagepodcast/rss
 https://zhuchangsile.xyz/episodes/feed.xml
@@ -54,7 +53,6 @@ https://anchor.fm/s/3f94b8a0/podcast/rss
 https://oneatatime.typlog.io/feed/audio.xml
 https://www.ximalaya.com/album/77112790.xml
 https://feeds.fireside.fm/tianyu2/rss
-https://sheepchick.typlog.io/feed/audio.xml
 https://open.firstory.me/rss/user/ckiobtbtwcoqv08505mkge1kg
 https://open.firstory.me/rss/user/cjyqpmw8l2qci07437m3pfqe6
 https://www.ximalaya.com/album/33643029.xml
