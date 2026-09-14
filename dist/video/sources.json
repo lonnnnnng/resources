@@ -198,6 +198,24 @@
     "searchStatus": "命中"
   },
   {
+    "key": "www.xxibaozyw.com",
+    "name": "🔞细胞资源",
+    "api": "https://www.xxibaozyw.com/api.php/provide/vod",
+    "detail": "https://www.xxibaozyw.com",
+    "comment": "无搜索结果",
+    "adult": true,
+    "searchStatus": "命中"
+  },
+  {
+    "key": "xiangjiaozyw.com",
+    "name": "🔞香蕉资源",
+    "api": "https://www.xiangjiaozyw.com/api.php/provide/vod",
+    "detail": "https://www.xiangjiaozyw.com",
+    "comment": "无搜索结果",
+    "adult": true,
+    "searchStatus": "命中"
+  },
+  {
     "key": "xiaojizy.live",
     "name": "🔞小鸡资源",
     "api": "https://api.xiaojizy.live/provide/vod",
@@ -267,7 +285,7 @@
     "detail": "https://bfzy.tv",
     "comment": "",
     "adult": false,
-    "searchStatus": "无结果"
+    "searchStatus": "命中"
   },
   {
     "key": "dyttzyapi.com",
