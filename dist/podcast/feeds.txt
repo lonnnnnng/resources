@@ -18,6 +18,8 @@ https://feeds.fireside.fm/leftovertalk/rss
 https://feeds.podshow.cn/smatter.xml
 https://feeds.jjldbk.com/all.xml
 http://hardimage.pro/episodes/feed.xml
+https://anyway.fm/rss.xml
+https://avocadotoast.typlog.io/feed/audio.xml
 https://bujuyigenm.typlog.io/feed/audio.xml
 https://feeds.fireside.fm/thinkagepodcast/rss
 https://binary.2bab.me/episodes/feed.xml
@@ -39,13 +41,11 @@ https://www.ximalaya.com/album/12435719.xml
 https://www.ximalaya.com/album/76473718.xml
 https://www.ximalaya.com/album/41421414.xml
 https://www.ximalaya.com/album/55884537.xml
-https://www.ximalaya.com/album/36470328.xml
 https://www.ximalaya.com/album/41317943.xml
 https://www.ximalaya.com/album/43127335.xml
 http://www.ximalaya.com/album/49894767.xml
 http://www.ximalaya.com/album/47008946.xml
 https://anchor.fm/s/fcb6c04/podcast/rss
-https://anchor.fm/s/5d9c1a28/podcast/rss
 https://www.ximalaya.com/album/20341384.xml
 https://www.ximalaya.com/album/8767520.xml
 https://anchor.fm/s/e60787d0/podcast/rss
