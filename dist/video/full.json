@@ -89,11 +89,6 @@
     "api": "https://www.mdzyapi.com/api.php/provide/vod",
     "detail": "https://www.moduzy.net"
   },
-  "p2100.net": {
-    "name": "飘零资源",
-    "api": "https://p2100.net/api.php/provide/vod",
-    "detail": "https://p2100.net"
-  },
   "www.ryzyw.com": {
     "name": "如意资源",
     "api": "https://cj.rycjapi.com/api.php/provide/vod",
@@ -203,11 +198,6 @@
     "name": "🔞黑料资源",
     "api": "https://www.heiliaozyapi.com/api.php/provide/vod",
     "detail": "https://heiliaozy.cc"
-  },
-  "hsckzy.xyz": {
-    "name": "🔞黄色仓库",
-    "api": "https://hsckzy.xyz/api.php/provide/vod",
-    "detail": "https://hsckzy.xyz"
   },
   "www.jingpinx.com": {
     "name": "🔞精品资源",
