@@ -16,7 +16,6 @@ https://feeds.fireside.fm/stovol/rss
 https://feeds.fireside.fm/leftovertalk/rss
 https://feeds.podshow.cn/smatter.xml
 https://feeds.jjldbk.com/all.xml
-http://hardimage.pro/episodes/feed.xml
 https://avocadotoast.typlog.io/feed/audio.xml
 https://bujuyigenm.typlog.io/feed/audio.xml
 https://feeds.fireside.fm/thinkagepodcast/rss
@@ -59,6 +58,8 @@ https://www.ximalaya.com/album/49570973.xml
 https://feed.xyzfm.space/ypn9dydpbxpc
 https://feeds.acast.com/public/shows/63a20fba6ac81a0010a9553c
 https://www.ximalaya.com/album/26765985.xml
+https://s1.proxy.wavpub.com/podcasterunion/supergameculture.xml
+https://s2.proxy.wavpub.com/vibration.xml
 https://www.ximalaya.com/album/39304323.xml
 https://www.ximalaya.com/album/51554220.xml
 https://anchor.fm/s/6ade80f4/podcast/rss
@@ -67,3 +68,4 @@ https://www.ximalaya.com/album/41563226.xml
 https://www.ximalaya.com/album/14302859.xml
 http://www.ximalaya.com/album/5088879.xml
 https://feeds.acast.com/public/shows/66b07190af99592b5329f43a
+https://s1.proxy.wavpub.com/qualite.xml
