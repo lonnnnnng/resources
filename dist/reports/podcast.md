@@ -1,6 +1,6 @@
 # 播客源检测报告
 
-生成时间: 2026-09-22T22:09:18.504Z
+生成时间: 2026-09-23T22:17:22.186Z
 
 活跃规则: 仅保留最近 1 个月内有音频条目更新的 RSS/Atom 源。
 
@@ -162,7 +162,7 @@
    ```text
    http://rss.lizhi.fm/rss/1063597.xml
    ```
-   错误: This operation was aborted
+   错误: not updated in last month, latest audio update 2026-05-11T04:28:21.000Z
 
 23. 过刊
    地址:
