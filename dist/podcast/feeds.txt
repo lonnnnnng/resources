@@ -1,6 +1,5 @@
 https://feeds.fireside.fm/shengdongjixi/rss
 https://feeds.fireside.fm/guiguzaozhidao/rss
-https://uxcoffee.typlog.io/episodes/feed.xml
 https://crazy.capital/feed
 https://podcast.weareones.com/feed/audio.xml
 https://www.ximalaya.com/album/12817863.xml
@@ -16,7 +15,6 @@ https://feeds.fireside.fm/stovol/rss
 https://feeds.fireside.fm/leftovertalk/rss
 https://feeds.podshow.cn/smatter.xml
 https://feeds.jjldbk.com/all.xml
-https://anyway.fm/rss.xml
 https://avocadotoast.typlog.io/feed/audio.xml
 https://bujuyigenm.typlog.io/feed/audio.xml
 https://feeds.fireside.fm/thinkagepodcast/rss

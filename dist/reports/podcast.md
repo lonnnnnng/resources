@@ -1,12 +1,12 @@
 # 播客源检测报告
 
-生成时间: 2026-09-23T22:17:22.186Z
+生成时间: 2026-09-24T22:24:26.492Z
 
 活跃规则: 仅保留最近 1 个月内有音频条目更新的 RSS/Atom 源。
 
 总数: 109
-可用: 72
-失败: 37
+可用: 70
+失败: 39
 
 ## 失败项
 
@@ -52,217 +52,231 @@
    ```
    错误: not updated in last month, latest audio update 2018-02-06T01:00:00.000Z
 
-7. 正经不良人
+7. UX Coffee 设计咖
+   地址:
+   ```text
+   https://uxcoffee.typlog.io/episodes/feed.xml
+   ```
+   错误: not updated in last month, latest audio update 2026-08-24T00:00:00.000Z
+
+8. 正经不良人
    地址:
    ```text
    https://media.rss.com/zjblrfm/feed.xml
    ```
    错误: not updated in last month, latest audio update 2021-10-09T02:11:31.000Z
 
-8. 醉英超
+9. 醉英超
    地址:
    ```text
    https://rss.lizhi.fm/rss/385752.xml
    ```
    错误: not updated in last month, latest audio update 2017-05-18T15:57:27.000Z
 
-9. 大内密谈
+10. 大内密谈
    地址:
    ```text
    https://rss.lizhi.fm/rss/14275.xml
    ```
    错误: This operation was aborted
 
-10. 所建所闻
+11. 所建所闻
    地址:
    ```text
    https://feeds.fireside.fm/architalk/rss
    ```
    错误: not updated in last month, latest audio update 2026-08-09T10:30:00.000Z
 
-11. 瞎说设计
+12. 瞎说设计
    地址:
    ```text
    https://feeds.soundon.fm/podcasts/0aa385de-e5e8-4125-bcc4-64130c11d5a2.xml
    ```
    错误: not updated in last month, latest audio update 2022-03-08T01:00:00.000Z
 
-12. 設計遊牧 Design Nomads
+13. 設計遊牧 Design Nomads
    地址:
    ```text
    https://open.firstory.me/rss/user/cke01v251c1r00803qbohw954
    ```
    错误: not updated in last month, latest audio update 2024-04-08T06:01:00.000Z
 
-13. Teahour
+14. Teahour
    地址:
    ```text
    https://feeds.fireside.fm/teahour/rss
    ```
    错误: not updated in last month, latest audio update 2026-04-15T03:00:00.000Z
 
-14. 捕蛇者说
+15. 捕蛇者说
    地址:
    ```text
    https://pythonhunter.org/episodes/feed.xml
    ```
    错误: not updated in last month, latest audio update 2026-06-15T21:43:19.000Z
 
-15. 枫言枫语
+16. 枫言枫语
    地址:
    ```text
    https://justinyan.me/feed/podcast
    ```
    错误: HTTP 403
 
-16. talich 闲侃
+17. talich 闲侃
    地址:
    ```text
    https://talich.fm/episodes/feed.xml
    ```
    错误: not updated in last month, latest audio update 2026-05-18T05:13:03.000Z
 
-17. 未命名播客
+18. 未命名播客
    地址:
    ```text
    https://feeds.fireside.fm/untitledpodcast/rss
    ```
    错误: not updated in last month, latest audio update 2026-08-03T14:30:00.000Z
 
-18. 硬影像
+19. 硬影像
    地址:
    ```text
    http://hardimage.pro/episodes/feed.xml
    ```
    错误: not updated in last month, latest audio update 2026-08-20T01:21:11.000Z
 
-19. 五湖四海 5lake4sea
+20. Anyway.FM
+   地址:
+   ```text
+   https://anyway.fm/rss.xml
+   ```
+   错误: not RSS/Atom XML
+
+21. 五湖四海 5lake4sea
    地址:
    ```text
    https://5l4s.de/feed/audio.xml
    ```
    错误: not updated in last month, latest audio update 2026-05-26T13:22:36.000Z
 
-20. 出海进行时
+22. 出海进行时
    地址:
    ```text
    https://feed.xyzfm.space/cf4yqd4g79lv
    ```
    错误: not updated in last month, latest audio update 2026-07-08T23:30:00.000Z
 
-21. 下楼散步
+23. 下楼散步
    地址:
    ```text
    https://feed.xyzfm.space/wxvp6yquudvy
    ```
    错误: not updated in last month, latest audio update 2026-06-09T14:11:53.000Z
 
-22. 尴尬院长·粤语播客
+24. 尴尬院长·粤语播客
    地址:
    ```text
    http://rss.lizhi.fm/rss/1063597.xml
    ```
    错误: not updated in last month, latest audio update 2026-05-11T04:28:21.000Z
 
-23. 过刊
+25. 过刊
    地址:
    ```text
    https://www.ximalaya.com/album/36470328.xml
    ```
    错误: not updated in last month, latest audio update 2026-08-17T13:48:56.000Z
 
-24. 普通读者
+26. 普通读者
    地址:
    ```text
    https://anchor.fm/s/3bd8896c/podcast/rss
    ```
    错误: not updated in last month, latest audio update 2026-08-15T16:28:18.000Z
 
-25. 例外状态 State of Exception
+27. 例外状态 State of Exception
    地址:
    ```text
    https://anchor.fm/s/5d9c1a28/podcast/rss
    ```
    错误: not updated in last month, latest audio update 2026-08-17T13:14:06.000Z
 
-26. 蜜獾吃书
+28. 蜜獾吃书
    地址:
    ```text
    https://www.ximalaya.com/album/64689453.xml
    ```
    错误: not updated in last month, latest audio update 2026-07-11T11:59:09.000Z
 
-27. 姬羊同笼（新）
+29. 姬羊同笼（新）
    地址:
    ```text
    https://sheepchick.typlog.io/feed/audio.xml
    ```
    错误: not updated in last month, latest audio update 2026-08-09T23:55:00.000Z
 
-28. 当户织-木兰的播客
+30. 当户织-木兰的播客
    地址:
    ```text
    https://www.ximalaya.com/album/69138237.xml
    ```
    错误: not updated in last month, latest audio update 2026-08-01T13:52:00.000Z
 
-29. 这刺聊点啥
+31. 这刺聊点啥
    地址:
    ```text
    https://www.ximalaya.com/album/29601116.xml
    ```
    错误: not updated in last month, latest audio update 2026-01-06T21:57:56.000Z
 
-30. 嘻谈录
+32. 嘻谈录
    地址:
    ```text
    https://www.ximalaya.com/album/43044571.xml
    ```
    错误: not updated in last month, latest audio update 2025-07-26T15:30:00.000Z
 
-31. 奇妙店台
+33. 奇妙店台
    地址:
    ```text
    http://www.ximalaya.com/album/8224043.xml
    ```
    错误: not updated in last month, latest audio update 2025-06-16T01:07:36.000Z
 
-32. RustTalk
+34. RustTalk
    地址:
    ```text
    https://rusttalk.github.io/podcast/index.xml
    ```
    错误: not updated in last month, latest audio update 2026-08-06T13:20:31.000Z
 
-33. Kotlin 炉边漫谈
+35. Kotlin 炉边漫谈
    地址:
    ```text
    https://www.ximalaya.com/album/68370676.xml
    ```
    错误: not updated in last month, latest audio update 2025-04-07T08:17:21.000Z
 
-34. 夸夸歧谈
+36. 夸夸歧谈
    地址:
    ```text
    https://anchor.fm/s/9422c4e8/podcast/rss
    ```
    错误: not updated in last month, latest audio update 2025-06-02T23:25:58.000Z
 
-35. 酒嗝播客
+37. 酒嗝播客
    地址:
    ```text
    http://rss.lizhi.fm/rss/171448272.xml
    ```
    错误: not updated in last month, latest audio update 2025-01-27T03:53:37.000Z
 
-36. 史播客
+38. 史播客
    地址:
    ```text
    https://feeds.soundon.fm/podcasts/e9ce0c40-9b4a-41e2-a19e-db9e5aeca3f7.xml
    ```
    错误: not updated in last month, latest audio update 2025-01-09T12:41:05.000Z
 
-37. 南方聲活
+39. 南方聲活
    地址:
    ```text
    https://feeds.soundon.fm/podcasts/dce49dcf-aadf-43d6-8b24-4e7ed3e37da6.xml
