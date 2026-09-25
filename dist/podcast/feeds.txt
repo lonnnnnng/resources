@@ -15,6 +15,7 @@ https://feeds.fireside.fm/stovol/rss
 https://feeds.fireside.fm/leftovertalk/rss
 https://feeds.podshow.cn/smatter.xml
 https://feeds.jjldbk.com/all.xml
+https://anyway.fm/rss.xml
 https://avocadotoast.typlog.io/feed/audio.xml
 https://bujuyigenm.typlog.io/feed/audio.xml
 https://feeds.fireside.fm/thinkagepodcast/rss
@@ -54,7 +55,6 @@ https://open.firstory.me/rss/user/cjyqpmw8l2qci07437m3pfqe6
 https://www.ximalaya.com/album/33643029.xml
 http://www.ximalaya.com/album/15702148.xml
 https://www.ximalaya.com/album/49570973.xml
-https://feed.xyzfm.space/ypn9dydpbxpc
 https://feeds.acast.com/public/shows/63a20fba6ac81a0010a9553c
 https://www.ximalaya.com/album/26765985.xml
 https://s1.proxy.wavpub.com/podcasterunion/supergameculture.xml

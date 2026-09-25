@@ -171,15 +171,6 @@
     "searchStatus": "无结果"
   },
   {
-    "key": "slapibf.com",
-    "name": "🔞森林资源",
-    "api": "https://beiyong.slapibf.com/api.php/provide/vod",
-    "detail": "https://slapibf.com",
-    "comment": "",
-    "adult": true,
-    "searchStatus": "命中"
-  },
-  {
     "key": "shayuapi.com",
     "name": "🔞鲨鱼资源",
     "api": "https://shayuapi.com/api.php/provide/vod",
@@ -193,6 +184,15 @@
     "name": "🔞桃花资源",
     "api": "https://thzy1.me/api.php/provide/vod",
     "detail": "https://thzy8.me",
+    "comment": "",
+    "adult": true,
+    "searchStatus": "命中"
+  },
+  {
+    "key": "xiaojizy.live",
+    "name": "🔞小鸡资源",
+    "api": "https://api.xiaojizy.live/provide/vod",
+    "detail": "https://xiaojizy.live",
     "comment": "",
     "adult": true,
     "searchStatus": "命中"
