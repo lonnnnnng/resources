@@ -1,6 +1,6 @@
 # 播客源检测报告
 
-生成时间: 2026-09-26T21:57:27.155Z
+生成时间: 2026-09-27T22:11:28.554Z
 
 活跃规则: 仅保留最近 1 个月内有音频条目更新的 RSS/Atom 源。
 
@@ -148,7 +148,7 @@
    ```text
    https://anyway.fm/rss.xml
    ```
-   错误: not updated in last month, latest audio update 2026-08-26T15:17:00.000Z
+   错误: not RSS/Atom XML
 
 21. 五湖四海 5lake4sea
    地址:
@@ -176,7 +176,7 @@
    ```text
    http://rss.lizhi.fm/rss/1063597.xml
    ```
-   错误: not updated in last month, latest audio update 2026-05-11T04:28:21.000Z
+   错误: This operation was aborted
 
 25. 过刊
    地址:
