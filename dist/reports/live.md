@@ -1,11 +1,11 @@
 # 电视直播源检测报告
 
-生成时间: 2026-09-27T22:11:28.554Z
+生成时间: 2026-09-28T23:49:05.486Z
 
-总数: 347
-可用: 105
-失败: 240
-跳过: 2
+总数: 391
+可用: 142
+失败: 238
+跳过: 11
 
 ## 失败项
 
@@ -581,35 +581,35 @@
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv2
    ```
-   错误: HTTP 429
+   错误: HTTP 403
 
 83. CCTV-3
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv3
    ```
-   错误: HTTP 403
+   错误: HTTP 429
 
 84. CCTV-4
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv4
    ```
-   错误: HTTP 403
+   错误: HTTP 429
 
 85. CCTV-4
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv4m
    ```
-   错误: HTTP 429
+   错误: HTTP 403
 
 86. CCTV-4
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv4o
    ```
-   错误: HTTP 403
+   错误: HTTP 429
 
 87. CCTV-5
    地址:
@@ -644,7 +644,7 @@
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv8
    ```
-   错误: HTTP 403
+   错误: HTTP 429
 
 92. CCTV-9
    地址:
@@ -672,28 +672,28 @@
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv12
    ```
-   错误: HTTP 429
+   错误: HTTP 403
 
 96. CCTV-13
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv13
    ```
-   错误: HTTP 429
+   错误: HTTP 403
 
 97. CCTV-14
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv14
    ```
-   错误: HTTP 429
+   错误: HTTP 403
 
 98. CCTV-15
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv15
    ```
-   错误: HTTP 429
+   错误: HTTP 403
 
 99. CCTV-16
    地址:
@@ -707,7 +707,7 @@
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv17
    ```
-   错误: HTTP 429
+   错误: HTTP 403
 
 101. 东方卫视
    地址:
@@ -1640,49 +1640,35 @@
    ```
    错误: fetch failed
 
-234. 河南卫视
+234. CCTV-6
+   地址:
+   ```text
+   http://8.138.7.223/tv/1905.php?id=LIVE3YPYZ30E7V1R0
+   ```
+   错误: This operation was aborted
+
+235. 河南卫视
    地址:
    ```text
    http://1.94.31.214/php/hntv.php?id=hnws
    ```
    错误: fetch failed
 
-235. 河北卫视
+236. 河北卫视
    地址:
    ```text
    http://tv.pull.hebtv.com/jishi/weishipindao.m3u8?t=2510710360&k=3d44740039027301acf8341d7361ab59
    ```
-   错误: fetch failed
+   错误: HTTP 403
 
-236. 东南卫视
+237. 东南卫视
    地址:
    ```text
    http://8.138.7.223/tv/fjtv1.php?id=dnws
    ```
    错误: fetch failed
 
-237. CCTV-13
-   地址:
-   ```text
-   https://event.pull.hebtv.com/jishi/cp1.m3u8
-   ```
-   错误: fetch failed
-
-238. CCTV-14
-   地址:
-   ```text
-   https://event.pull.hebtv.com/jishi/cp2.m3u8
-   ```
-   错误: fetch failed
-
-239. 河南卫视
-   地址:
-   ```text
-   http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=1d3e3d57397b5ac5f46aca6f1adac670&wsTime=1790539405
-   ```
-   错误: HTTP 403
-
-240. 云南卫视
+238. 云南卫视
    地址:
    ```text
    https://hwapi.yntv.net/ew265l/z1z6s5.m3u8
@@ -1691,16 +1677,79 @@
 
 ## 跳过项
 
-1. 山西卫视
+1. CCTV-1
+   地址:
+   ```text
+   http://204.12.221.218:8181/3m1080p/cctv1.m3u8
+   ```
+   原因: 超过每频道 5 条上限
+
+2. CCTV-1
+   地址:
+   ```text
+   http://173.208.212.130:8181/720p/cctv1.m3u8
+   ```
+   原因: 超过每频道 5 条上限
+
+3. CCTV-1
+   地址:
+   ```text
+   http://38.75.136.137:98/gslb/dsdqbv/cctv1hd.m3u8?auth=test20251009
+   ```
+   原因: 超过每频道 5 条上限
+
+4. CCTV-1
+   地址:
+   ```text
+   http://120.198.95.220:9901/tsfile/live/1015_1.m3u8?key=txiptv&playlive=1&down=1
+   ```
+   原因: 超过每频道 5 条上限
+
+5. CCTV-1
+   地址:
+   ```text
+   http://222.169.85.8:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
+   ```
+   原因: 超过每频道 5 条上限
+
+6. CCTV-5
+   地址:
+   ```text
+   http://120.238.94.82:9901/tsfile/live/1030_1.m3u8
+   ```
+   原因: 超过每频道 5 条上限
+
+7. CCTV-8
+   地址:
+   ```text
+   http://bztv.tvbus.cc:8081/cdnlive/cctv8.m3u8
+   ```
+   原因: 超过每频道 5 条上限
+
+8. CCTV-8
+   地址:
+   ```text
+   http://120.198.95.220:9901/tsfile/live/1023_1.m3u8?key=txiptv&playlive=1&down=1
+   ```
+   原因: 超过每频道 5 条上限
+
+9. 山西卫视
    地址:
    ```text
    http://59.39.89.130:60901/tsfile/live/0125_20.m3u8?key=txiptv&playlive=1&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-2. 山西卫视
+10. 山西卫视
    地址:
    ```text
    http://153.0.171.163:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0
+   ```
+   原因: 超过每频道 5 条上限
+
+11. 西藏卫视
+   地址:
+   ```text
+   http://112.27.5.218:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0
    ```
    原因: 超过每频道 5 条上限
