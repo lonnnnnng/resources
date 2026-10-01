@@ -27,15 +27,6 @@
     "bitrate": 0
   },
   {
-    "name": ".Quran ",
-    "url": "https://backup.qurango.net/radio/ahmad_khader_altarabulsi",
-    "favicon": "",
-    "tags": "classical",
-    "country": "CN",
-    "codec": "MP3",
-    "bitrate": 128
-  },
-  {
     "name": "179music",
     "url": "https://stream.zeno.fm/mss1yzbbbm8uv",
     "favicon": "https://zeno.fm/_ipx/q_85&fit_cover&s_288x288/https://images.zeno.fm/m2s_GHlJCj8KPIkj295khgQ3xtVZdh116e45WAjrdHo/rs:fill:288:288/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvYWd4emZucGxibTh0YzNSaGRITnlNZ3NTQ2tGMWRHaERiR2xsYm5RWWdJRFE5LWYtb3dvTUN4SU9VM1JoZEdsdmJsQnliMlpwYkdVWWdJRFFwNWlnbmdvTW9nRUVlbVZ1YncvaW1hZ2UvP3U9MTY2MTU2MTgxNzAwMA.webp",
@@ -90,6 +81,15 @@
     "bitrate": 0
   },
   {
+    "name": "80后音悦台·河南网络电台",
+    "url": "https://play-radio-stream3.hndt.com/now/SFZeH2cb/chunklist.m3u8",
+    "favicon": "https://radio5.cn/file/2023/04/2023051012135064.jpeg",
+    "tags": "",
+    "country": "CN",
+    "codec": "UNKNOWN",
+    "bitrate": 0
+  },
+  {
     "name": "891线上音乐台",
     "url": "https://live.fm891.net/96k.aac",
     "favicon": "https://cdn.onlineradiobox.com/img/l/2/147542.v9.png",
@@ -133,6 +133,15 @@
     "country": "CN",
     "codec": "AAC",
     "bitrate": 64
+  },
+  {
+    "name": "AikosRadio",
+    "url": "https://stream.zeno.fm/7tlyb215x5xtv",
+    "favicon": "https://zeno.fm/_ipx/f_webp&q_85&fit_cover&s_288x288/https://images.zeno.fm/MhQ8IBSotEfp2jy0J5Fn1p_6zqhpQDwEpGrkcqkAWko/rs:fill:288:288/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvODk4NzkwM2UtNDViMS00ZjYxLTkyNTctZTA5MTQ3YjZmNTE0L2ltYWdlLz91PTE3MTY4MTQ2MzMwMDA.webp",
+    "tags": "chinese",
+    "country": "CN",
+    "codec": "MP3",
+    "bitrate": 48
   },
   {
     "name": "AisaFM亚洲粤语台",
@@ -187,15 +196,6 @@
     "country": "CN",
     "codec": "MP3",
     "bitrate": 320
-  },
-  {
-    "name": "Asia Extreme FM",
-    "url": "https://stream.zeno.fm/v4a0afms4awvv",
-    "favicon": "https://zeno.fm/_next/image/?url=https://images.zeno.fm/n8BeRAfmIFGXgfMKXgRmwxVp5iO8M4Jov2ikVGBmKsY/rs:fit:240:240/g:ce:0:0/aHR0cHM6Ly9zdHJlYW0tdG9vbHMuemVub21lZGlhLmNvbS9jb250ZW50L3N0YXRpb25zLzgwMmQ5YTdhLTgzZDctNDUxYS1hYjJlLWNlYWFlM2VkNGI5Yy9pbWFnZS8_dXBkYXRlZD0xNjkyODUzNTQ3MDAw.webp&w=750&q=100",
-    "tags": "music",
-    "country": "CN",
-    "codec": "MP3",
-    "bitrate": 128
   },
   {
     "name": "AsiaFM",
@@ -439,6 +439,15 @@
     "country": "CN",
     "codec": "AAC+",
     "bitrate": 128
+  },
+  {
+    "name": "Bridge Radio - 华语 HITS",
+    "url": "https://das-edge11-live365-dal03.cdnstream.com/a57743_2",
+    "favicon": "https://new.brg-radio.com/wp-content/uploads/2022/10/cropped-65-1.png",
+    "tags": "music,oldies",
+    "country": "CN",
+    "codec": "AAC+",
+    "bitrate": 320
   },
   {
     "name": "Bridge Radio - 华语 HITS （2）",
@@ -891,6 +900,15 @@
     "bitrate": 0
   },
   {
+    "name": "Chinese Classical Music (Mp3 stream)",
+    "url": "https://radio.chinesemusicworld.com/chinesemusic.mp3",
+    "favicon": "https://mytunein.com/images/logos/chineseclassicalmusiconlineradio.jpg",
+    "tags": "classical,instrumental,traditional",
+    "country": "CN",
+    "codec": "MP3",
+    "bitrate": 128
+  },
+  {
     "name": "Chinese Classical Music (Ogg stream)",
     "url": "https://radio.chinesemusicworld.com/chinesemusic.ogg",
     "favicon": "https://mytunein.com/images/logos/chineseclassicalmusiconlineradio.jpg",
@@ -970,33 +988,6 @@
     "country": "CN",
     "codec": "MP3",
     "bitrate": 0
-  },
-  {
-    "name": "CNR-1 中国之声",
-    "url": "http://ngcdn002.cnr.cn/live/zgzs/index.m3u8",
-    "favicon": "https://cnvod.cnr.cn/audio2017/ondemand/media/1100/20210425/1619317448858.jpg",
-    "tags": "information,news",
-    "country": "CN",
-    "codec": "UNKNOWN",
-    "bitrate": 0
-  },
-  {
-    "name": "CNR-1 中国之声",
-    "url": "https://piccpndali.v.myalicdn.com/audio/cctv2_2.m3u8?",
-    "favicon": "",
-    "tags": "news",
-    "country": "CN",
-    "codec": "UNKNOWN",
-    "bitrate": 0
-  },
-  {
-    "name": "CNR-1 中国之声",
-    "url": "http://zbbf2.ahbztv.com/live/4f3.m3u8",
-    "favicon": "",
-    "tags": "information,news,public radio",
-    "country": "CN",
-    "codec": "UNKNOWN",
-    "bitrate": 236
   },
   {
     "name": "AXR",
@@ -1383,7 +1374,7 @@
     "tags": "chinese",
     "country": "HK",
     "codec": "AAC",
-    "bitrate": 1082
+    "bitrate": 969
   },
   {
     "name": "双溪法会",
@@ -1417,6 +1408,15 @@
     "url": "https://881903.fishtv.dpdns.org/proxy/864",
     "favicon": "https://foxxradio.com/upload/hk/1620698984.jpg.webp",
     "tags": "music",
+    "country": "HK",
+    "codec": "AAC",
+    "bitrate": 28
+  },
+  {
+    "name": "商業電台雷霆881",
+    "url": "https://881903.fishtv.dpdns.org/proxy/881",
+    "favicon": "https://foxxradio.com/upload/hk/1620700276.jpg.webp",
+    "tags": "cantonese",
     "country": "HK",
     "codec": "AAC",
     "bitrate": 28
@@ -1797,7 +1797,7 @@
     "tags": "lifestyle",
     "country": "TW",
     "codec": "AAC",
-    "bitrate": 140
+    "bitrate": 134
   },
   {
     "name": "Boss Boss Radio",
@@ -1986,7 +1986,7 @@
     "tags": "",
     "country": "TW",
     "codec": "AAC",
-    "bitrate": 135
+    "bitrate": 132
   },
   {
     "name": "Supreme Master TV",
@@ -2130,7 +2130,7 @@
     "tags": "chirstian,classical",
     "country": "TW",
     "codec": "AAC",
-    "bitrate": 65
+    "bitrate": 66
   },
   {
     "name": "佳音電台",
@@ -2751,7 +2751,7 @@
     "tags": "multicultural,multilingual",
     "country": "CA",
     "codec": "MP3",
-    "bitrate": 71
+    "bitrate": 68
   },
   {
     "name": "CHKT 1430 \"Fairchild Radio\" Toronto, ON",
@@ -4149,6 +4149,15 @@
     "bitrate": 0
   },
   {
+    "name": "Baishan Traffic Broadcasting 95.0",
+    "url": "https://lhttp.qingting.fm/live/5083/64k.mp3",
+    "favicon": "https://inews.gtimg.com/newsapp_ls/0/2510232467_200200/0",
+    "tags": "News;Talk",
+    "country": "",
+    "codec": "MP3",
+    "bitrate": 0
+  },
+  {
     "name": "Banan People's Broadcasting Station 104.5",
     "url": "https://lhttp.qingting.fm/live/5022385/64k.mp3",
     "favicon": "https://bkimg.cdn.bcebos.com/pic/0824ab18972bd40752db8da574899e510fb3094d?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U4MA==,g_7,xp_5,yp_5/format,f_auto",
@@ -4414,6 +4423,15 @@
     "url": "http://lhttp.qingting.fm/live/5021395/64k.mp3",
     "favicon": "https://kuasark.com/files/stations-logos/default6.png",
     "tags": "News;Talk",
+    "country": "",
+    "codec": "MP3",
+    "bitrate": 0
+  },
+  {
+    "name": "Binchow Traffic Radio",
+    "url": "http://lhttp.qingting.fm/live/20519/64k.mp3",
+    "favicon": "http://pic.qingting.fm/2017/0609/20170609060433.png",
+    "tags": "Traffic;Talk",
     "country": "",
     "codec": "MP3",
     "bitrate": 0
@@ -5553,6 +5571,24 @@
     "bitrate": 0
   },
   {
+    "name": "DLR-5 Dalian Music Broadcasting 106.7",
+    "url": "https://lhttp.qingting.fm/live/1084/64k.mp3",
+    "favicon": "https://www.programmes-radio.com/media/stream/659f6c4a-9c6b-4b55-84c8-d499c4181461_228F92824316BC912D92D3E34F72EB0D_guangbo6.jpg",
+    "tags": "Pop;Youth",
+    "country": "",
+    "codec": "MP3",
+    "bitrate": 0
+  },
+  {
+    "name": "DLR-6 Dalian Metropolis Broadcasting 99.1",
+    "url": "https://lhttp.qingting.fm/live/1086/64k.mp3",
+    "favicon": "https://www.allradio.net/500/Tf_brRSwUgtj4K0tME8lI.webp",
+    "tags": "Culture;Talk",
+    "country": "",
+    "codec": "MP3",
+    "bitrate": 0
+  },
+  {
     "name": "Donggang Radio Comprehensive Broadcasting",
     "url": "http://lhttp.qingting.fm/live/5022186/64k.mp3",
     "favicon": "http://www.dggbw.com/favicon.ico",
@@ -5616,21 +5652,39 @@
     "bitrate": 0
   },
   {
-    "name": "Emerging Radio Station 102.5",
-    "url": "https://lhttp.qingting.fm/live/20211602/64k.mp3",
-    "favicon": "https://pic.qingting.fm/2019/0504/20190504112053.png",
-    "tags": "Rock;Pop",
-    "country": "",
-    "codec": "MP3",
-    "bitrate": 0
-  },
-  {
     "name": "Enshi Comprehensive Broadcasting 99.0",
     "url": "https://live.xmcdn.com/live/1435/64.m3u8",
     "favicon": "https://imagev2.xmcdn.com/group77/M08/D6/BA/wKgO316G9duD_L96AAD7oOAYyXM820.png!strip=1&quality=7&magick=webp&op_type=5&upload_type=cover&name=web_large&device_type=ios",
     "tags": "News;Talk",
     "country": "",
     "codec": "HLS",
+    "bitrate": 0
+  },
+  {
+    "name": "Enshi Traffic Music Broadcasting 94.0",
+    "url": "https://live.xmcdn.com/live/1434/64.m3u8",
+    "favicon": "https://imagev2.xmcdn.com/group75/M06/D6/27/wKgO3V6G9RuBy8EtAAFfL6v34e0115.png!strip=1&quality=7&magick=webp&op_type=5&upload_type=cover&name=web_large&device_type=ios",
+    "tags": "News;Traffic",
+    "country": "",
+    "codec": "HLS",
+    "bitrate": 0
+  },
+  {
+    "name": "Ezhou Comprehensive Broadcasting",
+    "url": "https://lhttp.qingting.fm/live/21025/64k.mp3",
+    "favicon": "https://www.tvchinese.net/uploads/tv/ezggpd.jpg",
+    "tags": "News;Talk",
+    "country": "",
+    "codec": "MP3",
+    "bitrate": 0
+  },
+  {
+    "name": "Fantasy Township Radio Gensokyo Radio",
+    "url": "https://stream.gensokyoradio.net/2/",
+    "favicon": "https://gensokyoradio.net/images/gr8_logo.png",
+    "tags": "Anime;Soundtracks",
+    "country": "",
+    "codec": "AUDIO",
     "bitrate": 0
   },
   {
@@ -5823,6 +5877,15 @@
     "bitrate": 0
   },
   {
+    "name": "Gansu News Comprehensive Broadcasting",
+    "url": "http://lhttp.qingting.fm/live/5022622/64k.mp3",
+    "favicon": "https://pic.qingting.fm/2020/0521/20200521042916.jpeg!200",
+    "tags": "Talk;News",
+    "country": "",
+    "codec": "MP3",
+    "bitrate": 0
+  },
+  {
     "name": "Gansu Rural Radio 92.2",
     "url": "http://lhttp.qingting.fm/live/3941/64k.mp3",
     "favicon": "https://static-media.streema.com/media/cache/4e/5a/4e5a949173821307aecd05404fab9695.jpg",
@@ -5883,6 +5946,15 @@
     "tags": "Variety;News",
     "country": "",
     "codec": "MP3",
+    "bitrate": 0
+  },
+  {
+    "name": "Gensokyo Radio",
+    "url": "https://stream.gensokyoradio.net/1/",
+    "favicon": "https://gensokyoradio.net/images/gr8_logo.png",
+    "tags": "Anime;Soundtracks",
+    "country": "",
+    "codec": "AUDIO",
     "bitrate": 0
   },
   {
@@ -6570,15 +6642,6 @@
     "bitrate": 0
   },
   {
-    "name": "Hebei Economic Broadcasting 99.4",
-    "url": "http://lhttp.qingting.fm/live/5022089/64k.mp3",
-    "favicon": "https://pic.qingting.fm/2017/0804/20170804083151.jpeg!200",
-    "tags": "Lifestyle;News",
-    "country": "",
-    "codec": "MP3",
-    "bitrate": 0
-  },
-  {
     "name": "Hebei Music Broadcasting 102.4",
     "url": "http://satellitepull.cnr.cn/live/wxhebyygb/playlist.m3u8",
     "favicon": "http://www.666scly.com/img/logo/20151223210921313.jpg",
@@ -6646,6 +6709,15 @@
     "url": "http://satellitepull.cnr.cn/live/wx32hljjtgb/playlist.m3u8",
     "favicon": "http://cnvod.cnr.cn/audio2017/ondemand/img/1100/20191217/1576570866742.jpg",
     "tags": "Lifestyle;Culture",
+    "country": "",
+    "codec": "HLS",
+    "bitrate": 0
+  },
+  {
+    "name": "Heilongjiang News Broadcasting 94.6/621",
+    "url": "http://satellitepull.cnr.cn/live/wx32hljxwgb/playlist.m3u8",
+    "favicon": "http://cnvod.cnr.cn/audio2017/ondemand/img/1100/20191217/1576570879855.jpg",
+    "tags": "News;Talk",
     "country": "",
     "codec": "HLS",
     "bitrate": 0
@@ -8118,15 +8190,6 @@
     "bitrate": 0
   },
   {
-    "name": "Kids Talk Radio China",
-    "url": "https://stream-177.surfernetwork.com/rzn7m1uhfanuv",
-    "favicon": "https://static2.mytuner.mobi/media/tvos_radios/nwbufRKZ4g.png",
-    "tags": "Variety;Youth",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
     "name": "Kuitun Comprehensive Broadcasting 101.9",
     "url": "https://lhttp.qtfm.cn/live/20500121/64k.mp3",
     "favicon": "https://pic.qtfm.cn/sso/48/1638178888016_H4yQSkpzP.jpeg",
@@ -8608,6 +8671,15 @@
     "url": "https://lhttp.qtfm.cn/live/3995/64k.mp3",
     "favicon": "http://pic.qingting.fm/2017/0928/20170928054640.jpeg",
     "tags": "Business;News",
+    "country": "",
+    "codec": "MP3",
+    "bitrate": 0
+  },
+  {
+    "name": "Linzhou People's Broadcasting Station",
+    "url": "http://lhttp.qingting.fm/live/20211604/64k.mp3",
+    "favicon": "https://radio.menu/images/1/%E6%9E%97%E5%B7%9E%E4%BA%BA%E6%B0%91%E5%B9%BF%E6%92%AD%E7%94%B5%E5%8F%B0/png/",
+    "tags": "News;Talk",
     "country": "",
     "codec": "MP3",
     "bitrate": 0
@@ -10531,6 +10603,15 @@
   },
   {
     "name": "Suzhou Comprehensive Broadcasting 100.8",
+    "url": "http://live.ahsz.tv/audio/s10001-xwgb/index.m3u8",
+    "favicon": "http://5b0988e595225.cdn.sohucs.com/images/20200421/5bab4ecd0d2e4af8986079a63ab563d6.jpeg",
+    "tags": "News;Talk",
+    "country": "",
+    "codec": "HLS",
+    "bitrate": 0
+  },
+  {
+    "name": "Suzhou Comprehensive Broadcasting 100.8",
     "url": "https://lhttp.qtfm.cn/live/5022399/64k.mp3",
     "favicon": "http://pic.qingting.fm/2015/0409/20150409103501988.jpg",
     "tags": "news;talk",
@@ -10545,6 +10626,15 @@
     "tags": "lifestyle;education",
     "country": "",
     "codec": "MP3",
+    "bitrate": 0
+  },
+  {
+    "name": "Suzhou Literature and Art Broadcasting",
+    "url": "http://live.ahsz.tv/audio/s10001-wygb/index.m3u8",
+    "favicon": "http://5b0988e595225.cdn.sohucs.com/images/20200421/5bab4ecd0d2e4af8986079a63ab563d6.jpeg",
+    "tags": "Lifestyle;Education",
+    "country": "",
+    "codec": "HLS",
     "bitrate": 0
   },
   {
@@ -10581,6 +10671,15 @@
     "tags": "Traffic;News",
     "country": "",
     "codec": "MP3",
+    "bitrate": 0
+  },
+  {
+    "name": "Suzhou Traffic Broadcasting 107.3",
+    "url": "http://live.ahsz.tv/audio/s10001-jtgb/index.m3u8",
+    "favicon": "http://5b0988e595225.cdn.sohucs.com/images/20200421/5bab4ecd0d2e4af8986079a63ab563d6.jpeg",
+    "tags": "Traffic;News",
+    "country": "",
+    "codec": "HLS",
     "bitrate": 0
   },
   {
@@ -11076,6 +11175,15 @@
     "tags": "News;Talk",
     "country": "",
     "codec": "HLS",
+    "bitrate": 0
+  },
+  {
+    "name": "Urumqi Midong District People's Broadcasting Station",
+    "url": "http://lhttp.qingting.fm/live/21001/64k.mp3",
+    "favicon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5SoP5rZYzsfVpHIUFNiDvqNzZgsFC6jtO4mw6fEIAALVgDyDU5BnVkeznhAdbi2t3ua0&usqp=CAU",
+    "tags": "Variety;News",
+    "country": "",
+    "codec": "MP3",
     "bitrate": 0
   },
   {
@@ -12321,15 +12429,6 @@
     "bitrate": 0
   },
   {
-    "name": "Yangxin People's Broadcasting Station 103.4",
-    "url": "https://lhttp.qingting.fm/live/5021991/64k.mp3",
-    "favicon": "https://pic.qingting.fm/2014/0916/20140916114510599.png!200",
-    "tags": "News;Talk",
-    "country": "",
-    "codec": "MP3",
-    "bitrate": 0
-  },
-  {
     "name": "Yangzhong People's Broadcasting Station",
     "url": "http://live.xmcdn.com/live/2645/64.m3u8",
     "favicon": "http://www.zyz98.com/uploads/yangzhongtv.jpg",
@@ -12825,15 +12924,6 @@
     "bitrate": 0
   },
   {
-    "name": "Zezhou People's Broadcasting Station",
-    "url": "http://lhttp.qingting.fm/live/5021761/64k.mp3",
-    "favicon": "http://www.zezhou.gov.cn/images/favicon.png",
-    "tags": "Oldies;Hits",
-    "country": "",
-    "codec": "MP3",
-    "bitrate": 0
-  },
-  {
     "name": "Zhangjiakou Agricultural Economic Broadcasting",
     "url": "https://lhttp.qtfm.cn/live/5021507/64k.mp3",
     "favicon": "http://pic.qingting.fm/2015/0213/20150213151934431.png",
@@ -13203,15 +13293,6 @@
     "bitrate": 0
   },
   {
-    "name": "Zhumadian Economic Broadcasting 102.4",
-    "url": "https://lhttp.qtfm.cn/live/5022119/64k.mp3",
-    "favicon": "https://static.zerochan.net/Ib.%28Character%29.full.1845539.jpg",
-    "tags": "Pop;Business",
-    "country": "",
-    "codec": "MP3",
-    "bitrate": 0
-  },
-  {
     "name": "Zhumadian Traffic Radio 97.2",
     "url": "http://live.xmcdn.com/live/2757/64.m3u8",
     "favicon": "https://imagev2.xmcdn.com/storages/a371-audiofreehighqps/6A/4A/CMCoOSYEbmDtAACNvwCo6e1H.png!strip=1&quality=7&magick=webp&op_type=5&upload_type=cover&name=web_large&device_type=ios",
@@ -13509,15 +13590,6 @@
     "bitrate": 0
   },
   {
-    "name": "China Guangdong Folks Network",
-    "url": "http://n14.rcs.revma.com/k6q5h6yy2tzuv?rj-ttl=5&rj-tok=AAABfdt5__oAJkwOwvD71EY6bw",
-    "favicon": "https://bccnews.com.tw/wp-content/uploads/2021/08/m-280x96-logo.png",
-    "tags": "variety;lounge",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
     "name": "China Broadcasting Music Network 96.0",
     "url": "https://n04a-eu.rcs.revma.com/ks4vsmg3qtzuv?rj-ttl=5&rj-tok=AAABfdrnYZAAfFLyWzMFWR0DeQ",
     "favicon": "https://static.mytuner.mobi/media/tvos_radios/QfZuWgQKxa.jpg",
@@ -13551,15 +13623,6 @@
     "tags": "chirstian;religious",
     "country": "",
     "codec": "HLS",
-    "bitrate": 0
-  },
-  {
-    "name": "M-Radio 106.0",
-    "url": "http://n03a-eu.rcs.revma.com/044q61ha7a0uv?rj-ttl=5&rj-tok=AAABfd2Ax-wA7EzEpGnQ88SRQQ",
-    "favicon": "https://www.allradio.net/500/WSc-0pqN8hkplS7IR5XvK.webp",
-    "tags": "world;talk",
-    "country": "",
-    "codec": "AUDIO",
     "bitrate": 0
   },
   {
@@ -13663,6 +13726,33 @@
   },
   {
     "name": "CNR-1 中国之声",
+    "url": "http://ngcdn002.cnr.cn/live/zgzs/index.m3u8",
+    "favicon": "https://cnvod.cnr.cn/audio2017/ondemand/media/1100/20210425/1619317448858.jpg",
+    "tags": "information,news",
+    "country": "CN",
+    "codec": "UNKNOWN",
+    "bitrate": 0
+  },
+  {
+    "name": "CNR-1 中国之声",
+    "url": "https://piccpndali.v.myalicdn.com/audio/cctv2_2.m3u8?",
+    "favicon": "",
+    "tags": "news",
+    "country": "CN",
+    "codec": "UNKNOWN",
+    "bitrate": 0
+  },
+  {
+    "name": "CNR-1 中国之声",
+    "url": "http://zbbf2.ahbztv.com/live/4f3.m3u8",
+    "favicon": "",
+    "tags": "information,news,public radio",
+    "country": "CN",
+    "codec": "UNKNOWN",
+    "bitrate": 226
+  },
+  {
+    "name": "CNR-1 中国之声",
     "url": "https://satellitepull.cnr.cn/live/wxzgzs/playlist.m3u8?wsSession=28e11e3debee46427a9d53dc-174908087306150&wsIPSercert=f7b6cfa8467acd0836b62cf14aa786d3",
     "favicon": "https://ytmedia.radio.cn/CCYT/202302/09/16/ooaRWbtET4tHDAMFR2023020916528.png",
     "tags": "information,news",
@@ -13680,28 +13770,10 @@
     "bitrate": 0
   },
   {
-    "name": "CNR-11 བོད་སྐད་རླུང་འཕྲིན་ལས།",
-    "url": "http://satellitepull.cnr.cn/live/wxzygb/playlist.m3u8?wsSession=d966c1f28016a758d88ba0c2-174726593981287&wsIPSercert=29f90b67755e3a4646651f7aa8eb5fd6",
-    "favicon": "https://ytmedia.radio.cn/25010/adfile/202310/13/16/QVkMVRVlYkS5QIqxueAPtPg4hx99yGnmX9QG7Jnzdw2023101316660.jpg",
-    "tags": "full service",
-    "country": "CN",
-    "codec": "UNKNOWN",
-    "bitrate": 0
-  },
-  {
     "name": "CNR-13 ئۇيغۇرچە رادىيو",
     "url": "http://satellitepull.cnr.cn/live/wxwygb/playlist.m3u8?wsSession=c650605f64c6488d38b66982-174726578692450&wsIPSercert=29f90b67755e3a4646651f7aa8eb5fd6",
     "favicon": "https://ytmedia.radio.cn/25010/adfile/202310/13/16/Gtr71eiTMz8Lzs5tcaZD4wq2frDAeLqMX3Es90BIk0uCti2023101316420.jpg",
     "tags": "full service",
-    "country": "CN",
-    "codec": "UNKNOWN",
-    "bitrate": 0
-  },
-  {
-    "name": "CNR-15 中国交通广播",
-    "url": "https://satellitepull.cnr.cn/live/wxzgjtgb/playlist.m3u8?wsSession=28e11e3debee46427a9d53dc-174908170190549&wsIPSercert=f7b6cfa8467acd0836b62cf14aa786d3",
-    "favicon": "https://ytmedia.radio.cn/CCYT/202505/19/18/8jLzVYGQuoQrHLIljfYQxUeOssaU12f5xAiFGZr2025051918831.jpg",
-    "tags": "entertainment,information,lifestyle,music,traffic information",
     "country": "CN",
     "codec": "UNKNOWN",
     "bitrate": 0
