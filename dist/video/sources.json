@@ -108,6 +108,15 @@
     "searchStatus": "命中"
   },
   {
+    "key": "hsckzy.xyz",
+    "name": "🔞黄色仓库",
+    "api": "https://hsckzy.xyz/api.php/provide/vod",
+    "detail": "https://hsckzy.xyz",
+    "comment": "",
+    "adult": true,
+    "searchStatus": "命中"
+  },
+  {
     "key": "www.jingpinx.com",
     "name": "🔞精品资源",
     "api": "https://www.jingpinx.com/api.php/provide/vod",
@@ -132,7 +141,7 @@
     "detail": "https://lbapi9.com",
     "comment": "",
     "adult": true,
-    "searchStatus": "无结果"
+    "searchStatus": "命中"
   },
   {
     "key": "91md.me",
@@ -360,6 +369,15 @@
     "searchStatus": "命中"
   },
   {
+    "key": "www.maoyanzy.com",
+    "name": "猫眼资源",
+    "api": "https://api.maoyanapi.top/api.php/provide/vod",
+    "detail": "https://www.maoyanzy.com",
+    "comment": "",
+    "adult": false,
+    "searchStatus": "命中"
+  },
+  {
     "key": "mtzy.me",
     "name": "茅台资源",
     "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
@@ -402,7 +420,7 @@
     "detail": "https://www.subozy.com",
     "comment": "",
     "adult": false,
-    "searchStatus": "命中"
+    "searchStatus": "无结果"
   },
   {
     "key": "wujinzy.me",
