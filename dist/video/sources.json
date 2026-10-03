@@ -141,7 +141,7 @@
     "detail": "https://lbapi9.com",
     "comment": "",
     "adult": true,
-    "searchStatus": "命中"
+    "searchStatus": "无结果"
   },
   {
     "key": "91md.me",
@@ -369,15 +369,6 @@
     "searchStatus": "命中"
   },
   {
-    "key": "www.maoyanzy.com",
-    "name": "猫眼资源",
-    "api": "https://api.maoyanapi.top/api.php/provide/vod",
-    "detail": "https://www.maoyanzy.com",
-    "comment": "",
-    "adult": false,
-    "searchStatus": "命中"
-  },
-  {
     "key": "mtzy.me",
     "name": "茅台资源",
     "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
@@ -412,15 +403,6 @@
     "comment": "",
     "adult": false,
     "searchStatus": "命中"
-  },
-  {
-    "key": "www.subozy.com",
-    "name": "速播资源",
-    "api": "https://subocaiji.com/api.php/provide/vod",
-    "detail": "https://www.subozy.com",
-    "comment": "",
-    "adult": false,
-    "searchStatus": "无结果"
   },
   {
     "key": "wujinzy.me",

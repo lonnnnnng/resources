@@ -1,10 +1,10 @@
 # 电视直播源检测报告
 
-生成时间: 2026-10-02T22:57:45.806Z
+生成时间: 2026-10-03T22:07:52.681Z
 
-总数: 406
+总数: 407
 可用: 157
-失败: 238
+失败: 239
 跳过: 11
 
 ## 失败项
@@ -651,56 +651,56 @@
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv8
    ```
-   错误: HTTP 429
+   错误: HTTP 403
 
 93. CCTV-9
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv9
    ```
-   错误: HTTP 429
+   错误: HTTP 403
 
 94. CCTV-10
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv10
    ```
-   错误: HTTP 429
+   错误: HTTP 403
 
 95. CCTV-11
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv11
    ```
-   错误: HTTP 429
+   错误: HTTP 403
 
 96. CCTV-12
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv12
    ```
-   错误: HTTP 429
+   错误: HTTP 403
 
 97. CCTV-13
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv13
    ```
-   错误: HTTP 429
+   错误: HTTP 403
 
 98. CCTV-14
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv14
    ```
-   错误: HTTP 429
+   错误: HTTP 403
 
 99. CCTV-15
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv15
    ```
-   错误: HTTP 429
+   错误: HTTP 403
 
 100. CCTV-16
    地址:
@@ -1647,28 +1647,35 @@
    ```
    错误: fetch failed
 
-235. 河南卫视
+235. CCTV-6
+   地址:
+   ```text
+   http://8.138.7.223/tv/1905.php?id=LIVE3YPYZ30E7V1R0
+   ```
+   错误: This operation was aborted
+
+236. 河南卫视
    地址:
    ```text
    http://1.94.31.214/php/hntv.php?id=hnws
    ```
    错误: fetch failed
 
-236. 河北卫视
+237. 河北卫视
    地址:
    ```text
    http://tv.pull.hebtv.com/jishi/weishipindao.m3u8?t=2510710360&k=3d44740039027301acf8341d7361ab59
    ```
    错误: HTTP 403
 
-237. 东南卫视
+238. 东南卫视
    地址:
    ```text
    http://8.138.7.223/tv/fjtv1.php?id=dnws
    ```
    错误: fetch failed
 
-238. 云南卫视
+239. 云南卫视
    地址:
    ```text
    https://hwapi.yntv.net/ew265l/z1z6s5.m3u8
@@ -1677,79 +1684,79 @@
 
 ## 跳过项
 
-1. CCTV-2
+1. 广西卫视
    地址:
    ```text
-   http://204.12.221.218:8181/3m1080p/cctv2.m3u8
+   http://101.66.198.121:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-2. CCTV-2
+2. 浙江卫视
    地址:
    ```text
-   http://173.208.212.130:8181/720p/cctv2.m3u8
+   http://ali-xwl.cztv.com/live/channel01720Plxw.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-3. CCTV-2
+3. 山西卫视
    地址:
    ```text
-   http://bztv.tvbus.cc:8081/cdnlive/cctv2.m3u8
+   http://101.66.194.121:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-4. CCTV-2
+4. 山西卫视
    地址:
    ```text
-   http://198.204.228.26/live/cctv2hd.m3u8
+   http://101.66.198.121:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-5. CCTV-2
+5. 陕西卫视
    地址:
    ```text
-   http://113.25.252.226:9901/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
+   http://101.66.199.13:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-6. CCTV-2
+6. 陕西卫视
    地址:
    ```text
-   http://183.10.180.81:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
+   http://183.10.180.81:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=1&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-7. CCTV-4
+7. 陕西卫视
    地址:
    ```text
-   http://183.10.180.81:9901/tsfile/live/1071_1.m3u8?key=txiptv&playlive=1&authid=0
+   http://120.198.95.220:9901/tsfile/live/1068_1.m3u8?key=txiptv&playlive=1&down=1
    ```
    原因: 超过每频道 5 条上限
 
-8. CCTV-8
+8. 陕西卫视
    地址:
    ```text
-   http://124.228.160.112:9901/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
+   http://36.136.38.87:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=1&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-9. CCTV-8
+9. 吉林卫视
    地址:
    ```text
-   http://120.198.95.220:9901/tsfile/live/1023_1.m3u8?key=txiptv&playlive=1&down=1
+   http://101.66.194.121:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-10. CCTV-11
+10. 云南卫视
    地址:
    ```text
-   http://124.228.160.112:9901/tsfile/live/0011_2.m3u8?key=txiptv&playlive=1&authid=0
+   http://101.66.195.33:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-11. 河北卫视
+11. 云南卫视
    地址:
    ```text
-   http://36.136.38.87:9901/tsfile/live/0117_1.m3u8?key=txiptv&playlive=1&authid=0
+   http://101.66.198.121:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0
    ```
    原因: 超过每频道 5 条上限
