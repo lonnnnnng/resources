@@ -1,6 +1,6 @@
 # 播客源检测报告
 
-生成时间: 2026-10-03T22:07:52.681Z
+生成时间: 2026-10-04T22:19:52.862Z
 
 活跃规则: 仅保留最近 1 个月内有音频条目更新的 RSS/Atom 源。
 
@@ -176,28 +176,28 @@
    ```text
    http://rss.lizhi.fm/rss/1063597.xml
    ```
-   错误: not updated in last month, latest audio update 2026-05-11T04:28:21.000Z
+   错误: This operation was aborted
 
-25. 即兴Solo｜粤语播客
-   地址:
-   ```text
-   https://www.ximalaya.com/album/46250458.xml
-   ```
-   错误: not updated in last month, latest audio update 2026-08-29T02:19:05.000Z
-
-26. 电影巨辩
+25. 电影巨辩
    地址:
    ```text
    https://www.ximalaya.com/album/76473718.xml
    ```
    错误: not updated in last month, latest audio update 2026-08-30T13:38:01.000Z
 
-27. 过刊
+26. 过刊
    地址:
    ```text
    https://www.ximalaya.com/album/36470328.xml
    ```
    错误: not updated in last month, latest audio update 2026-08-17T13:48:56.000Z
+
+27. 中年少女坦白局
+   地址:
+   ```text
+   http://www.ximalaya.com/album/49894767.xml
+   ```
+   错误: not updated in last month, latest audio update 2026-09-04T00:00:00.000Z
 
 28. 普通读者
    地址:
