@@ -1,10 +1,10 @@
 # 电视直播源检测报告
 
-生成时间: 2026-10-06T23:03:42.628Z
+生成时间: 2026-10-07T23:34:51.449Z
 
-总数: 427
-可用: 175
-失败: 234
+总数: 415
+可用: 155
+失败: 242
 跳过: 18
 
 ## 失败项
@@ -16,1631 +16,1687 @@
    ```
    错误: HTTP 403
 
-2. 浙江卫视
+2. 东方卫视
+   地址:
+   ```text
+   http://bp-resource-dfl.bestv.cn/148/3/video.m3u8
+   ```
+   错误: This operation was aborted
+
+3. 湖南卫视
+   地址:
+   ```text
+   http://8.138.7.223/tv/api.php?id=hnws4k
+   ```
+   错误: fetch failed
+
+4. 浙江卫视
    地址:
    ```text
    http://101.35.240.114:88/live.php?id=浙江卫视4K
    ```
    错误: HTTP 404
 
-3. 广东卫视
+5. 广东卫视
    地址:
    ```text
    http://101.35.240.114:88/live.php?id=广东卫视4K
    ```
    错误: HTTP 404
 
-4. 山东卫视
+6. 山东卫视
    地址:
    ```text
    http://101.35.240.114:88/live.php?id=山东卫视4K
    ```
    错误: HTTP 404
 
-5. 四川卫视
+7. 四川卫视
    地址:
    ```text
    http://101.35.240.114:88/live.php?id=四川卫视4K
    ```
    错误: HTTP 404
 
-6. 浙江卫视
+8. 河北卫视
+   地址:
+   ```text
+   http://event.pull.hebtv.com/jishi/weishi_tingyun.m3u8
+   ```
+   错误: fetch failed
+
+9. 浙江卫视
    地址:
    ```text
    https://play-qukan.cztv.com/live/1746687519046362.m3u8
    ```
    错误: HTTP 404
 
-7. 黑龙江卫视
+10. 黑龙江卫视
    地址:
    ```text
    https://idclive.hljtv.com:4430/live/hljws_own.m3u8
    ```
    错误: fetch failed
 
-8. CCTV-1
+11. CCTV-1
    地址:
    ```text
    http://101.35.240.114:88/live.php?id=CCTV1
    ```
    错误: HTTP 404
 
-9. CCTV-2
+12. CCTV-2
    地址:
    ```text
    http://148.135.93.213/live.php?id=CCTV2
    ```
    错误: This operation was aborted
 
-10. CCTV-3
+13. CCTV-3
    地址:
    ```text
    http://101.35.240.114:88/live.php?id=CCTV3
    ```
    错误: HTTP 404
 
-11. CCTV-4
+14. CCTV-4
    地址:
    ```text
    http://148.135.93.213/live.php?id=CCTV4
    ```
    错误: This operation was aborted
 
-12. CCTV-5
+15. CCTV-5
    地址:
    ```text
    http://101.35.240.114:88/live.php?id=CCTV5
    ```
    错误: HTTP 404
 
-13. CCTV-5+
+16. CCTV-5+
    地址:
    ```text
    http://148.135.93.213/live.php?id=CCTV5p
    ```
    错误: This operation was aborted
 
-14. CCTV-6
+17. CCTV-6
    地址:
    ```text
    http://101.35.240.114:88/live.php?id=CCTV6
    ```
    错误: HTTP 404
 
-15. CCTV-7
+18. CCTV-7
    地址:
    ```text
    http://148.135.93.213/live.php?id=CCTV7
    ```
    错误: This operation was aborted
 
-16. CCTV-8
+19. CCTV-8
    地址:
    ```text
    http://101.35.240.114:88/live.php?id=CCTV8
    ```
    错误: HTTP 404
 
-17. CCTV-9
+20. CCTV-9
    地址:
    ```text
    http://148.135.93.213/live.php?id=CCTV9
    ```
    错误: This operation was aborted
 
-18. CCTV-10
+21. CCTV-10
    地址:
    ```text
    http://101.35.240.114:88/live.php?id=CCTV10
    ```
    错误: HTTP 404
 
-19. CCTV-11
+22. CCTV-11
    地址:
    ```text
    http://148.135.93.213/live.php?id=CCTV11
    ```
    错误: This operation was aborted
 
-20. CCTV-12
+23. CCTV-12
    地址:
    ```text
    http://101.35.240.114:88/live.php?id=CCTV12
    ```
    错误: HTTP 404
 
-21. CCTV-13
+24. CCTV-13
    地址:
    ```text
    http://148.135.93.213/live.php?id=CCTV13
    ```
    错误: This operation was aborted
 
-22. CCTV-14
+25. CCTV-14
    地址:
    ```text
    http://101.35.240.114:88/live.php?id=CCTV14
    ```
    错误: HTTP 404
 
-23. CCTV-15
+26. CCTV-15
    地址:
    ```text
    http://148.135.93.213/live.php?id=CCTV15
    ```
    错误: This operation was aborted
 
-24. CCTV-16
+27. CCTV-16
    地址:
    ```text
    http://101.35.240.114:88/live.php?id=CCTV16
    ```
    错误: HTTP 404
 
-25. CCTV-17
+28. CCTV-17
    地址:
    ```text
    http://74.48.192.96:82/live.php?id=CCTV17
    ```
    错误: This operation was aborted
 
-26. CETV-1
+29. CETV-1
    地址:
    ```text
    http://www.lizhinas.top:1009/rtp/239.252.220.198:5140
    ```
    错误: fetch failed
 
-27. CETV-2
+30. CETV-2
    地址:
    ```text
    http://www.lizhinas.top:1009/rtp/239.252.219.73:5140
    ```
    错误: fetch failed
 
-28. CETV-3
+31. CETV-3
    地址:
    ```text
    http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226722/1.m3u8
    ```
    错误: fetch failed
 
-29. CETV-4
+32. CETV-4
    地址:
    ```text
    http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226724/1.m3u8
    ```
    错误: fetch failed
 
-30. CCTV-1
+33. CCTV-1
    地址:
    ```text
    http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
    ```
    错误: fetch failed
 
-31. CCTV-2
+34. CCTV-2
    地址:
    ```text
    http://iptv.huuc.edu.cn/hls/cctv2hd.m3u8
    ```
    错误: fetch failed
 
-32. CCTV-3
+35. CCTV-3
    地址:
    ```text
    http://iptv.huuc.edu.cn/hls/cctv3hd.m3u8
    ```
    错误: fetch failed
 
-33. CCTV-4
+36. CCTV-4
    地址:
    ```text
    http://iptv.huuc.edu.cn/hls/cctv4hd.m3u8
    ```
    错误: fetch failed
 
-34. CCTV-5
+37. CCTV-5
    地址:
    ```text
    http://iptv.huuc.edu.cn/hls/cctv5hd.m3u8
    ```
    错误: fetch failed
 
-35. CCTV-6
+38. CCTV-6
    地址:
    ```text
    http://iptv.huuc.edu.cn/hls/cctv6hd.m3u8
    ```
    错误: fetch failed
 
-36. CCTV-7
+39. CCTV-7
    地址:
    ```text
    http://iptv.huuc.edu.cn/hls/cctv7hd.m3u8
    ```
    错误: fetch failed
 
-37. CCTV-8
+40. CCTV-8
    地址:
    ```text
    http://iptv.huuc.edu.cn/hls/cctv8hd.m3u8
    ```
    错误: fetch failed
 
-38. CCTV-9
+41. CCTV-9
    地址:
    ```text
    http://iptv.huuc.edu.cn/hls/cctv9hd.m3u8
    ```
    错误: fetch failed
 
-39. CCTV-10
+42. CCTV-10
    地址:
    ```text
    http://iptv.huuc.edu.cn/hls/cctv10hd.m3u8
    ```
    错误: fetch failed
 
-40. CCTV-11
+43. CCTV-11
    地址:
    ```text
    http://iptv.huuc.edu.cn/hls/cctv11hd.m3u8
    ```
    错误: fetch failed
 
-41. CCTV-12
+44. CCTV-12
    地址:
    ```text
    http://iptv.huuc.edu.cn/hls/cctv12hd.m3u8
    ```
    错误: fetch failed
 
-42. CCTV-13
+45. CCTV-13
    地址:
    ```text
    http://iptv.huuc.edu.cn/hls/cctv13hd.m3u8
    ```
    错误: fetch failed
 
-43. CCTV-14
+46. CCTV-14
    地址:
    ```text
    http://iptv.huuc.edu.cn/hls/cctv14hd.m3u8
    ```
    错误: fetch failed
 
-44. CCTV-15
+47. CCTV-15
    地址:
    ```text
    http://p.ytelc.com/169l/0/cctv.php?id=cctv15
    ```
    错误: HTTP 404
 
-45. CCTV-16
+48. CCTV-16
    地址:
    ```text
    http://p.ytelc.com/169l/0/cctv.php?id=cctv16
    ```
    错误: HTTP 404
 
-46. CCTV-17
+49. CCTV-17
    地址:
    ```text
    http://p.ytelc.com/169l/0/cctv.php?id=cctv17
    ```
    错误: HTTP 404
 
-47. CCTV-17
+50. CCTV-17
    地址:
    ```text
    http://p.ytelc.com/169l/0/cctv.php?id=cctv4k
    ```
    错误: HTTP 404
 
-48. 北京卫视
+51. 北京卫视
    地址:
    ```text
    http://iptv.huuc.edu.cn/hls/btv1hd.m3u8
    ```
    错误: fetch failed
 
-49. 湖南卫视
+52. 湖南卫视
    地址:
    ```text
    http://iptv.huuc.edu.cn/hls/hunanhd.m3u8
    ```
    错误: fetch failed
 
-50. 浙江卫视
+53. 浙江卫视
    地址:
    ```text
    http://iptv.huuc.edu.cn/hls/zjhd.m3u8
    ```
    错误: fetch failed
 
-51. 江苏卫视
+54. 江苏卫视
    地址:
    ```text
    http://iptv.huuc.edu.cn/hls/jshd.m3u8
    ```
    错误: fetch failed
 
-52. 东方卫视
+55. 东方卫视
    地址:
    ```text
    http://iptv.huuc.edu.cn/hls/dfhd.m3u8
    ```
    错误: fetch failed
 
-53. 广东卫视
+56. 广东卫视
    地址:
    ```text
    http://iptv.huuc.edu.cn/hls/gdhd.m3u8
    ```
    错误: fetch failed
 
-54. 天津卫视
+57. 天津卫视
    地址:
    ```text
    http://iptv.huuc.edu.cn/hls/tjhd.m3u8
    ```
    错误: fetch failed
 
-55. 河北卫视
+58. 河北卫视
    地址:
    ```text
    http://iptv.huuc.edu.cn/hls/hebhd.m3u8
    ```
    错误: fetch failed
 
-56. 安徽卫视
+59. 安徽卫视
    地址:
    ```text
    http://iptv.huuc.edu.cn/hls/ahhd.m3u8
    ```
    错误: fetch failed
 
-57. 东南卫视
+60. 东南卫视
    地址:
    ```text
    http://iptv.huuc.edu.cn/hls/dnhd.m3u8
    ```
    错误: fetch failed
 
-58. 黑龙江卫视
+61. 黑龙江卫视
    地址:
    ```text
    http://iptv.huuc.edu.cn/hls/hljhd.m3u8
    ```
    错误: fetch failed
 
-59. 湖北卫视
+62. 湖北卫视
    地址:
    ```text
    http://iptv.huuc.edu.cn/hls/hbhd.m3u8
    ```
    错误: fetch failed
 
-60. 江西卫视
+63. 江西卫视
    地址:
    ```text
    http://iptv.huuc.edu.cn/hls/jxhd.m3u8
    ```
    错误: fetch failed
 
-61. 辽宁卫视
+64. 辽宁卫视
    地址:
    ```text
    http://iptv.huuc.edu.cn/hls/lnhd.m3u8
    ```
    错误: fetch failed
 
-62. 山东卫视
+65. 山东卫视
    地址:
    ```text
    http://iptv.huuc.edu.cn/hls/sdhd.m3u8
    ```
    错误: fetch failed
 
-63. 四川卫视
+66. 四川卫视
    地址:
    ```text
    http://iptv.huuc.edu.cn/hls/schd.m3u8
    ```
    错误: fetch failed
 
-64. 重庆卫视
+67. 重庆卫视
    地址:
    ```text
    http://iptv.huuc.edu.cn/hls/cqhd.m3u8
    ```
    错误: fetch failed
 
-65. CCTV-1
+68. CCTV-1
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0001_1.m3u8
    ```
    错误: This operation was aborted
 
-66. CCTV-2
+69. CCTV-2
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0002_1.m3u8
    ```
    错误: This operation was aborted
 
-67. CCTV-3
+70. CCTV-3
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0003_1.m3u8
    ```
    错误: This operation was aborted
 
-68. CCTV-4
+71. CCTV-4
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0004_1.m3u8
    ```
    错误: This operation was aborted
 
-69. CCTV-5
+72. CCTV-5
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0005_1.m3u8
    ```
    错误: This operation was aborted
 
-70. CCTV-6
+73. CCTV-6
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0006_1.m3u8
    ```
    错误: This operation was aborted
 
-71. CCTV-7
+74. CCTV-7
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0007_1.m3u8
    ```
    错误: This operation was aborted
 
-72. CCTV-8
+75. CCTV-8
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0008_1.m3u8
    ```
    错误: This operation was aborted
 
-73. CCTV-9
+76. CCTV-9
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0009_1.m3u8
    ```
    错误: This operation was aborted
 
-74. CCTV-10
+77. CCTV-10
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0010_1.m3u8
    ```
    错误: This operation was aborted
 
-75. CCTV-11
+78. CCTV-11
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0011_1.m3u8
    ```
    错误: This operation was aborted
 
-76. CCTV-12
+79. CCTV-12
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0012_1.m3u8
    ```
    错误: This operation was aborted
 
-77. CCTV-13
+80. CCTV-13
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0013_1.m3u8
    ```
    错误: This operation was aborted
 
-78. CCTV-14
+81. CCTV-14
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0014_1.m3u8
    ```
    错误: This operation was aborted
 
-79. CCTV-15
+82. CCTV-15
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0001_1.m3u8
    ```
    错误: This operation was aborted
 
-80. CCTV-1
+83. CCTV-1
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv1
    ```
    错误: HTTP 403
 
-81. CCTV-2
+84. CCTV-2
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv2
    ```
    错误: HTTP 403
 
-82. CCTV-3
+85. CCTV-3
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv3
    ```
    错误: HTTP 403
 
-83. CCTV-4
+86. CCTV-4
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv4
    ```
    错误: HTTP 403
 
-84. CCTV-4
+87. CCTV-4
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv4m
    ```
    错误: HTTP 403
 
-85. CCTV-4
+88. CCTV-4
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv4o
    ```
    错误: HTTP 403
 
-86. CCTV-5
+89. CCTV-5
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv5
    ```
    错误: HTTP 403
 
-87. CCTV-5+
+90. CCTV-5+
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv5p
    ```
-   错误: HTTP 403
+   错误: HTTP 429
 
-88. CCTV-6
+91. CCTV-6
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv6
    ```
    错误: HTTP 403
 
-89. CCTV-7
+92. CCTV-8
    地址:
    ```text
-   http://t.061899.xyz/tl/tl.php?id=cctv7
+   http://t.061899.xyz/tl/tl.php?id=cctv8
    ```
-   错误: HTTP 403
+   错误: HTTP 429
 
-90. CCTV-9
+93. CCTV-9
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv9
    ```
-   错误: HTTP 403
+   错误: HTTP 429
 
-91. CCTV-10
+94. CCTV-10
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv10
    ```
    错误: HTTP 429
 
-92. CCTV-11
+95. CCTV-11
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv11
    ```
    错误: HTTP 429
 
-93. CCTV-12
+96. CCTV-12
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv12
    ```
    错误: HTTP 429
 
-94. CCTV-13
+97. CCTV-13
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv13
    ```
    错误: HTTP 429
 
-95. CCTV-14
+98. CCTV-14
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv14
    ```
    错误: HTTP 429
 
-96. CCTV-15
+99. CCTV-15
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv15
    ```
    错误: HTTP 429
 
-97. CCTV-16
+100. CCTV-16
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv16
    ```
    错误: HTTP 429
 
-98. CCTV-17
+101. CCTV-17
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv17
    ```
    错误: HTTP 429
 
-99. 东方卫视
+102. 东方卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=dfws
    ```
    错误: HTTP 429
 
-100. 重庆卫视
+103. 重庆卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cqws
    ```
    错误: HTTP 429
 
-101. 吉林卫视
+104. 吉林卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=jlws
    ```
    错误: HTTP 429
 
-102. 辽宁卫视
+105. 辽宁卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=lnws
    ```
    错误: HTTP 429
 
-103. 内蒙古卫视
+106. 内蒙古卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=nmws
    ```
    错误: HTTP 429
 
-104. 宁夏卫视
+107. 宁夏卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=nxws
    ```
    错误: HTTP 429
 
-105. 甘肃卫视
+108. 甘肃卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=gsws
    ```
    错误: HTTP 429
 
-106. 青海卫视
+109. 青海卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=qhws
    ```
    错误: HTTP 429
 
-107. 陕西卫视
+110. 陕西卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=sxws
    ```
    错误: HTTP 429
 
-108. 山东卫视
+111. 山东卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=sdws
    ```
    错误: HTTP 429
 
-109. 河南卫视
+112. 河南卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=hnws
    ```
    错误: HTTP 429
 
-110. 湖北卫视
+113. 湖北卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=hubws
    ```
    错误: HTTP 429
 
-111. 湖南卫视
+114. 湖南卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=hunws
    ```
    错误: HTTP 429
 
-112. 江西卫视
+115. 江西卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=jxws
    ```
    错误: HTTP 429
 
-113. 江苏卫视
+116. 江苏卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=jsws
    ```
    错误: HTTP 429
 
-114. 东南卫视
+117. 东南卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=dnws
    ```
    错误: HTTP 429
 
-115. 广东卫视
+118. 广东卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=gdws
    ```
    错误: HTTP 429
 
-116. 广西卫视
+119. 广西卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=gxws
    ```
    错误: HTTP 429
 
-117. 云南卫视
+120. 云南卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=ynws
    ```
    错误: HTTP 429
 
-118. 贵州卫视
+121. 贵州卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=gzws
    ```
    错误: HTTP 429
 
-119. 新疆卫视
+122. 新疆卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=xjws
    ```
    错误: HTTP 429
 
-120. 西藏卫视
+123. 西藏卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=xzws
    ```
    错误: HTTP 429
 
-121. 海南卫视
+124. 海南卫视
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=hinws
    ```
    错误: HTTP 429
 
-122. 湖南卫视
+125. 湖南卫视
    地址:
    ```text
    http://101.35.240.114:88/live.php?id=湖南卫视
    ```
    错误: HTTP 404
 
-123. 北京卫视
+126. 北京卫视
    地址:
    ```text
    http://101.35.240.114:88/live.php?id=北京卫视
    ```
    错误: HTTP 404
 
-124. 浙江卫视
+127. 浙江卫视
    地址:
    ```text
    http://101.35.240.114:88/live.php?id=浙江卫视
    ```
    错误: HTTP 404
 
-125. 江苏卫视
+128. 江苏卫视
    地址:
    ```text
    http://101.35.240.114:88/live.php?id=江苏卫视
    ```
    错误: HTTP 404
 
-126. 陕西卫视
+129. 陕西卫视
    地址:
    ```text
    http://101.35.240.114:88/live.php?id=陕西卫视
    ```
    错误: HTTP 404
 
-127. 湖北卫视
+130. 湖北卫视
    地址:
    ```text
    http://101.35.240.114:88/live.php?id=湖北卫视
    ```
    错误: HTTP 404
 
-128. 内蒙古卫视
+131. 内蒙古卫视
    地址:
    ```text
    http://101.35.240.114:88/live.php?id=内蒙古卫视
    ```
    错误: HTTP 404
 
-129. 江西卫视
+132. 江西卫视
    地址:
    ```text
    http://101.35.240.114:88/live.php?id=江西卫视
    ```
    错误: HTTP 404
 
-130. 广东卫视
+133. 广东卫视
    地址:
    ```text
    http://101.35.240.114:88/live.php?id=广东卫视
    ```
    错误: HTTP 404
 
-131. 西藏卫视
+134. 东方卫视
+   地址:
+   ```text
+   http://bp-resource-dfl.bestv.cn/155/3/video.m3u8
+   ```
+   错误: This operation was aborted
+
+135. 西藏卫视
    地址:
    ```text
    http://101.35.240.114:88/live.php?id=西藏卫视
    ```
    错误: HTTP 404
 
-132. 新疆卫视
+136. 新疆卫视
    地址:
    ```text
    http://101.35.240.114:88/live.php?id=新疆卫视
    ```
    错误: HTTP 404
 
-133. 青海卫视
+137. 青海卫视
    地址:
    ```text
    http://148.135.93.213/live.php?id=青海卫视
    ```
    错误: This operation was aborted
 
-134. 东南卫视
+138. 东南卫视
    地址:
    ```text
    http://148.135.93.213/live.php?id=东南卫视
    ```
    错误: This operation was aborted
 
-135. 吉林卫视
+139. 吉林卫视
    地址:
    ```text
    http://148.135.93.213/live.php?id=吉林卫视
    ```
    错误: This operation was aborted
 
-136. 四川卫视
+140. 四川卫视
    地址:
    ```text
    http://148.135.93.213/live.php?id=四川卫视
    ```
    错误: This operation was aborted
 
-137. 天津卫视
+141. 天津卫视
    地址:
    ```text
    http://148.135.93.213/live.php?id=天津卫视
    ```
    错误: This operation was aborted
 
-138. 安徽卫视
+142. 安徽卫视
    地址:
    ```text
    http://101.35.240.114:88/live.php?id=安徽卫视
    ```
    错误: HTTP 404
 
-139. 山东卫视
+143. 山东卫视
    地址:
    ```text
    http://148.135.93.213/live.php?id=山东卫视
    ```
    错误: This operation was aborted
 
-140. 山西卫视
+144. 山西卫视
    地址:
    ```text
    http://148.135.93.213/live.php?id=山西卫视
    ```
    错误: This operation was aborted
 
-141. 广西卫视
+145. 广西卫视
    地址:
    ```text
    http://148.135.93.213/live.php?id=广西卫视
    ```
    错误: This operation was aborted
 
-142. 河北卫视
+146. 河北卫视
    地址:
    ```text
    http://148.135.93.213/live.php?id=河北卫视
    ```
    错误: This operation was aborted
 
-143. 河南卫视
+147. 河南卫视
    地址:
    ```text
    http://148.135.93.213/live.php?id=河南卫视
    ```
    错误: This operation was aborted
 
-144. 甘肃卫视
+148. 甘肃卫视
    地址:
    ```text
    http://148.135.93.213/live.php?id=甘肃卫视
    ```
    错误: This operation was aborted
 
-145. 贵州卫视
+149. 贵州卫视
    地址:
    ```text
    http://148.135.93.213/live.php?id=贵州卫视
    ```
    错误: This operation was aborted
 
-146. 辽宁卫视
+150. 辽宁卫视
    地址:
    ```text
    http://148.135.93.213/live.php?id=辽宁卫视
    ```
    错误: This operation was aborted
 
-147. 重庆卫视
+151. 重庆卫视
    地址:
    ```text
    http://148.135.93.213/live.php?id=重庆卫视
    ```
    错误: This operation was aborted
 
-148. 黑龙江卫视
+152. 黑龙江卫视
    地址:
    ```text
    http://148.135.93.213/live.php?id=黑龙江卫视
    ```
    错误: This operation was aborted
 
-149. 海南卫视
+153. 海南卫视
    地址:
    ```text
    http://148.135.93.213/live.php?id=海南卫视
    ```
    错误: This operation was aborted
 
-150. 云南卫视
+154. 云南卫视
    地址:
    ```text
    http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovL3d3dy5kc2suY2MvcGhwL3N4Z2QucGhwP2lkPXlud3M=
    ```
    错误: HTTP 404
 
-151. CCTV-1
+155. 海南卫视
+   地址:
+   ```text
+   http://nn.7x9d.cn/地方台8563/海南.php?id=hnws
+   ```
+   错误: This operation was aborted
+
+156. CCTV-1
    地址:
    ```text
    http://112.27.235.94:8000/hls/1/index.m3u8
    ```
    错误: HTTP 500
 
-152. CCTV-2
+157. CCTV-2
    地址:
    ```text
    http://112.27.235.94:8000/hls/2/index.m3u8
    ```
    错误: HTTP 500
 
-153. CCTV-3
+158. CCTV-3
    地址:
    ```text
    http://112.27.235.94:8000/hls/3/index.m3u8
    ```
    错误: HTTP 500
 
-154. CCTV-4
+159. CCTV-4
    地址:
    ```text
    http://112.27.235.94:8000/hls/4/index.m3u8
    ```
    错误: HTTP 500
 
-155. CCTV-5
+160. CCTV-5
    地址:
    ```text
    http://112.27.235.94:8000/hls/5/index.m3u8
    ```
    错误: HTTP 500
 
-156. CCTV-5+
+161. CCTV-5+
    地址:
    ```text
    http://112.27.235.94:8000/hls/6/index.m3u8
    ```
    错误: HTTP 500
 
-157. CCTV-6
+162. CCTV-6
    地址:
    ```text
    http://112.27.235.94:8000/hls/7/index.m3u8
    ```
    错误: HTTP 500
 
-158. CCTV-7
+163. CCTV-7
    地址:
    ```text
    http://112.27.235.94:8000/hls/8/index.m3u8
    ```
    错误: HTTP 500
 
-159. CCTV-8
+164. CCTV-8
    地址:
    ```text
    http://112.27.235.94:8000/hls/9/index.m3u8
    ```
    错误: HTTP 500
 
-160. CCTV-9
+165. CCTV-9
    地址:
    ```text
    http://112.27.235.94:8000/hls/10/index.m3u8
    ```
    错误: HTTP 500
 
-161. CCTV-10
+166. CCTV-10
    地址:
    ```text
    http://112.27.235.94:8000/hls/11/index.m3u8
    ```
    错误: HTTP 500
 
-162. CCTV-11
+167. CCTV-11
    地址:
    ```text
    http://112.27.235.94:8000/hls/12/index.m3u8
    ```
    错误: HTTP 500
 
-163. CCTV-12
+168. CCTV-12
    地址:
    ```text
    http://112.27.235.94:8000/hls/13/index.m3u8
    ```
    错误: HTTP 500
 
-164. CCTV-13
+169. CCTV-13
    地址:
    ```text
    http://112.27.235.94:8000/hls/14/index.m3u8
    ```
    错误: HTTP 500
 
-165. CCTV-14
+170. CCTV-14
    地址:
    ```text
    http://112.27.235.94:8000/hls/15/index.m3u8
    ```
    错误: HTTP 500
 
-166. CCTV-15
+171. CCTV-15
    地址:
    ```text
    http://112.27.235.94:8000/hls/16/index.m3u8
    ```
    错误: HTTP 500
 
-167. 安徽卫视
+172. 安徽卫视
    地址:
    ```text
    http://112.27.235.94:8000/hls/26/index.m3u8
    ```
    错误: HTTP 500
 
-168. 北京卫视
+173. 北京卫视
    地址:
    ```text
    http://112.27.235.94:8000/hls/27/index.m3u8
    ```
    错误: HTTP 500
 
-169. 浙江卫视
+174. 浙江卫视
    地址:
    ```text
    http://112.27.235.94:8000/hls/29/index.m3u8
    ```
    错误: HTTP 500
 
-170. 广东卫视
+175. 广东卫视
    地址:
    ```text
    http://112.27.235.94:8000/hls/30/index.m3u8
    ```
    错误: HTTP 500
 
-171. 湖南卫视
+176. 湖南卫视
    地址:
    ```text
    http://112.27.235.94:8000/hls/31/index.m3u8
    ```
    错误: HTTP 500
 
-172. 江苏卫视
+177. 江苏卫视
    地址:
    ```text
    http://112.27.235.94:8000/hls/32/index.m3u8
    ```
    错误: HTTP 500
 
-173. 山东卫视
+178. 山东卫视
    地址:
    ```text
    http://112.27.235.94:8000/hls/34/index.m3u8
    ```
    错误: HTTP 500
 
-174. 四川卫视
+179. 四川卫视
    地址:
    ```text
    http://112.27.235.94:8000/hls/35/index.m3u8
    ```
    错误: HTTP 500
 
-175. 重庆卫视
+180. 重庆卫视
    地址:
    ```text
    http://112.27.235.94:8000/hls/36/index.m3u8
    ```
    错误: HTTP 500
 
-176. 河南卫视
+181. 河南卫视
    地址:
    ```text
    http://112.27.235.94:8000/hls/37/index.m3u8
    ```
    错误: HTTP 500
 
-177. 东南卫视
+182. 东南卫视
    地址:
    ```text
    http://112.27.235.94:8000/hls/38/index.m3u8
    ```
    错误: HTTP 500
 
-178. 河北卫视
+183. 河北卫视
    地址:
    ```text
    http://112.27.235.94:8000/hls/39/index.m3u8
    ```
    错误: HTTP 500
 
-179. 云南卫视
+184. 云南卫视
    地址:
    ```text
    http://112.27.235.94:8000/hls/40/index.m3u8
    ```
    错误: HTTP 500
 
-180. 湖北卫视
+185. 湖北卫视
    地址:
    ```text
    http://112.27.235.94:8000/hls/41/index.m3u8
    ```
    错误: HTTP 500
 
-181. 天津卫视
+186. 天津卫视
    地址:
    ```text
    http://112.27.235.94:8000/hls/42/index.m3u8
    ```
    错误: HTTP 500
 
-182. 陕西卫视
+187. 陕西卫视
    地址:
    ```text
    http://112.27.235.94:8000/hls/43/index.m3u8
    ```
    错误: HTTP 500
 
-183. 江西卫视
+188. 江西卫视
    地址:
    ```text
    http://112.27.235.94:8000/hls/44/index.m3u8
    ```
    错误: HTTP 500
 
-184. 山西卫视
+189. 山西卫视
    地址:
    ```text
    http://112.27.235.94:8000/hls/45/index.m3u8
    ```
    错误: HTTP 500
 
-185. 贵州卫视
+190. 贵州卫视
    地址:
    ```text
    http://112.27.235.94:8000/hls/46/index.m3u8
    ```
    错误: HTTP 500
 
-186. 辽宁卫视
+191. 辽宁卫视
    地址:
    ```text
    http://112.27.235.94:8000/hls/47/index.m3u8
    ```
    错误: HTTP 500
 
-187. 黑龙江卫视
+192. 黑龙江卫视
    地址:
    ```text
    http://112.27.235.94:8000/hls/48/index.m3u8
    ```
    错误: HTTP 500
 
-188. 内蒙古卫视
+193. 内蒙古卫视
    地址:
    ```text
    http://112.27.235.94:8000/hls/49/index.m3u8
    ```
    错误: HTTP 500
 
-189. CCTV-1
+194. CCTV-1
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221225673/index.m3u8
    ```
    错误: fetch failed
 
-190. CCTV-2
+195. CCTV-2
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221226122/index.m3u8
    ```
    错误: fetch failed
 
-191. CCTV-3
+196. CCTV-3
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221225766/index.m3u8
    ```
    错误: fetch failed
 
-192. CCTV-4
+197. CCTV-4
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221226124/index.m3u8
    ```
    错误: fetch failed
 
-193. CCTV-5
+198. CCTV-5
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221225734/index.m3u8
    ```
    错误: fetch failed
 
-194. CCTV-6
+199. CCTV-6
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221225741/index.m3u8
    ```
    错误: fetch failed
 
-195. CCTV-7
+200. CCTV-7
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221225701/index.m3u8
    ```
    错误: fetch failed
 
-196. CCTV-8
+201. CCTV-8
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221225736/index.m3u8
    ```
    错误: fetch failed
 
-197. CCTV-9
+202. CCTV-9
    地址:
    ```text
    http://p.ytelc.com/169l/0/cctv.php?id=cctv9
    ```
    错误: HTTP 404
 
-198. CCTV-10
+203. CCTV-10
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221225743/index.m3u8
    ```
    错误: fetch failed
 
-199. CCTV-11
+204. CCTV-11
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221226101/index.m3u8
    ```
    错误: fetch failed
 
-200. CCTV-12
+205. CCTV-12
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221226103/index.m3u8
    ```
    错误: fetch failed
 
-201. CCTV-13
+206. CCTV-13
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221226128/index.m3u8
    ```
    错误: fetch failed
 
-202. CCTV-14
+207. CCTV-14
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221225738/index.m3u8
    ```
    错误: fetch failed
 
-203. CCTV-15
+208. CCTV-15
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221226147/index.m3u8
    ```
    错误: fetch failed
 
-204. CCTV-16
+209. CCTV-16
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221226120/index.m3u8
    ```
    错误: fetch failed
 
-205. 北京卫视
+210. 北京卫视
    地址:
    ```text
    http://106.53.99.30/tv/api.php?id=bjws4k
    ```
    错误: fetch failed
 
-206. 北京卫视
+211. 北京卫视
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221225724/index.m3u8
    ```
    错误: fetch failed
 
-207. 东方卫视
+212. 东方卫视
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221225725/index.m3u8
    ```
    错误: fetch failed
 
-208. 浙江卫视
+213. 浙江卫视
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221225727/index.m3u8
    ```
    错误: fetch failed
 
-209. 江苏卫视
+214. 江苏卫视
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221225720/index.m3u8
    ```
    错误: fetch failed
 
-210. 湖南卫视
+215. 湖南卫视
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221225726/index.m3u8
    ```
    错误: fetch failed
 
-211. 广东卫视
+216. 广东卫视
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221225731/index.m3u8
    ```
    错误: fetch failed
 
-212. 天津卫视
+217. 天津卫视
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221225742/index.m3u8
    ```
    错误: fetch failed
 
-213. 安徽卫视
+218. 安徽卫视
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221225739/index.m3u8
    ```
    错误: fetch failed
 
-214. 山东卫视
+219. 山东卫视
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221225733/index.m3u8
    ```
    错误: fetch failed
 
-215. 山西卫视
+220. 山西卫视
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221226113/index.m3u8
    ```
    错误: fetch failed
 
-216. 辽宁卫视
+221. 辽宁卫视
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221225747/index.m3u8
    ```
    错误: fetch failed
 
-217. 河北卫视
+222. 河北卫视
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221226107/index.m3u8
    ```
    错误: fetch failed
 
-218. 河南卫视
+223. 河南卫视
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221226132/index.m3u8
    ```
    错误: fetch failed
 
-219. 江西卫视
+224. 江西卫视
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221225740/index.m3u8
    ```
    错误: fetch failed
 
-220. 四川卫视
+225. 四川卫视
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221226152/index.m3u8
    ```
    错误: fetch failed
 
-221. 重庆卫视
+226. 重庆卫视
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221226171/index.m3u8
    ```
    错误: fetch failed
 
-222. 贵州卫视
+227. 贵州卫视
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221226173/index.m3u8
    ```
    错误: fetch failed
 
-223. 湖北卫视
+228. 湖北卫视
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221225729/index.m3u8
    ```
    错误: fetch failed
 
-224. 广西卫视
+229. 广西卫视
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221226084/index.m3u8
    ```
    错误: fetch failed
 
-225. 云南卫视
+230. 云南卫视
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221226109/index.m3u8
    ```
    错误: fetch failed
 
-226. 东南卫视
+231. 东南卫视
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221225745/index.m3u8
    ```
    错误: fetch failed
 
-227. 海南卫视
+232. 海南卫视
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221226154/index.m3u8
    ```
    错误: fetch failed
 
-228. 甘肃卫视
+233. 甘肃卫视
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221226090/index.m3u8
    ```
    错误: fetch failed
 
-229. 青海卫视
+234. 青海卫视
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221226105/index.m3u8
    ```
    错误: fetch failed
 
-230. 吉林卫视
+235. 吉林卫视
    地址:
    ```text
    https://zby.130519.xyz/PLTV/11/224/3221226149/index.m3u8
    ```
    错误: fetch failed
 
-231. 河南卫视
+236. CCTV-6
+   地址:
+   ```text
+   http://8.138.7.223/tv/1905.php?id=LIVE3YPYZ30E7V1R0
+   ```
+   错误: This operation was aborted
+
+237. 河南卫视
    地址:
    ```text
    http://1.94.31.214/php/hntv.php?id=hnws
    ```
    错误: fetch failed
 
-232. 河北卫视
+238. 河北卫视
    地址:
    ```text
    http://tv.pull.hebtv.com/jishi/weishipindao.m3u8?t=2510710360&k=3d44740039027301acf8341d7361ab59
    ```
-   错误: HTTP 403
+   错误: fetch failed
 
-233. 东南卫视
+239. 东南卫视
    地址:
    ```text
    http://8.138.7.223/tv/fjtv1.php?id=dnws
    ```
    错误: fetch failed
 
-234. 云南卫视
+240. CCTV-13
+   地址:
+   ```text
+   https://event.pull.hebtv.com/jishi/cp1.m3u8
+   ```
+   错误: fetch failed
+
+241. CCTV-14
+   地址:
+   ```text
+   https://event.pull.hebtv.com/jishi/cp2.m3u8
+   ```
+   错误: fetch failed
+
+242. 云南卫视
    地址:
    ```text
    https://hwapi.yntv.net/ew265l/z1z6s5.m3u8
@@ -1652,125 +1708,125 @@
 1. CCTV-1
    地址:
    ```text
-   http://120.198.95.220:9901/tsfile/live/1015_1.m3u8?key=txiptv&playlive=1&down=1
+   http://173.208.212.130:8181/720p/cctv1.m3u8
    ```
    原因: 超过每频道 5 条上限
 
 2. CCTV-1
    地址:
    ```text
+   http://124.228.160.112:9901/tsfile/live/0017_1.m3u8?key=txiptv&playlive=1&authid=0
+   ```
+   原因: 超过每频道 5 条上限
+
+3. CCTV-1
+   地址:
+   ```text
    http://222.169.85.8:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-3. CCTV-2
+4. CCTV-6
    地址:
    ```text
-   http://183.10.180.112:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
+   http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv6hd
    ```
    原因: 超过每频道 5 条上限
 
-4. CCTV-2
-   地址:
-   ```text
-   http://113.25.252.226:9901/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
-   ```
-   原因: 超过每频道 5 条上限
-
-5. CCTV-4
-   地址:
-   ```text
-   http://113.25.252.226:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0
-   ```
-   原因: 超过每频道 5 条上限
-
-6. CCTV-5
-   地址:
-   ```text
-   http://38.75.136.137:98/gslb/dsdqbv/cctv5p.m3u8?auth=test20251009
-   ```
-   原因: 超过每频道 5 条上限
-
-7. CCTV-6
+5. CCTV-6
    地址:
    ```text
    http://124.228.160.112:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-8. CCTV-10
+6. CCTV-9
    地址:
    ```text
-   http://124.228.160.112:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
+   https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=49defb7e44f6b67e6de4c7322d9448d3
    ```
    原因: 超过每频道 5 条上限
 
-9. CCTV-10
+7. CCTV-14
    地址:
    ```text
-   http://113.25.252.226:9901/tsfile/live/1014_1.m3u8?key=txiptv&playlive=1&authid=0
+   http://198.204.228.26/live/cctv14hd.m3u8
    ```
    原因: 超过每频道 5 条上限
 
-10. CCTV-14
+8. 广西卫视
    地址:
    ```text
-   http://173.208.212.130:8181/1080p/cctv14.m3u8
+   http://101.66.195.33:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-11. CCTV-14
+9. 广西卫视
    地址:
    ```text
-   http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv14hd
+   http://101.66.194.121:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-12. CCTV-14
+10. 山西卫视
    地址:
    ```text
-   http://124.228.160.112:9901/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0
+   http://101.66.198.121:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-13. 湖南卫视
+11. 山西卫视
    地址:
    ```text
-   http://63.141.230.178:82/gslb/zbdq5.m3u8?id=hnwshd
+   http://101.66.195.51:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-14. 浙江卫视
-   地址:
-   ```text
-   http://124.228.160.112:9901/tsfile/live/0124_1.m3u8?key=txiptv&playlive=1&authid=0
-   ```
-   原因: 超过每频道 5 条上限
-
-15. 山西卫视
-   地址:
-   ```text
-   http://101.66.195.33:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
-   ```
-   原因: 超过每频道 5 条上限
-
-16. 山西卫视
-   地址:
-   ```text
-   http://120.198.95.220:9901/tsfile/live/1057_1.m3u8?key=txiptv&playlive=1&down=1
-   ```
-   原因: 超过每频道 5 条上限
-
-17. 山西卫视
+12. 山西卫视
    地址:
    ```text
    http://153.0.171.163:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0
    ```
    原因: 超过每频道 5 条上限
 
+13. 陕西卫视
+   地址:
+   ```text
+   http://101.66.198.121:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0
+   ```
+   原因: 超过每频道 5 条上限
+
+14. 陕西卫视
+   地址:
+   ```text
+   http://101.66.199.210:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0
+   ```
+   原因: 超过每频道 5 条上限
+
+15. 陕西卫视
+   地址:
+   ```text
+   http://101.66.199.13:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0
+   ```
+   原因: 超过每频道 5 条上限
+
+16. 吉林卫视
+   地址:
+   ```text
+   http://101.66.194.121:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
+   ```
+   原因: 超过每频道 5 条上限
+
+17. 云南卫视
+   地址:
+   ```text
+   http://101.66.195.51:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0
+   ```
+   原因: 超过每频道 5 条上限
+
 18. 云南卫视
    地址:
    ```text
-   http://36.136.38.87:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=1&authid=0
+   http://101.66.199.210:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0
    ```
    原因: 超过每频道 5 条上限
