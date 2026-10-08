@@ -27,15 +27,6 @@
     "bitrate": 0
   },
   {
-    "name": "_Wawa Radio 101.2 FM",
-    "url": "https://xn--tmz.xn--6frz82g/streams",
-    "favicon": "",
-    "tags": "dance,hardcore,mixed",
-    "country": "CN",
-    "codec": "MP3",
-    "bitrate": 256
-  },
-  {
     "name": "179music",
     "url": "https://stream.zeno.fm/mss1yzbbbm8uv",
     "favicon": "https://zeno.fm/_ipx/q_85&fit_cover&s_288x288/https://images.zeno.fm/m2s_GHlJCj8KPIkj295khgQ3xtVZdh116e45WAjrdHo/rs:fill:288:288/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvYWd4emZucGxibTh0YzNSaGRITnlNZ3NTQ2tGMWRHaERiR2xsYm5RWWdJRFE5LWYtb3dvTUN4SU9VM1JoZEdsdmJsQnliMlpwYkdVWWdJRFFwNWlnbmdvTW9nRUVlbVZ1YncvaW1hZ2UvP3U9MTY2MTU2MTgxNzAwMA.webp",
@@ -169,6 +160,15 @@
     "country": "CN",
     "codec": "AAC",
     "bitrate": 64
+  },
+  {
+    "name": "AikosRadio",
+    "url": "https://stream.zeno.fm/7tlyb215x5xtv",
+    "favicon": "https://zeno.fm/_ipx/f_webp&q_85&fit_cover&s_288x288/https://images.zeno.fm/MhQ8IBSotEfp2jy0J5Fn1p_6zqhpQDwEpGrkcqkAWko/rs:fill:288:288/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvODk4NzkwM2UtNDViMS00ZjYxLTkyNTctZTA5MTQ3YjZmNTE0L2ltYWdlLz91PTE3MTY4MTQ2MzMwMDA.webp",
+    "tags": "chinese",
+    "country": "CN",
+    "codec": "MP3",
+    "bitrate": 48
   },
   {
     "name": "AisaFM亚洲粤语台",
@@ -405,15 +405,6 @@
     "bitrate": 0
   },
   {
-    "name": "BBN 中文",
-    "url": "https://streams.radiomast.io/ce298b32-8776-4192-9900-092f44b63e7f",
-    "favicon": "",
-    "tags": "bible",
-    "country": "CN",
-    "codec": "AAC",
-    "bitrate": 64
-  },
-  {
     "name": "Big B Radio - Cpop",
     "url": "https://antares.dribbcast.com/proxy/cpop?mp=/s",
     "favicon": "",
@@ -457,24 +448,6 @@
     "country": "CN",
     "codec": "AAC+",
     "bitrate": 192
-  },
-  {
-    "name": "Bridge Radio - BEATS E.D.M. （2）",
-    "url": "https://streaming.live365.com/a19203_2",
-    "favicon": "https://new.brg-radio.com/wp-content/uploads/2022/10/cropped-65-1.png",
-    "tags": "edm,electronic,music",
-    "country": "CN",
-    "codec": "AAC+",
-    "bitrate": 192
-  },
-  {
-    "name": "Bridge Radio - HOT MIX UNCENSORED",
-    "url": "https://streaming.live365.com/a36860",
-    "favicon": "https://new.brg-radio.com/wp-content/uploads/2022/10/cropped-65-1.png",
-    "tags": "music,pop",
-    "country": "CN",
-    "codec": "AAC+",
-    "bitrate": 128
   },
   {
     "name": "Bridge Radio - 华语 HITS",
@@ -544,42 +517,6 @@
     "url": "https://brtv-radiolive.rbc.cn/alive/fm974.m3u8",
     "favicon": "https://pic.qtfm.cn/2017/0424/20170424025444.jpeg",
     "tags": "music",
-    "country": "CN",
-    "codec": "UNKNOWN",
-    "bitrate": 0
-  },
-  {
-    "name": "BTV文艺伴音",
-    "url": "https://wstvcpudali.v.myalicdn.com/wstvcpud/udrmbtv2_1/index.m3u8?adapt=0&BR=audio",
-    "favicon": "",
-    "tags": "entertainment",
-    "country": "CN",
-    "codec": "UNKNOWN",
-    "bitrate": 0
-  },
-  {
-    "name": "BTV生活伴音",
-    "url": "https://wstvcpudali.v.myalicdn.com/wstvcpud/udrmbtv7_1/index.m3u8?adapt=0&BR=audio",
-    "favicon": "https://www.brtv.org.cn/favicon.ico",
-    "tags": "tv",
-    "country": "CN",
-    "codec": "UNKNOWN",
-    "bitrate": 0
-  },
-  {
-    "name": "BTV科教伴音",
-    "url": "https://wstvcpudali.v.myalicdn.com/wstvcpud/udrmbtv3_1/index.m3u8?adapt=0&BR=audio",
-    "favicon": "https://www.brtv.org.cn/favicon.ico",
-    "tags": "tv",
-    "country": "CN",
-    "codec": "UNKNOWN",
-    "bitrate": 0
-  },
-  {
-    "name": "BTV财经伴音",
-    "url": "https://wstvcpudali.v.myalicdn.com/wstvcpud/udrmbtv5_1/index.m3u8?adapt=0&BR=audio",
-    "favicon": "https://www.brtv.org.cn/favicon.ico",
-    "tags": "economics",
     "country": "CN",
     "codec": "UNKNOWN",
     "bitrate": 0
@@ -891,6 +828,15 @@
     "bitrate": 0
   },
   {
+    "name": "Changchi Traffic Radio",
+    "url": "http://lhttp.qingting.fm/live/5021851/64k.mp3",
+    "favicon": "",
+    "tags": "chinese",
+    "country": "CN",
+    "codec": "MP3",
+    "bitrate": 0
+  },
+  {
     "name": "Chengtu Economics Radio",
     "url": "http://ls.qingting.fm/live/1121.m3u8",
     "favicon": "",
@@ -988,6 +934,15 @@
     "country": "CN",
     "codec": "MP3",
     "bitrate": 0
+  },
+  {
+    "name": "AXR",
+    "url": "https://hongkongstream.axr.online/",
+    "favicon": "",
+    "tags": "",
+    "country": "HK",
+    "codec": "AAC+",
+    "bitrate": 64
   },
   {
     "name": "CNR-14 香港之声",
@@ -2196,6 +2151,15 @@
     "bitrate": 96
   },
   {
+    "name": "古都電台",
+    "url": "http://n03.rcs.revma.com/8bpxy9a122hvv",
+    "favicon": "https://www.fm1025.com.tw/images/logo_01.png",
+    "tags": "culture",
+    "country": "TW",
+    "codec": "AAC",
+    "bitrate": 0
+  },
+  {
     "name": "台中古典音樂台",
     "url": "http://onair.family977.com.tw:8000/live.mp3",
     "favicon": "",
@@ -2745,6 +2709,15 @@
     "bitrate": 0
   },
   {
+    "name": "Eight无限 FM",
+    "url": "https://stream.rcs.revma.com/qp0xrd9mtd3vv",
+    "favicon": "https://assets-mpa.eight.audio/media/Logo/logo-eight-wu-xian-1000x1000-09.jpg",
+    "tags": "contemporary hit radio",
+    "country": "MY",
+    "codec": "AAC",
+    "bitrate": 0
+  },
+  {
     "name": "Lotus FM Macau HD - 97.4 FM",
     "url": "https://lhttp.qtfm.cn/live/20533/64k.mp3",
     "favicon": "https://upload.wikimedia.org/wikipedia/en/9/99/Lotus_TV_Macau_logo.jpg",
@@ -3078,6 +3051,15 @@
     "bitrate": 128
   },
   {
+    "name": "邢台新闻广播",
+    "url": "http://lhttp.qingting.fm/live/20211628/64k.mp3",
+    "favicon": "",
+    "tags": "chinese,hopei,news,public radio",
+    "country": "CN",
+    "codec": "MP3",
+    "bitrate": 0
+  },
+  {
     "name": "青岛FM9.26",
     "url": "https://lhttp.qtfm.cn/live/20176/64k.mp3",
     "favicon": "http://pic.qtfm.cn/2022/0928/20220928050416.jpeg",
@@ -3102,663 +3084,6 @@
     "tags": "Oldies;Folk",
     "country": "",
     "codec": "HLS",
-    "bitrate": 0
-  },
-  {
-    "name": "1950 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1950/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "50s;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1951 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1950/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "50s;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1952 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1952/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "50s;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1953 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1953/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "50s;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1954 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1954/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "50s;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1955 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1955/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "50s;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1956 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1956/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "50s;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1957 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1957/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "50s;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1958 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1958/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "50s;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1959 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1959/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "50s;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1960 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1960/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "60s;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1961 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1961/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "60s;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1962 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1962/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "60s;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1963 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1963/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "60s;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1964 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1964/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "60s;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1965 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1965/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "60s;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1966 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1966/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "60s;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1967 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1967/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "60s;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1968 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1968/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "60s;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1969 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1969/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "60s;Oldies",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1970 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1970/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "70s;Oldies",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1971 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1971/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "70s;Oldies",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1972 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1972/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "70s;Oldies",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1973 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1973/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "70s;Oldies",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1974 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1974/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "70s;Oldies",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1975 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1975/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "70s;Oldies",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1976 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1976/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "70s;Oldies",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1977 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1977/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "70s;Oldies",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1978 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1978/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "70s;Oldies",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1979 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1979/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "70s;Oldies",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1980 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1980/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "80s;Oldies",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1981 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1981/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "80s;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1982 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1982/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "80s;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1983 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1983/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "80s;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1984 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1984/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "80s;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1985 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1985/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "80s;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1986 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1986/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "80s;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1987 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1987/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "80s;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1988 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1988/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "80s;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1989 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1989/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "80s;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1990 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1990/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "90s;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1991 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1991/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "90s;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1992 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1992/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "90s;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1993 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1993/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "90s;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1994 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1994/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "90s;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1995 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1995/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "90s;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1996 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1996/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "90s;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1997 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1997/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "90s;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1998 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1998/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "90s;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "1999 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/1999/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "90s;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "2000 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/2000/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "00s;J-Pop",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "2001 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/2001/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "00s;J-Pop",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "2002 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/2002/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "00s;J-Pop",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "2003 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/2003/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "00s;J-Pop",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "2004 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/2004/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "Pop;Top 40",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "2005 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/2005/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "00s;J-Pop",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "2006 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/2006/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "00s;J-Pop",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "2007 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/2007/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "00s;J-Pop",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "2008 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/2008/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "00s;J-Pop",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "2009 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/2009/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "00s;J-Pop",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "2010 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/2010/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "00s;J-Pop",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "2011 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/2011/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "J-Pop;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "2012 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/2012/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "J-Pop;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "2013 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/2013/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "J-Pop;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "2014 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/2014/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "J-Pop;Hits",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "2015 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/2015/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "Pop;Top 40",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "2016 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/2016/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "Pop;Top 40",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "2017 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/2017/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "Pop;Top 40",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "2018 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/2018/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "Pop;Top 40",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "2019 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/2019/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "Pop;Top 40",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "2021 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/2021/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "Pop;Top 40",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "2022 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/2022/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "Pop;Top 40",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
-    "name": "2023 Tick Tock Radio",
-    "url": "https://streaming.ticktock.radio/tt/2023/icecast.audio",
-    "favicon": "https://cdn.onlineradiobox.com/img/l/7/102827.v1.png",
-    "tags": "Pop;Top 40",
-    "country": "",
-    "codec": "AUDIO",
     "bitrate": 0
   },
   {
@@ -4113,15 +3438,6 @@
     "bitrate": 0
   },
   {
-    "name": "Baoding Traffic Broadcasting 747/104.8",
-    "url": "http://live.xmcdn.com/live/517/64.m3u8",
-    "favicon": "https://pic.qtfm.cn/2016/0316/20160316181505706.png!200",
-    "tags": "Traffic;News",
-    "country": "",
-    "codec": "HLS",
-    "bitrate": 0
-  },
-  {
     "name": "Baohe People's Broadcasting Station",
     "url": "http://lhttp.qingting.fm/live/5022668/64k.mp3",
     "favicon": "https://kuasark.com/files/stations-logos/default4.png",
@@ -4254,6 +3570,15 @@
     "tags": "Pop;Rock",
     "country": "",
     "codec": "MP3",
+    "bitrate": 0
+  },
+  {
+    "name": "Bei'an Radio",
+    "url": "https://live.xmcdn.com/live/2767/64.m3u8",
+    "favicon": "http://qqpublic.qpic.cn/qq_public/0/0-2837999973-5C768047A394753C488E8FDB9509B9BE/0?fmt=jpg&size=49&h=900&w=900&ppv=1/0",
+    "tags": "Culture;Opera",
+    "country": "",
+    "codec": "HLS",
     "bitrate": 0
   },
   {
@@ -4446,15 +3771,6 @@
     "bitrate": 0
   },
   {
-    "name": "Cangzhou Mengcunrong Media Center 103.5",
-    "url": "https://live.xmcdn.com/live/2050/64.m3u8",
-    "favicon": "https://imagev2.xmcdn.com/group76/M08/35/AD/wKgO3l6MKIaS_ljYAAGwp_fXPQ8684.png!strip=1&quality=7&magick=webp&op_type=5&upload_type=cover&name=web_large&device_type=ios",
-    "tags": "Rock;Pop",
-    "country": "",
-    "codec": "HLS",
-    "bitrate": 0
-  },
-  {
     "name": "Cangzhou Traffic Music Broadcasting 93.8",
     "url": "https://lhttp.qingting.fm/live/3954/64k.mp3",
     "favicon": "https://pic.qingting.fm/2015/0213/20150213152627871.png!200",
@@ -4470,15 +3786,6 @@
     "tags": "News;Talk",
     "country": "",
     "codec": "HLS",
-    "bitrate": 0
-  },
-  {
-    "name": "Caoxian People's Broadcasting Station",
-    "url": "http://lhttp.qingting.fm/live/5022340/64k.mp3",
-    "favicon": "http://pic.rmb.bdstatic.com/ae86051b386228e273b1b77e8e568fb9.jpeg@c_1,w_1079,h_1079,x_0,y_0",
-    "tags": "News;Talk",
-    "country": "",
-    "codec": "MP3",
     "bitrate": 0
   },
   {
@@ -4563,6 +3870,15 @@
     "bitrate": 0
   },
   {
+    "name": "Changsha News Broadcast 105.0",
+    "url": "http://lhttp.qingting.fm/live/4877/64k.mp3",
+    "favicon": "https://pic.qtfm.cn/2022/0121/20220121062312.jpeg!200",
+    "tags": "News;Talk",
+    "country": "",
+    "codec": "MP3",
+    "bitrate": 0
+  },
+  {
     "name": "Changsha Taste Music Radio 102.2",
     "url": "http://lhttp.qingting.fm/live/4930/64k.mp3",
     "favicon": "http://imagev2.xmcdn.com/group75/M01/8A/D6/wKgO016BymuTKz_BAAB1CcCnOoU314.png!op_type=5&upload_type=cover&device_type=ios&name=small",
@@ -4603,6 +3919,15 @@
     "url": "https://lhttp.qingting.fm/live/5022311/64k.mp3",
     "favicon": "https://pic.qingting.fm/2017/07/05/partner_04371f9ac0c7bd267ff5611a81e24e2b.png",
     "tags": "Community;Pop",
+    "country": "",
+    "codec": "MP3",
+    "bitrate": 0
+  },
+  {
+    "name": "Changyuan People's Broadcasting Station 95.7",
+    "url": "https://lhttp.qingting.fm/live/15318663/64k.mp3",
+    "favicon": "https://pic.qingting.fm/2016/1219/20161219142814871.jpg!200",
+    "tags": "News;Talk",
     "country": "",
     "codec": "MP3",
     "bitrate": 0
@@ -5508,6 +4833,15 @@
     "bitrate": 0
   },
   {
+    "name": "DLR-5 Dalian Music Broadcasting 106.7",
+    "url": "https://lhttp.qingting.fm/live/1084/64k.mp3",
+    "favicon": "https://www.programmes-radio.com/media/stream/659f6c4a-9c6b-4b55-84c8-d499c4181461_228F92824316BC912D92D3E34F72EB0D_guangbo6.jpg",
+    "tags": "Pop;Youth",
+    "country": "",
+    "codec": "MP3",
+    "bitrate": 0
+  },
+  {
     "name": "Donggang Radio Comprehensive Broadcasting",
     "url": "http://lhttp.qingting.fm/live/5022186/64k.mp3",
     "favicon": "http://www.dggbw.com/favicon.ico",
@@ -6220,6 +5554,15 @@
   },
   {
     "name": "Haikow Music Radio 91.6",
+    "url": "http://live.xmcdn.com/live/1586/64.m3u8",
+    "favicon": "http://pic.qingting.fm/2018/0102/20180102115350.jpeg",
+    "tags": "Rock;C-Pop",
+    "country": "",
+    "codec": "HLS",
+    "bitrate": 0
+  },
+  {
+    "name": "Haikow Music Radio 91.6",
     "url": "http://lhttp.qingting.fm/live/20010/64k.mp3",
     "favicon": "http://pic.qingting.fm/2018/0102/20180102115350.jpeg",
     "tags": "Pop;Rock",
@@ -6862,6 +6205,24 @@
     "url": "http://live.hznet.tv:1935/live/live918/32K/tzwj_video.m3u8",
     "favicon": "https://www.thehandbook.com/cdn-cgi/image/width=300,height=300,fit=cover,q=80,format=webp/https://files.thehandbook.com/uploads/2021/03/aauvwnhsrd3eoldpx7sxwjwr7oj8qo5mx0oghgqhhhkys800-c-k-c0x00ffffff-no-rj.jpg",
     "tags": "Pop;Rock",
+    "country": "",
+    "codec": "HLS",
+    "bitrate": 0
+  },
+  {
+    "name": "Hotse News Radio",
+    "url": "http://live.hznet.tv:1935/live/live875/32K/tzwj_video.m3u8",
+    "favicon": "https://www.thehandbook.com/cdn-cgi/image/width=300,height=300,fit=cover,q=80,format=webp/https://files.thehandbook.com/uploads/2021/03/aauvwnhsrd3eoldpx7sxwjwr7oj8qo5mx0oghgqhhhkys800-c-k-c0x00ffffff-no-rj.jpg",
+    "tags": "News;Talk",
+    "country": "",
+    "codec": "HLS",
+    "bitrate": 0
+  },
+  {
+    "name": "Hotse Traffic Radio",
+    "url": "http://live.hznet.tv:1935/live/live948/32K/tzwj_video.m3u8",
+    "favicon": "https://www.thehandbook.com/cdn-cgi/image/width=300,height=300,fit=cover,q=80,format=webp/https://files.thehandbook.com/uploads/2021/03/aauvwnhsrd3eoldpx7sxwjwr7oj8qo5mx0oghgqhhhkys800-c-k-c0x00ffffff-no-rj.jpg",
+    "tags": "News;Traffic",
     "country": "",
     "codec": "HLS",
     "bitrate": 0
@@ -8037,15 +7398,6 @@
     "bitrate": 0
   },
   {
-    "name": "Kids Talk Radio China",
-    "url": "https://stream-177.surfernetwork.com/rzn7m1uhfanuv",
-    "favicon": "https://static2.mytuner.mobi/media/tvos_radios/nwbufRKZ4g.png",
-    "tags": "Variety;Youth",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
     "name": "Kuitun Comprehensive Broadcasting 101.9",
     "url": "https://lhttp.qtfm.cn/live/20500121/64k.mp3",
     "favicon": "https://pic.qtfm.cn/sso/48/1638178888016_H4yQSkpzP.jpeg",
@@ -8214,24 +7566,6 @@
     "tags": "Rock;Pop",
     "country": "",
     "codec": "MP3",
-    "bitrate": 0
-  },
-  {
-    "name": "Leshan Comprehensive Broadcasting 102.8",
-    "url": "http://live.xmcdn.com/live/2702/64.m3u8",
-    "favicon": "https://imagev2.xmcdn.com/group77/M0A/77/FF/wKgO1V6P6DzRDrAYAAEuScdQYh0083.jpg!strip=1&quality=7&magick=jpg&op_type=5&upload_type=cover&name=web_large&device_type=ios",
-    "tags": "News;Talk",
-    "country": "",
-    "codec": "HLS",
-    "bitrate": 0
-  },
-  {
-    "name": "Leshan Music Traffic Broadcasting 100.5",
-    "url": "http://live.xmcdn.com/live/2703/64.m3u8",
-    "favicon": "https://imagev2.xmcdn.com/group73/M0B/68/57/wKgO216P6OHyGusaAAEc1eGlBw8339.jpg!strip=1&quality=7&magick=webp&op_type=5&upload_type=cover&name=web_large&device_type=ios",
-    "tags": "Variety;News",
-    "country": "",
-    "codec": "HLS",
     "bitrate": 0
   },
   {
@@ -8542,15 +7876,6 @@
   },
   {
     "name": "Lishu Northern Traffic Sound 102.4",
-    "url": "https://lhttp.qtfm.cn/live/5022538/64k.mp3",
-    "favicon": "https://pic.qingting.fm/2015/0803/20150803141405960.jpg",
-    "tags": "Traffic;News",
-    "country": "",
-    "codec": "MP3",
-    "bitrate": 0
-  },
-  {
-    "name": "Lishu Northern Traffic Sound 102.4",
     "url": "http://stream3.jlntv.cn/lsgb/playlist.m3u8",
     "favicon": "https://pic.qingting.fm/2015/0803/20150803141405960.jpg",
     "tags": "Traffic;News",
@@ -8820,15 +8145,6 @@
     "bitrate": 0
   },
   {
-    "name": "Mengcun Hui Autonomous County People's Broadcasting Station 105.8",
-    "url": "http://lhttp.qingting.fm/live/5021914/64k.mp3",
-    "favicon": "https://pic.qingting.fm/2015/1229/20151229092309495.jpg!200",
-    "tags": "Variety;News",
-    "country": "",
-    "codec": "MP3",
-    "bitrate": 0
-  },
-  {
     "name": "Mengyin People's Broadcasting Station",
     "url": "http://lhttp.qingting.fm/live/15318571/64k.mp3",
     "favicon": "https://pic.qingting.fm/2016/1008/20161008102126749.jpg!200",
@@ -8952,6 +8268,15 @@
     "tags": "News;Talk",
     "country": "",
     "codec": "HLS",
+    "bitrate": 0
+  },
+  {
+    "name": "Nanqiao People's Broadcasting Station",
+    "url": "http://lhttp.qingting.fm/live/20211575/64k.mp3",
+    "favicon": "https://pic.baike.soso.com/ugc/baikepic2/1284/20221014100736-1545284369_jpeg_506_337_42859.jpg/1284",
+    "tags": "Variety;News",
+    "country": "",
+    "codec": "MP3",
     "bitrate": 0
   },
   {
@@ -9121,6 +8446,15 @@
     "url": "https://lhttp.qtfm.cn/live/15318176/64k.mp3",
     "favicon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7I4ajTOeYeJeF7qrmIr7FfiAAsy1_e49_pJJ4ox2hwQ&s=10",
     "tags": "News;Public",
+    "country": "",
+    "codec": "MP3",
+    "bitrate": 0
+  },
+  {
+    "name": "Ordos Mongolian Comprehensive Radio",
+    "url": "http://lhttp.qingting.fm/live/20348/64k.mp3",
+    "favicon": "https://pic.qtfm.cn/2015/0327/2015032716520180.jpg!200",
+    "tags": "News;Mongolian",
     "country": "",
     "codec": "MP3",
     "bitrate": 0
@@ -9474,6 +8808,15 @@
     "tags": "News;Talk",
     "country": "",
     "codec": "MP3",
+    "bitrate": 0
+  },
+  {
+    "name": "Quang Ninh People's Broadcasting Station",
+    "url": "http://live.xmcdn.com/live/2603/64.m3u8",
+    "favicon": "https://imagev2.xmcdn.com/group78/M06/1F/89/wKgO4F6MKAGQFG9aAAA7y-krmJU924.png!strip=1&quality=7&magick=webp&op_type=5&upload_type=cover&name=web_large&device_type=ios",
+    "tags": "Rock;Pop",
+    "country": "",
+    "codec": "HLS",
     "bitrate": 0
   },
   {
@@ -10809,15 +10152,6 @@
     "bitrate": 0
   },
   {
-    "name": "Tick Tock 2024",
-    "url": "https://streaming.ticktock.radio/tt/2024/icecast.audio",
-    "favicon": "https://static2.mytuner.mobi/media/tvos_radios/qKpEAfv4nQ.jpg",
-    "tags": "Pop;Top 40",
-    "country": "",
-    "codec": "AUDIO",
-    "bitrate": 0
-  },
-  {
     "name": "Tonghua Comprehensive Broadcasting",
     "url": "http://stream4.jlntv.cn/aac_thxw/playlist.m3u8",
     "favicon": "https://bkimg.cdn.bcebos.com/pic/574e9258d109b3de9c82337767f67b81800a19d8e6d0?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U5Mg==,g_7,xp_5,yp_5",
@@ -10968,6 +10302,15 @@
     "tags": "News;Talk",
     "country": "",
     "codec": "HLS",
+    "bitrate": 0
+  },
+  {
+    "name": "Urumqi Midong District People's Broadcasting Station",
+    "url": "http://lhttp.qingting.fm/live/21001/64k.mp3",
+    "favicon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5SoP5rZYzsfVpHIUFNiDvqNzZgsFC6jtO4mw6fEIAALVgDyDU5BnVkeznhAdbi2t3ua0&usqp=CAU",
+    "tags": "Variety;News",
+    "country": "",
+    "codec": "MP3",
     "bitrate": 0
   },
   {
@@ -11502,6 +10845,15 @@
     "bitrate": 0
   },
   {
+    "name": "Wudi People's Broadcasting Station",
+    "url": "https://lhttp.qingting.fm/live/5022198/64k.mp3",
+    "favicon": "https://pic.rmb.bdstatic.com/324774b12c8c85b077dad15f5cd5af79.jpeg@w_200,h_200,q_100",
+    "tags": "Variety;News",
+    "country": "",
+    "codec": "MP3",
+    "bitrate": 0
+  },
+  {
     "name": "Wuhai Comprehensive Broadcasting",
     "url": "http://lhttp.qingting.fm/live/15318706/64k.mp3",
     "favicon": "https://pic.qingting.fm/2017/0223/20170223120547248.jpg!200",
@@ -11700,6 +11052,15 @@
     "bitrate": 0
   },
   {
+    "name": "Xianyang Comprehensive Broadcasting",
+    "url": "https://lhttp.qingting.fm/live/5022397/64k.mp3",
+    "favicon": "https://p3-sdbk2-media.byteimg.com/tos-cn-i-xv4ileqgde/c38337e0e3f84b599f232453ff07935e~tplv-xv4ileqgde-resize-w:750.image",
+    "tags": "News;Talk",
+    "country": "",
+    "codec": "MP3",
+    "bitrate": 0
+  },
+  {
     "name": "Xiaochang People's Broadcasting Station 96.4",
     "url": "http://lhttp.qingting.fm/live/15318546/64k.mp3",
     "favicon": "https://pic.qtfm.cn/2019/1220/20191220031327.png!200",
@@ -11758,6 +11119,24 @@
     "url": "http://lhttp.qingting.fm/live/20500077/64k.mp3",
     "favicon": "https://pic.qingting.fm/sso/198/1600759787932_hhAbZIKsP.png!200",
     "tags": "News;Talk",
+    "country": "",
+    "codec": "MP3",
+    "bitrate": 0
+  },
+  {
+    "name": "Xingtai News Broadcasting",
+    "url": "http://lhttp.qingting.fm/live/20211628/64k.mp3",
+    "favicon": "https://gz.bcebos.com/baikebcsgz/adpic/lhpcxf24.png",
+    "tags": "News;Talk",
+    "country": "",
+    "codec": "MP3",
+    "bitrate": 0
+  },
+  {
+    "name": "Xingtai Life Broadcasting",
+    "url": "http://lhttp.qingting.fm/live/15318265/64k.mp3",
+    "favicon": "https://pic.qtfm.cn/2023/0519/20230519010552.jpeg!200",
+    "tags": "Lifestyle;Education",
     "country": "",
     "codec": "MP3",
     "bitrate": 0
@@ -11943,10 +11322,28 @@
     "bitrate": 0
   },
   {
+    "name": "Xishui People's Broadcasting Station 90.8",
+    "url": "https://lhttp.qingting.fm/live/15318201/64k.mp3",
+    "favicon": "https://bkimg.cdn.bcebos.com/pic/a8ec8a13632762d0aeaf5b9da9ec08fa513dc67b?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_auto",
+    "tags": "News;Talk",
+    "country": "",
+    "codec": "MP3",
+    "bitrate": 0
+  },
+  {
     "name": "Xuancheng Comprehensive Broadcasting 1170/100.6",
     "url": "https://lhttp.qingting.fm/live/5022/64k.mp3",
     "favicon": "https://pic.qtfm.cn/2018/0828/20180828101519.jpeg!200",
     "tags": "News;Talk",
+    "country": "",
+    "codec": "MP3",
+    "bitrate": 0
+  },
+  {
+    "name": "Xuancheng Traffic Literature and Art Broadcasting 106.1",
+    "url": "https://lhttp.qingting.fm/live/5023/64k.mp3",
+    "favicon": "https://bkimg.cdn.bcebos.com/pic/9825bc315c6034a84d1c0e50cd13495408237660?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U4MA==,g_7,xp_5,yp_5/format,f_auto",
+    "tags": "Traffic;News",
     "country": "",
     "codec": "MP3",
     "bitrate": 0
@@ -12411,6 +11808,15 @@
     "bitrate": 0
   },
   {
+    "name": "Yizhang Comprehensive Broadcasting 99.6",
+    "url": "https://lhttp.qtfm.cn/live/15318691/64k.mp3",
+    "favicon": "https://pic.qingting.fm/sso/198/1628043155407_RQBN6PrYp.jpeg",
+    "tags": "Talk;News",
+    "country": "",
+    "codec": "MP3",
+    "bitrate": 0
+  },
+  {
     "name": "Yizheng People's Broadcasting Station 94.3",
     "url": "https://lhttp.qingting.fm/live/15318182/64k.mp3",
     "favicon": "https://pic.qingting.fm/sso/198/1579157779334_vIGnDZ1BZ.png!200",
@@ -12462,6 +11868,24 @@
     "tags": "Variety;News",
     "country": "",
     "codec": "MP3",
+    "bitrate": 0
+  },
+  {
+    "name": "Yongzhou News Comprehensive Broadcasting 94.8",
+    "url": "https://lhttp.qingting.fm/live/15318594/64k.mp3",
+    "favicon": "http://www.21ytv.com/t/icon/201705/20170526110858z9iO.png",
+    "tags": "News;Talk",
+    "country": "",
+    "codec": "MP3",
+    "bitrate": 0
+  },
+  {
+    "name": "Yongzhou News Comprehensive Broadcasting 94.8",
+    "url": "https://live.xmcdn.com/live/2634/64.m3u8",
+    "favicon": "http://www.21ytv.com/t/icon/201705/20170526110858z9iO.png",
+    "tags": "News;Talk",
+    "country": "",
+    "codec": "HLS",
     "bitrate": 0
   },
   {
@@ -13014,6 +12438,15 @@
     "bitrate": 0
   },
   {
+    "name": "Zhumadian Economic Broadcasting 102.4",
+    "url": "https://lhttp.qtfm.cn/live/5022119/64k.mp3",
+    "favicon": "https://static.zerochan.net/Ib.%28Character%29.full.1845539.jpg",
+    "tags": "Pop;Business",
+    "country": "",
+    "codec": "MP3",
+    "bitrate": 0
+  },
+  {
     "name": "Zhumadian Traffic Radio 97.2",
     "url": "http://live.xmcdn.com/live/2757/64.m3u8",
     "favicon": "https://imagev2.xmcdn.com/storages/a371-audiofreehighqps/6A/4A/CMCoOSYEbmDtAACNvwCo6e1H.png!strip=1&quality=7&magick=webp&op_type=5&upload_type=cover&name=web_large&device_type=ios",
@@ -13047,6 +12480,15 @@
     "tags": "Traffic;News",
     "country": "",
     "codec": "MP3",
+    "bitrate": 0
+  },
+  {
+    "name": "Zibo Traffic Music Broadcasting 100.0",
+    "url": "https://live.xmcdn.com/live/817/64.m3u8",
+    "favicon": "https://imagev2.xmcdn.com/storages/31fc-audiofreehighqps/93/DD/CKwRIJEEmJX-AB67awC4Ifan.png!strip=1&quality=7&magick=jpg&op_type=5&upload_type=cover&name=web_large&device_type=ios",
+    "tags": "Traffic;Variety",
+    "country": "",
+    "codec": "HLS",
     "bitrate": 0
   },
   {
@@ -13614,6 +13056,15 @@
     "tags": "economics",
     "country": "CN",
     "codec": "UNKNOWN",
+    "bitrate": 0
+  },
+  {
+    "name": "CNR-3 音乐之声",
+    "url": "http://antiserver.kuwo.cn/anti.s?rid=MUSIC_190038250&response=res&format=mp3|aac&type=convert_url&br=128kmp3&agent=iPhone&callback=getlink&jpcallback=getlink.mp3",
+    "favicon": "",
+    "tags": "chinese",
+    "country": "CN",
+    "codec": "MP3",
     "bitrate": 0
   },
   {
