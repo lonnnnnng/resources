@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-10-08T23:44:22.431Z",
+  "generatedAt": "2026-10-09T23:15:52.077Z",
   "video": {
     "total": 72,
     "ok": 55,
     "failed": 17
   },
   "live": {
-    "total": 415,
-    "ok": 167,
-    "failed": 238,
-    "skipped": 10
+    "total": 388,
+    "ok": 138,
+    "failed": 243,
+    "skipped": 7
   },
   "radio": {
     "total": 2185,
-    "ok": 1467,
-    "failed": 718
+    "ok": 1468,
+    "failed": 717
   },
   "podcast": {
     "total": 109,
