@@ -1,6 +1,6 @@
 # 播客源检测报告
 
-生成时间: 2026-10-10T22:32:21.411Z
+生成时间: 2026-10-11T22:54:39.420Z
 
 活跃规则: 仅保留最近 1 个月内有音频条目更新的 RSS/Atom 源。
 
@@ -71,7 +71,7 @@
    ```text
    https://rss.lizhi.fm/rss/385752.xml
    ```
-   错误: not updated in last month, latest audio update 2017-05-18T15:57:27.000Z
+   错误: This operation was aborted
 
 10. 大内密谈
    地址:
@@ -176,7 +176,7 @@
    ```text
    http://rss.lizhi.fm/rss/1063597.xml
    ```
-   错误: not updated in last month, latest audio update 2026-05-11T04:28:21.000Z
+   错误: This operation was aborted
 
 25. 电影巨辩
    地址:
@@ -302,7 +302,7 @@
    ```text
    http://rss.lizhi.fm/rss/171448272.xml
    ```
-   错误: not updated in last month, latest audio update 2025-01-27T03:53:37.000Z
+   错误: This operation was aborted
 
 43. 史播客
    地址:
