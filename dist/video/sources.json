@@ -27,6 +27,15 @@
     "searchStatus": "命中"
   },
   {
+    "key": "apilsbzy1.com",
+    "name": "🔞-老色逼-",
+    "api": "https://apilsbzy1.com/api.php/provide/vod",
+    "detail": "https://apilsbzy1.com",
+    "comment": "",
+    "adult": true,
+    "searchStatus": "命中"
+  },
+  {
     "key": "www.msnii.com",
     "name": "🔞-美少女-",
     "api": "https://www.msnii.com/api/json.php",
@@ -207,6 +216,15 @@
     "searchStatus": "命中"
   },
   {
+    "key": "apiyutu.com",
+    "name": "🔞玉兔资源",
+    "api": "https://apiyutu.com/api.php/provide/vod",
+    "detail": "https://apiyutu.com",
+    "comment": "",
+    "adult": true,
+    "searchStatus": "命中"
+  },
+  {
     "key": "jkunzyapi.com",
     "name": "🔞jkun资源",
     "api": "https://jkunzyapi.com/api.php/provide/vod",
@@ -240,7 +258,7 @@
     "detail": "https://iqiyizyapi.com",
     "comment": "",
     "adult": false,
-    "searchStatus": "命中"
+    "searchStatus": "HTTP 503 Service Temporarily Unavailable"
   },
   {
     "key": "bfzy.tv",
