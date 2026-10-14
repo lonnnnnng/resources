@@ -18,7 +18,6 @@ https://feeds.jjldbk.com/all.xml
 https://justinyan.me/feed/podcast
 https://avocadotoast.typlog.io/feed/audio.xml
 https://bujuyigenm.typlog.io/feed/audio.xml
-https://feeds.fireside.fm/thinkagepodcast/rss
 https://binary.2bab.me/episodes/feed.xml
 https://zhuchangsile.xyz/episodes/feed.xml
 https://feeds.soundon.fm/podcasts/c1f1f3c9-8d28-42ad-9f1c-908018b8d9fc.xml
