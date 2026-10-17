@@ -1,6 +1,6 @@
 # 播客源检测报告
 
-生成时间: 2026-10-16T22:05:26.730Z
+生成时间: 2026-10-17T21:27:53.010Z
 
 活跃规则: 仅保留最近 1 个月内有音频条目更新的 RSS/Atom 源。
 
@@ -143,68 +143,68 @@
    ```
    错误: not updated in last month, latest audio update 2026-08-26T15:17:00.000Z
 
-20. 新气集 ThinkAge
+20. 牛油果烤面包
+   地址:
+   ```text
+   https://avocadotoast.typlog.io/feed/audio.xml
+   ```
+   错误: not updated in last month, latest audio update 2026-09-17T02:52:37.000Z
+
+21. 新气集 ThinkAge
    地址:
    ```text
    https://feeds.fireside.fm/thinkagepodcast/rss
    ```
    错误: not updated in last month, latest audio update 2026-09-14T06:00:00.000Z
 
-21. 五湖四海 5lake4sea
+22. 五湖四海 5lake4sea
    地址:
    ```text
    https://5l4s.de/feed/audio.xml
    ```
    错误: not updated in last month, latest audio update 2026-05-26T13:22:36.000Z
 
-22. 出海进行时
+23. 出海进行时
    地址:
    ```text
    https://feed.xyzfm.space/cf4yqd4g79lv
    ```
    错误: not updated in last month, latest audio update 2026-07-08T23:30:00.000Z
 
-23. 下楼散步
+24. 下楼散步
    地址:
    ```text
    https://feed.xyzfm.space/wxvp6yquudvy
    ```
    错误: not updated in last month, latest audio update 2026-06-09T14:11:53.000Z
 
-24. 尴尬院长·粤语播客
+25. 尴尬院长·粤语播客
    地址:
    ```text
    http://rss.lizhi.fm/rss/1063597.xml
    ```
    错误: not updated in last month, latest audio update 2026-05-11T04:28:21.000Z
 
-25. 电影巨辩
+26. 电影巨辩
    地址:
    ```text
    https://www.ximalaya.com/album/76473718.xml
    ```
    错误: not updated in last month, latest audio update 2026-08-30T13:38:01.000Z
 
-26. 过刊
+27. 过刊
    地址:
    ```text
    https://www.ximalaya.com/album/36470328.xml
    ```
    错误: not updated in last month, latest audio update 2026-08-17T13:48:56.000Z
 
-27. 螺丝在拧紧
+28. 螺丝在拧紧
    地址:
    ```text
    http://www.ximalaya.com/album/47008946.xml
    ```
    错误: not updated in last month, latest audio update 2026-09-09T23:30:00.000Z
-
-28. 普通读者
-   地址:
-   ```text
-   https://anchor.fm/s/3bd8896c/podcast/rss
-   ```
-   错误: not updated in last month, latest audio update 2026-08-15T16:28:18.000Z
 
 29. 蜜獾吃书
    地址:
