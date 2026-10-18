@@ -18,7 +18,6 @@ https://feeds.jjldbk.com/all.xml
 https://justinyan.me/feed/podcast
 https://bujuyigenm.typlog.io/feed/audio.xml
 https://binary.2bab.me/episodes/feed.xml
-https://zhuchangsile.xyz/episodes/feed.xml
 https://feeds.soundon.fm/podcasts/c1f1f3c9-8d28-42ad-9f1c-908018b8d9fc.xml
 https://feeds.soundon.fm/podcasts/b9b3e526-f20d-417e-9af8-e90c45c924d6.xml
 https://open.firstory.me/rss/user/cl11qxv0101fe0h1jgg2zc2n2

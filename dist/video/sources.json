@@ -252,15 +252,6 @@
     "searchStatus": "命中"
   },
   {
-    "key": "iqiyizyapi.com",
-    "name": "爱奇艺",
-    "api": "https://iqiyizyapi.com/api.php/provide/vod",
-    "detail": "https://iqiyizyapi.com",
-    "comment": "",
-    "adult": false,
-    "searchStatus": "命中"
-  },
-  {
     "key": "bfzy.tv",
     "name": "暴风资源",
     "api": "https://bfzyapi.com/api.php/provide/vod",
