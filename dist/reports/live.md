@@ -1,10 +1,10 @@
 # 电视直播源检测报告
 
-生成时间: 2026-10-19T22:53:58.276Z
+生成时间: 2026-10-20T22:17:46.410Z
 
-总数: 324
-可用: 86
-失败: 238
+总数: 327
+可用: 87
+失败: 240
 
 ## 失败项
 
@@ -468,105 +468,105 @@
    ```text
    http://175.8.28.207:9999/tsfile/live/0001_1.m3u8
    ```
-   错误: fetch failed
+   错误: This operation was aborted
 
 67. CCTV-2
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0002_1.m3u8
    ```
-   错误: fetch failed
+   错误: This operation was aborted
 
 68. CCTV-3
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0003_1.m3u8
    ```
-   错误: fetch failed
+   错误: This operation was aborted
 
 69. CCTV-4
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0004_1.m3u8
    ```
-   错误: fetch failed
+   错误: This operation was aborted
 
 70. CCTV-5
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0005_1.m3u8
    ```
-   错误: fetch failed
+   错误: This operation was aborted
 
 71. CCTV-6
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0006_1.m3u8
    ```
-   错误: fetch failed
+   错误: This operation was aborted
 
 72. CCTV-7
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0007_1.m3u8
    ```
-   错误: fetch failed
+   错误: This operation was aborted
 
 73. CCTV-8
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0008_1.m3u8
    ```
-   错误: fetch failed
+   错误: This operation was aborted
 
 74. CCTV-9
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0009_1.m3u8
    ```
-   错误: fetch failed
+   错误: This operation was aborted
 
 75. CCTV-10
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0010_1.m3u8
    ```
-   错误: fetch failed
+   错误: This operation was aborted
 
 76. CCTV-11
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0011_1.m3u8
    ```
-   错误: fetch failed
+   错误: This operation was aborted
 
 77. CCTV-12
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0012_1.m3u8
    ```
-   错误: fetch failed
+   错误: This operation was aborted
 
 78. CCTV-13
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0013_1.m3u8
    ```
-   错误: fetch failed
+   错误: This operation was aborted
 
 79. CCTV-14
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0014_1.m3u8
    ```
-   错误: fetch failed
+   错误: This operation was aborted
 
 80. CCTV-15
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0001_1.m3u8
    ```
-   错误: fetch failed
+   错误: This operation was aborted
 
 81. CCTV-1
    地址:
@@ -594,7 +594,7 @@
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv4
    ```
-   错误: HTTP 429
+   错误: HTTP 403
 
 85. CCTV-4
    地址:
@@ -608,7 +608,7 @@
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv4o
    ```
-   错误: HTTP 429
+   错误: HTTP 403
 
 87. CCTV-5
    地址:
@@ -636,14 +636,14 @@
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv7
    ```
-   错误: HTTP 403
+   错误: HTTP 429
 
 91. CCTV-8
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv8
    ```
-   错误: HTTP 403
+   错误: HTTP 429
 
 92. CCTV-9
    地址:
@@ -657,56 +657,56 @@
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv10
    ```
-   错误: HTTP 403
+   错误: HTTP 429
 
 94. CCTV-11
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv11
    ```
-   错误: HTTP 403
+   错误: HTTP 429
 
 95. CCTV-12
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv12
    ```
-   错误: HTTP 403
+   错误: HTTP 429
 
 96. CCTV-13
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv13
    ```
-   错误: HTTP 403
+   错误: HTTP 429
 
 97. CCTV-14
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv14
    ```
-   错误: HTTP 403
+   错误: HTTP 429
 
 98. CCTV-15
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv15
    ```
-   错误: HTTP 403
+   错误: HTTP 429
 
 99. CCTV-16
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv16
    ```
-   错误: HTTP 403
+   错误: HTTP 429
 
 100. CCTV-17
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv17
    ```
-   错误: HTTP 403
+   错误: HTTP 429
 
 101. 东方卫视
    地址:
@@ -720,7 +720,7 @@
    ```text
    http://t.061899.xyz/tl/tl.php?id=cqws
    ```
-   错误: HTTP 403
+   错误: HTTP 429
 
 103. 吉林卫视
    地址:
@@ -1660,14 +1660,28 @@
    ```
    错误: fetch failed
 
-237. CCTV-3
+237. 山西卫视
    地址:
    ```text
-   http://74.91.26.218:82/live/cctv3hd.m3u8
+   http://101.66.198.93:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
    ```
-   错误: not an HLS playlist
+   错误: This operation was aborted
 
-238. 云南卫视
+238. 陕西卫视
+   地址:
+   ```text
+   http://101.66.198.226:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0
+   ```
+   错误: This operation was aborted
+
+239. 吉林卫视
+   地址:
+   ```text
+   http://101.66.198.93:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
+   ```
+   错误: This operation was aborted
+
+240. 云南卫视
    地址:
    ```text
    https://hwapi.yntv.net/ew265l/z1z6s5.m3u8
