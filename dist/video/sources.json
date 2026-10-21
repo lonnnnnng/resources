@@ -63,15 +63,6 @@
     "searchStatus": "命中"
   },
   {
-    "key": "dadizy11.com",
-    "name": "🔞大地资源",
-    "api": "https://dadiapi.com/feifei",
-    "detail": "https://dadizy11.com",
-    "comment": "污染搜索结果",
-    "adult": true,
-    "searchStatus": "命中"
-  },
-  {
     "key": "didizy.com",
     "name": "🔞滴滴资源",
     "api": "https://api.ddapi.cc/api.php/provide/vod",
@@ -258,7 +249,7 @@
     "detail": "https://iqiyizyapi.com",
     "comment": "",
     "adult": false,
-    "searchStatus": "命中"
+    "searchStatus": "HTTP 503 Service Temporarily Unavailable"
   },
   {
     "key": "bfzy.tv",
