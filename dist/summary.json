@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-22T22:20:26.059Z",
+  "generatedAt": "2026-10-23T22:10:59.264Z",
   "video": {
     "total": 72,
     "ok": 54,
     "failed": 18
   },
   "live": {
-    "total": 364,
-    "ok": 118,
-    "failed": 237,
+    "total": 389,
+    "ok": 145,
+    "failed": 235,
     "skipped": 9
   },
   "radio": {
