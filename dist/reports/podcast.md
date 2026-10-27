@@ -1,6 +1,6 @@
 # 播客源检测报告
 
-生成时间: 2026-10-26T23:07:03.813Z
+生成时间: 2026-10-27T22:56:48.515Z
 
 活跃规则: 仅保留最近 1 个月内有音频条目更新的 RSS/Atom 源。
 
@@ -43,7 +43,7 @@
    ```text
    https://bowuzhi.fm/feed/audio.xml
    ```
-   错误: This operation was aborted
+   错误: fetch failed
 
 6. 太医来了
    地址:
@@ -206,40 +206,40 @@
    ```
    错误: not updated in last month, latest audio update 2026-05-11T04:28:21.000Z
 
-29. 过刊
-   地址:
-   ```text
-   https://www.ximalaya.com/album/36470328.xml
-   ```
-   错误: not updated in last month, latest audio update 2026-08-17T13:48:56.000Z
-
-30. 螺丝在拧紧
+29. 螺丝在拧紧
    地址:
    ```text
    http://www.ximalaya.com/album/47008946.xml
    ```
    错误: not updated in last month, latest audio update 2026-09-09T23:30:00.000Z
 
-31. 蜜獾吃书
+30. 蜜獾吃书
    地址:
    ```text
    https://www.ximalaya.com/album/64689453.xml
    ```
    错误: not updated in last month, latest audio update 2026-07-11T11:59:09.000Z
 
-32. 漂浮绿洲 Floating Oasis
+31. 漂浮绿洲 Floating Oasis
    地址:
    ```text
    https://anchor.fm/s/e60787d0/podcast/rss
    ```
    错误: not updated in last month, latest audio update 2026-09-06T23:30:00.000Z
 
-33. 好青年荼毒室
+32. 好青年荼毒室
    地址:
    ```text
    https://anchor.fm/s/3f94b8a0/podcast/rss
    ```
    错误: not updated in last month, latest audio update 2026-08-25T23:03:00.000Z
+
+33. 一人有一个
+   地址:
+   ```text
+   https://oneatatime.typlog.io/feed/audio.xml
+   ```
+   错误: not updated in last month, latest audio update 2026-09-27T10:00:00.000Z
 
 34. 互不联网
    地址:
