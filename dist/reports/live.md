@@ -1,11 +1,11 @@
 # 电视直播源检测报告
 
-生成时间: 2026-10-28T23:13:21.013Z
+生成时间: 2026-10-29T23:17:36.863Z
 
-总数: 379
-可用: 133
-失败: 240
-跳过: 6
+总数: 335
+可用: 90
+失败: 238
+跳过: 7
 
 ## 失败项
 
@@ -14,14 +14,14 @@
    ```text
    http://8.138.7.223/tv/btime.php?id=bjws4k
    ```
-   错误: HTTP 403
+   错误: This operation was aborted
 
 2. 湖南卫视
    地址:
    ```text
    http://8.138.7.223/tv/api.php?id=hnws4k
    ```
-   错误: fetch failed
+   错误: This operation was aborted
 
 3. 浙江卫视
    地址:
@@ -476,105 +476,105 @@
    ```text
    http://175.8.28.207:9999/tsfile/live/0001_1.m3u8
    ```
-   错误: This operation was aborted
+   错误: fetch failed
 
 68. CCTV-2
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0002_1.m3u8
    ```
-   错误: This operation was aborted
+   错误: fetch failed
 
 69. CCTV-3
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0003_1.m3u8
    ```
-   错误: This operation was aborted
+   错误: fetch failed
 
 70. CCTV-4
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0004_1.m3u8
    ```
-   错误: This operation was aborted
+   错误: fetch failed
 
 71. CCTV-5
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0005_1.m3u8
    ```
-   错误: This operation was aborted
+   错误: fetch failed
 
 72. CCTV-6
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0006_1.m3u8
    ```
-   错误: This operation was aborted
+   错误: fetch failed
 
 73. CCTV-7
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0007_1.m3u8
    ```
-   错误: This operation was aborted
+   错误: fetch failed
 
 74. CCTV-8
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0008_1.m3u8
    ```
-   错误: This operation was aborted
+   错误: fetch failed
 
 75. CCTV-9
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0009_1.m3u8
    ```
-   错误: This operation was aborted
+   错误: fetch failed
 
 76. CCTV-10
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0010_1.m3u8
    ```
-   错误: This operation was aborted
+   错误: fetch failed
 
 77. CCTV-11
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0011_1.m3u8
    ```
-   错误: This operation was aborted
+   错误: fetch failed
 
 78. CCTV-12
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0012_1.m3u8
    ```
-   错误: This operation was aborted
+   错误: fetch failed
 
 79. CCTV-13
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0013_1.m3u8
    ```
-   错误: This operation was aborted
+   错误: fetch failed
 
 80. CCTV-14
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0014_1.m3u8
    ```
-   错误: This operation was aborted
+   错误: fetch failed
 
 81. CCTV-15
    地址:
    ```text
    http://175.8.28.207:9999/tsfile/live/0001_1.m3u8
    ```
-   错误: This operation was aborted
+   错误: fetch failed
 
 82. CCTV-1
    地址:
@@ -588,35 +588,35 @@
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv2
    ```
-   错误: This operation was aborted
+   错误: HTTP 403
 
 84. CCTV-3
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv3
    ```
-   错误: This operation was aborted
+   错误: HTTP 429
 
 85. CCTV-4
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv4
    ```
-   错误: This operation was aborted
+   错误: HTTP 403
 
 86. CCTV-4
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv4m
    ```
-   错误: This operation was aborted
+   错误: HTTP 403
 
 87. CCTV-4
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv4o
    ```
-   错误: This operation was aborted
+   错误: HTTP 403
 
 88. CCTV-5
    地址:
@@ -630,7 +630,7 @@
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv5p
    ```
-   错误: HTTP 403
+   错误: HTTP 429
 
 90. CCTV-6
    地址:
@@ -665,7 +665,7 @@
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv10
    ```
-   错误: HTTP 403
+   错误: HTTP 429
 
 95. CCTV-11
    地址:
@@ -700,7 +700,7 @@
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv15
    ```
-   错误: HTTP 403
+   错误: HTTP 429
 
 100. CCTV-16
    地址:
@@ -1659,7 +1659,7 @@
    ```text
    http://tv.pull.hebtv.com/jishi/weishipindao.m3u8?t=2510710360&k=3d44740039027301acf8341d7361ab59
    ```
-   错误: fetch failed
+   错误: HTTP 403
 
 237. 东南卫视
    地址:
@@ -1668,67 +1668,60 @@
    ```
    错误: fetch failed
 
-238. CCTV-13
+238. 云南卫视
    地址:
    ```text
-   https://event.pull.hebtv.com/jishi/cp1.m3u8
+   https://hwapi.yntv.net/ew265l/z1z6s5.m3u8
    ```
    错误: fetch failed
-
-239. CCTV-14
-   地址:
-   ```text
-   https://event.pull.hebtv.com/jishi/cp2.m3u8
-   ```
-   错误: fetch failed
-
-240. 东南卫视
-   地址:
-   ```text
-   http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
-   ```
-   错误: This operation was aborted
 
 ## 跳过项
 
-1. CCTV-11
+1. 山西卫视
    地址:
    ```text
-   http://101.66.198.18:9901/tsfile/live/0011_1.m3u8?key=txiptv&playlive=0&authid=0
+   http://101.66.194.176:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-2. 广西卫视
+2. 山西卫视
    地址:
    ```text
-   http://101.66.194.29:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0
+   http://218.13.170.98:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-3. 广西卫视
+3. 山西卫视
    地址:
    ```text
-   http://101.66.198.184:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0
+   http://101.66.198.184:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-4. 广西卫视
+4. 山西卫视
    地址:
    ```text
-   http://36.136.38.87:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=1&authid=0
+   http://101.66.198.84:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
    ```
    原因: 超过每频道 5 条上限
 
-5. 山西卫视
+5. 陕西卫视
    地址:
    ```text
-   http://36.136.38.87:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0
+   http://36.136.38.87:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=1&authid=0
    ```
    原因: 超过每频道 5 条上限
 
 6. 陕西卫视
    地址:
    ```text
-   http://101.66.198.234:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0
+   http://101.66.198.184:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0
+   ```
+   原因: 超过每频道 5 条上限
+
+7. 吉林卫视
+   地址:
+   ```text
+   http://101.66.194.176:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
    ```
    原因: 超过每频道 5 条上限

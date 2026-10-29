@@ -270,15 +270,6 @@
     "searchStatus": "命中"
   },
   {
-    "key": "dbzy.tv",
-    "name": "豆瓣资源",
-    "api": "https://caiji.dbzy5.com/api.php/provide/vod",
-    "detail": "https://dbzy.tv",
-    "comment": "有伦理片",
-    "adult": false,
-    "searchStatus": "无结果"
-  },
-  {
     "key": "ffzyapi.com",
     "name": "非凡资源",
     "api": "https://api.ffzyapi.com/api.php/provide/vod",
