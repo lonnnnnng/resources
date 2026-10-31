@@ -1,6 +1,6 @@
 # 播客源检测报告
 
-生成时间: 2026-10-30T22:58:12.519Z
+生成时间: 2026-10-31T22:29:14.355Z
 
 活跃规则: 仅保留最近 1 个月内有音频条目更新的 RSS/Atom 源。
 
@@ -155,7 +155,7 @@
    ```text
    https://anyway.fm/rss.xml
    ```
-   错误: not updated in last month, latest audio update 2026-08-26T15:17:00.000Z
+   错误: not RSS/Atom XML
 
 22. 牛油果烤面包
    地址:
@@ -220,33 +220,33 @@
    ```
    错误: not updated in last month, latest audio update 2026-08-25T23:03:00.000Z
 
-31. 一人有一个
-   地址:
-   ```text
-   https://oneatatime.typlog.io/feed/audio.xml
-   ```
-   错误: not updated in last month, latest audio update 2026-09-27T10:00:00.000Z
-
-32. 互不联网
+31. 互不联网
    地址:
    ```text
    https://www.ximalaya.com/album/77112790.xml
    ```
    错误: not updated in last month, latest audio update 2026-08-26T07:45:02.000Z
 
-33. 姬羊同笼（新）
+32. 姬羊同笼（新）
    地址:
    ```text
    https://sheepchick.typlog.io/feed/audio.xml
    ```
    错误: not updated in last month, latest audio update 2026-08-09T23:55:00.000Z
 
-34. 无人知晓
+33. 无人知晓
    地址:
    ```text
    https://feed.xyzfm.space/ypn9dydpbxpc
    ```
    错误: not updated in last month, latest audio update 2026-08-25T12:00:00.000Z
+
+34. 饭饭之交
+   地址:
+   ```text
+   https://feeds.acast.com/public/shows/63a20fba6ac81a0010a9553c
+   ```
+   错误: not updated in last month, latest audio update 2026-10-01T04:00:00.000Z
 
 35. 这刺聊点啥
    地址:
