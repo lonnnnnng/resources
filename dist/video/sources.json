@@ -51,7 +51,7 @@
     "detail": "https://155zy2.com",
     "comment": "",
     "adult": true,
-    "searchStatus": "无结果"
+    "searchStatus": "命中"
   },
   {
     "key": "www.kxgav.com",
@@ -132,22 +132,13 @@
     "detail": "https://lbapi9.com",
     "comment": "",
     "adult": true,
-    "searchStatus": "无结果"
+    "searchStatus": "命中"
   },
   {
     "key": "91md.me",
     "name": "🔞麻豆视频",
     "api": "https://91md.me/api.php/provide/vod",
     "detail": "https://91md.me",
-    "comment": "",
-    "adult": true,
-    "searchStatus": "命中"
-  },
-  {
-    "key": "Naixxzy.com",
-    "name": "🔞奶香资源",
-    "api": "https://Naixxzy.com/api.php/provide/vod",
-    "detail": "https://Naixxzy.com",
     "comment": "",
     "adult": true,
     "searchStatus": "命中"

@@ -1,6 +1,6 @@
 # 播客源检测报告
 
-生成时间: 2026-11-01T22:49:32.503Z
+生成时间: 2026-11-03T01:35:15.282Z
 
 活跃规则: 仅保留最近 1 个月内有音频条目更新的 RSS/Atom 源。
 
@@ -43,7 +43,7 @@
    ```text
    https://bowuzhi.fm/feed/audio.xml
    ```
-   错误: fetch failed
+   错误: This operation was aborted
 
 6. 太医来了
    地址:
