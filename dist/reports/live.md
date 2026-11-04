@@ -1,11 +1,11 @@
 # 电视直播源检测报告
 
-生成时间: 2026-11-03T01:35:15.282Z
+生成时间: 2026-11-03T23:58:52.103Z
 
-总数: 361
-可用: 100
-失败: 258
-跳过: 3
+总数: 374
+可用: 130
+失败: 239
+跳过: 5
 
 ## 失败项
 
@@ -616,21 +616,21 @@
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv5
    ```
-   错误: HTTP 429
+   错误: HTTP 403
 
 88. CCTV-5+
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv5p
    ```
-   错误: HTTP 429
+   错误: HTTP 403
 
 89. CCTV-6
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv6
    ```
-   错误: HTTP 429
+   错误: HTTP 403
 
 90. CCTV-7
    地址:
@@ -644,14 +644,14 @@
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv8
    ```
-   错误: HTTP 429
+   错误: HTTP 403
 
 92. CCTV-9
    地址:
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv9
    ```
-   错误: HTTP 403
+   错误: HTTP 429
 
 93. CCTV-10
    地址:
@@ -672,7 +672,7 @@
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv12
    ```
-   错误: HTTP 429
+   错误: HTTP 403
 
 96. CCTV-13
    地址:
@@ -686,7 +686,7 @@
    ```text
    http://t.061899.xyz/tl/tl.php?id=cctv14
    ```
-   错误: HTTP 429
+   错误: HTTP 403
 
 98. CCTV-15
    地址:
@@ -721,7 +721,7 @@
    ```text
    http://t.061899.xyz/tl/tl.php?id=cqws
    ```
-   错误: HTTP 403
+   错误: HTTP 429
 
 103. 吉林卫视
    地址:
@@ -1659,181 +1659,62 @@
    ```text
    http://8.138.7.223/tv/fjtv1.php?id=dnws
    ```
-   错误: This operation was aborted
+   错误: fetch failed
 
-237. 湖南卫视
+237. CCTV-13
    地址:
    ```text
-   http://101.66.198.35:9901/tsfile/live/0019_1.m3u8?key=txiptv&playlive=0&authid=0
+   https://event.pull.hebtv.com/jishi/cp1.m3u8
    ```
-   错误: This operation was aborted
+   错误: fetch failed
 
-238. 东方卫视
+238. 河南卫视
    地址:
    ```text
-   http://101.66.198.171:9901/tsfile/live/0018_1.m3u8?key=txiptv&playlive=0&authid=0
+   http://63.141.230.178:82/gslb/zbdq5.m3u8?id=hawshd
    ```
-   错误: This operation was aborted
+   错误: fetch failed
 
-239. 安徽卫视
-   地址:
-   ```text
-   http://101.66.198.35:9901/tsfile/live/0130_1.m3u8?key=txiptv&playlive=0&authid=0
-   ```
-   错误: This operation was aborted
-
-240. 广西卫视
-   地址:
-   ```text
-   http://101.66.198.35:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0
-   ```
-   错误: This operation was aborted
-
-241. 广西卫视
-   地址:
-   ```text
-   http://101.66.198.171:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0
-   ```
-   错误: This operation was aborted
-
-242. 江西卫视
-   地址:
-   ```text
-   http://101.66.198.35:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=0&authid=0
-   ```
-   错误: This operation was aborted
-
-243. 江西卫视
-   地址:
-   ```text
-   http://112.27.5.218:9901/tsfile/live/faacts/0138_1.m3u8?key=txiptv&playlive=1&authid=0
-   ```
-   错误: This operation was aborted
-
-244. 浙江卫视
-   地址:
-   ```text
-   http://101.66.198.171:9901/tsfile/live/0124_1.m3u8?key=txiptv&playlive=0&authid=0
-   ```
-   错误: This operation was aborted
-
-245. 山西卫视
-   地址:
-   ```text
-   http://101.66.198.35:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
-   ```
-   错误: This operation was aborted
-
-246. 山西卫视
-   地址:
-   ```text
-   http://101.66.198.171:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
-   ```
-   错误: This operation was aborted
-
-247. 山西卫视
-   地址:
-   ```text
-   http://101.66.194.46:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
-   ```
-   错误: This operation was aborted
-
-248. 陕西卫视
-   地址:
-   ```text
-   http://101.66.198.35:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0
-   ```
-   错误: This operation was aborted
-
-249. 陕西卫视
-   地址:
-   ```text
-   http://101.66.194.46:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0
-   ```
-   错误: This operation was aborted
-
-250. 陕西卫视
-   地址:
-   ```text
-   http://101.66.198.171:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0
-   ```
-   错误: This operation was aborted
-
-251. 吉林卫视
-   地址:
-   ```text
-   http://101.66.198.35:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
-   ```
-   错误: This operation was aborted
-
-252. 吉林卫视
-   地址:
-   ```text
-   http://101.66.198.171:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
-   ```
-   错误: This operation was aborted
-
-253. 吉林卫视
-   地址:
-   ```text
-   http://101.66.194.46:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
-   ```
-   错误: This operation was aborted
-
-254. 吉林卫视
-   地址:
-   ```text
-   http://101.66.199.233:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
-   ```
-   错误: This operation was aborted
-
-255. 云南卫视
+239. 云南卫视
    地址:
    ```text
    https://hwapi.yntv.net/ew265l/z1z6s5.m3u8
    ```
    错误: fetch failed
 
-256. 云南卫视
-   地址:
-   ```text
-   http://101.66.198.35:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0
-   ```
-   错误: This operation was aborted
-
-257. 云南卫视
-   地址:
-   ```text
-   http://101.66.198.171:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0
-   ```
-   错误: This operation was aborted
-
-258. 西藏卫视
-   地址:
-   ```text
-   http://112.27.5.218:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0
-   ```
-   错误: This operation was aborted
-
 ## 跳过项
 
-1. CCTV-5
+1. CCTV-9
    地址:
    ```text
-   http://38.75.136.137:98/gslb/dsdqbv/cctv5hd.m3u8?auth=test20251009
+   https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=7178253465dde42bc1f1eea8e93b7f13
    ```
    原因: 超过每频道 5 条上限
 
-2. CCTV-5
+2. CCTV-9
    地址:
    ```text
-   http://38.75.136.137:98/gslb/dsdqbv/cctv5p.m3u8?auth=test20251009
+   https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=02462f9f8d10f4e88fbd7b3f0a427534
    ```
    原因: 超过每频道 5 条上限
 
 3. CCTV-14
    地址:
    ```text
-   http://198.204.228.26/live/cctv14hd.m3u8
+   http://36.136.38.87:9901/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0
+   ```
+   原因: 超过每频道 5 条上限
+
+4. CCTV-15
+   地址:
+   ```text
+   http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv15hd
+   ```
+   原因: 超过每频道 5 条上限
+
+5. 浙江卫视
+   地址:
+   ```text
+   http://36.136.38.87:9901/tsfile/live/0124_1.m3u8?key=txiptv&playlive=1&authid=0
    ```
    原因: 超过每频道 5 条上限

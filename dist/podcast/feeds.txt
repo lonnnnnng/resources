@@ -12,7 +12,6 @@ https://feeds.fireside.fm/sv101/rss
 https://feeds.fireside.fm/stovol/rss
 https://feeds.fireside.fm/leftovertalk/rss
 https://feeds.podshow.cn/smatter.xml
-https://feeds.jjldbk.com/all.xml
 https://justinyan.me/feed/podcast
 https://bujuyigenm.typlog.io/feed/audio.xml
 https://binary.2bab.me/episodes/feed.xml

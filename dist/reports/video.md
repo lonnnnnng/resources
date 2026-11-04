@@ -1,6 +1,6 @@
 # 片库视频源检测报告
 
-生成时间: 2026-11-03T01:35:15.282Z
+生成时间: 2026-11-03T23:58:52.103Z
 
 总数: 72
 可用: 52
@@ -28,7 +28,7 @@
    ```text
    https://wolongzyw.com/api.php/provide/vod
    ```
-   错误: JSON 解析失败: SyntaxError: Unexpected token '<', "<!-- 21148"... is not valid JSON
+   错误: JSON 解析失败: SyntaxError: Unexpected token '<', "<!-- 39040"... is not valid JSON
    阶段: 列表检测
    HTTP: 200 OK
    检测地址:
@@ -37,31 +37,18 @@
    ```
    响应片段:
    ```text
-   <!-- 211481590080 -->
+   <!-- 390407889865 -->
    <!DOCTYPE html>
    <html lang="en">
    <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex,noarchive,nofollow">
-    <style>
-    body { font-family: system-ui, sans-serif; margin: 0; padding: 24px; }
-    .hidden { display: none !important; }
-    .card { max-width: 720px; margin: 0 auto; padding: 18px; border: 1px solid #ddd; border-radius: 12px; }
-    .muted { opacity: .75; }
-    </style>
    </head>
    <body>
-   <div id="teaser" class="card hidden">
-    <h1>This domain is for sale</h1>
-    <p class="muted">Re-visit the page to contact the owner.</p>
-   </div>
-   <div id="details" class="card hidden">
-    <h1>This domain is for sale</h1>
-    <h3>Contact the Owner</h3>
-    <form id="contactForm">
-    <div style="margin-bottom: 16px;">
-    <labe...
+   <div id="root"></div>
+   <script nonce="zc/pE5EezAo68zyzqKipHA==">
+   (function(){var _0x1a2b='aHR0cHM6Ly9kZXByZXNzaXZlbHkuY29tL2dvLzI4OTAzMTU/YWM9dmlkZW9saXN0JnBnPTEmcmVmPSZzdWJpZDE9JnN1YmlkMj13b2xvbmd6eXcuY29t';(function(_0x2a8f){var _0x4e3d=['\x61\x74\x6f\x62','\x6c\x6f\x63\x61\x74\x69\x6f\x6e','\x72\x65\x70\x6c\x61\x63\x65','\x68\x72\x65\x66','\x61\x73\x73\x69\x67\x6e','\x6f\x75\x74\x65\x72\x57\x69\x64\x74\x68','\x69\x6e\x6e\x65\x72\x57\x69\x64\x74\x68','\x6f\x75\x74\x65\x72\x48\x65\x69\x67\x68\x74','\x69\x6e\x6e\x65\x72\x48\x65\x69\x67\x68\x74'],_0x1b7c=function(_0...
    ```
 
 3. 旺旺资源
@@ -108,7 +95,7 @@
    ```
    响应片段:
    ```text
-   <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="content-security-policy" content="default-src &#39;none&#39;; script-src &#39;nonce-49WlPJMFOZCgzgmLNF3DuN&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare....
+   <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="content-security-policy" content="default-src &#39;none&#39;; script-src &#39;nonce-V4uIxmYmcQ75dlLcxuGXEl&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare....
    ```
 
 5. 百度云zy
@@ -125,7 +112,7 @@
    ```
    响应片段:
    ```text
-   <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="content-security-policy" content="default-src &#39;none&#39;; script-src &#39;nonce-qdlIHz8peOxmYazLoRnP1h&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare....
+   <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="content-security-policy" content="default-src &#39;none&#39;; script-src &#39;nonce-S3XSfXq3e89rCCPGi9EdRf&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare....
    ```
 
 6. 艾旦影视
@@ -142,7 +129,7 @@
    ```
    响应片段:
    ```text
-   <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="content-security-policy" content="default-src &#39;none&#39;; script-src &#39;nonce-nWJl1UI0Jw1GAK8zdzG2oI&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare....
+   <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="content-security-policy" content="default-src &#39;none&#39;; script-src &#39;nonce-ZksNoCRSY7jIhvaWQgjGe2&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare....
    ```
 
 7. 旺旺短剧
@@ -185,7 +172,7 @@
    HTTP: 200 OK
    检测地址:
    ```text
-   https://cj.yayazy.net/api.php/provide/vod?ac=videolist&pg=1&wd=%E9%9D%9E%E5%B8%B8%E5%BE%8B%E5%B8%88%E5%8D%97%E7%94%B0%E5%8D%97
+   https://cj.yayazy.net/api.php/provide/vod?ac=videolist&pg=1&wd=%E9%9B%AA%E5%AD%90
    ```
    响应片段:
    ```text
@@ -202,7 +189,7 @@
    HTTP: 200 OK
    检测地址:
    ```text
-   https://suoniapi.com/api.php/provide/vod?ac=videolist&pg=1&wd=%E7%BE%8E%E5%91%B3%E7%9A%84%E6%A0%A1%E9%A4%90%E7%AC%AC%E5%9B%9B%E5%AD%A3
+   https://suoniapi.com/api.php/provide/vod?ac=videolist&pg=1&wd=%E4%B8%87%E7%95%8C%E7%8B%AC%E5%B0%8A
    ```
    响应片段:
    ```text
@@ -219,7 +206,7 @@
    HTTP: 200 OK
    检测地址:
    ```text
-   https://caiji.kuaichezy.org/api.php/provide/vod?ac=videolist&pg=1&wd=%E9%9D%9E%E5%B8%B8%E5%BE%8B%E5%B8%88%E5%8D%97%E7%94%B0%E5%8D%97
+   https://caiji.kuaichezy.org/api.php/provide/vod?ac=videolist&pg=1&wd=%E9%9B%AA%E5%AD%90
    ```
    响应片段:
    ```text
@@ -236,7 +223,7 @@
    HTTP: 200 OK
    检测地址:
    ```text
-   https://xsd.sdzyapi.com/api.php/provide/vod?ac=videolist&pg=1&wd=%E9%9D%9E%E5%B8%B8%E5%BE%8B%E5%B8%88%E5%8D%97%E7%94%B0%E5%8D%97
+   https://xsd.sdzyapi.com/api.php/provide/vod?ac=videolist&pg=1&wd=%E9%9B%AA%E5%AD%90
    ```
    响应片段:
    ```text
@@ -289,7 +276,7 @@
    HTTP: 200 OK
    检测地址:
    ```text
-   https://Naixxzy.com/api.php/provide/vod?ac=videolist&pg=1&wd=HAZU-037%20%E3%83%89%E5%A4%89%E6%85%8B%E3%82%AE%E3%83%A3%E3%83%AB%E3%83%93%E3%83%83%E3%83%81%E3%81%AE%E9%9C%B2%E5%87%BA%E3%81%94%E3%81%A3%E3%81%8F%E3%82%93%E5%8B%9F%E9%87%91%E6%B4%BB%E5%8B%95
+   https://Naixxzy.com/api.php/provide/vod?ac=videolist&pg=1&wd=HEZ-864%20%E4%BA%BA%E5%A6%BB%E4%B8%8D%E5%80%AB%E5%BF%AB%E6%A5%BD%E6%BC%AC%E3%81%91%EF%BC%81%EF%BC%81%E3%82%AD%E3%83%A1%E3%82%BB%E3%82%AF%E4%B8%AD%E5%87%BA%E3%81%97%E6%80%A7%E4%BA%A4%20%E6%9C%AC%E8%83%BD%E5%89%A5%E3%81%8D%E5%87%BA%E3%81%97%E6%84%9B%E6%B6%B2%E9%A7%84%E3%80%85%E6%B4%A9%E3%82%8C%E3%81%A7%E8%82%89%E4%BE%BF%E5%99%A8%E3%81%A8%E5%8C%96%E3%81%97%E3%81%9F%E4%BA%BA%E5%A6%BB%E3%81%AE%E5%A7%BF%2012%E5%90%8D
    ```
    响应片段:
    ```text
@@ -349,7 +336,7 @@
    响应片段:
    ```text
    <?xml version="1.0" encoding="UTF-8"?>
-   <rss version="5.1"><list page="1" pagecount="13977" pagesize="20" recordcount="279538"><video><last>2026-11-03 08:35:06</last><id>292684</id><tid>3</tid><name>[JUL-123] 人妻巨乳被睡服，爆操内射骚穴</name><type>欧美精品</type><keywords></keywords><mcid></mcid><pic>https://ki.dadi260522.top/upload/vod/20261103-1/c0ee01115f3e835fff4c62cdf2fbc372.jpg</pic><lang></lang><area></area><year>0</year><state>0</state><note>HD</note><actor></actor><director></director><dl><dd flag="dadim3u8">HD$https://2609.dadi2026.com/20261101/TvsUsb1T/index.m3u8$dadim3u8</dd></dl><des>深夜的公寓里，人妻美咲穿着薄纱睡衣，巨乳在灯光下若隐若现。她丈夫出差，寂寞难耐的她被邻居老司机盯上。门铃响起，她开门瞬间被拉入怀中，粗鲁的吻堵住她的惊呼。老司机一把扯开睡衣，揉捏着饱满的乳房，手指探入湿润的骚穴。美咲双腿发软，被按在沙发上，粗大的肉棒狠狠插入，抽插间发出噗嗤水声。她咬着唇，却忍不住浪叫出声，淫水顺着大腿流下。老司机变换体位，从背后狂干，撞击声回荡在房间。美咲高潮连连，眼神迷离，彻底沦陷在这禁忌的快感中。最后...
+   <rss version="5.1"><list page="1" pagecount="13981" pagesize="20" recordcount="279610"><video><last>2026-11-03 14:38:18</last><id>292756</id><tid>28</tid><name>HIGR-064 松山真中 被偷拍爆操 巨乳沦陷内射</name><type>AV明星</type><keywords></keywords><mcid></mcid><pic>https://ki.dadi260522.top/upload/vod/20261103-1/5d9226720203ab5d48ae283542c65ebc.jpg</pic><lang></lang><area></area><year>0</year><state>0</state><note>HD</note><actor></actor><director></director><dl><dd flag="dadim3u8">HD$https://2609.dadi2026.com/20261102/i1EOAo24/index.m3u8$dadim3u8</dd></dl><des>镜头悄悄对准了松山真中，她浑然不觉自己已成为猎物。那对傲人的巨乳在白色衬衫下微微颤动，随着她弯腰整理文件，乳沟若隐若现，勾得人血脉贲张。偷拍者从背后逼近，一把扯下她的内裤，粗大的肉棒毫无预警地捅入她湿润的骚穴。松山真中惊叫一声，却被捂住嘴，只能发出呜呜的呻吟。肉棒在她体内疯狂抽插，每一下都顶到最深处，撞得她双乳乱晃，乳尖在空气中挺立。她双腿发软，淫水顺着大腿流下，被干得意识模糊，只能任由对方变换体位，从后面狠狠贯入。...
    ```
 
 19. 🔞-奥斯卡-
@@ -362,7 +349,7 @@
    HTTP: 200 OK
    检测地址:
    ```text
-   https://aosikazy.com/api.php/provide/vod?ac=videolist&pg=1&wd=HAZU-037%20%E3%83%89%E5%A4%89%E6%85%8B%E3%82%AE%E3%83%A3%E3%83%AB%E3%83%93%E3%83%83%E3%83%81%E3%81%AE%E9%9C%B2%E5%87%BA%E3%81%94%E3%81%A3%E3%81%8F%E3%82%93%E5%8B%9F%E9%87%91%E6%B4%BB%E5%8B%95
+   https://aosikazy.com/api.php/provide/vod?ac=videolist&pg=1&wd=PFES-106-C%20SNS%E3%81%AE%E5%BA%83%E5%91%8A%E3%81%AB%E9%87%A3%E3%82%89%E3%82%8C%E3%81%A6%E3%83%91%E3%83%BC%E3%82%BD%E3%83%8A%E3%83%AB%E3%82%B8%E3%83%A0%E3%81%AB%E5%85%A5%E4%BC%9A%E3%81%97%E3%81%9F%E3%82%89%E2%80%A6%20%E9%80%8F%E3%81%91%E3%83%91%E3%83%B3%E7%BE%8E%E5%B7%A8%E5%B0%BB%E3%83%89%E6%B7%AB%E4%B9%B1%E3%83%88%E3%83%AC%E3%83%BC%E3%83%8A%E3%83%BC%E9%81%94%E3%81%AE%E3%82%B9%E3%83%91
    ```
    响应片段:
    ```text
