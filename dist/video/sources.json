@@ -186,7 +186,7 @@
     "detail": "https://xiaojizy.live",
     "comment": "",
     "adult": true,
-    "searchStatus": "命中"
+    "searchStatus": "无结果"
   },
   {
     "key": "xingba111.com",
@@ -349,15 +349,6 @@
     "comment": "",
     "adult": false,
     "searchStatus": "命中"
-  },
-  {
-    "key": "mtzy.me",
-    "name": "茅台资源",
-    "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
-    "detail": "https://mtzy.me",
-    "comment": "",
-    "adult": false,
-    "searchStatus": "无结果"
   },
   {
     "key": "caiji.moduapi.cc",
