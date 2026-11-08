@@ -28,10 +28,6 @@
     "url": "https://www.ximalaya.com/album/20119986.xml"
   },
   {
-    "title": "大内密谈",
-    "url": "https://rss.lizhi.fm/rss/14275.xml"
-  },
-  {
     "title": "半拿铁 | 商业沉浮录",
     "url": "https://proxy.wavpub.com/caffebreve.xml"
   },
@@ -66,6 +62,10 @@
   {
     "title": "一知半解",
     "url": "https://feeds.podshow.cn/smatter.xml"
+  },
+  {
+    "title": "津津乐道",
+    "url": "https://feeds.jjldbk.com/all.xml"
   },
   {
     "title": "枫言枫语",

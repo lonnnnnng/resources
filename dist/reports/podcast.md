@@ -1,6 +1,6 @@
 # 播客源检测报告
 
-生成时间: 2026-11-08T07:27:25.931Z
+生成时间: 2026-11-08T07:32:11.229Z
 
 活跃规则: 仅保留最近 1 个月内有音频条目更新的 RSS/Atom 源。
 
@@ -66,40 +66,40 @@
    ```
    错误: not updated in last month, latest audio update 2017-05-18T15:57:27.000Z
 
-9. 所建所闻
+9. 大内密谈
+   地址:
+   ```text
+   https://rss.lizhi.fm/rss/14275.xml
+   ```
+   错误: This operation was aborted
+
+10. 所建所闻
    地址:
    ```text
    https://feeds.fireside.fm/architalk/rss
    ```
    错误: not updated in last month, latest audio update 2026-08-09T10:30:00.000Z
 
-10. 瞎说设计
+11. 瞎说设计
    地址:
    ```text
    https://feeds.soundon.fm/podcasts/0aa385de-e5e8-4125-bcc4-64130c11d5a2.xml
    ```
    错误: not updated in last month, latest audio update 2022-03-08T01:00:00.000Z
 
-11. 設計遊牧 Design Nomads
+12. 設計遊牧 Design Nomads
    地址:
    ```text
    https://open.firstory.me/rss/user/cke01v251c1r00803qbohw954
    ```
    错误: not updated in last month, latest audio update 2024-04-08T06:01:00.000Z
 
-12. 乱翻书
+13. 乱翻书
    地址:
    ```text
    https://feed.xyzfm.space/yxuruh3f9mc4
    ```
    错误: not updated in last month, latest audio update 2026-09-24T05:46:12.000Z
-
-13. 津津乐道
-   地址:
-   ```text
-   https://feeds.jjldbk.com/all.xml
-   ```
-   错误: This operation was aborted
 
 14. Teahour
    地址:
@@ -176,7 +176,7 @@
    ```text
    http://rss.lizhi.fm/rss/1063597.xml
    ```
-   错误: not updated in last month, latest audio update 2026-05-11T04:28:21.000Z
+   错误: This operation was aborted
 
 25. 蜜獾吃书
    地址:

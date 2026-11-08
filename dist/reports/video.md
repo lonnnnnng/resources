@@ -1,6 +1,6 @@
 # 片库视频源检测报告
 
-生成时间: 2026-11-08T07:27:25.931Z
+生成时间: 2026-11-08T07:32:11.229Z
 
 总数: 53
 可用: 51
@@ -21,7 +21,7 @@
    ```text
    https://caiji.maotaizy.cc/api.php/provide/vod?ac=videolist&pg=1
    ```
-   原因: ECONNRESET | Error | Client network socket disconnected before secure TLS connection was established
+   原因: ENOTFOUND | Error | getaddrinfo ENOTFOUND caiji.maotaizy.cc
 
 2. 🔞--AIvin-
    地址:

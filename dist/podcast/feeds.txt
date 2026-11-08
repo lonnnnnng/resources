@@ -5,7 +5,6 @@ https://crazy.capital/feed
 https://podcast.weareones.com/feed/audio.xml
 https://www.ximalaya.com/album/12817863.xml
 https://www.ximalaya.com/album/20119986.xml
-https://rss.lizhi.fm/rss/14275.xml
 https://proxy.wavpub.com/caffebreve.xml
 https://feeds.fireside.fm/thatisbiz/rss
 https://feed.xyzfm.space/ahng8d9qlywl
@@ -15,6 +14,7 @@ https://feeds.fireside.fm/sv101/rss
 https://feeds.fireside.fm/stovol/rss
 https://feeds.fireside.fm/leftovertalk/rss
 https://feeds.podshow.cn/smatter.xml
+https://feeds.jjldbk.com/all.xml
 https://justinyan.me/feed/podcast
 https://bujuyigenm.typlog.io/feed/audio.xml
 https://binary.2bab.me/episodes/feed.xml
