@@ -26,6 +26,7 @@ ANISON.FM,https://anison.fm/anison.m3u
 Anison动漫音乐台,http://pool.anison.fm:9000/AniSonFM(320)?
 Asia Extreme FM,https://stream.zeno.fm/v4a0afms4awvv
 AsiaFM,https://live.ximalaya.com/radio-first-page-app/live/999/64.m3u8?transcode=ts
+AsiaFM HD音乐台【HTTPS】,https://lhttp.qtfm.cn/live/15318341/64k.mp3
 AsiaFM HD音樂臺,http://asiafm.hk:8000/asiahd
 AsiaFM 亚洲天空台【2023.10.18】,http://funradio.cn:8000/funradio
 AsiaFM 亚洲热歌台【2023.10.17】,http://hot.asiafm.net:8000/asiafm
@@ -48,8 +49,6 @@ Big B Radio - Cpop,https://antares.dribbcast.com/proxy/cpop?mp=/s
 Big B Radio亚洲音乐台,https://antares.dribbcast.com/proxy/apop?mp=/s
 BIG BIG MIX – 乐享音乐 标清,https://lhttp-hw.qtfm.cn/live/4913/64k.mp3
 Bridge Radio - BEATS E.D.M.,https://das-edge14-live365-dal02.cdnstream.com/a19203_2
-Bridge Radio - BEATS E.D.M. （2）,https://streaming.live365.com/a19203_2
-Bridge Radio - HOT MIX UNCENSORED,https://streaming.live365.com/a36860
 Bridge Radio - 华语 HITS,https://das-edge11-live365-dal03.cdnstream.com/a57743_2
 Bridge Radio - 华语 HITS （2）,https://das-edge11-live365-dal03.cdnstream.com/a57743_2
 BRTV京津冀之声,https://brtv-radiolive.rbc.cn/alive/fm1006.m3u8
@@ -126,7 +125,6 @@ La French Radio Honk-Kong et Macao,https://listen.radioking.com/radio/333865/str
 Metro Plus 1044 AM,http://162.220.162.10:8011/stream
 Originalradio,https://stream.zeno.fm/rzwzgu0dd8zuv
 radio 1,https://rthkaudio1-lh.akamaihd.net/i/radio1_1@355864/index_56_a-p.m3u8
-Radio 1111,https://rthkaudio1-lh.akamaihd.net/i/radio1_1@355864/index_56_a-p.m3u8
 Radio 4444,https://rthkaudio4-lh.akamaihd.net/i/radio4_1@355867/master.m3u8
 RTHK Radio 1,https://rthkradio1-live.akamaized.net/hls/live/2035313/radio1/master.m3u8
 RTHK Radio 1,http://stm1.rthk.hk/radio1
@@ -135,7 +133,6 @@ RTHK Radio 2,http://stm2.rthk.hk/radio2
 RTHK Radio 2,https://rthkradio2-live.akamaized.net/hls/live/2040078/radio2/index_64_a.m3u8
 RTHK radio 2,https://rthkaudio2-lh.akamaihd.net/i/radio2_1@355865/index_56_a-p.m3u8
 RTHK radio 3,https://rthkaudio3-lh.akamaihd.net/i/radio3_1@355866/index_56_a-p.m3u8
-RTHK Radio 3,https://rthkradio3-live.akamaized.net/hls/live/2040079/radio3/master.m3u8
 RTHK Radio 4,https://rthkradio4-live.akamaized.net/hls/live/2040080/radio4/master.m3u8
 RTHK Radio 5,https://rthkradio5-live.akamaized.net/hls/live/2040081/radio5/master.m3u8
 RTHK Radio 5,https://rthkaudio5-lh.akamaihd.net/i/radio5_1@355868/index_56_a-p.m3u8
@@ -178,9 +175,7 @@ ZENO FM 良友同行频道,https://stream.zeno.fm/2uvcyzjw38ivv
 香港新城电台采讯台,https://1946218710.rsc.cdn77.org/1946218710/index.m3u8
 香港普通话台,https://rthkradiopth-live.akamaized.net/hls/live/2040082/radiopth/master.m3u8
 香港普通话台,https://rthkaudio6-lh.akamaihd.net/i/radiopth_1@355869/index_56_a-p.m3u8
-香港普通话台,https://rthkaudio6-lh.akamaihd.net/i/radiopth_1@355869/master.m3u8
 香港电台第三台,https://rthkradio3-live.akamaized.net/hls/live/2040079/radio3/master.m3u8
-香港电台第二台,http://stm2.rthk.hk/radio2
 香港電台第一台,https://rthkradio1-live.akamaized.net/hls/live/2035313/radio1/index_64_a.m3u8
 香港電台第七台 普通话台,https://rthkradiopth-live.akamaized.net/hls/live/2040082/radiopth/index_64_a.m3u8
 香港電台第三台,https://rthkradio2-live.akamaized.net/hls/live/2040078/radio2/index_64_a.m3u8
@@ -194,23 +189,17 @@ ZENO FM 良友同行频道,https://stream.zeno.fm/2uvcyzjw38ivv
 A-Line Radio,http://202.39.43.67:1935/live/RA000001/chunklist.m3u8
 Ai Radio TAIWAN 台灣AI電台,https://n10.rcs.revma.com/h4ta80hbqwuvv
 Alian96.3 原住民族廣播電台,https://streamipcfapp.akamaized.net/live2/_definst_/fm963/playlist.m3u8
-AsiaFM 亞太電台,https://n13.rcs.revma.com/kydend74hv8uv
 AsiaFM 亞洲電台,https://n13.rcs.revma.com/xpgtqc74hv8uv
 B&B RADIO 幫幫廣播網,https://cdn280.ccdntech.com/live-http/_definst_/vod280_Live/bb/playlist.m3u8
 Boss Boss Radio,https://n0b.radiojar.com/ehzvurp9tv8uv?rj-ttl=5&rj-tok=AAABnhLAJhsA5_MD50tsg_xfJQ
 Boss Online Radio,https://n0b.radiojar.com/ehzvurp9tv8uv?rj-ttl=5&rj-tok=AAABnhLAJhsA5_MD50tsg_xfJQ
 Boss Online Radio,https://n06.radiojar.com/ehzvurp9tv8uv?rj-ttl=5&rj-tok=AAABnm0QuTkAewm7X_5zLTUONg
-Boss Online Radio,https://n06.radiojar.com/ehzvurp9tv8uv?rj-ttl=5&rj-tok=AAABnm0O7A8AApuzVhj7xc204g
 Boss Online Radio,https://stream.radiojar.com/ehzvurp9tv8uv
 CanCheers,https://us3.internet-radio.com/proxy/cancheers?mp=/stream
 Classical 古典音樂台 FM 97.7,http://59.120.88.155:8000/live.mp3
 FM 90.5 大樹下電台,http://60.250.148.112:8000/live
 HappyRadio,https://happyradio.com.tw/live
-ICRT,http://n03.rcs.revma.com/x27mfpztxp3vv
-IC之音竹科廣播,http://n01a-eu.rcs.revma.com/7mnq8rt7k5zuv
-M Radio 全國廣播,https://n03.rcs.revma.com/044q61ha7a0uv
 Needs Radio 全球華語廣播網,https://cdn280.ccdntech.com/live-http/_definst_/vod280_Live/needs/chunklist.m3u8
-Nei-Di's ACG Music,http://neidi.homeip.net:8080/;
 Phate,http://phate.io/listen
 Radio ICRT,https://n27a-eu.rcs.revma.com/nkdfurztxp3vv
 RTI 臺灣之音,https://streamak0138.akamaized.net/live0138lh-mbm9/_definst_/rti3/chunklist.m3u8
@@ -231,18 +220,15 @@ Supreme Master TV,https://radio.suprememastertv.com/128K
 人人電台 好事聯播網FM98.9,http://202.39.43.67:1935/live/RA000013/chunklist.m3u8
 佳音經典音樂網,https://stream.ginnet.cloud/live0119lo-p4rb/_definst_/classic/playlist.m3u8
 佳音電台,https://stream.ginnet.cloud/live0119lo-p4rb/_definst_/fm909/playlist.m3u8
-佳音電台 90.9 FM,https://stream.ginnet.cloud/live0119lo-p4rb/_definst_/fm909/playlist.m3u8
 佳音音樂網,https://stream.ginnet.cloud/live0119lo-p4rb/_definst_/modern/playlist.m3u8
 先聲廣播電台 (基北桃竹苗),http://43.254.16.40:8000/TY.AM774
 凱旋廣播電台,http://59.125.209.209:8081/
 勝利之聲AM756,http://test.taiwan-radio.tw:8000/PH.AM756
-勝利之聲台南1台AM774,http://test.taiwan-radio.tw:8000/TN.AM774
 勝利之聲台南2台AM1188,http://test.taiwan-radio.tw:8000/TN.AM1188
 南方之音,http://43.254.16.40:8000/KS.FM89.3
 古都電台,http://n03.rcs.revma.com/8bpxy9a122hvv
 台中古典音樂台,http://onair.family977.com.tw:8000/live.mp3
 台中城市廣播,http://fm901.cityfm.tw:8080/901.mp3
-台中廣播,http://211.20.119.101:8081/
 台中歡喜之聲FM105.5,http://59.125.41.65:8081/
 台北健康電台,http://fm901.cityfm.tw:8080/901.mp3
 台北古典廣播,https://stream.zeno.fm/w66d3dp6ynhvv
@@ -284,9 +270,7 @@ Supreme Master TV,https://radio.suprememastertv.com/128K
 寶島聯播網,http://125.227.87.206:8000/FM98.5
 屏東之聲廣播電台FM92.5,http://59.120.255.169:8081/
 屏東大武山廣播,http://59.120.255.171:8081/
-山海屯青少年之聲,https://n02.rcs.revma.com/zr7xzec59duvv
 幸福廣播電台TR Radio FM102.5,http://61.218.61.251:8080/
-彰化國聲廣播AM1179,http://test.taiwan-radio.tw:8000/CH.AM1179
 彰化國聲廣播AM810,http://test.taiwan-radio.tw:8000/CH.AM810
 彰化花園廣播電台,http://211.72.215.231:8000/OnAir
 彰化花園廣播電台,http://test.taiwan-radio.tw:8000/CH.FM88.7
@@ -294,7 +278,6 @@ Supreme Master TV,https://radio.suprememastertv.com/128K
 彰化靉友廣播電台 FM97.3,http://43.254.16.40:8000/CH.FM97.3
 快樂聯播網,https://happyradio.com.tw/live
 新客家廣播電台,http://live.fm935newhakka.com.tw:5006/live
-新竹之音,http://test.taiwan-radio.tw:8000/HC.FM97.9
 新竹勞工之聲,http://202.39.43.67:1935/live/RA000101/chunklist.m3u8
 101.1 BIG HEART FM,http://162.220.162.10:8011/stream
 90.1 NBC FM - Narwee - 90.1 FM (AAC),https://studio.901nbcfm.com.au:8902/newstream
@@ -316,7 +299,6 @@ RTHK Putonghua Channel,http://stm.rthk.hk/radiopth
 RTP Macau - 97.1 FM,https://radiocast.rtp.pt/antena1madeira80a.mp3
 SBS PopAsia,https://sbs-ice.streamguys1.com/sbs-popasia-sbs-web
 SDBA Classics 94.7 Shanghai,https://lhttp.qingting.fm/live/267/64k.mp3?listening-from-radio-garden=1696445196
-Singapore Chinese POP YES FM 933,https://22893.live.streamtheworld.com/YES933_SC?dist=radiosingapore
 Sound of Hope Australia Mandarin,https://ozvoice.out.airtime.pro/ozvoice_a
 YW City Radio - Macau 954 AM,https://lhttp.qingting.fm/live/1259/64k.mp3?app_id=web
 昆明汽车广播,https://lhttp.qtfm.cn/live/1936/64k.mp3
@@ -333,11 +315,9 @@ YW City Radio - Macau 954 AM,https://lhttp.qingting.fm/live/1259/64k.mp3?app_id=
 A1中文电台,http://s2.voscast.com:9530/
 C-Pop (Chinese Popular Music),http://213.141.131.10:8000/cpop
 Gachi Station #1,https://stream.zeno.fm/y513614qvzzuv
-Gachi Station #2,https://stream.zeno.fm/p7ume1dmbd0uv
 Jujube Radio Chinese Classics,https://jujuberadio.com/chinese
 KQEV 104.7 Walnut, California,http://livecast1.soundofhope.org:2086/KQEVLPlive
 Melody FM,https://stream.rcs.revma.com/2u1n6dtbv4uvv/hls.m3u8
-MY FM,https://stream.rcs.revma.com/hc3unrtbv4uvv/hls.m3u8
 Radio Caprice - Cantopop,http://79.120.12.130:8000/cantopop
 Russian Chinese Music Radio 俄中音乐台,https://stream.zeno.fm/txtltqtgns3vv
 Shenzhen Music Radio 深圳飞扬971,https://satellitepull.cnr.cn/live/wxszfy971/playlist.m3u8
@@ -369,7 +349,6 @@ Anhui Rural Radio 95.5,http://satellitepull.cnr.cn/live/wxahncgb/playlist.m3u8
 Anhui Story Broadcasting 107.4,http://satellitepull.cnr.cn/live/wxahxspsgb/playlist.m3u8
 Anhui Tourism Broadcasting,http://satellitepull.cnr.cn/live/wxahlygb/playlist.m3u8
 Anhui Traffic Broadcasting 90.8,http://satellitepull.cnr.cn/live/wxahjtgb/playlist.m3u8
-Anison Anime Music Station,http://pool.anison.fm:9000/AniSonFM(320)?
 Ankang Comprehensive Broadcasting 89.7,http://lhttp.qingting.fm/live/5021861/64k.mp3
 Ankang Traffic Broadcasting,http://lhttp.qingting.fm/live/5021862/64k.mp3
 Anqing Comprehensive Broadcasting 107.7,https://lhttp.qingting.fm/live/1965/64k.mp3
@@ -381,7 +360,6 @@ Anyang News Comprehensive Broadcasting,https://lhttp.qtfm.cn/live/15318224/64k.m
 Anyang Life Broadcasting 100.8,https://lhttp.qingting.fm/live/2123/64k.mp3
 Anyang Traffic Broadcasting 89.0,https://lhttp.qingting.fm/live/2138/64k.mp3
 Arirang Mobile Broadcasting,https://lhttp.qingting.fm/live/5022144/64k.mp3
-AsiaFM Asia Sky,https://lhttp.qingting.fm/live/20071/64k.mp3
 AsiaFM Asia Sky,https://lhttp.qingting.fm/live/5021912/64k.mp3
 AsiaFM Asia Sky,https://lhttp.qingting.fm/live/4581/64k.mp3
 AsiaFM Pidu District Comprehensive Broadcasting 96.5,https://lhttp.qingting.fm/live/4581/64k.mp3?
@@ -415,7 +393,6 @@ Beijing News Radio 100.6/828,http://lhttp.qingting.fm/live/339/64k.mp3
 Beijing Traffic Radio 103.9,http://live.xmcdn.com/live/93/64.m3u8
 Bengbu Comprehensive Broadcasting 107.9,http://lhttp.qingting.fm/live/20154/64k.mp3
 Bengbu Traffic Art Broadcast,http://lhttp.qingting.fm/live/4577/64k.mp3
-Big B Radio Cpop,https://antares.dribbcast.com/proxy/cpop?mp=/s
 Big B Radio Asian Music Station,https://antares.dribbcast.com/proxy/apop?mp=/s
 Binchow Music Radio 105.7,http://lhttp.qingting.fm/live/21341/64k.mp3
 Binchow News Radio,http://lhttp.qingting.fm/live/5021395/64k.mp3
@@ -563,6 +540,7 @@ Enping People's Broadcasting Station,https://lhttp.qingting.fm/live/20701/64k.mp
 Enshi Comprehensive Broadcasting 99.0,https://live.xmcdn.com/live/1435/64.m3u8
 Enshi Traffic Music Broadcasting 94.0,https://live.xmcdn.com/live/1434/64.m3u8
 Ezhou Comprehensive Broadcasting,https://lhttp.qingting.fm/live/21025/64k.mp3
+Fantasy Township Radio Gensokyo Radio,https://stream.gensokyoradio.net/2/
 Fengjie People's Broadcasting Station,http://125.82.171.154:8040/ch0.m3u8
 Fogang People's Broadcasting Station 98.0,https://lhttp.qingting.fm/live/15318379/64k.mp3
 Fourth Division Kokedala People's Broadcasting Station,http://lhttp.qingting.fm/live/20500054/64k.mp3
@@ -621,7 +599,6 @@ Guangzhou Golden Melody Radio 102.7,http://lhttp.qingting.fm/live/20192/64k.mp3
 Guangzhou News and Information Broadcasting 96.2,http://lhttp.qingting.fm/live/4848/64k.mp3
 Guangzhou Panyu District Radio Station,https://lhttp.qtfm.cn/live/20212427/64k.mp3
 Guangzhou Youth Radio 88.0,https://live.xmcdn.com/live/259/64.m3u8
-Guan Line,https://stream1.svrdedicado.org/8250/stream
 Guannan People's Broadcasting Station,http://live.xmcdn.com/live/2722/64.m3u8
 Gucheng People's Broadcasting Station 95.9,http://lhttp.qingting.fm/live/20212269/64k.mp3
 Guilin City Voice 97.7,http://lhttp.qingting.fm/live/1759/64k.mp3
@@ -988,6 +965,7 @@ Qiandongnan Traffic Broadcasting 89.8,http://lhttp.qingting.fm/live/5022285/64k.
 Qianguo Comprehensive Broadcasting,http://stream3.jlntv.cn/qggb/playlist.m3u8
 Qiaojia Radio 104.1,https://lhttp.qingting.fm/live/20211704/64k.mp3
 Qichun Comprehensive Broadcasting,https://lhttp.qtfm.cn/live/5022252/64k.mp3
+Qingdao Economic Broadcasting 102.9/1251,http://lhttp.qingting.fm/live/1674/64k.mp3
 Qingdao Elderly Radio,http://lhttp.qingting.fm/live/4956/64k.mp3
 Qingdao Jiaozhou Broadcasting,http://lhttp.qingting.fm/live/20211644/64k.mp3
 Qingdao Music Sports Radio 91.5,http://lhttp.qingting.fm/live/1677/64k.mp3
@@ -1074,6 +1052,8 @@ Shenzhen Music Broadcasting 97.1,http://satellitepull.cnr.cn/live/wxszfy971/play
 Shenzhen News Broadcast 89.8,http://lhttp.qingting.fm/live/1270/64k.mp3
 Shenzhen Satellite TV Sound,http://satellitepull.cnr.cn/live/wxszws/playlist.m3u8
 Shenzhen Traffic Broadcasting 106.2,http://lhttp.qingting.fm/live/1272/64k.mp3
+Shenzhen Variety Show Broadcast,http://lhttp.qingting.fm/live/1271/64k.mp3
+Shihezi Comprehensive Broadcasting,https://lhttp.qtfm.cn/live/20500118/64k.mp3
 Shijiazhuang Traffic Broadcasting 94.6,http://lhttp.qingting.fm/live/1655/64k.mp3
 Shijiazhuang Comprehensive Broadcasting,http://lhttp.qingting.fm/live/1652/64k.mp3
 Shijiazhuang Music Broadcasting 106.7,http://lhttp.qingting.fm/live/1654/64k.mp3
@@ -1100,9 +1080,9 @@ Sound of Guangdong Music 93.9/99.3,http://satellitepull.cnr.cn/live/wxgdyyzs/pla
 Sound of Hunan Music,https://lhttp.qingting.fm/live/4979/64k.mp3
 Sound of West Lake In Hangzhou 105.4,http://live.xmcdn.com/live/635/64.m3u8
 Southern News Comprehensive 95.3,https://lhttp.qingting.fm/live/20525/64k.mp3
-Southwest Guizhou Transportation and Tourism Broadcasting 88.3,https://lhttp.qingting.fm/live/5045/64k.mp3
 Suizhong Comprehensive Broadcasting 94.7,http://lhttp.qingting.fm/live/20211705/64k.mp3
 Suizhou Comprehensive Radio,http://lhttp.qingting.fm/live/20853/64k.mp3
+Suizhou Transportation Economic Broadcasting,http://lhttp.qingting.fm/live/21027/64k.mp3
 Sujiatun People's Broadcasting Station 105.6,https://live.xmcdn.com/live/325/64.m3u8
 Suqian Traffic Broadcasting 101.9,https://lhttp.qingting.fm/live/5004/64k.mp3
 Suqian New Countryside Broadcasting,https://lhttp.qingting.fm/live/21265/64k.mp3
@@ -1132,13 +1112,12 @@ Taizhou Music Broadcasting,https://lhttp.qingting.fm/live/1144/64k.mp3
 Taizhou Traffic Broadcasting 102.7,https://lhttp.qingting.fm/live/1146/64k.mp3
 Tangshan Economic Broadcasting,https://lhttp.qtfm.cn/live/15318431/64k.mp3
 Tangshan Comprehensive Broadcasting,https://lhttp.qtfm.cn/live/1657/64k.mp3
-Tangshan Music Broadcasting 94.0,http://lhttp.qingting.fm/live/4871/64k.mp3
+Tangshan Traffic Literature and Art Broadcasting 96.8,http://lhttp.qingting.fm/live/1659/64k.mp3
 Taojiang People's Broadcasting Station 105.2,http://live.xmcdn.com/live/1874/64.m3u8
 Taonan Comprehensive Broadcasting,http://stream7.jlntv.cn/tngb/playlist.m3u8
 Tengzhou News Comprehensive Broadcasting,https://lhttp.qtfm.cn/live/5022611/64k.mp3
 The Sound of Haining Tide,https://lhttp.qtfm.cn/live/5022556/64k.mp3
 The Sound of Quanzhou Erythrina 105.9,https://lhttp.qingting.fm/live/5022360/64k.mp3
-The Voice of Liangxi in Wuxi 92.6,http://lhttp.qingting.fm/live/2782/64k.mp3
 The Voice of Tangshan Caofeidian 900,https://lhttp.qtfm.cn/live/1660/64k.mp3
 The Voice of Tongzi Loushan 101.2,https://lhttp.qtfm.cn/live/20212410/64k.mp3
 Three Comprehensive Broadcasts,https://lhttp.qtfm.cn/live/15318544/64k.mp3
@@ -1171,6 +1150,7 @@ Tumen Comprehensive Broadcasting 100.0,http://stream7.jlntv.cn/tmgb/playlist.m3u
 Urumqi Midong District People's Broadcasting Station,http://lhttp.qingting.fm/live/21001/64k.mp3
 Urumqi News Broadcasting 100.7,https://lhttp.qingting.fm/live/1918/64k.mp3
 Urumqi Tourism Music Broadcasting 106.5,https://lhttp.qingting.fm/live/1920/64k.mp3
+Urumqi Traffic Radio 97.4,https://lhttp.qtfm.cn/live/1919/64k.mp3
 Urumqi Uighur Radio,https://lhttp.qtfm.cn/live/1923/64k.mp3
 Voice Controlled Radio,https://lhttp.qingting.fm/live/15318519/64k.mp3
 Voice of Anti-Japanese University,https://lhttp.qingting.fm/live/20500096/64k.mp3
@@ -1192,6 +1172,7 @@ Voice of Kweichow Moutai,http://satellitepull.cnr.cn/live/wx32gzgsgb/playlist.m3
 Voice of Nanyue 105.7,http://satellitepull.cnr.cn/live/wxnyzs/playlist.m3u8
 Voice of Qinhuangdao 103.8/603,http://live.xmcdn.com/live/1114/64.m3u8
 Voice of Ruzhou,https://lhttp.qtfm.cn/live/5022650/64k.mp3
+Voice of Shuanghe People's Broadcasting Station of the Fifth Division 100.6,https://lhttp.qtfm.cn/live/20207772/64k.mp3
 Voice of Strait News Broadcast,http://lhttp.qingting.fm/live/1744/64k.mp3
 Voice of The Corps 88.2,https://live.xmcdn.com/live/1838/64.m3u8
 Voice of The Elderly In Taiyuan 97.5,http://lhttp.qingting.fm/live/20211701/64k.mp3
@@ -1221,6 +1202,7 @@ Wendeng People's Broadcasting Station 106.8,https://jsyaudiolive302.iqilu.com/li
 Wenling People's Broadcasting 103.6,http://lhttp.qingting.fm/live/4567/64k.mp3
 Wenshan Comprehensive Broadcasting,http://m3u8.channel.wsrtv.com.cn/cms/audios/nmip-media/audiolive/audio9/playlist.m3u8
 Wenshan Traffic Broadcasting,http://m3u8.channel.wsrtv.com.cn/cms/audios/nmip-media/audiolive/audio10/playlist.m3u8
+Wenzhou Economic and Life Broadcasting 88.8,http://lhttp.qingting.fm/live/1157/64k.mp3
 Wenzhou Private Car Music Broadcast 100.3,http://lhttp.qingting.fm/live/1149/64k.mp3
 Wenzhou Radio To Farmers 93.8,http://lhttp.qingting.fm/live/1158/64k.mp3
 Wenzhou Traffic Broadcasting 103.9,http://lhttp.qingting.fm/live/1156/64k.mp3
@@ -1352,6 +1334,7 @@ Yueyang Traffic Broadcasting 104.5,http://lhttp.qingting.fm/live/20987/64k.mp3
 Yulin Comprehensive Broadcasting 97.8,https://lhttp.qingting.fm/live/1762/64k.mp3
 Yuncheng Comprehensive Broadcasting 104.2,http://live.xmcdn.com/live/1252/64.m3u8
 Yuncheng Literature and Art Broadcasting 101.9,http://live.xmcdn.com/live/1251/64.m3u8
+Yunfu Traffic Music Broadcasting 96.4,http://lhttp.qingting.fm/live/5022442/64k.mp3
 Yunnan Economic Broadcasting 88.7,http://satellitepull.cnr.cn/live/wxynjjgb/playlist.m3u8
 Yunnan International Broadcasting,http://satellitepull.cnr.cn/live/wxynsegb/playlist.m3u8
 Yunnan Music Broadcasting,http://satellitepull.cnr.cn/live/wxynyygb/playlist.m3u8
@@ -1400,7 +1383,6 @@ Zhoushan Economic Broadcasting 97.0,https://live.xmcdn.com/live/684/64.m3u8
 Zhuanghe People's Broadcasting Station 97.0,http://lhttp.qingting.fm/live/5022473/64k.mp3
 Zhuhai Pioneer 95.1,http://lhttp.qingting.fm/live/1274/64k.mp3
 Zhuhai Transportation 87.5,http://lhttp.qingting.fm/live/1275/64k.mp3
-Zhuji People's Broadcasting Station,http://lhttp.qingting.fm/live/5022482/64k.mp3
 Zhumadian Comprehensive Broadcasting 101.9/810,https://lhttp.qtfm.cn/live/5022118/64k.mp3
 Zhumadian Economic Broadcasting 102.4,https://lhttp.qtfm.cn/live/5022119/64k.mp3
 Zhumadian Traffic Radio 97.2,http://live.xmcdn.com/live/2757/64.m3u8
@@ -1421,7 +1403,6 @@ RTHK Radio 6,http://satellitepull.cnr.cn/live/wxxgzs/playlist.m3u8
 RTHK Radio 3,https://rthkaudio3-lh.akamaihd.net/i/radio3_1@355866/master.m3u8
 Night Sky Teaser,http://procyon.shoutca.st:8492/listen.mp3
 Mandarin Channel,https://rthkaudio6-lh.akamaihd.net/i/radiopth_1@355869/master.m3u8
-D100 Hong Kong,http://59.152.232.108:8000/Channel1-64MP3
 RTHK Radio 1 92.6,http://stm.rthk.hk/radio1
 RTHK Radio 2 94.8,http://stm.rthk.hk/radio2
 RTHK Radio 3 567,http://stm.rthk.hk/radio3
@@ -1435,9 +1416,7 @@ Phate,https://stream.phate.io/phateio.mp3
 BCC Pop Network 103.0,https://n03a-eu.rcs.revma.com/ks4vsmg3qtzuv?rj-ttl=5&rj-tok=AAABfds8yskAcpdBs5EFbJQSjQ
 China Broadcasting News Network 103.0,http://n08.rcs.revma.com/78fm9wyy2tzuv?rj-ttl=5&rj-tok=AAABfdp44aAARLcZTPPt_vVBQA
 China Broadcast Popular Network,https://n03a-eu.rcs.revma.com/s1zttsg3qtzuv?rj-ttl=5&rj-tok=AAABfd3TmCoAe9Y4snoXcHHDkw
-China Guangdong Folks Network,http://n14.rcs.revma.com/k6q5h6yy2tzuv?rj-ttl=5&rj-tok=AAABfdt5__oAJkwOwvD71EY6bw
 China Broadcasting Music Network 96.0,https://n04a-eu.rcs.revma.com/ks4vsmg3qtzuv?rj-ttl=5&rj-tok=AAABfdrnYZAAfFLyWzMFWR0DeQ
-98 News Channel,https://n11.rcs.revma.com/pntx1639ntzuv?rj-ttl=5&rj-tok=AAABfdxQ18IAcntm6_GlQS0J-Q
 Goodin Classic Music Network,https://stream.ginnet.cloud/live0119lo-p4rb/_definst_/classic/playlist.m3u8
 Good News Radio,https://stream.ginnet.cloud/live0119lo-p4rb/_definst_/fm909/playlist.m3u8
 M-Radio 106.0,http://n03a-eu.rcs.revma.com/044q61ha7a0uv?rj-ttl=5&rj-tok=AAABfd2Ax-wA7EzEpGnQ88SRQQ

@@ -2,42 +2,68 @@
 
 流光媒体源集合，每天由 GitHub Actions 检测并生成可用订阅。
 
-生成时间: 2026-11-08T07:11:30.503Z
+生成时间: 2026-11-08T07:17:59.381Z
 
 ## 可直接使用的源
 
+以下地址为主选加速站点（gh-proxy.com），适用于无法直接访问 GitHub 的网络环境；每个源同时附 GitHub 直连备用地址。
+
 1. 片库视频源 lite
-   地址:
+   主选地址（加速站点）:
+   ```text
+   https://gh-proxy.com/https://raw.githubusercontent.com/lonnnnnng/resources/main/dist/video/lite.json
+   ```
+   备用地址（GitHub 直连）:
    ```text
    https://raw.githubusercontent.com/lonnnnnng/resources/main/dist/video/lite.json
    ```
    说明: 检测通过的普通片库视频源。
 2. 片库视频源 adult
-   地址:
+   主选地址（加速站点）:
+   ```text
+   https://gh-proxy.com/https://raw.githubusercontent.com/lonnnnnng/resources/main/dist/video/adult.json
+   ```
+   备用地址（GitHub 直连）:
    ```text
    https://raw.githubusercontent.com/lonnnnnng/resources/main/dist/video/adult.json
    ```
    说明: 检测通过的成人片库视频源。
 3. 片库视频源 full
-   地址:
+   主选地址（加速站点）:
+   ```text
+   https://gh-proxy.com/https://raw.githubusercontent.com/lonnnnnng/resources/main/dist/video/full.json
+   ```
+   备用地址（GitHub 直连）:
    ```text
    https://raw.githubusercontent.com/lonnnnnng/resources/main/dist/video/full.json
    ```
    说明: `lite.json` + `adult.json` 汇总。
 4. 电视直播源
-   地址:
+   主选地址（加速站点）:
+   ```text
+   https://gh-proxy.com/https://raw.githubusercontent.com/lonnnnnng/resources/main/dist/live/live.m3u
+   ```
+   备用地址（GitHub 直连）:
    ```text
    https://raw.githubusercontent.com/lonnnnnng/resources/main/dist/live/live.m3u
    ```
    说明: 标准 M3U，由本仓库频道模板、订阅入口和过滤规则生成。
 5. 电台源
-   地址:
+   主选地址（加速站点）:
+   ```text
+   https://gh-proxy.com/https://raw.githubusercontent.com/lonnnnnng/resources/main/dist/radio/radio.json
+   ```
+   备用地址（GitHub 直连）:
    ```text
    https://raw.githubusercontent.com/lonnnnnng/resources/main/dist/radio/radio.json
    ```
    说明: JSON 电台列表，符合流光电台源字段兼容规则。
 6. 播客源列表
-   地址:
+   主选地址（加速站点）:
+   ```text
+   https://gh-proxy.com/https://raw.githubusercontent.com/lonnnnnng/resources/main/dist/podcast/feeds.txt
+   ```
+   备用地址（GitHub 直连）:
    ```text
    https://raw.githubusercontent.com/lonnnnnng/resources/main/dist/podcast/feeds.txt
    ```
@@ -48,8 +74,8 @@
 | 类型 | 总数 | 可用 | 失败 |
 | --- | ---: | ---: | ---: |
 | 片库视频源 | 53 | 51 | 2 |
-| 电视直播源 | 474 | 185，跳过 55 | 234 |
-| 电台源 | 2191 | 1487 | 704 |
+| 电视直播源 | 474 | 184，跳过 52 | 238 |
+| 电台源 | 2191 | 1466 | 725 |
 | 播客源 | 109 | 71 | 38 |
 
 ## 报告

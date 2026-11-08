@@ -923,7 +923,8 @@ function cleanCodeBlockText(value) {
 }
 
 async function writeReadme(results) {
-  const base = "https://raw.githubusercontent.com/lonnnnnng/resources/main/dist";
+  const directBase = "https://raw.githubusercontent.com/lonnnnnng/resources/main/dist";
+  const proxyBase = "https://gh-proxy.com/https://raw.githubusercontent.com/lonnnnnng/resources/main/dist";
   const pageBase = "https://github.com/lonnnnnng/resources/blob/main/dist";
   const readme = `# resources
 
@@ -933,40 +934,66 @@ async function writeReadme(results) {
 
 ## 可直接使用的源
 
+以下地址为主选加速站点（gh-proxy.com），适用于无法直接访问 GitHub 的网络环境；每个源同时附 GitHub 直连备用地址。
+
 1. 片库视频源 lite
-   地址:
+   主选地址（加速站点）:
    \`\`\`text
-   ${base}/video/lite.json
+   ${proxyBase}/video/lite.json
+   \`\`\`
+   备用地址（GitHub 直连）:
+   \`\`\`text
+   ${directBase}/video/lite.json
    \`\`\`
    说明: 检测通过的普通片库视频源。
 2. 片库视频源 adult
-   地址:
+   主选地址（加速站点）:
    \`\`\`text
-   ${base}/video/adult.json
+   ${proxyBase}/video/adult.json
+   \`\`\`
+   备用地址（GitHub 直连）:
+   \`\`\`text
+   ${directBase}/video/adult.json
    \`\`\`
    说明: 检测通过的成人片库视频源。
 3. 片库视频源 full
-   地址:
+   主选地址（加速站点）:
    \`\`\`text
-   ${base}/video/full.json
+   ${proxyBase}/video/full.json
+   \`\`\`
+   备用地址（GitHub 直连）:
+   \`\`\`text
+   ${directBase}/video/full.json
    \`\`\`
    说明: \`lite.json\` + \`adult.json\` 汇总。
 4. 电视直播源
-   地址:
+   主选地址（加速站点）:
    \`\`\`text
-   ${base}/live/live.m3u
+   ${proxyBase}/live/live.m3u
+   \`\`\`
+   备用地址（GitHub 直连）:
+   \`\`\`text
+   ${directBase}/live/live.m3u
    \`\`\`
    说明: 标准 M3U，由本仓库频道模板、订阅入口和过滤规则生成。
 5. 电台源
-   地址:
+   主选地址（加速站点）:
    \`\`\`text
-   ${base}/radio/radio.json
+   ${proxyBase}/radio/radio.json
+   \`\`\`
+   备用地址（GitHub 直连）:
+   \`\`\`text
+   ${directBase}/radio/radio.json
    \`\`\`
    说明: JSON 电台列表，符合流光电台源字段兼容规则。
 6. 播客源列表
-   地址:
+   主选地址（加速站点）:
    \`\`\`text
-   ${base}/podcast/feeds.txt
+   ${proxyBase}/podcast/feeds.txt
+   \`\`\`
+   备用地址（GitHub 直连）:
+   \`\`\`text
+   ${directBase}/podcast/feeds.txt
    \`\`\`
    说明: 每行一个通过检测且最近 1 个月内有音频条目更新的 RSS/Atom 订阅地址。
 
