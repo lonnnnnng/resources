@@ -132,7 +132,7 @@
     "detail": "https://lbapi9.com",
     "comment": "",
     "adult": true,
-    "searchStatus": "无结果"
+    "searchStatus": "命中"
   },
   {
     "key": "91md.me",
@@ -213,7 +213,7 @@
     "detail": "https://jkunzyapi.com",
     "comment": "",
     "adult": true,
-    "searchStatus": "命中"
+    "searchStatus": "无结果"
   },
   {
     "key": "souavzyw.com",
