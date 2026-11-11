@@ -8,6 +8,7 @@ https://www.ximalaya.com/album/20119986.xml
 https://proxy.wavpub.com/caffebreve.xml
 https://feeds.fireside.fm/thatisbiz/rss
 https://feed.xyzfm.space/ahng8d9qlywl
+https://feed.xyzfm.space/yxuruh3f9mc4
 https://feed.xyzfm.space/68acw4ke4frl
 https://feeds.fireside.fm/latetalk/rss
 https://feeds.fireside.fm/sv101/rss
@@ -17,7 +18,6 @@ https://feeds.podshow.cn/smatter.xml
 https://feeds.jjldbk.com/all.xml
 https://justinyan.me/feed/podcast
 https://bujuyigenm.typlog.io/feed/audio.xml
-https://binary.2bab.me/episodes/feed.xml
 https://zhuchangsile.xyz/episodes/feed.xml
 https://feed.xyzfm.space/cf4yqd4g79lv
 https://feeds.soundon.fm/podcasts/c1f1f3c9-8d28-42ad-9f1c-908018b8d9fc.xml

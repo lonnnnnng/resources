@@ -1,6 +1,6 @@
 # 播客源检测报告
 
-生成时间: 2026-11-10T02:08:26.598Z
+生成时间: 2026-11-11T00:01:53.007Z
 
 活跃规则: 仅保留最近 1 个月内有音频条目更新的 RSS/Atom 源。
 
@@ -43,7 +43,7 @@
    ```text
    https://bowuzhi.fm/feed/audio.xml
    ```
-   错误: fetch failed
+   错误: This operation was aborted
 
 6. 太医来了
    地址:
@@ -94,68 +94,68 @@
    ```
    错误: not updated in last month, latest audio update 2024-04-08T06:01:00.000Z
 
-13. 乱翻书
-   地址:
-   ```text
-   https://feed.xyzfm.space/yxuruh3f9mc4
-   ```
-   错误: not updated in last month, latest audio update 2026-09-24T05:46:12.000Z
-
-14. Teahour
+13. Teahour
    地址:
    ```text
    https://feeds.fireside.fm/teahour/rss
    ```
    错误: not updated in last month, latest audio update 2026-04-15T03:00:00.000Z
 
-15. 捕蛇者说
+14. 捕蛇者说
    地址:
    ```text
    https://pythonhunter.org/episodes/feed.xml
    ```
    错误: not updated in last month, latest audio update 2026-06-15T21:43:19.000Z
 
-16. talich 闲侃
+15. talich 闲侃
    地址:
    ```text
    https://talich.fm/episodes/feed.xml
    ```
    错误: not updated in last month, latest audio update 2026-05-18T05:13:03.000Z
 
-17. 未命名播客
+16. 未命名播客
    地址:
    ```text
    https://feeds.fireside.fm/untitledpodcast/rss
    ```
    错误: not updated in last month, latest audio update 2026-08-03T14:30:00.000Z
 
-18. 硬影像
+17. 硬影像
    地址:
    ```text
    http://hardimage.pro/episodes/feed.xml
    ```
    错误: not updated in last month, latest audio update 2026-08-20T01:21:11.000Z
 
-19. Anyway.FM
+18. Anyway.FM
    地址:
    ```text
    https://anyway.fm/rss.xml
    ```
    错误: not updated in last month, latest audio update 2026-08-26T15:17:00.000Z
 
-20. 牛油果烤面包
+19. 牛油果烤面包
    地址:
    ```text
    https://avocadotoast.typlog.io/feed/audio.xml
    ```
    错误: not updated in last month, latest audio update 2026-09-17T02:52:37.000Z
 
-21. 新气集 ThinkAge
+20. 新气集 ThinkAge
    地址:
    ```text
    https://feeds.fireside.fm/thinkagepodcast/rss
    ```
    错误: not updated in last month, latest audio update 2026-09-14T06:00:00.000Z
+
+21. 二分电台
+   地址:
+   ```text
+   https://binary.2bab.me/episodes/feed.xml
+   ```
+   错误: not updated in last month, latest audio update 2026-10-10T05:48:47.000Z
 
 22. 五湖四海 5lake4sea
    地址:
