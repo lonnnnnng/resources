@@ -1316,6 +1316,31 @@ function cleanCodeBlockText(value) {
   return String(value || "").replaceAll("```", "'''").trim();
 }
 
+function renderReadmeVideoSpeed(result) {
+  if (!settings.videoSpeedTest) return ["测速已关闭（VIDEO_SPEED_TEST=0）。"];
+
+  const liteOk = result.ok.filter((item) => !item.adult);
+  const measured = liteOk
+    .filter((item) => item.speedKbps > 0)
+    .sort((a, b) => b.speedKbps - a.speedKbps);
+
+  if (!liteOk.length) return ["本次没有可用的普通源。"];
+  if (!measured.length) return ["本次未取得普通源测速结果。"];
+
+  const speeds = measured.map((item) => item.speedKbps).sort((a, b) => a - b);
+  return [
+    `${measured.length}/${liteOk.length} 个普通源测出带宽；中位数 ${formatKbps(speeds[Math.floor(speeds.length / 2)])}，` +
+      `最快 ${formatKbps(speeds[speeds.length - 1])}，最慢 ${formatKbps(speeds[0])}。`,
+    "",
+    "| # | 源 | 速度 | 分片耗时 | 采样内容 |",
+    "| ---: | --- | ---: | ---: | --- |",
+    ...measured.map((item, index) => {
+      const sample = [item.speedVod, item.speedEpisode].filter(Boolean).join(" · ") || "-";
+      return `| ${index + 1} | ${escapeTableCell(item.name)} | ${formatKbps(item.speedKbps)} | ${item.speedMs ?? "-"}ms | ${escapeTableCell(sample)} |`;
+    })
+  ];
+}
+
 async function writeReadme(results) {
   const directBase = "https://raw.githubusercontent.com/lonnnnnng/resources/main/dist";
   const proxyBase = "https://gh-proxy.com/https://raw.githubusercontent.com/lonnnnnng/resources/main/dist";
@@ -1406,6 +1431,13 @@ async function writeReadme(results) {
 - [电视直播源报告](${pageBase}/reports/live.md)
 - [电台源报告](${pageBase}/reports/radio.md)
 - [播客源报告](${pageBase}/reports/podcast.md)
+
+## 普通影视源测速
+
+采样方式: 取每个源列表里首条带 m3u8 直链的内容，解析多码率列表后取码率最高一路，
+下载首个视频分片实测带宽（与报告同一套数据，仅列出普通源；成人源只在报告里出现）。
+
+${renderReadmeVideoSpeed(results.videoResult).join("\n")}
 
 ## 本地运行
 
