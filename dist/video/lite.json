@@ -4,11 +4,6 @@
     "api": "https://360zyzz.com/api.php/provide/vod",
     "detail": "https://360zy.com"
   },
-  "iqiyizyapi.com": {
-    "name": "爱奇艺",
-    "api": "https://iqiyizyapi.com/api.php/provide/vod",
-    "detail": "https://iqiyizyapi.com"
-  },
   "bfzy.tv": {
     "name": "暴风资源",
     "api": "https://bfzyapi.com/api.php/provide/vod",
@@ -69,15 +64,10 @@
     "api": "https://api.maoyanapi.top/api.php/provide/vod",
     "detail": "https://www.maoyanzy.com"
   },
-  "caiji.moduapi.cc": {
-    "name": "魔都动漫",
-    "api": "https://caiji.moduapi.cc/api.php/provide/vod",
-    "detail": "https://caiji.moduapi.cc"
-  },
-  "www.moduzy.net": {
-    "name": "魔都资源",
-    "api": "https://www.mdzyapi.com/api.php/provide/vod",
-    "detail": "https://www.moduzy.net"
+  "mtzy.me": {
+    "name": "茅台资源",
+    "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
+    "detail": "https://mtzy.me"
   },
   "www.ryzyw.com": {
     "name": "如意资源",

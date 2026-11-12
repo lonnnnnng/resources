@@ -1,29 +1,52 @@
 # 片库视频源检测报告
 
-生成时间: 2026-11-11T00:01:53.007Z
+生成时间: 2026-11-12T01:31:48.322Z
 
 总数: 53
-可用: 51
-失败: 2
-普通源: 26
+可用: 49
+失败: 4
+普通源: 24
 成人源: 25
 
 ## 失败项
 
-1. 茅台资源
+1. 爱奇艺
    地址:
    ```text
-   https://caiji.maotaizy.cc/api.php/provide/vod
+   https://iqiyizyapi.com/api.php/provide/vod
    ```
-   错误: 请求失败: TypeError: fetch failed
+   错误: 请求失败: AbortError: This operation was aborted
    阶段: 列表检测
    检测地址:
    ```text
-   https://caiji.maotaizy.cc/api.php/provide/vod?ac=videolist&pg=1
+   https://iqiyizyapi.com/api.php/provide/vod?ac=videolist&pg=1
    ```
-   原因: ENOTFOUND | Error | getaddrinfo ENOTFOUND caiji.maotaizy.cc
 
-2. 🔞--AIvin-
+2. 魔都资源
+   地址:
+   ```text
+   https://www.mdzyapi.com/api.php/provide/vod
+   ```
+   错误: 请求失败: AbortError: This operation was aborted
+   阶段: 列表检测
+   检测地址:
+   ```text
+   https://www.mdzyapi.com/api.php/provide/vod?ac=videolist&pg=1
+   ```
+
+3. 魔都动漫
+   地址:
+   ```text
+   https://caiji.moduapi.cc/api.php/provide/vod
+   ```
+   错误: 请求失败: AbortError: This operation was aborted
+   阶段: 列表检测
+   检测地址:
+   ```text
+   https://caiji.moduapi.cc/api.php/provide/vod?ac=videolist&pg=1
+   ```
+
+4. 🔞--AIvin-
    地址:
    ```text
    http://lbapiby.com/api.php/provide/vod

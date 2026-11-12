@@ -186,7 +186,7 @@
     "detail": "https://xiaojizy.live",
     "comment": "",
     "adult": true,
-    "searchStatus": "命中"
+    "searchStatus": "无结果"
   },
   {
     "key": "xingba111.com",
@@ -229,15 +229,6 @@
     "name": "360资源",
     "api": "https://360zyzz.com/api.php/provide/vod",
     "detail": "https://360zy.com",
-    "comment": "",
-    "adult": false,
-    "searchStatus": "命中"
-  },
-  {
-    "key": "iqiyizyapi.com",
-    "name": "爱奇艺",
-    "api": "https://iqiyizyapi.com/api.php/provide/vod",
-    "detail": "https://iqiyizyapi.com",
     "comment": "",
     "adult": false,
     "searchStatus": "命中"
@@ -351,22 +342,13 @@
     "searchStatus": "命中"
   },
   {
-    "key": "caiji.moduapi.cc",
-    "name": "魔都动漫",
-    "api": "https://caiji.moduapi.cc/api.php/provide/vod",
-    "detail": "https://caiji.moduapi.cc",
+    "key": "mtzy.me",
+    "name": "茅台资源",
+    "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
+    "detail": "https://mtzy.me",
     "comment": "",
     "adult": false,
-    "searchStatus": "命中"
-  },
-  {
-    "key": "www.moduzy.net",
-    "name": "魔都资源",
-    "api": "https://www.mdzyapi.com/api.php/provide/vod",
-    "detail": "https://www.moduzy.net",
-    "comment": "",
-    "adult": false,
-    "searchStatus": "命中"
+    "searchStatus": "无结果"
   },
   {
     "key": "www.ryzyw.com",
