@@ -2,7 +2,7 @@
 
 流光媒体源集合，每天由 GitHub Actions 检测并生成可用订阅。
 
-生成时间: 2026-11-12T03:16:15.525Z
+生成时间: 2026-11-12T05:30:00.215Z
 
 ## 可直接使用的源
 
@@ -73,9 +73,9 @@
 
 | 类型 | 总数 | 可用 | 失败 |
 | --- | ---: | ---: | ---: |
-| 片库视频源 | 53 | 48 | 5 |
-| 电视直播源 | 417 | 229，跳过 150 | 38 |
-| 电台源 | 2162 | 1423 | 739 |
+| 片库视频源 | 53 | 52 | 1 |
+| 电视直播源 | 417 | 231，跳过 149 | 37 |
+| 电台源 | 2162 | 1446 | 716 |
 | 播客源 | 109 | 70 | 39 |
 
 ## 报告
@@ -116,4 +116,15 @@ LIVE_SPEED_TEST=0 npm run update              # 关闭测速，退回纯连通�
 LIVE_SPEED_TIMEOUT_MS=5000 npm run update     # 单条测速超时
 LIVE_SPEED_MAX_BYTES=1048576 npm run update   # 单次最多下载字节数
 LIVE_SPEED_MAX_DURATION_MS=1000 npm run update # 单次测速最长耗时
+```
+
+片库视频源也会测速，结果写进 [片库视频源报告](https://github.com/lonnnnnng/resources/blob/main/dist/reports/video.md)：
+取每个源列表里首条带 m3u8 直链的内容（多线路时优先 m3u8 线路），解析多码率列表后
+取码率最高一路，下载首个分片实测带宽。测速只影响报告，不影响 `lite.json` 等成品。
+
+```bash
+VIDEO_SPEED_TEST=0 npm run update              # 关闭片库测速
+VIDEO_SPEED_TIMEOUT_MS=6000 npm run update     # 单条测速超时
+VIDEO_SPEED_MAX_BYTES=1048576 npm run update   # 单次最多下载字节数
+VIDEO_SPEED_MAX_DURATION_MS=1000 npm run update # 单次测速最长耗时
 ```

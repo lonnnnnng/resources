@@ -16,7 +16,11 @@ const settings = {
   liveSpeedTest: process.env.LIVE_SPEED_TEST !== "0",
   liveSpeedTimeoutMs: Number(process.env.LIVE_SPEED_TIMEOUT_MS || 5000),
   liveSpeedMaxBytes: Number(process.env.LIVE_SPEED_MAX_BYTES || 1024 * 1024),
-  liveSpeedMaxDurationMs: Number(process.env.LIVE_SPEED_MAX_DURATION_MS || 1000)
+  liveSpeedMaxDurationMs: Number(process.env.LIVE_SPEED_MAX_DURATION_MS || 1000),
+  videoSpeedTest: process.env.VIDEO_SPEED_TEST !== "0",
+  videoSpeedTimeoutMs: Number(process.env.VIDEO_SPEED_TIMEOUT_MS || 6000),
+  videoSpeedMaxBytes: Number(process.env.VIDEO_SPEED_MAX_BYTES || 1024 * 1024),
+  videoSpeedMaxDurationMs: Number(process.env.VIDEO_SPEED_MAX_DURATION_MS || 1000)
 };
 
 const now = new Date();
@@ -267,8 +271,10 @@ async function measureHlsSpeed(playlistUrl, options = {}) {
 
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), timeoutMs);
-  const started = Date.now();
+  const requestedAt = Date.now();
   let bytes = 0;
+  let firstByteAt = 0;
+  let ttfbMs = 0;
   let aborted = false;
   try {
     const response = await fetch(segmentUrl, {
@@ -277,13 +283,18 @@ async function measureHlsSpeed(playlistUrl, options = {}) {
       headers: { "User-Agent": "liuguang-resources/1.0" }
     });
     if (!response.ok) throw new Error(`segment HTTP ${response.status}`);
+    ttfbMs = Date.now() - requestedAt;
     if (response.body) {
       const reader = response.body.getReader();
       try {
-        while (bytes < maxBytes && Date.now() - started < maxDurationMs) {
+        while (bytes < maxBytes) {
           const { value, done } = await reader.read();
           if (done) break;
-          if (value) bytes += value.byteLength;
+          if (value?.byteLength) {
+            if (!firstByteAt) firstByteAt = Date.now();
+            bytes += value.byteLength;
+            if (Date.now() - firstByteAt >= maxDurationMs) break;
+          }
         }
       } catch (error) {
         if (!bytes) throw error;
@@ -295,12 +306,15 @@ async function measureHlsSpeed(playlistUrl, options = {}) {
     clearTimeout(timer);
   }
 
-  const elapsedMs = Date.now() - started;
-  if (!bytes || elapsedMs <= 0) throw new Error("no segment bytes");
+  // 带宽只统计首字节落地后的纯传输时间，排除连接与服务器首包延迟（TTFB），
+  // 否则慢启动的 CDN 会被系统性低估。
+  const transferMs = Math.max(1, Date.now() - (firstByteAt || requestedAt));
+  if (!bytes) throw new Error("no segment bytes");
   return {
-    speedKbps: Math.round(((bytes / elapsedMs) * 1000) / 1024),
+    speedKbps: Math.round(((bytes / transferMs) * 1000) / 1024),
     segmentBytes: bytes,
-    segmentMs: elapsedMs,
+    segmentMs: transferMs,
+    ttfbMs,
     partial: aborted,
     segmentUrl
   };
@@ -415,7 +429,7 @@ async function checkVideoSource(source, keyword) {
       }
     }
 
-    return {
+    const result = {
       ...source,
       ok: true,
       status: response.status,
@@ -423,6 +437,24 @@ async function checkVideoSource(source, keyword) {
       count: Array.isArray(json.list) ? json.list.length : 0,
       searchStatus
     };
+
+    if (settings.videoSpeedTest) {
+      try {
+        const speed = await measureVideoSpeed(source, json);
+        result.speedKbps = speed.speedKbps;
+        result.speedMs = speed.segmentMs;
+        result.speedBytes = speed.segmentBytes;
+        result.speedVod = speed.vodName;
+        result.speedEpisode = speed.episode;
+        result.speedUrl = speed.playUrl;
+      } catch (error) {
+        result.speedKbps = 0;
+        result.speedError = error.message;
+      }
+      result.probeMs = Date.now() - started;
+    }
+
+    return result;
   } catch (error) {
     const details = normalizeVideoErrorDetails(error);
     return {
@@ -700,6 +732,74 @@ function limitLivePerChannel(entries, urlsLimit) {
 function formatKbps(kbps) {
   if (!kbps) return "未测速";
   return kbps >= 1024 ? `${(kbps / 1024).toFixed(1)} MB/s` : `${kbps} KB/s`;
+}
+
+/**
+ * 从苹果CMS条目的 vod_play_url 中提取播放地址。
+ * 格式为「线路1$$$线路2」，每条线路内为「第01集$url#第02集$url」。
+ * 多线路时优先选含 .m3u8 的线路（部分源第一组是网页播放页，第二组才是直链）。
+ */
+function extractVideoPlayUrl(item) {
+  const raw = String(item?.vod_play_url || "");
+  if (!raw) return null;
+  const groups = raw.split("$$$");
+  const fromList = String(item?.vod_play_from || "").split("$$$");
+  let fallback = null;
+
+  for (let g = 0; g < groups.length; g += 1) {
+    const episodes = groups[g].split("#").filter(Boolean);
+    for (const episode of episodes) {
+      const [label, ...rest] = episode.split("$");
+      const url = (rest.length ? rest.join("$") : label).trim();
+      if (!/^https?:\/\//i.test(url)) continue;
+      const candidate = { url, episode: rest.length ? label : "", from: fromList[g] || "" };
+      if (url.toLowerCase().includes(".m3u8")) return candidate;
+      fallback ||= candidate;
+      break;
+    }
+  }
+  return fallback;
+}
+
+/**
+ * 测一个片库源的真实播放带宽：取列表首条有 m3u8 的内容，
+ * 必要时回落到详情接口，再复用 measureHlsSpeed。
+ */
+async function measureVideoSpeed(source, listJson) {
+  const items = Array.isArray(listJson?.list) ? listJson.list.filter(Boolean).slice(0, 5) : [];
+  const candidates = [];
+
+  for (const item of items) {
+    const candidate = extractVideoPlayUrl(item);
+    if (candidate?.url?.toLowerCase().includes(".m3u8")) candidates.push({ ...candidate, item });
+  }
+
+  if (!candidates.length && items[0]?.vod_id != null) {
+    const detailUrl = appendQuery(source.api, `ac=detail&ids=${encodeURIComponent(items[0].vod_id)}`);
+    const detail = await fetchVideoJson(detailUrl, "详情测速", { failOnHttpError: false });
+    const item = Array.isArray(detail.json?.list) ? detail.json.list.find(Boolean) : null;
+    const candidate = extractVideoPlayUrl(item);
+    if (candidate?.url?.toLowerCase().includes(".m3u8")) candidates.push({ ...candidate, item });
+  }
+
+  if (!candidates.length) throw new Error("未找到 m3u8 播放地址");
+
+  // 首条内容的分片可能已过期（404），逐条回退到下一个候选
+  const errors = [];
+  for (const pick of candidates.slice(0, 3)) {
+    try {
+      const speed = await measureHlsSpeed(pick.url, {
+        timeoutMs: settings.videoSpeedTimeoutMs,
+        maxBytes: settings.videoSpeedMaxBytes,
+        maxDurationMs: settings.videoSpeedMaxDurationMs
+      });
+      return { ...speed, playUrl: pick.url, episode: pick.episode, vodName: pick.item?.vod_name || "" };
+    } catch (error) {
+      errors.push(error.message);
+    }
+  }
+
+  throw new Error([...new Set(errors)].join(" / "));
 }
 
 function parseAttr(line, attr) {
@@ -994,6 +1094,13 @@ function stripCheckFields(item) {
     rawExtinf,
     upstream,
     source,
+    speedMs,
+    speedBytes,
+    speedVod,
+    speedEpisode,
+    speedUrl,
+    speedError,
+    probeMs,
     ...rest
   } = item;
   return rest;
@@ -1052,6 +1159,10 @@ function renderReport(title, result, notes = []) {
 function renderVideoReport(result) {
   const liteCount = result.ok.filter((item) => !item.adult).length;
   const adultCount = result.ok.filter((item) => item.adult).length;
+  const measured = result.ok
+    .filter((item) => item.speedKbps > 0)
+    .sort((a, b) => b.speedKbps - a.speedKbps);
+  const unmeasured = result.ok.filter((item) => !(item.speedKbps > 0));
   const lines = [
     "# 片库视频源检测报告",
     "",
@@ -1063,12 +1174,78 @@ function renderVideoReport(result) {
     `普通源: ${liteCount}`,
     `成人源: ${adultCount}`,
     "",
+    ...renderVideoSpeedSection(result, measured, unmeasured),
     "## 失败项",
     "",
     ...renderVideoReportItems(result.failed)
   ];
 
   return `${lines.join("\n")}\n`;
+}
+
+function renderVideoSpeedSection(result, measured, unmeasured) {
+  if (!settings.videoSpeedTest) return ["测速: 已关闭 (VIDEO_SPEED_TEST=0)", ""];
+  if (!result.ok.length) return [];
+
+  const lines = [
+    "## 测速",
+    "",
+    "采样规则: 取该源列表首条带 m3u8 直链的内容（多线路时优先选 m3u8 线路），",
+    "解析多码率列表后取码率最高一路，下载首个视频分片实测带宽。",
+    "",
+    `已测速: ${measured.length}/${result.ok.length}`
+  ];
+
+  if (measured.length) {
+    const speeds = [...measured.map((item) => item.speedKbps)].sort((a, b) => a - b);
+    lines.push(
+      `速度中位数: ${formatKbps(speeds[Math.floor(speeds.length / 2)])}`,
+      `最快: ${formatKbps(speeds[speeds.length - 1])}`,
+      `最慢: ${formatKbps(speeds[0])}`
+    );
+  }
+
+  lines.push("");
+  if (!measured.length) {
+    lines.push("- 无");
+  } else {
+    lines.push(
+      "| # | 源 | 类型 | 速度 | 分片耗时 | 采样内容 | 采样主机 |",
+      "| ---: | --- | --- | ---: | ---: | --- | --- |",
+      ...measured.map((item, index) => {
+        const host = safeHost(item.speedUrl);
+        // 成人源的采样标题不落盘：公开仓库不公开具体片名
+        const sample = item.adult
+          ? "（已隐藏）"
+          : [item.speedVod, item.speedEpisode].filter(Boolean).join(" · ") || "-";
+        return `| ${index + 1} | ${escapeTableCell(item.name)} | ${item.adult ? "成人" : "普通"} | ${formatKbps(item.speedKbps)} | ${item.speedMs ?? "-"}ms | ${escapeTableCell(sample)} | ${escapeTableCell(host)} |`;
+      })
+    );
+  }
+
+  lines.push("");
+  if (unmeasured.length) {
+    lines.push(`### 未测出 (${unmeasured.length})`, "");
+    for (const item of unmeasured) {
+      const reason = item.speedError || "未尝试测速";
+      lines.push(`- ${cleanMarkdownLine(item.name)} — ${cleanMarkdownLine(reason)}`);
+    }
+    lines.push("");
+  }
+
+  return lines;
+}
+
+function safeHost(url) {
+  try {
+    return new URL(url).host;
+  } catch {
+    return "-";
+  }
+}
+
+function escapeTableCell(value) {
+  return cleanMarkdownLine(value).replaceAll("|", "\\|") || "-";
 }
 
 function renderVideoReportItems(items) {
@@ -1261,6 +1438,17 @@ LIVE_SPEED_TEST=0 npm run update              # 关闭测速，退回纯连通�
 LIVE_SPEED_TIMEOUT_MS=5000 npm run update     # 单条测速超时
 LIVE_SPEED_MAX_BYTES=1048576 npm run update   # 单次最多下载字节数
 LIVE_SPEED_MAX_DURATION_MS=1000 npm run update # 单次测速最长耗时
+\`\`\`
+
+片库视频源也会测速，结果写进 [片库视频源报告](${pageBase}/reports/video.md)：
+取每个源列表里首条带 m3u8 直链的内容（多线路时优先 m3u8 线路），解析多码率列表后
+取码率最高一路，下载首个分片实测带宽。测速只影响报告，不影响 \`lite.json\` 等成品。
+
+\`\`\`bash
+VIDEO_SPEED_TEST=0 npm run update              # 关闭片库测速
+VIDEO_SPEED_TIMEOUT_MS=6000 npm run update     # 单条测速超时
+VIDEO_SPEED_MAX_BYTES=1048576 npm run update   # 单次最多下载字节数
+VIDEO_SPEED_MAX_DURATION_MS=1000 npm run update # 单次测速最长耗时
 \`\`\`
 `;
   await writeText("README.md", readme);
