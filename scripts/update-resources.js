@@ -12,7 +12,11 @@ const settings = {
   liveConcurrency: Number(process.env.LIVE_CONCURRENCY || 24),
   radioConcurrency: Number(process.env.RADIO_CONCURRENCY || 24),
   maxLiveEntries: Number(process.env.MAX_LIVE_ENTRIES || 0),
-  maxRadioEntries: Number(process.env.MAX_RADIO_ENTRIES || 0)
+  maxRadioEntries: Number(process.env.MAX_RADIO_ENTRIES || 0),
+  liveSpeedTest: process.env.LIVE_SPEED_TEST !== "0",
+  liveSpeedTimeoutMs: Number(process.env.LIVE_SPEED_TIMEOUT_MS || 5000),
+  liveSpeedMaxBytes: Number(process.env.LIVE_SPEED_MAX_BYTES || 1024 * 1024),
+  liveSpeedMaxDurationMs: Number(process.env.LIVE_SPEED_MAX_DURATION_MS || 1000)
 };
 
 const now = new Date();
@@ -140,6 +144,166 @@ async function fetchProbe(url, timeoutMs = settings.liveTimeoutMs, init = {}) {
 
 async function sleep(ms) {
   await new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+/**
+ * 读取文本响应体，限制最大字节数，避免误拉大文件。
+ */
+async function fetchTextLimited(url, timeoutMs, maxBytes) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    const response = await fetch(url, {
+      redirect: "follow",
+      signal: controller.signal,
+      headers: { "User-Agent": "liuguang-resources/1.0" }
+    });
+    if (!response.body) throw new Error("empty body");
+    const reader = response.body.getReader();
+    const chunks = [];
+    let bytes = 0;
+    while (bytes < maxBytes) {
+      const { value, done } = await reader.read();
+      if (done) break;
+      if (value) {
+        chunks.push(value);
+        bytes += value.byteLength;
+      }
+    }
+    await reader.cancel().catch(() => {});
+    return { response, text: new TextDecoder().decode(concatChunks(chunks)) };
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+function concatChunks(chunks) {
+  const total = chunks.reduce((sum, chunk) => sum + chunk.byteLength, 0);
+  const merged = new Uint8Array(total);
+  let offset = 0;
+  for (const chunk of chunks) {
+    merged.set(chunk, offset);
+    offset += chunk.byteLength;
+  }
+  return merged;
+}
+
+function resolveMediaUrl(baseUrl, ref) {
+  try {
+    return new URL(ref, baseUrl).href;
+  } catch {
+    return "";
+  }
+}
+
+/**
+ * 多码率播放列表（master playlist）：选取 BANDWIDTH 最高的一路，测最重的负载。
+ * 返回 null 表示当前已是媒体播放列表。
+ */
+function pickHlsVariant(playlistText, baseUrl) {
+  const lines = playlistText.split(/\r?\n/);
+  let pendingBandwidth = null;
+  let best = null;
+  for (const raw of lines) {
+    const line = raw.trim();
+    if (!line) continue;
+    if (line.startsWith("#EXT-X-STREAM-INF:")) {
+      const match = line.match(/BANDWIDTH=(\d+)/i);
+      pendingBandwidth = match ? Number(match[1]) : 0;
+      continue;
+    }
+    if (line.startsWith("#")) continue;
+    if (pendingBandwidth === null) continue;
+    const url = resolveMediaUrl(baseUrl, line);
+    if (url && (!best || pendingBandwidth > best.bandwidth)) {
+      best = { url, bandwidth: pendingBandwidth };
+    }
+    pendingBandwidth = null;
+  }
+  return best?.url || null;
+}
+
+/**
+ * 媒体播放列表：取第一个分片（含 #EXT-X-MAP 初始化段时优先一起测）。
+ */
+function pickHlsSegment(playlistText, baseUrl) {
+  const lines = playlistText.split(/\r?\n/);
+  for (const raw of lines) {
+    const line = raw.trim();
+    if (!line || line.startsWith("#")) continue;
+    const url = resolveMediaUrl(baseUrl, line);
+    if (url) return url;
+  }
+  return "";
+}
+
+/**
+ * 测量 HLS 真实下载带宽：解析列表 → 定位首个分片 → 限时下载并计算 KB/s。
+ * 中途被限时中断时，只要已收到足够数据仍按实际速率返回（视为“慢”而非“失败”）。
+ */
+async function measureHlsSpeed(playlistUrl, options = {}) {
+  const timeoutMs = options.timeoutMs ?? settings.liveSpeedTimeoutMs;
+  const maxBytes = options.maxBytes ?? settings.liveSpeedMaxBytes;
+  const maxDurationMs = options.maxDurationMs ?? settings.liveSpeedMaxDurationMs;
+
+  let currentUrl = playlistUrl;
+  let mediaListText = "";
+  for (let depth = 0; depth < 3; depth += 1) {
+    const { response, text } = await fetchTextLimited(currentUrl, timeoutMs, 256 * 1024);
+    if (!response.ok) throw new Error(`playlist HTTP ${response.status}`);
+    if (!text.includes("#EXTM3U")) throw new Error("not an HLS playlist");
+    const variant = pickHlsVariant(text, currentUrl);
+    if (variant && variant !== currentUrl) {
+      currentUrl = variant;
+      continue;
+    }
+    mediaListText = text;
+    break;
+  }
+  if (!mediaListText) throw new Error("no media playlist");
+
+  const segmentUrl = pickHlsSegment(mediaListText, currentUrl);
+  if (!segmentUrl) throw new Error("no segment listed");
+
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+  const started = Date.now();
+  let bytes = 0;
+  let aborted = false;
+  try {
+    const response = await fetch(segmentUrl, {
+      redirect: "follow",
+      signal: controller.signal,
+      headers: { "User-Agent": "liuguang-resources/1.0" }
+    });
+    if (!response.ok) throw new Error(`segment HTTP ${response.status}`);
+    if (response.body) {
+      const reader = response.body.getReader();
+      try {
+        while (bytes < maxBytes && Date.now() - started < maxDurationMs) {
+          const { value, done } = await reader.read();
+          if (done) break;
+          if (value) bytes += value.byteLength;
+        }
+      } catch (error) {
+        if (!bytes) throw error;
+        aborted = true;
+      }
+      await reader.cancel().catch(() => {});
+    }
+  } finally {
+    clearTimeout(timer);
+  }
+
+  const elapsedMs = Date.now() - started;
+  if (!bytes || elapsedMs <= 0) throw new Error("no segment bytes");
+  return {
+    speedKbps: Math.round(((bytes / elapsedMs) * 1000) / 1024),
+    segmentBytes: bytes,
+    segmentMs: elapsedMs,
+    partial: aborted,
+    segmentUrl
+  };
 }
 
 async function limitMap(items, concurrency, mapper) {
@@ -511,19 +675,31 @@ function attachLiveChannel(entry, matchers) {
 }
 
 function limitLivePerChannel(entries, urlsLimit) {
-  const counts = new Map();
-  const ok = [];
-  const skipped = [];
+  const byChannel = new Map();
   for (const entry of entries) {
-    const count = counts.get(entry.channel) || 0;
-    if (count >= urlsLimit) {
-      skipped.push({ ...entry, error: `超过每频道 ${urlsLimit} 条上限` });
-      continue;
-    }
-    counts.set(entry.channel, count + 1);
-    ok.push(entry);
+    if (!byChannel.has(entry.channel)) byChannel.set(entry.channel, []);
+    byChannel.get(entry.channel).push(entry);
   }
-  return { ok, skipped };
+
+  // 输出时按频道内实测速度降序排列：播放器优先取用列表头部时可直接选中最佳线路
+  const ordered = [];
+  const skipped = [];
+  for (const list of byChannel.values()) {
+    const ranked = [...list].sort(compareLiveQuality);
+    ranked.forEach((entry, index) => {
+      if (index < urlsLimit) ordered.push(entry);
+      else {
+        const speedNote = entry.speedKbps ? `，实测 ${formatKbps(entry.speedKbps)}` : "";
+        skipped.push({ ...entry, error: `超过每频道 ${urlsLimit} 条上限${speedNote}` });
+      }
+    });
+  }
+  return { ok: ordered, skipped };
+}
+
+function formatKbps(kbps) {
+  if (!kbps) return "未测速";
+  return kbps >= 1024 ? `${(kbps / 1024).toFixed(1)} MB/s` : `${kbps} KB/s`;
 }
 
 function parseAttr(line, attr) {
@@ -542,12 +718,26 @@ async function checkLiveEntry(entry) {
     if (entry.url.toLowerCase().includes(".m3u8") && !sample.includes("#EXTM3U")) {
       throw new Error("not an HLS playlist");
     }
-    return {
+    const result = {
       ...entry,
       ok: true,
       status: response.status,
       elapsedMs: Date.now() - started
     };
+    if (settings.liveSpeedTest && (sample.includes("#EXTM3U") || entry.url.toLowerCase().includes(".m3u8"))) {
+      try {
+        const speed = await measureHlsSpeed(entry.url);
+        result.speedKbps = speed.speedKbps;
+        result.segmentBytes = speed.segmentBytes;
+        result.segmentMs = speed.segmentMs;
+        result.speedPartial = speed.partial;
+      } catch (error) {
+        result.speedKbps = 0;
+        result.speedError = error.message;
+      }
+      result.probeMs = Date.now() - started;
+    }
+    return result;
   } catch (error) {
     return {
       ...entry,
@@ -556,6 +746,19 @@ async function checkLiveEntry(entry) {
       error: error.message
     };
   }
+}
+
+/**
+ * 按实测下载速度降序挑选每频道保留条目：
+ * 已测速的排在未测速/测速失败之前，速度相同则以探测延迟升序。
+ */
+function compareLiveQuality(a, b) {
+  const speedA = a.speedKbps || 0;
+  const speedB = b.speedKbps || 0;
+  if (speedA !== speedB) return speedB - speedA;
+  const latencyA = a.segmentMs ?? a.elapsedMs ?? 0;
+  const latencyB = b.segmentMs ?? b.elapsedMs ?? 0;
+  return latencyA - latencyB;
 }
 
 function renderM3u(entries, options = {}) {
@@ -798,11 +1001,25 @@ function stripCheckFields(item) {
 
 async function writeReports(results) {
   await writeText("dist/reports/video.md", renderVideoReport(results.videoResult));
-  await writeText("dist/reports/live.md", renderReport("电视直播源", results.liveResult));
+  await writeText("dist/reports/live.md", renderReport("电视直播源", results.liveResult, liveReportNotes(results.liveResult)));
   await writeText("dist/reports/radio.md", renderReport("电台源", results.radioResult));
   await writeText("dist/reports/podcast.md", renderReport("播客源", results.podcastResult, [
     "活跃规则: 仅保留最近 1 个月内有音频条目更新的 RSS/Atom 源。"
   ]));
+}
+
+function liveReportNotes(result) {
+  if (!settings.liveSpeedTest) return ["测速: 已关闭 (LIVE_SPEED_TEST=0)"];
+  const measured = result.ok.filter((item) => item.speedKbps > 0);
+  if (!measured.length) return ["测速: 已开启，但本次无可用测速结果"];
+  const speeds = measured.map((item) => item.speedKbps).sort((a, b) => a - b);
+  const median = speeds[Math.floor(speeds.length / 2)];
+  const fastest = speeds[speeds.length - 1];
+  return [
+    "测速: 已开启，按实测分片下载速度降序择优（每频道取最快 N 条）",
+    `已测速: ${measured.length}/${result.ok.length} 可用条目`,
+    `速度中位数: ${formatKbps(median)}，最快: ${formatKbps(fastest)}`
+  ];
 }
 
 function renderReport(title, result, notes = []) {
@@ -1034,6 +1251,16 @@ npm run verify
 \`\`\`bash
 CHECK_CONCURRENCY=16 LIVE_CONCURRENCY=24 RADIO_CONCURRENCY=24 npm run update
 MAX_LIVE_ENTRIES=50 MAX_RADIO_ENTRIES=50 npm run update
+\`\`\`
+
+直播源默认开启实测测速：解析 HLS 列表、定位首个分片并限时下载，算出真实带宽（KB/s），
+再按速度降序为每个频道择优保留（\`settings.urlsLimit\`，默认 5 条）。可用以下变量调整：
+
+\`\`\`bash
+LIVE_SPEED_TEST=0 npm run update              # 关闭测速，退回纯连通性检测
+LIVE_SPEED_TIMEOUT_MS=5000 npm run update     # 单条测速超时
+LIVE_SPEED_MAX_BYTES=1048576 npm run update   # 单次最多下载字节数
+LIVE_SPEED_MAX_DURATION_MS=1000 npm run update # 单次测速最长耗时
 \`\`\`
 `;
   await writeText("README.md", readme);
