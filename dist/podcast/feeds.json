@@ -1,5 +1,13 @@
 [
   {
+    "title": "声东击西",
+    "url": "https://feeds.fireside.fm/shengdongjixi/rss"
+  },
+  {
+    "title": "What's Next｜科技早知道",
+    "url": "https://feeds.fireside.fm/guiguzaozhidao/rss"
+  },
+  {
     "title": "UX Coffee 设计咖",
     "url": "https://uxcoffee.typlog.io/episodes/feed.xml"
   },
@@ -24,6 +32,10 @@
     "url": "https://proxy.wavpub.com/caffebreve.xml"
   },
   {
+    "title": "商业就是这样",
+    "url": "https://feeds.fireside.fm/thatisbiz/rss"
+  },
+  {
     "title": "起朱楼宴宾客",
     "url": "https://feed.xyzfm.space/ahng8d9qlywl"
   },
@@ -38,6 +50,14 @@
   {
     "title": "晚点聊 LateTalk",
     "url": "https://feeds.fireside.fm/latetalk/rss"
+  },
+  {
+    "title": "硅谷101",
+    "url": "https://feeds.fireside.fm/sv101/rss"
+  },
+  {
+    "title": "随机波动StochasticVolatility",
+    "url": "https://feeds.fireside.fm/stovol/rss"
   },
   {
     "title": "边角聊",
