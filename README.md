@@ -2,7 +2,7 @@
 
 流光媒体源集合，每天由 GitHub Actions 检测并生成可用订阅。
 
-生成时间: 2026-11-12T01:31:48.322Z
+生成时间: 2026-11-12T03:16:15.525Z
 
 ## 可直接使用的源
 
@@ -73,9 +73,9 @@
 
 | 类型 | 总数 | 可用 | 失败 |
 | --- | ---: | ---: | ---: |
-| 片库视频源 | 53 | 49 | 4 |
-| 电视直播源 | 417 | 233，跳过 153 | 31 |
-| 电台源 | 2162 | 1432 | 730 |
+| 片库视频源 | 53 | 48 | 5 |
+| 电视直播源 | 417 | 229，跳过 150 | 38 |
+| 电台源 | 2162 | 1423 | 739 |
 | 播客源 | 109 | 70 | 39 |
 
 ## 报告
@@ -106,4 +106,14 @@ npm run verify
 ```bash
 CHECK_CONCURRENCY=16 LIVE_CONCURRENCY=24 RADIO_CONCURRENCY=24 npm run update
 MAX_LIVE_ENTRIES=50 MAX_RADIO_ENTRIES=50 npm run update
+```
+
+直播源默认开启实测测速：解析 HLS 列表、定位首个分片并限时下载，算出真实带宽（KB/s），
+再按速度降序为每个频道择优保留（`settings.urlsLimit`，默认 5 条）。可用以下变量调整：
+
+```bash
+LIVE_SPEED_TEST=0 npm run update              # 关闭测速，退回纯连通性检测
+LIVE_SPEED_TIMEOUT_MS=5000 npm run update     # 单条测速超时
+LIVE_SPEED_MAX_BYTES=1048576 npm run update   # 单次最多下载字节数
+LIVE_SPEED_MAX_DURATION_MS=1000 npm run update # 单次测速最长耗时
 ```

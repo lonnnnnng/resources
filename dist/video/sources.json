@@ -99,15 +99,6 @@
     "searchStatus": "命中"
   },
   {
-    "key": "hsckzy.xyz",
-    "name": "🔞黄色仓库",
-    "api": "https://hsckzy.xyz/api.php/provide/vod",
-    "detail": "https://hsckzy.xyz",
-    "comment": "",
-    "adult": true,
-    "searchStatus": "命中"
-  },
-  {
     "key": "www.jingpinx.com",
     "name": "🔞精品资源",
     "api": "https://www.jingpinx.com/api.php/provide/vod",
@@ -234,6 +225,15 @@
     "searchStatus": "命中"
   },
   {
+    "key": "iqiyizyapi.com",
+    "name": "爱奇艺",
+    "api": "https://iqiyizyapi.com/api.php/provide/vod",
+    "detail": "https://iqiyizyapi.com",
+    "comment": "",
+    "adult": false,
+    "searchStatus": "命中"
+  },
+  {
     "key": "bfzy.tv",
     "name": "暴风资源",
     "api": "https://bfzyapi.com/api.php/provide/vod",
@@ -276,7 +276,7 @@
     "detail": "https://www.haohuazy.com",
     "comment": "",
     "adult": false,
-    "searchStatus": "命中"
+    "searchStatus": "无结果"
   },
   {
     "key": "www.hongniuzy.com",
@@ -364,15 +364,6 @@
     "name": "速播资源",
     "api": "https://subocaiji.com/api.php/provide/vod",
     "detail": "https://www.subozy.com",
-    "comment": "",
-    "adult": false,
-    "searchStatus": "命中"
-  },
-  {
-    "key": "wujinzy.me",
-    "name": "无尽资源",
-    "api": "https://api.wujinapi.me/api.php/provide/vod",
-    "detail": "https://wujinzy.com",
     "comment": "",
     "adult": false,
     "searchStatus": "命中"

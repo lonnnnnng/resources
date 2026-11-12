@@ -4,6 +4,11 @@
     "api": "https://360zyzz.com/api.php/provide/vod",
     "detail": "https://360zy.com"
   },
+  "iqiyizyapi.com": {
+    "name": "爱奇艺",
+    "api": "https://iqiyizyapi.com/api.php/provide/vod",
+    "detail": "https://iqiyizyapi.com"
+  },
   "bfzy.tv": {
     "name": "暴风资源",
     "api": "https://bfzyapi.com/api.php/provide/vod",
@@ -78,11 +83,6 @@
     "name": "速播资源",
     "api": "https://subocaiji.com/api.php/provide/vod",
     "detail": "https://www.subozy.com"
-  },
-  "wujinzy.me": {
-    "name": "无尽资源",
-    "api": "https://api.wujinapi.me/api.php/provide/vod",
-    "detail": "https://wujinzy.com"
   },
   "xinlangapi.com": {
     "name": "新浪资源",
@@ -173,11 +173,6 @@
     "name": "🔞黑料资源",
     "api": "https://www.heiliaozyapi.com/api.php/provide/vod",
     "detail": "https://heiliaozy.cc"
-  },
-  "hsckzy.xyz": {
-    "name": "🔞黄色仓库",
-    "api": "https://hsckzy.xyz/api.php/provide/vod",
-    "detail": "https://hsckzy.xyz"
   },
   "www.jingpinx.com": {
     "name": "🔞精品资源",
