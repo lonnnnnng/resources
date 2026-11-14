@@ -29,11 +29,6 @@
     "api": "https://api.guangsuapi.com/api.php/provide/vod",
     "detail": "https://api.guangsuapi.com"
   },
-  "www.haohuazy.com": {
-    "name": "豪华资源",
-    "api": "https://hhzyapi.com/api.php/provide/vod",
-    "detail": "https://www.haohuazy.com"
-  },
   "www.hongniuzy.com": {
     "name": "红牛资源",
     "api": "https://www.hongniuzy2.com/api.php/provide/vod",
@@ -53,16 +48,6 @@
     "name": "金鹰点播",
     "api": "https://jinyingzy.com/api.php/provide/vod",
     "detail": "https://jinyingzy.com"
-  },
-  "lzizy.net": {
-    "name": "量子影视",
-    "api": "https://cj.lziapi.com/api.php/provide/vod",
-    "detail": "https://lzizy.net"
-  },
-  "cj.lzcaiji.com": {
-    "name": "量子资源",
-    "api": "https://cj.lzcaiji.com/api.php/provide/vod",
-    "detail": "https://cj.lzcaiji.com"
   },
   "www.maoyanzy.com": {
     "name": "猫眼资源",
@@ -113,6 +98,16 @@
     "name": "优质资源",
     "api": "https://api.yzzy-api.com/inc/apijson.php",
     "detail": "https://1080zyk4.com"
+  },
+  "zuidazy.co": {
+    "name": "最大点播",
+    "api": "https://zuidazy.me/api.php/provide/vod",
+    "detail": "https://zuidazy.co"
+  },
+  "zuida.xyz": {
+    "name": "最大资源",
+    "api": "https://api.zuidapi.com/api.php/provide/vod",
+    "detail": "https://zuida.xyz"
   },
   "ikunzy.com": {
     "name": "iKun资源",
