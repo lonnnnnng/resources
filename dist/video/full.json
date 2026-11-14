@@ -114,16 +114,6 @@
     "api": "https://api.yzzy-api.com/inc/apijson.php",
     "detail": "https://1080zyk4.com"
   },
-  "zuidazy.co": {
-    "name": "最大点播",
-    "api": "https://zuidazy.me/api.php/provide/vod",
-    "detail": "https://zuidazy.co"
-  },
-  "zuida.xyz": {
-    "name": "最大资源",
-    "api": "https://api.zuidapi.com/api.php/provide/vod",
-    "detail": "https://zuida.xyz"
-  },
   "ikunzy.com": {
     "name": "iKun资源",
     "api": "https://ikunzyapi.com/api.php/provide/vod",
@@ -188,6 +178,11 @@
     "name": "🔞黑料资源",
     "api": "https://www.heiliaozyapi.com/api.php/provide/vod",
     "detail": "https://heiliaozy.cc"
+  },
+  "hsckzy.xyz": {
+    "name": "🔞黄色仓库",
+    "api": "https://hsckzy.xyz/api.php/provide/vod",
+    "detail": "https://hsckzy.xyz"
   },
   "www.jingpinx.com": {
     "name": "🔞精品资源",
