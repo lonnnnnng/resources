@@ -7,7 +7,7 @@
     "comment": "无搜索结果",
     "adult": true,
     "searchStatus": "命中",
-    "speedKbps": 560
+    "speedKbps": 1430
   },
   {
     "key": "apidanaizi.com",
@@ -17,7 +17,7 @@
     "comment": "",
     "adult": true,
     "searchStatus": "命中",
-    "speedKbps": 951
+    "speedKbps": 2561
   },
   {
     "key": "www.pgxdy.com",
@@ -37,7 +37,7 @@
     "comment": "",
     "adult": true,
     "searchStatus": "命中",
-    "speedKbps": 848
+    "speedKbps": 4401
   },
   {
     "key": "www.msnii.com",
@@ -57,7 +57,7 @@
     "comment": "",
     "adult": true,
     "searchStatus": "命中",
-    "speedKbps": 414
+    "speedKbps": 1954
   },
   {
     "key": "www.kxgav.com",
@@ -77,7 +77,7 @@
     "comment": "",
     "adult": true,
     "searchStatus": "命中",
-    "speedKbps": 402
+    "speedKbps": 4039
   },
   {
     "key": "doudouzy.com",
@@ -87,7 +87,7 @@
     "comment": " 不稳定 ",
     "adult": true,
     "searchStatus": "命中",
-    "speedKbps": 476
+    "speedKbps": 1000
   },
   {
     "key": "fhapi9.com",
@@ -97,7 +97,7 @@
     "comment": "",
     "adult": true,
     "searchStatus": "命中",
-    "speedKbps": 461
+    "speedKbps": 1875
   },
   {
     "key": "heiliaozy.cc",
@@ -107,7 +107,7 @@
     "comment": "",
     "adult": true,
     "searchStatus": "命中",
-    "speedKbps": 254
+    "speedKbps": 1708
   },
   {
     "key": "hsckzy.xyz",
@@ -117,7 +117,7 @@
     "comment": "",
     "adult": true,
     "searchStatus": "命中",
-    "speedKbps": 621
+    "speedKbps": 1727
   },
   {
     "key": "www.jingpinx.com",
@@ -127,7 +127,7 @@
     "comment": "",
     "adult": true,
     "searchStatus": "命中",
-    "speedKbps": 0
+    "speedKbps": 8500
   },
   {
     "key": "apilj.com",
@@ -137,7 +137,7 @@
     "comment": "",
     "adult": true,
     "searchStatus": "命中",
-    "speedKbps": 491
+    "speedKbps": 1893
   },
   {
     "key": "lbapi9.com",
@@ -146,8 +146,8 @@
     "detail": "https://lbapi9.com",
     "comment": "",
     "adult": true,
-    "searchStatus": "命中",
-    "speedKbps": 476
+    "searchStatus": "无结果",
+    "speedKbps": 1977
   },
   {
     "key": "91md.me",
@@ -157,7 +157,7 @@
     "comment": "",
     "adult": true,
     "searchStatus": "命中",
-    "speedKbps": 210
+    "speedKbps": 590
   },
   {
     "key": "semaozy1.com",
@@ -177,7 +177,7 @@
     "comment": "",
     "adult": true,
     "searchStatus": "命中",
-    "speedKbps": 448
+    "speedKbps": 1988
   },
   {
     "key": "shayuapi.com",
@@ -187,7 +187,7 @@
     "comment": "",
     "adult": true,
     "searchStatus": "命中",
-    "speedKbps": 493
+    "speedKbps": 1855
   },
   {
     "key": "thzy8.me",
@@ -197,7 +197,7 @@
     "comment": "",
     "adult": true,
     "searchStatus": "命中",
-    "speedKbps": 0
+    "speedKbps": 8904
   },
   {
     "key": "xiaojizy.live",
@@ -207,7 +207,7 @@
     "comment": "",
     "adult": true,
     "searchStatus": "命中",
-    "speedKbps": 495
+    "speedKbps": 1204
   },
   {
     "key": "xingba111.com",
@@ -217,7 +217,7 @@
     "comment": "403 Forbidden",
     "adult": true,
     "searchStatus": "命中",
-    "speedKbps": 256
+    "speedKbps": 1800
   },
   {
     "key": "apiyutu.com",
@@ -227,7 +227,7 @@
     "comment": "",
     "adult": true,
     "searchStatus": "命中",
-    "speedKbps": 1788
+    "speedKbps": 1973
   },
   {
     "key": "jkunzyapi.com",
@@ -237,7 +237,7 @@
     "comment": "",
     "adult": true,
     "searchStatus": "命中",
-    "speedKbps": 794
+    "speedKbps": 2362
   },
   {
     "key": "souavzyw.com",
@@ -247,7 +247,7 @@
     "comment": "",
     "adult": true,
     "searchStatus": "命中",
-    "speedKbps": 575
+    "speedKbps": 0
   },
   {
     "key": "360zy.com",
@@ -257,7 +257,7 @@
     "comment": "",
     "adult": false,
     "searchStatus": "命中",
-    "speedKbps": 0
+    "speedKbps": 1122
   },
   {
     "key": "iqiyizyapi.com",
@@ -267,7 +267,7 @@
     "comment": "",
     "adult": false,
     "searchStatus": "命中",
-    "speedKbps": 0
+    "speedKbps": 544
   },
   {
     "key": "bfzy.tv",
@@ -277,7 +277,7 @@
     "comment": "",
     "adult": false,
     "searchStatus": "命中",
-    "speedKbps": 0
+    "speedKbps": 257
   },
   {
     "key": "dyttzyapi.com",
@@ -307,7 +307,17 @@
     "comment": "",
     "adult": false,
     "searchStatus": "命中",
-    "speedKbps": 752
+    "speedKbps": 2212
+  },
+  {
+    "key": "www.haohuazy.com",
+    "name": "豪华资源",
+    "api": "https://hhzyapi.com/api.php/provide/vod",
+    "detail": "https://www.haohuazy.com",
+    "comment": "",
+    "adult": false,
+    "searchStatus": "命中",
+    "speedKbps": 2267
   },
   {
     "key": "www.hongniuzy.com",
@@ -317,7 +327,7 @@
     "comment": "",
     "adult": false,
     "searchStatus": "命中",
-    "speedKbps": 880
+    "speedKbps": 2856
   },
   {
     "key": "www.huyaapi.com",
@@ -327,7 +337,7 @@
     "comment": "污染搜索结果",
     "adult": false,
     "searchStatus": "命中",
-    "speedKbps": 889
+    "speedKbps": 2750
   },
   {
     "key": "jszyapi.com",
@@ -337,13 +347,33 @@
     "comment": "",
     "adult": false,
     "searchStatus": "命中",
-    "speedKbps": 0
+    "speedKbps": 2248
   },
   {
     "key": "jinyingzy.com",
     "name": "金鹰点播",
     "api": "https://jinyingzy.com/api.php/provide/vod",
     "detail": "https://jinyingzy.com",
+    "comment": "",
+    "adult": false,
+    "searchStatus": "命中",
+    "speedKbps": 2750
+  },
+  {
+    "key": "lzizy.net",
+    "name": "量子影视",
+    "api": "https://cj.lziapi.com/api.php/provide/vod",
+    "detail": "https://lzizy.net",
+    "comment": "备用",
+    "adult": false,
+    "searchStatus": "命中",
+    "speedKbps": 0
+  },
+  {
+    "key": "cj.lzcaiji.com",
+    "name": "量子资源",
+    "api": "https://cj.lzcaiji.com/api.php/provide/vod",
+    "detail": "https://cj.lzcaiji.com",
     "comment": "",
     "adult": false,
     "searchStatus": "命中",
@@ -357,7 +387,7 @@
     "comment": "",
     "adult": false,
     "searchStatus": "命中",
-    "speedKbps": 0
+    "speedKbps": 559
   },
   {
     "key": "mtzy.me",
@@ -377,7 +407,7 @@
     "comment": "",
     "adult": false,
     "searchStatus": "命中",
-    "speedKbps": 1041
+    "speedKbps": 1785
   },
   {
     "key": "www.moduzy.net",
@@ -387,7 +417,7 @@
     "comment": "",
     "adult": false,
     "searchStatus": "命中",
-    "speedKbps": 0
+    "speedKbps": 2738
   },
   {
     "key": "www.ryzyw.com",
@@ -397,7 +427,7 @@
     "comment": "",
     "adult": false,
     "searchStatus": "命中",
-    "speedKbps": 334
+    "speedKbps": 1992
   },
   {
     "key": "www.subozy.com",
@@ -416,7 +446,7 @@
     "detail": "https://wujinzy.com",
     "comment": "",
     "adult": false,
-    "searchStatus": "HTTP 403 Forbidden",
+    "searchStatus": "命中",
     "speedKbps": 0
   },
   {
@@ -437,7 +467,7 @@
     "comment": " 403 Forbidden ",
     "adult": false,
     "searchStatus": "HTTP 403 Forbidden",
-    "speedKbps": 493
+    "speedKbps": 997
   },
   {
     "key": "1080zyk4.com",
@@ -457,7 +487,7 @@
     "comment": "备用",
     "adult": false,
     "searchStatus": "命中",
-    "speedKbps": 540
+    "speedKbps": 0
   },
   {
     "key": "zuida.xyz",
@@ -477,7 +507,7 @@
     "comment": "",
     "adult": false,
     "searchStatus": "命中",
-    "speedKbps": 0
+    "speedKbps": 3104
   },
   {
     "key": "api.ukuapi88.com",

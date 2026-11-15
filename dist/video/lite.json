@@ -29,6 +29,11 @@
     "api": "https://api.guangsuapi.com/api.php/provide/vod",
     "detail": "https://api.guangsuapi.com"
   },
+  "www.haohuazy.com": {
+    "name": "豪华资源",
+    "api": "https://hhzyapi.com/api.php/provide/vod",
+    "detail": "https://www.haohuazy.com"
+  },
   "www.hongniuzy.com": {
     "name": "红牛资源",
     "api": "https://www.hongniuzy2.com/api.php/provide/vod",
@@ -48,6 +53,16 @@
     "name": "金鹰点播",
     "api": "https://jinyingzy.com/api.php/provide/vod",
     "detail": "https://jinyingzy.com"
+  },
+  "lzizy.net": {
+    "name": "量子影视",
+    "api": "https://cj.lziapi.com/api.php/provide/vod",
+    "detail": "https://lzizy.net"
+  },
+  "cj.lzcaiji.com": {
+    "name": "量子资源",
+    "api": "https://cj.lzcaiji.com/api.php/provide/vod",
+    "detail": "https://cj.lzcaiji.com"
   },
   "www.maoyanzy.com": {
     "name": "猫眼资源",
