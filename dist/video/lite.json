@@ -4,11 +4,6 @@
     "api": "https://360zyzz.com/api.php/provide/vod",
     "detail": "https://360zy.com"
   },
-  "iqiyizyapi.com": {
-    "name": "爱奇艺",
-    "api": "https://iqiyizyapi.com/api.php/provide/vod",
-    "detail": "https://iqiyizyapi.com"
-  },
   "bfzy.tv": {
     "name": "暴风资源",
     "api": "https://bfzyapi.com/api.php/provide/vod",
@@ -24,6 +19,11 @@
     "api": "https://api.ffzyapi.com/api.php/provide/vod",
     "detail": "https://cj.ffzyapi.com"
   },
+  "api.guangsuapi.com": {
+    "name": "光速资源",
+    "api": "https://api.guangsuapi.com/api.php/provide/vod",
+    "detail": "https://api.guangsuapi.com"
+  },
   "www.haohuazy.com": {
     "name": "豪华资源",
     "api": "https://hhzyapi.com/api.php/provide/vod",
@@ -34,10 +34,20 @@
     "api": "https://www.hongniuzy2.com/api.php/provide/vod",
     "detail": "https://www.hongniuzy.com"
   },
+  "www.huyaapi.com": {
+    "name": "虎牙资源",
+    "api": "https://www.huyaapi.com/api.php/provide/vod",
+    "detail": "https://www.huyaapi.com"
+  },
   "jszyapi.com": {
     "name": "极速资源",
     "api": "https://jszyapi.com/api.php/provide/vod",
     "detail": "https://jszyapi.com"
+  },
+  "jinyingzy.com": {
+    "name": "金鹰点播",
+    "api": "https://jinyingzy.com/api.php/provide/vod",
+    "detail": "https://jinyingzy.com"
   },
   "lzizy.net": {
     "name": "量子影视",
