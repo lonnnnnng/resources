@@ -1,6 +1,6 @@
 # 播客源检测报告
 
-生成时间: 2026-11-18T01:36:54.212Z
+生成时间: 2026-11-19T01:12:47.456Z
 
 活跃规则: 仅保留最近 1 个月内有音频条目更新的 RSS/Atom 源。
 
@@ -43,7 +43,7 @@
    ```text
    https://bowuzhi.fm/feed/audio.xml
    ```
-   错误: fetch failed
+   错误: This operation was aborted
 
 6. 太医来了
    地址:
@@ -71,7 +71,7 @@
    ```text
    https://rss.lizhi.fm/rss/14275.xml
    ```
-   错误: HTTP 522
+   错误: This operation was aborted
 
 10. 所建所闻
    地址:

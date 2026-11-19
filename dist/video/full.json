@@ -4,6 +4,11 @@
     "api": "https://360zyzz.com/api.php/provide/vod",
     "detail": "https://360zy.com"
   },
+  "iqiyizyapi.com": {
+    "name": "爱奇艺",
+    "api": "https://iqiyizyapi.com/api.php/provide/vod",
+    "detail": "https://iqiyizyapi.com"
+  },
   "bfzy.tv": {
     "name": "暴风资源",
     "api": "https://bfzyapi.com/api.php/provide/vod",
