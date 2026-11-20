@@ -36,18 +36,6 @@
     "url": "https://feeds.fireside.fm/thatisbiz/rss"
   },
   {
-    "title": "起朱楼宴宾客",
-    "url": "https://feed.xyzfm.space/ahng8d9qlywl"
-  },
-  {
-    "title": "乱翻书",
-    "url": "https://feed.xyzfm.space/yxuruh3f9mc4"
-  },
-  {
-    "title": "井户端会议",
-    "url": "https://feed.xyzfm.space/68acw4ke4frl"
-  },
-  {
     "title": "晚点聊 LateTalk",
     "url": "https://feeds.fireside.fm/latetalk/rss"
   },
@@ -76,16 +64,16 @@
     "url": "https://justinyan.me/feed/podcast"
   },
   {
+    "title": "talich 闲侃",
+    "url": "https://talich.fm/episodes/feed.xml"
+  },
+  {
     "title": "不拘一格NeverMind",
     "url": "https://bujuyigenm.typlog.io/feed/audio.xml"
   },
   {
     "title": "主唱死了",
     "url": "https://zhuchangsile.xyz/episodes/feed.xml"
-  },
-  {
-    "title": "出海进行时",
-    "url": "https://feed.xyzfm.space/cf4yqd4g79lv"
   },
   {
     "title": "《The Real Story》By 報導者",
@@ -134,10 +122,6 @@
   {
     "title": "即兴Solo | 粤语播客",
     "url": "https://www.ximalaya.com/album/46250458.xml"
-  },
-  {
-    "title": "同SC倾下偈 - 粤语播客",
-    "url": "https://feed.xyzfm.space/ywn9gqpujqex"
   },
   {
     "title": "周日映画室——粤语影评播客",
