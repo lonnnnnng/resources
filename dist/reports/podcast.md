@@ -1,6 +1,6 @@
 # 播客源检测报告
 
-生成时间: 2026-11-21T00:47:56.359Z
+生成时间: 2026-11-21T23:47:39.528Z
 
 活跃规则: 仅保留最近 1 个月内有音频条目更新的 RSS/Atom 源。
 
@@ -92,7 +92,7 @@
    ```text
    https://open.firstory.me/rss/user/cke01v251c1r00803qbohw954
    ```
-   错误: not updated in last month, latest audio update 2024-04-08T06:01:00.000Z
+   错误: This operation was aborted
 
 13. 起朱楼宴宾客
    地址:
@@ -141,14 +141,14 @@
    ```text
    http://hardimage.pro/episodes/feed.xml
    ```
-   错误: not updated in last month, latest audio update 2026-08-20T01:21:11.000Z
+   错误: This operation was aborted
 
 20. Anyway.FM
    地址:
    ```text
    https://anyway.fm/rss.xml
    ```
-   错误: not updated in last month, latest audio update 2026-08-26T15:17:00.000Z
+   错误: not RSS/Atom XML
 
 21. 牛油果烤面包
    地址:
