@@ -1,56 +1,58 @@
 # 片库视频源检测报告
 
-生成时间: 2026-11-21T23:47:39.528Z
+生成时间: 2026-11-23T00:18:31.135Z
 
 总数: 53
-可用: 51
-失败: 2
+可用: 52
+失败: 1
 普通源: 27
-成人源: 24
+成人源: 25
 
 ## 测速
 
 采样规则: 取该源列表首条带 m3u8 直链的内容（多线路时优先选 m3u8 线路），
 解析多码率列表后取码率最高一路，下载首个视频分片实测带宽。
 
-已测速: 29/51
-速度中位数: 1.9 MB/s
-最快: 4.3 MB/s
-最慢: 655 KB/s
+已测速: 31/52
+速度中位数: 9.7 MB/s
+最快: 126.9 MB/s
+最慢: 654 KB/s
 
 | # | 源 | 类型 | 速度 | 分片耗时 | 采样内容 | 采样主机 |
 | ---: | --- | --- | ---: | ---: | --- | --- |
-| 1 | 金鹰点播 | 普通 | 4.3 MB/s | 234ms | 灵魂重生番外 · 第1集 | hd.kuktxu.com |
-| 2 | 红牛资源 | 普通 | 4.2 MB/s | 242ms | 钱塘老娘舅 · 第2026118期 | hn.bfvvs.com |
-| 3 | 爱奇艺 | 普通 | 4.0 MB/s | 249ms | 大富翁世界旅行4 · 第01集 | play.ly166.com:65 |
-| 4 | iKun资源 | 普通 | 3.9 MB/s | 226ms | 爱乐之都·2026音乐剧荣誉之夜 · ‎第20261121期 | bfikuncdn.com |
-| 5 | 🔞jkun资源 | 成人 | 3.9 MB/s | 183ms | （已隐藏） | sryndbsfvd.com |
-| 6 | 魔都资源 | 普通 | 3.8 MB/s | 260ms | 大富翁世界旅行4 · 第01集 | play.modujx17.com |
-| 7 | 🔞-大奶子- | 成人 | 3.7 MB/s | 208ms | （已隐藏） | voddadaizi5.com:52866 |
-| 8 | 🔞玉兔资源 | 成人 | 3.5 MB/s | 162ms | （已隐藏） | lsbbf11.com |
-| 9 | 🔞滴滴资源 | 成人 | 3.0 MB/s | 67ms | （已隐藏） | v.didibo2.com |
-| 10 | 🔞-老色逼- | 成人 | 2.8 MB/s | 202ms | （已隐藏） | lsbbf11.com |
-| 11 | 🔞精品资源 | 成人 | 2.6 MB/s | 143ms | （已隐藏） | jpxm3u8.com |
-| 12 | 魔都动漫 | 普通 | 2.5 MB/s | 226ms | 乡村度假2 · 第01集 | play.modujx17.com |
-| 13 | 🔞桃花资源 | 成人 | 2.5 MB/s | 147ms | （已隐藏） | thm3u8.co |
-| 14 | 🔞豆豆资源 | 成人 | 2.0 MB/s | 99ms | （已隐藏） | v.didibo2.com |
-| 15 | 🔞 CK-资源 | 成人 | 1.9 MB/s | 149ms | （已隐藏） | ckzy3.com |
-| 16 | 🔞小鸡资源 | 成人 | 1.6 MB/s | 189ms | （已隐藏） | xjzym3u-api.cdn-xj.cc |
-| 17 | 🔞杏吧资源 | 成人 | 1.6 MB/s | 644ms | （已隐藏） | 2608.xbv2608.com |
-| 18 | 🔞番号资源 | 成人 | 1.5 MB/s | 660ms | （已隐藏） | 2609.fhv2026.com |
-| 19 | 🔞辣椒资源 | 成人 | 1.5 MB/s | 676ms | （已隐藏） | 2609.lajiao2026.com |
-| 20 | 🔞鲨鱼资源 | 成人 | 1.5 MB/s | 685ms | （已隐藏） | 2609.sysl2026.com |
-| 21 | 🔞乐播资源 | 成人 | 1.5 MB/s | 687ms | （已隐藏） | lbpl26.com |
-| 22 | 🔞155-资源 | 成人 | 1.4 MB/s | 710ms | （已隐藏） | 2609.v155p.com |
-| 23 | 🔞森林资源 | 成人 | 1.3 MB/s | 780ms | （已隐藏） | 2609.senlin2026.com |
-| 24 | 樱花资源 | 普通 | 1.2 MB/s | 187ms | 一马当先 · 第01集 | vod12.wgslsw.com |
-| 25 | 🔞黄色仓库 | 成人 | 1.1 MB/s | 315ms | （已隐藏） | hsm3.hwzcfz.com |
-| 26 | 360资源 | 普通 | 1.1 MB/s | 883ms | 好搭档2 · 第01集 | vod1.maowushi.com |
-| 27 | 🔞麻豆视频 | 成人 | 958 KB/s | 1002ms | （已隐藏） | t27.cdn2020.com |
-| 28 | 暴风资源 | 普通 | 688 KB/s | 1000ms | 非你之物 · 第1集 | v.fengbao14.com |
-| 29 | 量子影视 | 普通 | 655 KB/s | 1001ms | 爱情来了2026 · 第01集 | v.lfthirtytwo.com |
+| 1 | 红牛资源 | 普通 | 126.9 MB/s | 8ms | 2026MAMA颁奖典礼 · Day1第1期 | hn.bfvvs.com |
+| 2 | iKun资源 | 普通 | 126.9 MB/s | 8ms | 尤金尼亚之谜 · 第01集 | bfikuncdn.com |
+| 3 | 🔞黄色仓库 | 成人 | 89.2 MB/s | 4ms | （已隐藏） | hsm3.hwzcfz.com |
+| 4 | 金鹰点播 | 普通 | 80.5 MB/s | 7ms | 修学旅行时被分进了合不来的组第二季 · 第1集 | hd.kuktxu.com |
+| 5 | 魔都动漫 | 普通 | 80.4 MB/s | 7ms | 异人酒店2 · 第01集 | play.modujx17.com |
+| 6 | 魔都资源 | 普通 | 70.4 MB/s | 8ms | 异人酒店2 · 第01集 | play.modujx17.com |
+| 7 | 🔞小鸡资源 | 成人 | 50.6 MB/s | 6ms | （已隐藏） | xjzym3u-api.cdn-xj.cc |
+| 8 | 🔞-大奶子- | 成人 | 18.1 MB/s | 43ms | （已隐藏） | voddadaizi5.com:52866 |
+| 9 | 🔞玉兔资源 | 成人 | 16.0 MB/s | 35ms | （已隐藏） | lsbbf11.com |
+| 10 | 🔞jkun资源 | 成人 | 15.5 MB/s | 46ms | （已隐藏） | sryndbsfvd.com |
+| 11 | 非凡资源 | 普通 | 14.5 MB/s | 69ms | 不着边际的你 · 第01集 | vod.ffzy-bofang.com |
+| 12 | 如意资源 | 普通 | 12.5 MB/s | 80ms | 你却爱着一个他 · 第01集 | svip.ryiplay18.com |
+| 13 | 🔞-老色逼- | 成人 | 11.4 MB/s | 49ms | （已隐藏） | lsbbf11.com |
+| 14 | 🔞滴滴资源 | 成人 | 11.2 MB/s | 18ms | （已隐藏） | v.didibo2.com |
+| 15 | 🔞 CK-资源 | 成人 | 9.8 MB/s | 28ms | （已隐藏） | ckzy3.com |
+| 16 | 🔞精品资源 | 成人 | 9.7 MB/s | 38ms | （已隐藏） | jpxm3u8.com |
+| 17 | 🔞黑料资源 | 成人 | 8.9 MB/s | 70ms | （已隐藏） | bf.qugt.com:65 |
+| 18 | 爱奇艺 | 普通 | 8.7 MB/s | 110ms | 转生贵族凭鉴定技能扭转人生第三季 · 第01集 | play.ly166.com:65 |
+| 19 | 🔞桃花资源 | 成人 | 8.1 MB/s | 45ms | （已隐藏） | thm3u8.co |
+| 20 | 🔞豆豆资源 | 成人 | 7.2 MB/s | 28ms | （已隐藏） | v.didibo2.com |
+| 21 | 樱花资源 | 普通 | 2.9 MB/s | 59ms | 名侦探学院 第10季 · 20261114笔下世界 | vod12.wgslsw.com |
+| 22 | 🔞乐播资源 | 成人 | 1.2 MB/s | 854ms | （已隐藏） | 2609.lbsl2026.com |
+| 23 | 🔞番号资源 | 成人 | 1.1 MB/s | 873ms | （已隐藏） | 2609.fhv2026.com |
+| 24 | 🔞155-资源 | 成人 | 1.1 MB/s | 904ms | （已隐藏） | 2609.v155p.com |
+| 25 | 🔞鲨鱼资源 | 成人 | 1.1 MB/s | 915ms | （已隐藏） | 2609.sysl2026.com |
+| 26 | 🔞杏吧资源 | 成人 | 1.1 MB/s | 921ms | （已隐藏） | 2608.xbv2608.com |
+| 27 | 🔞森林资源 | 成人 | 1.1 MB/s | 924ms | （已隐藏） | 2609.senlin2026.com |
+| 28 | 🔞辣椒资源 | 成人 | 1.1 MB/s | 950ms | （已隐藏） | 2609.lajiao2026.com |
+| 29 | 🔞麻豆视频 | 成人 | 992 KB/s | 793ms | （已隐藏） | t27.cdn2020.com |
+| 30 | 360资源 | 普通 | 766 KB/s | 1002ms | 百日谎言 · 第01集 | vod1.maowushi.com |
+| 31 | 暴风资源 | 普通 | 654 KB/s | 794ms | 来自远方 · 第1集 | v.fengbao14.com |
 
-### 未测出 (22)
+### 未测出 (21)
 
 - 🔞-黄AVZY — This operation was aborted
 - 🔞-美少女- — This operation was aborted
@@ -58,22 +60,21 @@
 - 🔞色猫资源 — 未找到 m3u8 播放地址
 - 🔞souavZY — playlist HTTP 403
 - 电影天堂 — playlist HTTP 403 / This operation was aborted
-- 非凡资源 — This operation was aborted / playlist HTTP 403
-- 光速资源 — fetch failed / This operation was aborted
+- 光速资源 — fetch failed
 - 豪华资源 — fetch failed
 - 虎牙资源 — fetch failed
-- 极速资源 — fetch failed / This operation was aborted
-- 量子资源 — This operation was aborted
+- 极速资源 — fetch failed
+- 量子影视 — playlist HTTP 404
+- 量子资源 — This operation was aborted / playlist HTTP 404
 - 猫眼资源 — fetch failed
-- 茅台资源 — fetch failed / This operation was aborted
-- 如意资源 — This operation was aborted
-- 速播资源 — fetch failed / This operation was aborted
-- 无尽资源 — This operation was aborted / playlist HTTP 403
-- 新浪资源 — fetch failed / This operation was aborted
-- 优质资源 — This operation was aborted
+- 茅台资源 — fetch failed
+- 速播资源 — fetch failed
+- 无尽资源 — playlist HTTP 403
+- 新浪资源 — fetch failed
+- 优质资源 — playlist HTTP 403
 - 最大点播 — playlist HTTP 403
-- 最大资源 — playlist HTTP 403 / This operation was aborted
-- U酷影视 — playlist HTTP 403 / This operation was aborted
+- 最大资源 — playlist HTTP 403
+- U酷影视 — playlist HTTP 403
 
 ## 失败项
 
@@ -98,16 +99,4 @@
    <hr><center>openresty</center>
    </body>
    </html>
-   ```
-
-2. 🔞黑料资源
-   地址:
-   ```text
-   https://www.heiliaozyapi.com/api.php/provide/vod
-   ```
-   错误: 请求失败: AbortError: This operation was aborted
-   阶段: 列表检测
-   检测地址:
-   ```text
-   https://www.heiliaozyapi.com/api.php/provide/vod?ac=videolist&pg=1
    ```

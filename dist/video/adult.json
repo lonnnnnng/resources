@@ -49,6 +49,11 @@
     "api": "http://fhapi9.com/api.php/provide/vod",
     "detail": "http://fhapi9.com"
   },
+  "heiliaozy.cc": {
+    "name": "🔞黑料资源",
+    "api": "https://www.heiliaozyapi.com/api.php/provide/vod",
+    "detail": "https://heiliaozy.cc"
+  },
   "hsckzy.xyz": {
     "name": "🔞黄色仓库",
     "api": "https://hsckzy.xyz/api.php/provide/vod",
